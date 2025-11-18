@@ -25,6 +25,9 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # 4b. Remove .html extension from URLs
+# Redirect /index to root (prevent duplicate content)
+RewriteRule ^index/?$ / [L,R=301]
+
 # Redirect .html URLs to clean URLs
 RewriteCond %{THE_REQUEST} ^GET\ /[^\ ]+\.html
 RewriteRule ^(.*)\.html$ /$1 [L,R=301]
