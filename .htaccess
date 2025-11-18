@@ -24,6 +24,17 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+# 4b. Remove .html extension from URLs
+# Redirect .html URLs to clean URLs
+RewriteCond %{THE_REQUEST} ^GET\ /[^\ ]+\.html
+RewriteRule ^(.*)\.html$ /$1 [L,R=301]
+
+# Internally rewrite clean URLs to .html files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
+
 # 5. Browser caching
 <IfModule mod_expires.c>
     ExpiresActive On
