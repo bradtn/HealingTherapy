@@ -1,0 +1,215 @@
+SEO AND SECURITY FIXES LOG
+================================================================================
+
+index.html: Fixed schema.org URL (http://www -> https://)
+index.html: Removed trailing tabs from schema markup
+index.html: Fixed address in schema markup to 22005 Outer Dr W
+index.html: Added security attributes to 5 external link(s)
+index.html: Added Google Analytics library script
+index.html: Added canonical URL: https://www.healingtherapycenter.com/
+index.html: Updated page title to: Healing Therapy Center | Mental Health Services in Dearborn, MI
+index.html: Removed empty keywords meta tag
+appointment.html: Fixed schema.org URL (http://www -> https://)
+appointment.html: Removed trailing tabs from schema markup
+appointment.html: Fixed address in schema markup to 22005 Outer Dr W
+appointment.html: Added security attributes to 2 external link(s)
+appointment.html: Added Google Analytics library script
+appointment.html: Added canonical URL: https://www.healingtherapycenter.com/appointment
+appointment.html: Updated page title to: Schedule Appointment | Healing Therapy Center - Dearborn, MI
+appointment.html: Removed empty keywords meta tag
+individual-therapy.html: Fixed schema.org URL (http://www -> https://)
+individual-therapy.html: Removed trailing tabs from schema markup
+individual-therapy.html: Fixed address in schema markup to 22005 Outer Dr W
+individual-therapy.html: Added security attributes to 2 external link(s)
+individual-therapy.html: Added Google Analytics library script
+individual-therapy.html: Added canonical URL: https://www.healingtherapycenter.com/individual-therapy
+individual-therapy.html: Updated page title to: Individual Therapy & Counseling | Healing Therapy Center Dearborn
+individual-therapy.html: Removed empty keywords meta tag
+couples-therapy.html: Fixed schema.org URL (http://www -> https://)
+couples-therapy.html: Removed trailing tabs from schema markup
+couples-therapy.html: Fixed address in schema markup to 22005 Outer Dr W
+couples-therapy.html: Added security attributes to 2 external link(s)
+couples-therapy.html: Added Google Analytics library script
+couples-therapy.html: Added canonical URL: https://www.healingtherapycenter.com/couples-therapy
+couples-therapy.html: Updated page title to: Couples Therapy & Marriage Counseling | Dearborn, MI
+couples-therapy.html: Removed empty keywords meta tag
+family-therapy.html: Fixed schema.org URL (http://www -> https://)
+family-therapy.html: Removed trailing tabs from schema markup
+family-therapy.html: Fixed address in schema markup to 22005 Outer Dr W
+family-therapy.html: Added security attributes to 2 external link(s)
+family-therapy.html: Added Google Analytics library script
+family-therapy.html: Added canonical URL: https://www.healingtherapycenter.com/family-therapy
+family-therapy.html: Updated page title to: Family Therapy Services | Healing Therapy Center Michigan
+family-therapy.html: Removed empty keywords meta tag
+group-therapy.html: Fixed schema.org URL (http://www -> https://)
+group-therapy.html: Removed trailing tabs from schema markup
+group-therapy.html: Fixed address in schema markup to 22005 Outer Dr W
+group-therapy.html: Added security attributes to 2 external link(s)
+group-therapy.html: Added Google Analytics library script
+group-therapy.html: Added canonical URL: https://www.healingtherapycenter.com/group-therapy
+group-therapy.html: Updated page title to: Group Therapy Sessions | Healing Therapy Center Dearborn
+group-therapy.html: Removed empty keywords meta tag
+psychological-testing.html: Fixed schema.org URL (http://www -> https://)
+psychological-testing.html: Removed trailing tabs from schema markup
+psychological-testing.html: Fixed address in schema markup to 22005 Outer Dr W
+psychological-testing.html: Added security attributes to 2 external link(s)
+psychological-testing.html: Added Google Analytics library script
+psychological-testing.html: Added canonical URL: https://www.healingtherapycenter.com/psychological-testing
+psychological-testing.html: Updated page title to: Psychological Testing & Assessment | Dearborn, MI
+psychological-testing.html: Removed empty keywords meta tag
+telehealth-therapy.html: Fixed schema.org URL (http://www -> https://)
+telehealth-therapy.html: Removed trailing tabs from schema markup
+telehealth-therapy.html: Fixed address in schema markup to 22005 Outer Dr W
+telehealth-therapy.html: Added security attributes to 2 external link(s)
+telehealth-therapy.html: Added Google Analytics library script
+telehealth-therapy.html: Added canonical URL: https://www.healingtherapycenter.com/telehealth-therapy
+telehealth-therapy.html: Updated page title to: Online Telehealth Therapy | Healing Therapy Center Michigan
+telehealth-therapy.html: Removed empty keywords meta tag
+therapists.html: Fixed schema.org URL (http://www -> https://)
+therapists.html: Removed trailing tabs from schema markup
+therapists.html: Fixed address in schema markup to 22005 Outer Dr W
+therapists.html: Added security attributes to 2 external link(s)
+therapists.html: Added Google Analytics library script
+therapists.html: Added canonical URL: https://www.healingtherapycenter.com/therapists
+therapists.html: Updated page title to: Our Therapists & Mental Health Professionals | Dearborn, MI
+therapists.html: Removed empty keywords meta tag
+dr-nadia-habhab.html: Fixed schema.org URL (http://www -> https://)
+dr-nadia-habhab.html: Removed trailing tabs from schema markup
+dr-nadia-habhab.html: Fixed address in schema markup to 22005 Outer Dr W
+dr-nadia-habhab.html: Added security attributes to 2 external link(s)
+dr-nadia-habhab.html: Added Google Analytics library script
+dr-nadia-habhab.html: Added canonical URL: https://www.healingtherapycenter.com/dr-nadia-habhab
+dr-nadia-habhab.html: Updated page title to: Dr. Nadia Habhab | Licensed Psychologist | Healing Therapy Center
+dr-nadia-habhab.html: Removed empty keywords meta tag
+tiffany-murray.html: Fixed schema.org URL (http://www -> https://)
+tiffany-murray.html: Removed trailing tabs from schema markup
+tiffany-murray.html: Fixed address in schema markup to 22005 Outer Dr W
+tiffany-murray.html: Added security attributes to 2 external link(s)
+tiffany-murray.html: Added Google Analytics library script
+tiffany-murray.html: Added canonical URL: https://www.healingtherapycenter.com/tiffany-murray
+tiffany-murray.html: Updated page title to: Tiffany Murray, LLMSW | Therapist | Healing Therapy Center
+tiffany-murray.html: Removed empty keywords meta tag
+malak-wehbe.html: Fixed schema.org URL (http://www -> https://)
+malak-wehbe.html: Removed trailing tabs from schema markup
+malak-wehbe.html: Fixed address in schema markup to 22005 Outer Dr W
+malak-wehbe.html: Added security attributes to 2 external link(s)
+malak-wehbe.html: Added Google Analytics library script
+malak-wehbe.html: Added canonical URL: https://www.healingtherapycenter.com/malak-wehbe
+malak-wehbe.html: Updated page title to: Malak Wehbe | Therapist | Healing Therapy Center Dearborn
+malak-wehbe.html: Removed empty keywords meta tag
+amal-ayad.html: Fixed schema.org URL (http://www -> https://)
+amal-ayad.html: Removed trailing tabs from schema markup
+amal-ayad.html: Fixed address in schema markup to 22005 Outer Dr W
+amal-ayad.html: Added security attributes to 2 external link(s)
+amal-ayad.html: Added Google Analytics library script
+amal-ayad.html: Added canonical URL: https://www.healingtherapycenter.com/amal-ayad
+amal-ayad.html: Updated page title to: Amal Ayad | Therapist | Healing Therapy Center Dearborn
+amal-ayad.html: Removed empty keywords meta tag
+dr-tiffany-murray.html: Fixed schema.org URL (http://www -> https://)
+dr-tiffany-murray.html: Removed trailing tabs from schema markup
+dr-tiffany-murray.html: Fixed address in schema markup to 22005 Outer Dr W
+dr-tiffany-murray.html: Added security attributes to 2 external link(s)
+dr-tiffany-murray.html: Added Google Analytics library script
+dr-tiffany-murray.html: Added canonical URL: https://www.healingtherapycenter.com/dr-tiffany-murray
+dr-tiffany-murray.html: Updated page title to: Dr. Tiffany Murray, LLMSW | Therapist | Healing Therapy Center
+dr-tiffany-murray.html: Removed empty keywords meta tag
+faq.html: Fixed schema.org URL (http://www -> https://)
+faq.html: Removed trailing tabs from schema markup
+faq.html: Fixed address in schema markup to 22005 Outer Dr W
+faq.html: Added security attributes to 2 external link(s)
+faq.html: Added Google Analytics library script
+faq.html: Added canonical URL: https://www.healingtherapycenter.com/faq
+faq.html: Updated page title to: Frequently Asked Questions | Healing Therapy Center Dearborn
+faq.html: Removed empty keywords meta tag
+all-blogs.html: Fixed schema.org URL (http://www -> https://)
+all-blogs.html: Removed trailing tabs from schema markup
+all-blogs.html: Fixed address in schema markup to 22005 Outer Dr W
+all-blogs.html: Added security attributes to 2 external link(s)
+all-blogs.html: Added canonical URL: https://www.healingtherapycenter.com/all-blogs
+all-blogs.html: Updated page title to: Mental Health Blog & Resources | Healing Therapy Center
+all-blogs.html: Removed empty keywords meta tag
+autism-evaluation.html: Fixed schema.org URL (http://www -> https://)
+autism-evaluation.html: Removed trailing tabs from schema markup
+autism-evaluation.html: Fixed address in schema markup to 22005 Outer Dr W
+autism-evaluation.html: Added security attributes to 2 external link(s)
+autism-evaluation.html: Added Google Analytics library script
+autism-evaluation.html: Added canonical URL: https://www.healingtherapycenter.com/autism-evaluation
+autism-evaluation.html: Updated page title to: Autism Evaluation & Assessment | Healing Therapy Center Dearborn
+autism-evaluation.html: Removed empty keywords meta tag
+autism-screening-tool.html: Fixed address in schema markup to 22005 Outer Dr W
+autism-screening-tool.html: Updated page title to: Autism Screening Tool & Resources | Healing Therapy Center
+autism-signs.html: Fixed schema.org URL (http://www -> https://)
+autism-signs.html: Removed trailing tabs from schema markup
+autism-signs.html: Fixed address in schema markup to 22005 Outer Dr W
+autism-signs.html: Added security attributes to 9 external link(s)
+autism-signs.html: Added Google Analytics library script
+autism-signs.html: Added canonical URL: https://www.healingtherapycenter.com/autism-signs
+autism-signs.html: Updated page title to: Signs of Autism in Children | Healing Therapy Center
+autism-signs.html: Removed empty keywords meta tag
+breaking-stigma.html: Fixed schema.org URL (http://www -> https://)
+breaking-stigma.html: Removed trailing tabs from schema markup
+breaking-stigma.html: Fixed address in schema markup to 22005 Outer Dr W
+breaking-stigma.html: Added security attributes to 2 external link(s)
+breaking-stigma.html: Added Google Analytics library script
+breaking-stigma.html: Added canonical URL: https://www.healingtherapycenter.com/breaking-stigma
+breaking-stigma.html: Updated page title to: Breaking Mental Health Stigma | Healing Therapy Center Blog
+breaking-stigma.html: Removed empty keywords meta tag
+coping-with-postpartum-pepression.html: Fixed schema.org URL (http://www -> https://)
+coping-with-postpartum-pepression.html: Removed trailing tabs from schema markup
+coping-with-postpartum-pepression.html: Fixed address in schema markup to 22005 Outer Dr W
+coping-with-postpartum-pepression.html: Added security attributes to 2 external link(s)
+coping-with-postpartum-pepression.html: Added Google Analytics library script
+coping-with-postpartum-pepression.html: Added canonical URL: https://www.healingtherapycenter.com/coping-with-postpartum-pepression
+coping-with-postpartum-pepression.html: Updated page title to: Coping with Postpartum Depression | Healing Therapy Center
+coping-with-postpartum-pepression.html: Removed empty keywords meta tag
+healing-starts-with-you.html: Fixed schema.org URL (http://www -> https://)
+healing-starts-with-you.html: Removed trailing tabs from schema markup
+healing-starts-with-you.html: Fixed address in schema markup to 22005 Outer Dr W
+healing-starts-with-you.html: Added security attributes to 7 external link(s)
+healing-starts-with-you.html: Added Google Analytics library script
+healing-starts-with-you.html: Added canonical URL: https://www.healingtherapycenter.com/healing-starts-with-you
+healing-starts-with-you.html: Updated page title to: Healing Starts With You | Mental Health Blog
+healing-starts-with-you.html: Removed empty keywords meta tag
+how-to-find-the-right-therapist.html: Fixed schema.org URL (http://www -> https://)
+how-to-find-the-right-therapist.html: Removed trailing tabs from schema markup
+how-to-find-the-right-therapist.html: Fixed address in schema markup to 22005 Outer Dr W
+how-to-find-the-right-therapist.html: Added security attributes to 2 external link(s)
+how-to-find-the-right-therapist.html: Added Google Analytics library script
+how-to-find-the-right-therapist.html: Added canonical URL: https://www.healingtherapycenter.com/how-to-find-the-right-therapist
+how-to-find-the-right-therapist.html: Updated page title to: How to Find the Right Therapist | Healing Therapy Center
+how-to-find-the-right-therapist.html: Removed empty keywords meta tag
+is-austim-curable.html: Fixed schema.org URL (http://www -> https://)
+is-austim-curable.html: Removed trailing tabs from schema markup
+is-austim-curable.html: Fixed address in schema markup to 22005 Outer Dr W
+is-austim-curable.html: Added security attributes to 8 external link(s)
+is-austim-curable.html: Added Google Analytics library script
+is-austim-curable.html: Added canonical URL: https://www.healingtherapycenter.com/is-austim-curable
+is-austim-curable.html: Updated page title to: Is Autism Curable? | Healing Therapy Center Resources
+is-austim-curable.html: Removed empty keywords meta tag
+parenting-child.html: Fixed schema.org URL (http://www -> https://)
+parenting-child.html: Removed trailing tabs from schema markup
+parenting-child.html: Fixed address in schema markup to 22005 Outer Dr W
+parenting-child.html: Added security attributes to 2 external link(s)
+parenting-child.html: Added Google Analytics library script
+parenting-child.html: Added canonical URL: https://www.healingtherapycenter.com/parenting-child
+parenting-child.html: Updated page title to: Parenting Tips & Child Mental Health | Healing Therapy Center
+parenting-child.html: Removed empty keywords meta tag
+suicide-hotline.html: Fixed schema.org URL (http://www -> https://)
+suicide-hotline.html: Removed trailing tabs from schema markup
+suicide-hotline.html: Fixed address in schema markup to 22005 Outer Dr W
+suicide-hotline.html: Added security attributes to 2 external link(s)
+suicide-hotline.html: Added Google Analytics library script
+suicide-hotline.html: Added canonical URL: https://www.healingtherapycenter.com/suicide-hotline
+suicide-hotline.html: Updated page title to: Suicide Prevention Hotline & Resources | Healing Therapy Center
+suicide-hotline.html: Removed empty keywords meta tag
+understanding-depression.html: Fixed schema.org URL (http://www -> https://)
+understanding-depression.html: Removed trailing tabs from schema markup
+understanding-depression.html: Fixed address in schema markup to 22005 Outer Dr W
+understanding-depression.html: Added security attributes to 2 external link(s)
+understanding-depression.html: Added Google Analytics library script
+understanding-depression.html: Added canonical URL: https://www.healingtherapycenter.com/understanding-depression
+understanding-depression.html: Updated page title to: Understanding Depression | Healing Therapy Center Blog
+understanding-depression.html: Removed empty keywords meta tag
+
+
+Total changes: 209

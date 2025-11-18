@@ -1,0 +1,11 @@
+# robots.txt for Healing Therapy Center
+
+User-agent: *
+Allow: /
+
+Disallow: /forms/
+Disallow: /assets/vendor/
+Disallow: /error_log
+Disallow: /*.zip$
+
+Sitemap: https://www.healingtherapycenter.com/sitemap.xml
