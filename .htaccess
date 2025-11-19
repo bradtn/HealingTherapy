@@ -15,9 +15,9 @@
 </FilesMatch>
 
 # 3. Custom Error Pages
-ErrorDocument 404 /404.html
-ErrorDocument 403 /404.html
-ErrorDocument 500 /404.html
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+ErrorDocument 500 /404.php
 
 # 4. 301 Redirects for renamed files
 Redirect 301 /coping-with-postpartum-pepression.html /coping-with-postpartum-depression.html
