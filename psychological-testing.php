@@ -1,0 +1,579 @@
+<?php
+// Page-specific variables
+$page_title = 'Psychological Testing & Evaluation in Michigan | Healing Therapy Center';
+$page_description = 'Comprehensive psychological testing in Michigan. IQ testing, learning disabilities, ADHD evaluation, autism screening, personality assessment. Expert psychologists.';
+$canonical_url = 'https://www.healingtherapycenter.com/psychological-testing';
+$current_service = 'testing'; // For sidebar active state
+
+// Include configuration
+require_once 'includes/config.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<?php include 'includes/head.php'; ?>
+
+<body class="index-page">
+    <?php include 'includes/header.php'; ?>
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section class="topArea psychology position-relative">
+            <div class="overlay">
+            </div>
+            <div class="position-absolute text-center w-100">
+                <h1 class="display-3 fw-bold text-white">Psychological Testing & Autism Evaluation in Dearborn, MI</h1>
+                <a href="autism-evaluation" class="btn btn-link btn-lg text-decoration-underline text-white"><i>Autism Evaluation <i class="fas fa-chevron-circle-right ms-2"></i></i></a>
+                <hr class="text-white w-25 m-auto my-3">
+
+                <a href="appointment" class="btn btn-primary btn-lg">Make an Appointment</a>
+            </div>
+
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="mx-auto" class="content-max-width">
+                        <h2>Psychological Testing & Assessment in Dearborn, MI</h2>
+                        <p>Are you seeking answers about your child's development, learning challenges, or behavioral concerns? Do you need a comprehensive autism evaluation, ADHD assessment, or learning disability testing? At Healing Therapy Center in Dearborn, Michigan, our experienced psychologists provide comprehensive psychological testing and evaluation services for children, adolescents, and adults throughout Metro Detroit.</p>
+
+                        <p>Psychological testing provides clarity, answers, and direction when you're struggling to understand cognitive, emotional, or behavioral challenges. Whether you need testing for school accommodations, diagnostic clarification, treatment planning, or simply to better understand yourself or your child, our thorough evaluations deliver the insights you need to move forward with confidence.</p>
+
+                        <h2 class="mt-4">What is Psychological Testing?</h2>
+                        <p>Psychological testing (also called psychological assessment or psychoeducational evaluation) is a comprehensive process where a licensed psychologist uses standardized, research-based tests and clinical observations to evaluate cognitive abilities, emotional functioning, behavioral patterns, personality characteristics, and neuropsychological functioning.</p>
+
+                        <p>Unlike a brief screening, comprehensive psychological testing typically involves 4-8 hours of assessment across multiple sessions, including clinical interviews, standardized tests, behavioral observations, and sometimes input from parents, teachers, or other professionals. The result is a detailed written report with diagnostic conclusions, functional implications, and specific recommendations.</p>
+
+                        <!-- Quick Navigation -->
+                        <div class="card border-primary mb-5" data-aos="fade-up">
+                            <div class="card-header bg-primary text-white">
+                                <h3 class="h5 mb-0"><i class="bi bi-list-ul me-2"></i>Quick Navigation - Jump to Section</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row small">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><a href="#types-of-testing" class="text-decoration-none"><i class="bi bi-arrow-right text-primary me-2"></i>Types of Testing We Offer</a></li>
+                                            <li class="mb-2"><a href="#detailed-testing" class="text-decoration-none"><i class="bi bi-arrow-right text-primary me-2"></i>Detailed Testing Information</a></li>
+                                            <li class="mb-2"><a href="#who-needs-testing" class="text-decoration-none"><i class="bi bi-arrow-right text-primary me-2"></i>Who Needs Testing?</a></li>
+                                            <li class="mb-2"><a href="#testing-process" class="text-decoration-none"><i class="bi bi-arrow-right text-primary me-2"></i>The Testing Process</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><a href="#benefits" class="text-decoration-none"><i class="bi bi-arrow-right text-primary me-2"></i>Benefits of Testing</a></li>
+                                            <li class="mb-2"><a href="#why-choose-us" class="text-decoration-none"><i class="bi bi-arrow-right text-primary me-2"></i>Why Choose Us</a></li>
+                                            <li class="mb-2"><a href="#faq" class="text-decoration-none"><i class="bi bi-arrow-right text-primary me-2"></i>Frequently Asked Questions</a></li>
+                                            <li class="mb-2"><a href="appointment" class="text-primary fw-bold"><i class="bi bi-calendar-check me-2"></i>Schedule an Evaluation</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="mt-5 mb-4" id="types-of-testing">Types of Psychological Testing We Offer</h2>
+                        <p class="mb-4">We provide specialized psychological assessments for a wide range of concerns:</p>
+
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="0">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-puzzle text-primary me-2"></i>Autism Evaluations</h3>
+                                        <p class="small mb-2">Gold-standard ADOS-2 and ADI-R assessments for children and adults. Comprehensive evaluation of social communication, behaviors, and sensory sensitivities.</p>
+                                        <a href="autism-evaluation" class="small">Learn more →</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-lightning text-warning me-2"></i>ADHD Testing</h3>
+                                        <p class="small mb-2">Comprehensive testing for attention, focus, impulse control, and executive functioning using CPT and rating scales.</p>
+                                        <a href="adhd-testing-evaluation" class="small">Learn more →</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-book text-success me-2"></i>Learning Disability Testing</h3>
+                                        <p class="small mb-0">Psychoeducational evaluations for dyslexia, dyscalculia, dysgraphia. IQ + academic achievement testing for IEP/504 plans.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-graph-up text-info me-2"></i>IQ / Cognitive Testing</h3>
+                                        <p class="small mb-0">WISC-V, WAIS-IV, Stanford-Binet. For giftedness, intellectual disability, baseline functioning, cognitive profiles.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-heart-pulse text-danger me-2"></i>Behavioral & Emotional</h3>
+                                        <p class="small mb-0">Assessment for anxiety, depression, ODD, conduct issues, mood disorders. Clinical interviews and rating scales.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-person text-secondary me-2"></i>Personality & Adult Testing</h3>
+                                        <p class="small mb-0">MMPI-3, PAI for complex mental health, personality disorders, differential diagnosis in adults.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="card border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-brain text-primary me-2"></i>Neuropsychological Assessments</h3>
+                                        <p class="small mb-0">Memory, attention, executive functioning, language. For brain injuries, stroke, concussion, cognitive decline.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="mt-5 mb-3" id="detailed-testing">Detailed Testing Information</h2>
+                        <p class="mb-4 small text-muted"><i class="bi bi-info-circle me-2"></i>Click any section below to expand and read detailed information about each type of testing.</p>
+
+                        <div class="accordion" id="testingDetailsAccordion">
+                            <!-- Autism Evaluations -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAutism">
+                                        <i class="bi bi-puzzle text-primary me-2"></i>Autism Spectrum Disorder (ASD) Evaluations - Full Details
+                                    </button>
+                                </h3>
+                                <div id="collapseAutism" class="accordion-collapse collapse" data-bs-parent="#testingDetailsAccordion">
+                                    <div class="accordion-body">
+                                        <p>Our comprehensive autism evaluations use gold-standard assessment tools including the ADOS-2 (Autism Diagnostic Observation Schedule) and ADI-R to accurately diagnose autism spectrum disorder in children and adults. We evaluate social communication difficulties, restricted/repetitive behaviors, sensory sensitivities, and developmental history to provide thorough diagnostic clarity.</p>
+                                        <p class="fw-bold mt-3">Parents often seek autism evaluations when they notice:</p>
+                                        <ul class="small">
+                                            <li>Delayed speech or language development</li>
+                                            <li>Difficulty with social interactions or making friends</li>
+                                            <li>Repetitive behaviors or intense, narrow interests</li>
+                                            <li>Sensory sensitivities (sound, texture, light, etc.)</li>
+                                            <li>Difficulty with transitions or changes in routine</li>
+                                            <li>Unusual play patterns or lack of pretend play</li>
+                                            <li>Limited eye contact or difficulty reading social cues</li>
+                                        </ul>
+                                        <p class="mt-3">An autism diagnosis opens access to early intervention services, school support (IEPs), therapy services (ABA, speech, occupational therapy), and community resources. <strong><a href="autism-evaluation">Learn more about our autism evaluation process →</a></strong></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ADHD Testing -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseADHD">
+                                        <i class="bi bi-lightning text-warning me-2"></i>ADHD Testing - Full Details
+                                    </button>
+                                </h3>
+                                <div id="collapseADHD" class="accordion-collapse collapse" data-bs-parent="#testingDetailsAccordion">
+                                    <div class="accordion-body">
+                                        <p>ADHD evaluations assess attention, focus, impulse control, hyperactivity, and executive functioning using comprehensive testing, behavior rating scales, clinical interviews, and continuous performance tests. We evaluate for all ADHD presentations: predominantly inattentive, predominantly hyperactive-impulsive, and combined type.</p>
+                                        <p class="fw-bold mt-3">Common signs prompting ADHD evaluation:</p>
+                                        <ul class="small">
+                                            <li>Difficulty sustaining attention on tasks or in conversations</li>
+                                            <li>Easily distracted by external stimuli or internal thoughts</li>
+                                            <li>Frequent careless mistakes or overlooking details</li>
+                                            <li>Difficulty organizing tasks and managing time</li>
+                                            <li>Losing important items (keys, phone, homework)</li>
+                                            <li>Fidgeting, restlessness, or difficulty sitting still</li>
+                                            <li>Impulsive decision-making or interrupting others</li>
+                                            <li>Difficulty waiting turn or delaying gratification</li>
+                                        </ul>
+                                        <p class="mt-3">ADHD testing is valuable for children struggling academically, adults experiencing workplace difficulties, or anyone seeking to understand persistent attention and organization challenges. Testing results support school accommodations, workplace adjustments, and guide treatment planning (medication, therapy, coaching). <strong><a href="adhd-testing-evaluation">Learn more about our ADHD testing process →</a></strong></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Learning Disabilities -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLearning">
+                                        <i class="bi bi-book text-success me-2"></i>Learning Disability Evaluations - Full Details
+                                    </button>
+                                </h3>
+                                <div id="collapseLearning" class="accordion-collapse collapse" data-bs-parent="#testingDetailsAccordion">
+                                    <div class="accordion-body">
+                                        <p>Comprehensive psychoeducational testing identifies specific learning disabilities including dyslexia (reading disorder), dyscalculia (math disorder), dysgraphia (writing disorder), and nonverbal learning disabilities. We assess cognitive abilities (IQ testing), academic achievement (reading, writing, math), and processing skills to identify the specific nature of learning challenges.</p>
+                                        <p class="fw-bold mt-3">Signs your child may benefit from learning disability testing:</p>
+                                        <ul class="small">
+                                            <li>Reading significantly below grade level despite instruction</li>
+                                            <li>Difficulty decoding words, poor spelling, slow reading speed</li>
+                                            <li>Struggles with math concepts or calculations</li>
+                                            <li>Poor handwriting or extreme difficulty with written expression</li>
+                                            <li>Strong verbal skills but poor reading/writing skills (or vice versa)</li>
+                                            <li>Homework takes significantly longer than peers</li>
+                                            <li>Previous interventions haven't helped despite hard work</li>
+                                        </ul>
+                                        <p class="mt-3">Learning disability testing is essential for securing IEP or 504 plan accommodations, understanding why bright children struggle academically, and accessing specialized interventions like reading therapy or math tutoring.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- IQ Testing -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIQ">
+                                        <i class="bi bi-graph-up text-info me-2"></i>IQ / Cognitive Testing - Full Details
+                                    </button>
+                                </h3>
+                                <div id="collapseIQ" class="accordion-collapse collapse" data-bs-parent="#testingDetailsAccordion">
+                                    <div class="accordion-body">
+                                        <p>IQ testing measures intellectual functioning across multiple domains including verbal comprehension, visual-spatial reasoning, working memory, and processing speed. We use age-appropriate tests including the WISC-V (children), WAIS-IV (adults), and Stanford-Binet to provide comprehensive cognitive profiles.</p>
+                                        <p class="fw-bold mt-3">IQ testing helps identify:</p>
+                                        <ul class="small">
+                                            <li>Intellectual giftedness (for gifted program eligibility)</li>
+                                            <li>Intellectual disability / developmental delays</li>
+                                            <li>Cognitive strengths and weaknesses affecting learning</li>
+                                            <li>Discrepancies between ability and academic achievement</li>
+                                            <li>Baseline cognitive functioning before/after medical events</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Behavioral & Emotional -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBehavioral">
+                                        <i class="bi bi-heart-pulse text-danger me-2"></i>Behavioral & Emotional Assessments - Full Details
+                                    </button>
+                                </h3>
+                                <div id="collapseBehavioral" class="accordion-collapse collapse" data-bs-parent="#testingDetailsAccordion">
+                                    <div class="accordion-body">
+                                        <p>When children or adults experience persistent behavioral problems, emotional dysregulation, or mood disturbances, comprehensive assessment helps clarify underlying issues. We evaluate for <a href="anxiety-therapy-michigan">anxiety disorders</a>, <a href="depression-counseling-michigan">depression</a>, bipolar disorder, oppositional defiant disorder (ODD), conduct disorder, and emotional regulation difficulties.</p>
+                                        <p class="mt-3">Assessment tools include clinical interviews, behavioral rating scales, personality assessments, and emotional functioning measures. Results guide appropriate treatment recommendations and help distinguish between similar-appearing conditions.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Personality & Adult Testing -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePersonality">
+                                        <i class="bi bi-person text-secondary me-2"></i>Personality & Adult Testing - Full Details
+                                    </button>
+                                </h3>
+                                <div id="collapsePersonality" class="accordion-collapse collapse" data-bs-parent="#testingDetailsAccordion">
+                                    <div class="accordion-body">
+                                        <p>Adult psychological testing helps clarify complex mental health presentations, personality patterns, and long-standing difficulties. We use comprehensive assessment batteries including the MMPI-3, PAI, and clinical interviews to evaluate personality disorders, complex trauma, bipolar spectrum disorders, and differential diagnoses when symptoms are unclear.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Neuropsychological -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNeuro">
+                                        <i class="bi bi-brain text-primary me-2"></i>Neuropsychological Assessments - Full Details
+                                    </button>
+                                </h3>
+                                <div id="collapseNeuro" class="accordion-collapse collapse" data-bs-parent="#testingDetailsAccordion">
+                                    <div class="accordion-body">
+                                        <p>Neuropsychological testing evaluates brain-behavior relationships, assessing memory, attention, executive functioning, language, visual-spatial skills, and motor functioning. These specialized assessments are valuable after brain injuries, strokes, concussions, seizure disorders, or when cognitive decline is suspected.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="mt-5 mb-4" id="who-needs-testing">Who Needs Psychological Testing?</h2>
+
+                        <h3 class="mt-3">Children & Adolescents (Ages 2-17)</h3>
+                        <p>Parents often seek psychological testing for children when:</p>
+                        <ul>
+                            <li class="mb-2">School is recommending evaluation or expressing concerns</li>
+                            <li class="mb-2">Child is struggling academically despite effort and support</li>
+                            <li class="mb-2">Developmental milestones (speech, social skills, motor skills) are delayed</li>
+                            <li class="mb-2">Behavioral problems at home or school are persistent</li>
+                            <li class="mb-2">Child seems anxious, depressed, or emotionally dysregulated</li>
+                            <li class="mb-2">Diagnosis is unclear despite previous treatment attempts</li>
+                            <li class="mb-2">Accommodations or special education services are needed</li>
+                            <li class="mb-2">Gifted program eligibility needs documentation</li>
+                        </ul>
+
+                        <h3 class="mt-3">Adults (Ages 18+)</h3>
+                        <p>Adults benefit from psychological testing when:</p>
+                        <ul>
+                            <li class="mb-2">Long-standing challenges (ADHD, autism, learning disabilities) were never formally evaluated</li>
+                            <li class="mb-2">Workplace accommodations require documentation</li>
+                            <li class="mb-2">Diagnostic clarity is needed for treatment planning</li>
+                            <li class="mb-2">Cognitive changes are noticed (memory, attention, processing)</li>
+                            <li class="mb-2">Disability claims require psychological documentation</li>
+                            <li class="mb-2">Self-understanding about persistent difficulties is desired</li>
+                        </ul>
+
+                        <h2 class="mt-5 mb-4" id="testing-process">The Psychological Testing Process</h2>
+
+                        <div class="card border-0 shadow-sm mb-4" data-aos="fade-up">
+                            <div class="card-body">
+                                <div class="row small">
+                                    <div class="col-md mb-3 mb-md-0 text-center">
+                                        <div class="text-primary" style="font-size: 2rem;"><i class="bi bi-1-circle-fill"></i></div>
+                                        <h4 class="h6 mt-2">Consultation</h4>
+                                        <p class="mb-0">60 min clinical interview</p>
+                                    </div>
+                                    <div class="col-md mb-3 mb-md-0 text-center">
+                                        <div class="text-success" style="font-size: 2rem;"><i class="bi bi-2-circle-fill"></i></div>
+                                        <h4 class="h6 mt-2">Testing</h4>
+                                        <p class="mb-0">3-6 hours across 2-3 sessions</p>
+                                    </div>
+                                    <div class="col-md mb-3 mb-md-0 text-center">
+                                        <div class="text-info" style="font-size: 2rem;"><i class="bi bi-3-circle-fill"></i></div>
+                                        <h4 class="h6 mt-2">Collateral Info</h4>
+                                        <p class="mb-0">Teacher/provider input</p>
+                                    </div>
+                                    <div class="col-md mb-3 mb-md-0 text-center">
+                                        <div class="text-warning" style="font-size: 2rem;"><i class="bi bi-4-circle-fill"></i></div>
+                                        <h4 class="h6 mt-2">Report</h4>
+                                        <p class="mb-0">1-2 weeks, 15-25 pages</p>
+                                    </div>
+                                    <div class="col-md text-center">
+                                        <div class="text-danger" style="font-size: 2rem;"><i class="bi bi-5-circle-fill"></i></div>
+                                        <h4 class="h6 mt-2">Feedback</h4>
+                                        <p class="mb-0">60-90 min review session</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-info">
+                            <p class="small mb-0"><strong>Timeline:</strong> Complete process takes 3-4 weeks from initial consultation to feedback session. We accommodate urgent timelines when possible for school deadlines.</p>
+                        </div>
+
+                        <h2 class="mt-5 mb-4" id="benefits">Benefits of Comprehensive Psychological Testing</h2>
+
+                        <h3 class="mt-3">Diagnostic Clarity</h3>
+                        <p>Stop guessing. Comprehensive testing provides definitive answers about diagnoses like autism, ADHD, learning disabilities, anxiety disorders, and more. Accurate diagnosis is the foundation for effective treatment.</p>
+
+                        <h3 class="mt-3">School Accommodations & Support</h3>
+                        <p>Testing results are essential documentation for securing:</p>
+                        <ul>
+                            <li class="mb-2"><strong>IEP (Individualized Education Program):</strong> Specialized instruction for students with disabilities</li>
+                            <li class="mb-2"><strong>504 Plans:</strong> Accommodations for students with disabilities (extended time, preferential seating, etc.)</li>
+                            <li class="mb-2"><strong>College Accommodations:</strong> Support services at the university level</li>
+                            <li class="mb-2"><strong>Gifted Program Eligibility:</strong> Documentation for advanced programming</li>
+                        </ul>
+
+                        <h3 class="mt-3">Personalized Treatment Planning</h3>
+                        <p>Results guide specific, evidence-based interventions tailored to your unique profile. Instead of trial-and-error approaches, you'll have a roadmap for what treatments, therapies, and supports are most likely to help.</p>
+
+                        <h3 class="mt-3">Access to Services & Resources</h3>
+                        <p>Many services require formal diagnostic documentation:</p>
+                        <ul>
+                            <li class="mb-2">Early intervention programs (ages 0-3)</li>
+                            <li class="mb-2">ABA therapy for autism</li>
+                            <li class="mb-2">Speech-language therapy</li>
+                            <li class="mb-2">Occupational therapy</li>
+                            <li class="mb-2">Social skills groups</li>
+                            <li class="mb-2">Specialized tutoring or academic interventions</li>
+                            <li class="mb-2">Disability benefits or SSI</li>
+                        </ul>
+
+                        <h3 class="mt-3">Understanding & Validation</h3>
+                        <p>For individuals who've struggled for years without understanding why, psychological testing provides validation, self-understanding, and relief. Many adults describe autism or ADHD diagnoses as life-changing—finally having language and framework for lifelong challenges.</p>
+
+                        <h3 class="mt-3">Advocacy</h3>
+                        <p>Comprehensive evaluation reports serve as powerful advocacy tools when working with schools, employers, medical providers, or insurance companies to secure appropriate supports and accommodations.</p>
+
+                        <h2 class="mt-5 mb-4" id="why-choose-us">Why Choose Healing Therapy Center for Psychological Testing?</h2>
+
+                        <h3 class="mt-3">Experienced, Licensed Psychologists</h3>
+                        <p>Our evaluations are conducted by doctoral-level psychologists with specialized training in psychological assessment, child development, and neurodevelopmental disorders. We adhere to professional standards and use gold-standard, evidence-based assessment tools.</p>
+
+                        <h3 class="mt-3">Comprehensive, Not Cookie-Cutter Evaluations</h3>
+                        <p>We don't use one-size-fits-all testing batteries. Each evaluation is individually tailored to address your specific questions and concerns, using the most appropriate and current assessment tools available.</p>
+
+                        <h3 class="mt-3">Child & Family-Centered Approach</h3>
+                        <p>We understand that testing can feel intimidating, especially for children. Our psychologists create comfortable, engaging environments where individuals feel supported and can perform their best. We work collaboratively with families throughout the process.</p>
+
+                        <h3 class="mt-3">Timely, Thorough Reports</h3>
+                        <p>We provide detailed written reports within 2 weeks of completing testing—faster than many clinics while maintaining thorough, high-quality documentation.</p>
+
+                        <h3 class="mt-3">Insurance Accepted</h3>
+                        <p>We accept most major insurance plans including Blue Cross Blue Shield, McLaren Health Plan, Priority Health, Aetna, and Molina Healthcare. Many insurance plans cover psychological testing when medically necessary. Call (313) 654-1915 to verify your coverage and understand costs.</p>
+
+                        <h3 class="mt-3">Convenient Dearborn Location</h3>
+                        <p>Our office at 22005 Outer Dr W in Dearborn is easily accessible from I-94 and major routes throughout Metro Detroit. We serve families from Dearborn, Dearborn Heights, Allen Park, Plymouth, Livonia, Westland, Canton, and throughout Wayne and Oakland Counties.</p>
+
+                        <h2 class="mt-5 mb-4" id="faq">Frequently Asked Questions About Psychological Testing</h2>
+
+<div class="container" style="max-width: 900px;">
+    <div class="row">
+        <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="0">
+            <div class="card border-0 shadow-sm h-100 faq-card">
+                <div class="card-body">
+                    <h3 class="h6 card-title text-primary mb-3">
+                        <i class="bi bi-question-circle-fill me-2"></i>Does insurance cover psychological testing in Michigan?
+                    </h3>
+                    <p class="card-text text-muted mb-0">Many insurance plans do cover psychological testing when it's medically necessary (ordered by a physician or when evaluating a suspected mental health condition). Coverage varies by plan and diagnosis. Autism evaluations, ADHD testing, and learning disability assessments are commonly covered. We recommend calling your insurance provider to verify benefits, and our office can help explain coverage when you call (313) 654-1915.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="card border-0 shadow-sm h-100 faq-card">
+                <div class="card-body">
+                    <h3 class="h6 card-title text-primary mb-3">
+                        <i class="bi bi-question-circle-fill me-2"></i>How long does psychological testing take?
+                    </h3>
+                    <p class="card-text text-muted mb-0">The complete process typically takes 3-4 weeks from initial consultation to feedback session. Testing itself involves 3-6 hours across 2-3 sessions, followed by 1-2 weeks for scoring, analysis, and report writing. We understand families often need results quickly for school deadlines and work to accommodate urgent timelines when possible.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="card border-0 shadow-sm h-100 faq-card">
+                <div class="card-body">
+                    <h3 class="h6 card-title text-primary mb-3">
+                        <i class="bi bi-question-circle-fill me-2"></i>What's the difference between psychological testing and a psychiatric evaluation?
+                    </h3>
+                    <p class="card-text text-muted mb-0">Psychological testing involves standardized tests, questionnaires, and systematic assessment by a psychologist to evaluate cognitive, emotional, and behavioral functioning. Psychiatric evaluation (by a psychiatrist or psychiatric nurse practitioner) is typically a clinical interview focused on diagnosing mental health conditions and determining medication needs. Psychological testing is more comprehensive and provides objective data beyond clinical observation alone.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="card border-0 shadow-sm h-100 faq-card">
+                <div class="card-body">
+                    <h3 class="h6 card-title text-primary mb-3">
+                        <i class="bi bi-question-circle-fill me-2"></i>At what age can children be tested?
+                    </h3>
+                    <p class="card-text text-muted mb-0">We can evaluate children as young as 2-3 years old using developmentally appropriate assessment tools. Autism evaluations, developmental screenings, and early cognitive assessments are possible even for very young children. Comprehensive learning disability and ADHD evaluations are typically most accurate for children 6 and older when academic skills and attention can be more reliably assessed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="card border-0 shadow-sm h-100 faq-card">
+                <div class="card-body">
+                    <h3 class="h6 card-title text-primary mb-3">
+                        <i class="bi bi-question-circle-fill me-2"></i>Do I need a referral from a doctor?
+                    </h3>
+                    <p class="card-text text-muted mb-0">Referrals are not required to schedule psychological testing at Healing Therapy Center—you can self-refer. However, some insurance plans require a referral for coverage, so check with your insurance provider. Pediatricians, psychiatrists, therapists, and schools commonly refer families for testing.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="500">
+            <div class="card border-0 shadow-sm h-100 faq-card">
+                <div class="card-body">
+                    <h3 class="h6 card-title text-primary mb-3">
+                        <i class="bi bi-question-circle-fill me-2"></i>What should we do to prepare for testing?
+                    </h3>
+                    <p class="card-text text-muted mb-0">Ensure your child (or you) is well-rested, has eaten, and takes any regular medications as prescribed. Bring glasses or hearing aids if used. For children, explain testing as "playing games and solving puzzles to help us understand how your brain works best." There's no studying or preparation needed—we want to see natural performance.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="600">
+            <div class="card border-0 shadow-sm h-100 faq-card">
+                <div class="card-body">
+                    <h3 class="h6 card-title text-primary mb-3">
+                        <i class="bi bi-question-circle-fill me-2"></i>Can adults get tested for autism or ADHD?
+                    </h3>
+                    <p class="card-text text-muted mb-0">Absolutely. Adult autism and ADHD evaluations are increasingly common as awareness grows. Many adults seek testing after their children are diagnosed, when reading about conditions and recognizing themselves, or after struggling for years without understanding why. It's never too late for answers and support.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="700">
+            <div class="card border-0 shadow-sm h-100 faq-card">
+                <div class="card-body">
+                    <h3 class="h6 card-title text-primary mb-3">
+                        <i class="bi bi-question-circle-fill me-2"></i>What if my child was already tested but I have questions about the results?
+                    </h3>
+                    <p class="card-text text-muted mb-0">We offer second opinions on previous evaluations and can conduct re-evaluations if significant time has passed or if previous testing didn't answer your questions. Retesting is sometimes appropriate when previous results don't match observed functioning or when updated documentation is needed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="800">
+            <div class="card border-0 shadow-sm h-100 faq-card">
+                <div class="card-body">
+                    <h3 class="h6 card-title text-primary mb-3">
+                        <i class="bi bi-question-circle-fill me-2"></i>How much does psychological testing cost?
+                    </h3>
+                    <p class="card-text text-muted mb-0">Costs vary depending on the type and complexity of evaluation. With insurance, you'll pay your copay/coinsurance. For self-pay clients, we provide upfront cost estimates. While comprehensive testing is an investment, it opens access to services, accommodations, and understanding that can be life-changing. Call (313) 654-1915 for specific pricing based on your needs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="mt-4">Specialized Autism Evaluation Services</h2>
+                        <p>Autism spectrum disorder (ASD) is one of our specialty areas. We provide comprehensive autism evaluations using gold-standard diagnostic tools including:</p>
+                        <ul>
+                            <li class="mb-2"><strong>ADOS-2</strong> (Autism Diagnostic Observation Schedule): Standardized, semi-structured assessment observing social communication and play</li>
+                            <li class="mb-2"><strong>ADI-R</strong> (Autism Diagnostic Interview-Revised): Comprehensive parent interview about developmental history and current behaviors</li>
+                            <li class="mb-2"><strong>Cognitive testing</strong> to understand intellectual functioning and learning profile</li>
+                            <li class="mb-2"><strong>Adaptive functioning assessment</strong> to evaluate daily living skills</li>
+                            <li class="mb-2"><strong>Additional screenings</strong> for co-occurring conditions (ADHD, anxiety, etc.)</li>
+                        </ul>
+
+                        <p>Our autism evaluations serve children as young as 18 months through adults of all ages. <strong><a href="autism-evaluation" class="text-primary">Learn more about our autism evaluation process and what to expect</a></strong>.</p>
+
+                        <h2 class="mt-4">Serving Psychological Testing Clients Throughout Metro Detroit</h2>
+                        <p>Our Dearborn location provides convenient access to families throughout Southeast Michigan seeking psychological testing, autism evaluations, ADHD assessments, and learning disability evaluations:</p>
+                        <ul>
+                            <li class="mb-2"><strong>Wayne County:</strong> Dearborn, Dearborn Heights, Allen Park, Lincoln Park, Taylor, Southgate, Plymouth, Livonia, Westland, Canton, Garden City, Romulus, Wayne, Inkster, and surrounding areas</li>
+                            <li class="mb-2"><strong>Oakland County:</strong> Novi, Northville, Farmington Hills, Southfield, Royal Oak, Birmingham, Bloomfield Hills, and nearby communities</li>
+                        </ul>
+
+                        <h2 class="mt-4">Ready to Get Answers?</h2>
+                        <p>Whether you're seeking an autism evaluation, ADHD assessment, learning disability testing, or comprehensive psychological evaluation, Healing Therapy Center in Dearborn provides the thorough, compassionate assessment services you need.</p>
+
+                        <div class="alert alert-info mt-4">
+                            <h4>Schedule Your Psychological Evaluation</h4>
+                            <p><strong>Call us today:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></p>
+                            <p><strong>Location:</strong> 22005 Outer Dr W, Dearborn, MI 48124</p>
+                            <p><strong>Hours:</strong> Monday-Friday 9:00 AM - 5:00 PM, Saturday 9:00 AM - 2:00 PM</p>
+                            <p class="mb-2"><a href="appointment" class="btn btn-primary me-2">Request an Appointment</a> <a href="autism-evaluation" class="btn btn-outline-primary">Autism Evaluation Info</a></p>
+                        </div>
+
+                        <div class="alert alert-success mt-3" role="alert">
+                            <h5 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>Insurance Accepted</h5>
+                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, McLaren Health Plan, Priority Health, Aetna, Molina Healthcare, and Michigan Medicaid. Testing available for children (ages 2+), adolescents, and adults throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
+                        </div>
+
+                        <p class="mt-3"><em>Comprehensive evaluations for autism, ADHD, learning disabilities, and more. In-person testing at our Dearborn office.</em></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Related Services</h5>
+                        <div class="card border p-3 position-sticky" class="sidebar-sticky">
+                            <nav class="navbar services-menu">
+                                <ul class="nav navbar-nav flex-grow-1">
+                                    <li class="nav-item border-bottom border-muted">
+                                        <a class="nav-link p-2" href="individual-therapy"> Individual Therapy </a>
+                                    </li>
+                                    <li class="nav-item border-bottom border-muted">
+                                        <a class="nav-link p-2" href="couples-therapy"> Couples Therapy </a>
+                                    </li>
+                                    <li class="nav-item border-bottom border-muted">
+                                        <a class="nav-link p-2" href="family-therapy"> Family Therapy </a>
+                                    </li>
+                                    <li class="nav-item border-bottom border-muted">
+                                        <a class="nav-link p-2" href="group-therapy"> Group Therapy </a>
+                                    </li>
+                                    <li class="nav-item border-bottom border-muted active">
+                                        <a class="nav-link p-2" href="psychological-testing"> Psychological Testing
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-2" href="telehealth-therapy"> Telehealth Therapy </a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/scripts.php'; ?>
+</body>
+</html>
