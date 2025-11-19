@@ -571,10 +571,10 @@ require_once 'includes/config.php';
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
-          <div class="col-lg-6 ">
-            <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="row gy-4 h-100">
               <div class="col-12">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                <div class="info-item d-flex flex-column justify-content-center align-items-center h-100" data-aos="fade-up"
                   data-aos-delay="300">
                   <i class="bi bi-telephone"></i>
                   <p>Call Us</p>
@@ -583,7 +583,7 @@ require_once 'includes/config.php';
               </div><!-- End Info Item -->
 
               <div class="col-12">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                <div class="info-item d-flex flex-column justify-content-center align-items-center h-100" data-aos="fade-up"
                   data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
                   <p>Email Us</p>
