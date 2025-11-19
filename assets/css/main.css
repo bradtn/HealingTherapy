@@ -2250,3 +2250,15 @@ section,
 .card-accent-border {
     border-left: 4px solid var(--accent-color);
 }
+
+/* Contact section equal height tiles */
+.contact .row.h-100 {
+    height: 100%;
+}
+
+.contact .info-item.h-100 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
