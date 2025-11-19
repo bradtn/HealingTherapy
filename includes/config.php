@@ -188,7 +188,7 @@ define('APPLE_TOUCH_ICON_PATH', 'assets/img/apple-touch-icon.png');
 define('OG_IMAGE_DEFAULT', SITE_URL . '/assets/img/hel_logo.webp');
 
 // CSS Version (increment when updating CSS to bust cache)
-define('CSS_VERSION', '1.27');
+define('CSS_VERSION', '1.28');
 
 // Google Analytics
 define('GA_TRACKING_ID', 'G-TSBF8KK4BW');

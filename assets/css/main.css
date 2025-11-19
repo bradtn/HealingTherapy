@@ -2182,3 +2182,71 @@ section,
           width: 100%;
         }
 }
+
+/* FAQ Card Component Styles - Used across multiple pages */
+.faq-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 4px solid var(--accent-color) !important;
+}
+
+.faq-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Utility Classes for Common Patterns */
+/* Sticky sidebar positioning */
+.sidebar-sticky {
+    position: sticky;
+    top: 25%;
+}
+
+/* Content max width */
+.content-max-width {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* Object positioning utilities */
+.img-center {
+    object-position: center;
+}
+
+.img-center-top {
+    object-position: center 15%;
+}
+
+.img-center-offset {
+    object-position: center -25px;
+}
+
+/* Icon size utilities */
+.icon-sm {
+    font-size: 1.5rem;
+}
+
+.icon-md {
+    font-size: 2rem;
+}
+
+.icon-lg {
+    font-size: 2.5rem;
+}
+
+.icon-xl {
+    font-size: 3rem;
+}
+
+/* Card hover utilities */
+.card-hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-accent-border {
+    border-left: 4px solid var(--accent-color);
+}
