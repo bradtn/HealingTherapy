@@ -61,7 +61,7 @@
   min-height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
 }
 
 .topArea.family {
