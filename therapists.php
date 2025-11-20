@@ -87,7 +87,7 @@ require_once 'includes/config.php';
                 <div class="row gy-4 justify-content-center">
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-                        <a href="amal-ayad">
+                        <a href="malak-wehbe">
                             <div class="team-member">
                                 <div class="member-img rounded-circle border border-4 border-primary" width="300" height="300">
                                     <img loading="lazy" src="assets/img/malak.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="malak wehbe">
