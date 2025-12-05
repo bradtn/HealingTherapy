@@ -285,7 +285,7 @@ require_once 'includes/config.php';
                                 <div class="card h-100 border-0 shadow-sm">
                                     <div class="card-body">
                                         <p class="mb-2"><i class="bi bi-shield-check text-success me-2"></i><strong>Insurance Accepted</strong></p>
-                                        <p class="small mb-0">BCBS, McLaren, Priority Health, Aetna, Michigan Medicaid.</p>
+                                        <p class="small mb-0">BCBS, McLaren, Priority Health, Aetna, HAP, Michigan Medicaid.</p>
                                     </div>
                                 </div>
                             </div>

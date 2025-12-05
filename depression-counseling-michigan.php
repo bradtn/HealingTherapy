@@ -178,7 +178,7 @@ require_once 'includes/config.php';
                     <h3 class="h6 card-title text-primary mb-3">
                         <i class="bi bi-question-circle-fill me-2"></i>Does insurance cover depression counseling in Michigan?
                     </h3>
-                    <p class="card-text text-muted mb-0">Most Michigan insurance plans cover depression treatment. We accept BCBS, McLaren, Priority Health, Aetna, and Michigan Medicaid. Call (313) 654-1915 to verify coverage.</p>
+                    <p class="card-text text-muted mb-0">Most Michigan insurance plans cover depression treatment. We accept BCBS, McLaren, Priority Health, Aetna, HAP, and Michigan Medicaid. Call (313) 654-1915 to verify coverage.</p>
                 </div>
             </div>
         </div>
