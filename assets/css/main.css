@@ -2133,8 +2133,10 @@ section,
 }
 
 .container .slider {
-  animation: slidein 30s linear infinite;
+  display: flex;
+  animation: slidein 25s linear infinite;
   white-space: nowrap;
+  width: fit-content;
 }
 
 .news-head {
@@ -2143,9 +2145,13 @@ section,
 }
 
 .container .slider .logos {
-  width: 100%;
-  display: inline-block;
-  margin: 0px 0;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.container .slider .logos img {
+  flex-shrink: 0;
 }
 
 .container .slider .logos .fab {
@@ -2159,7 +2165,7 @@ section,
   }
 
   to {
-    transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
@@ -2175,12 +2181,8 @@ section,
 
 @media only screen and (max-width:600px) {
   .container .slider {
-      animation: slidein 8s linear infinite;
-      white-space: nowrap;
+      animation: slidein 15s linear infinite;
     }
-        .container .slider .logos {
-          width: 100%;
-        }
 }
 
 /* FAQ Card Component Styles - Used across multiple pages */
