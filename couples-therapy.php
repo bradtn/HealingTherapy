@@ -285,7 +285,7 @@ require_once 'includes/config.php';
                                 <div class="card h-100 border-0 shadow-sm">
                                     <div class="card-body">
                                         <p class="mb-2"><i class="bi bi-shield-check text-success me-2"></i><strong>Insurance Accepted</strong></p>
-                                        <p class="small mb-0">BCBS, McLaren, Priority Health, Aetna, Molina, Michigan Medicaid.</p>
+                                        <p class="small mb-0">BCBS, McLaren, Priority Health, Aetna, Michigan Medicaid.</p>
                                     </div>
                                 </div>
                             </div>
@@ -404,7 +404,7 @@ require_once 'includes/config.php';
 
                         <div class="alert alert-success mt-3" role="alert">
                             <h5 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>Insurance Accepted</h5>
-                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, McLaren Health Plan, Priority Health, Aetna, Molina Healthcare, and Michigan Medicaid. Both in-person (Dearborn office) and telehealth appointments available throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
+                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, McLaren Health Plan, Priority Health, Aetna, and Michigan Medicaid. Both in-person (Dearborn office) and telehealth appointments available throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
                         </div>
 
                         <p class="mt-3"><em>Evening and weekend appointments available. Both in-person and telehealth sessions offered.</em></p>

@@ -46,18 +46,20 @@ require_once 'includes/config.php';
             <h2 class="text-center">Insurance we Accept</h2>
             <div class="slider">
               <div class="logos">
-                <img loading="lazy" src="assets/img/in-5.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Insurance logo">
-                <img loading="lazy" src="assets/img/in-1.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Insurance logo">
-                <img loading="lazy" src="assets/img/in-2.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Insurance logo">
-                <img loading="lazy" src="assets/img/in-3.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Insurance logo">
-                <img loading="lazy" src="assets/img/in-4.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Insurance logo">
+                <img loading="lazy" src="assets/img/in-5.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Blue Care Network of Michigan logo">
+                <img loading="lazy" src="assets/img/in-1.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Priority Health logo">
+                <img loading="lazy" src="assets/img/in-2.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Blue Cross Blue Shield logo">
+                <img loading="lazy" src="assets/img/in-3.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Aetna logo">
+                <img loading="lazy" src="assets/img/in-4.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="United Healthcare logo">
+                <img loading="lazy" src="assets/img/in-6.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="HAP logo">
               </div>
               <div class="logos d-none d-md-inline-block">
-                <img loading="lazy" src="assets/img/in-5.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Insurance logo">
-                <img loading="lazy" src="assets/img/in-1.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Insurance logo">
-                <img loading="lazy" src="assets/img/in-2.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Insurance logo">
-                <img loading="lazy" src="assets/img/in-3.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Insurance logo">
-                <img loading="lazy" src="assets/img/in-4.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Insurance logo">
+                <img loading="lazy" src="assets/img/in-5.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Blue Care Network of Michigan logo">
+                <img loading="lazy" src="assets/img/in-1.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Priority Health logo">
+                <img loading="lazy" src="assets/img/in-2.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Blue Cross Blue Shield logo">
+                <img loading="lazy" src="assets/img/in-3.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Aetna logo">
+                <img loading="lazy" src="assets/img/in-4.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="United Healthcare logo">
+                <img loading="lazy" src="assets/img/in-6.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="HAP logo">
               </div>
             </div>
           </div>
@@ -194,27 +196,31 @@ require_once 'includes/config.php';
 
         <div class="row g-4 justify-content-center">
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
-            <div class="card h-100 border-0 shadow-sm text-center">
-              <div class="card-body">
-                <div class="mb-3" style="font-size: 2.5rem; color: var(--accent-color);">
-                  <i class="bi bi-person-check-fill"></i>
+            <a href="therapists" class="text-decoration-none">
+              <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body">
+                  <div class="mb-3" style="font-size: 2.5rem; color: var(--accent-color);">
+                    <i class="bi bi-person-check-fill"></i>
+                  </div>
+                  <h5 class="card-title">Same Therapist Every Session</h5>
+                  <p class="card-text small text-muted">Build a real relationship with your therapist—no random assignments or rotating providers like online platforms.</p>
                 </div>
-                <h5 class="card-title">Same Therapist Every Session</h5>
-                <p class="card-text small text-muted">Build a real relationship with your therapist—no random assignments or rotating providers like online platforms.</p>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card h-100 border-0 shadow-sm text-center">
-              <div class="card-body">
-                <div class="mb-3" style="font-size: 2.5rem; color: var(--accent-color);">
-                  <i class="bi bi-house-heart-fill"></i>
+            <a href="appointment" class="text-decoration-none">
+              <div class="card h-100 border-0 shadow-sm text-center">
+                <div class="card-body">
+                  <div class="mb-3" style="font-size: 2.5rem; color: var(--accent-color);">
+                    <i class="bi bi-house-heart-fill"></i>
+                  </div>
+                  <h5 class="card-title">In-Person or Telehealth</h5>
+                  <p class="card-text small text-muted">Choose face-to-face sessions at our Dearborn office or secure telehealth—whatever works best for you.</p>
                 </div>
-                <h5 class="card-title">In-Person or Telehealth</h5>
-                <p class="card-text small text-muted">Choose face-to-face sessions at our Dearborn office or secure telehealth—whatever works best for you.</p>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -224,7 +230,7 @@ require_once 'includes/config.php';
                   <i class="bi bi-shield-check"></i>
                 </div>
                 <h5 class="card-title">Insurance Accepted</h5>
-                <p class="card-text small text-muted">We accept BCBS, McLaren, Priority Health, Aetna, Molina, and Michigan Medicaid—making care affordable and accessible.</p>
+                <p class="card-text small text-muted">We accept BCBS, McLaren, Priority Health, Aetna, and Michigan Medicaid—making care affordable and accessible.</p>
               </div>
             </div>
           </div>

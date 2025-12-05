@@ -359,8 +359,8 @@ Don't just show logos. Add text to footer and every service page:
 
 ```
 We accept most major insurance plans including Blue Cross Blue Shield,
-McLaren Health Plan, Priority Health, Aetna, Molina Healthcare, and
-Michigan Medicaid. Call (313) 654-1915 to verify your coverage.
+McLaren Health Plan, Priority Health, Aetna, and Michigan Medicaid.
+Call (313) 654-1915 to verify your coverage.
 ```
 
 ### 2. "Serving" Paragraph (1 hour)

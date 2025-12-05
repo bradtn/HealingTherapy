@@ -165,7 +165,7 @@ $insurance_providers = [
     'McLaren Health Plan',
     'Priority Health',
     'Aetna',
-    'Molina Healthcare',
+    'HAP',
     'Michigan Medicaid'
 ];
 
