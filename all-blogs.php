@@ -47,6 +47,32 @@ require_once 'includes/config.php';
                                 </a>
                             </div>
                             <div class="col col-md-6">
+                                <a href="autism-evaluation-michigan-insurance" class="text-black">
+                                    <div class="card">
+                                        <img src="assets/img/autism-evaluation.jpg" class="card-img-top" alt="autism evaluation michigan insurance">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Autism Evaluation in Michigan: Insurance Guide</h5>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Dr. Nadia Habhab</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">12/30/2025</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Complete guide to autism evaluations in Michigan. Learn about insurance coverage, what to expect, and how to schedule..</p>
+                                            <a href="autism-evaluation-michigan-insurance" class="btn btn-primary mt-3">Read More</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-md-6">
                                 <a href="healing-starts-with-you" class="text-black">
                                     <div class="card">
                                         <img src="assets/img/blog-8.jpg" class="card-img-top" alt="healing starts with you">
