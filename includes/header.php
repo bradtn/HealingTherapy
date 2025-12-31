@@ -85,6 +85,7 @@ if (!defined('BUSINESS_NAME')) {
                         </ul>
                     </li>
 
+                    <li><a href="all-blogs">Blog</a></li>
                     <li><a href="faq">FAQ</a></li>
                     <li><a href="<?php echo SITE_URL; ?>/#contact">Contact</a></li>
                     <li class="d-md-none"><a href="appointment">Make an Appointment</a></li>
