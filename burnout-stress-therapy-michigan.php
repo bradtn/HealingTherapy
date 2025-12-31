@@ -207,7 +207,7 @@ require_once 'includes/config.php';
                                     <div class="content">
                                         <h6><a href="healing-starts-with-you">Healing Starts With You</a></h6>
                                         <div class="comment d-flex align-items-center">
-                                            <span class="text-muted" style="font-size:13px"><i class="fa fa-calendar me-1 text-muted" style="font-size:13px" aria-hidden="true"></i>03/26/2025</span>
+                                            <span class="text-muted" style="font-size:13px"><i class="fa fa-calendar me-1 text-muted" style="font-size:13px" aria-hidden="true"></i>12/16/2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -218,7 +218,7 @@ require_once 'includes/config.php';
                                     <div class="content">
                                         <h6><a href="breaking-stigma">Breaking the Stigma</a></h6>
                                         <div class="comment d-flex align-items-center">
-                                            <span class="text-muted" style="font-size:13px"><i class="fa fa-calendar me-1 text-muted" style="font-size:13px" aria-hidden="true"></i>02/18/2025</span>
+                                            <span class="text-muted" style="font-size:13px"><i class="fa fa-calendar me-1 text-muted" style="font-size:13px" aria-hidden="true"></i>11/18/2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -229,7 +229,7 @@ require_once 'includes/config.php';
                                     <div class="content">
                                         <h6><a href="coping-with-postpartum-depression">Coping with Depression</a></h6>
                                         <div class="comment d-flex align-items-center">
-                                            <span class="text-muted" style="font-size:13px"><i class="fa fa-calendar me-1 text-muted" style="font-size:13px" aria-hidden="true"></i>02/10/2025</span>
+                                            <span class="text-muted" style="font-size:13px"><i class="fa fa-calendar me-1 text-muted" style="font-size:13px" aria-hidden="true"></i>11/11/2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -240,7 +240,7 @@ require_once 'includes/config.php';
                                     <div class="content">
                                         <h6><a href="understanding-depression">Understanding Depression</a></h6>
                                         <div class="comment d-flex align-items-center">
-                                            <span class="text-muted" style="font-size:13px"><i class="fa fa-calendar me-1 text-muted" style="font-size:13px" aria-hidden="true"></i>01/27/2025</span>
+                                            <span class="text-muted" style="font-size:13px"><i class="fa fa-calendar me-1 text-muted" style="font-size:13px" aria-hidden="true"></i>10/28/2025</span>
                                         </div>
                                     </div>
                                 </div>

@@ -61,7 +61,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/30/2025</span>
+                                                            <span class="fs-6">12/23/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -87,7 +87,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">03/26/2025</span>
+                                                            <span class="fs-6">12/16/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -113,7 +113,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">03/14/2025</span>
+                                                            <span class="fs-6">12/09/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -139,7 +139,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">03/06/2025</span>
+                                                            <span class="fs-6">12/02/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -165,7 +165,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">02/26/2025</span>
+                                                            <span class="fs-6">11/25/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -193,7 +193,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">02/18/2025</span>
+                                                            <span class="fs-6">11/18/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -221,7 +221,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">02/10/2025</span>
+                                                            <span class="fs-6">11/11/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -250,7 +250,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">02/05/2025</span>
+                                                            <span class="fs-6">11/04/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -279,7 +279,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">01/27/2025</span>
+                                                            <span class="fs-6">10/28/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>

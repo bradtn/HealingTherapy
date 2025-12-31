@@ -200,7 +200,7 @@ require_once 'includes/config.php';
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>02/18/2025</span>
+                                                        aria-hidden="true"></i>11/18/2025</span>
                                             </div>
                                     </div>
                                 </div>
@@ -215,7 +215,7 @@ require_once 'includes/config.php';
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>02/10/2025</span>
+                                                        aria-hidden="true"></i>11/11/2025</span>
                                             </div>
                                     </div>
                                 </div>
@@ -244,7 +244,7 @@ require_once 'includes/config.php';
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>01/27/2025</span>
+                                                        aria-hidden="true"></i>10/28/2025</span>
                                             </div>
                                     </div>
                                 </div>
