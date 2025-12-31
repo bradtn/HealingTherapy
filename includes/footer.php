@@ -96,7 +96,7 @@ if (!isset($show_insurance)) {
             <span>All Rights Reserved</span>
         </p>
         <a href="https://spectersystems.ca" target="_blank" rel="noopener noreferrer" class="specter-credit">
-            <img src="/assets/img/SpecterSystemsBlack.svg" alt="Designed by Specter Systems" style="height: 28px; opacity: 0.6; margin-top: 10px;">
+            <img src="assets/img/SpecterSystemsBlack.svg" alt="Designed by Specter Systems" style="height: 28px; opacity: 0.6; margin-top: 10px;">
         </a>
     </div>
 </footer>
