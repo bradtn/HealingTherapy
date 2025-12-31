@@ -95,8 +95,11 @@ if (!isset($show_insurance)) {
             <strong class="px-1 sitename"><?php echo BUSINESS_NAME; ?></strong>
             <span>All Rights Reserved</span>
         </p>
-        <a href="https://spectersystems.ca" target="_blank" rel="noopener noreferrer" class="specter-credit">
-            <img src="assets/img/SpecterSystemsBlack.svg" alt="Designed by Specter Systems" style="height: 28px; opacity: 0.6; margin-top: 10px;">
-        </a>
+        <div class="specter-credit" style="margin-top: 15px;">
+            <a href="https://spectersystems.ca" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                <span style="display: block; font-size: 12px; color: #666; margin-bottom: 5px;">Designed by</span>
+                <img src="assets/img/SpecterSystemsBlack.svg" alt="Specter Systems" style="height: 40px; opacity: 0.7;">
+            </a>
+        </div>
     </div>
 </footer>
