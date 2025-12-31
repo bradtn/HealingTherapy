@@ -153,6 +153,14 @@ $team_members = [
         'url' => 'malak-wehbe',
         'image' => 'assets/img/malak.jpg',
         'alt' => 'Malak Wehbe, LLMSW'
+    ],
+    [
+        'id' => 'donna-majed',
+        'name' => 'Donna Majed',
+        'credentials' => 'TLLP',
+        'url' => 'donna-majed',
+        'image' => 'assets/img/donna.jpg',
+        'alt' => 'Donna Majed, TLLP'
     ]
 ];
 

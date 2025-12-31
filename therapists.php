@@ -100,6 +100,20 @@ require_once 'includes/config.php';
                             </div>
                         </a>
                     </div>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+                        <a href="donna-majed">
+                            <div class="team-member">
+                                <div class="member-img rounded-circle border border-4 border-primary" width="300" height="300">
+                                    <img loading="lazy" src="assets/img/donna.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="donna majed">
+                                </div>
+                                <div class="member-info mt-3">
+                                    <h5>Donna Majed, TLLP</h5>
+                                    <span>Therapist</span>
+                                    <a href="donna-majed" class="btn btn-primary d-block w-50 m-auto mt-3">View Bio</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
 
