@@ -432,6 +432,32 @@ require_once 'includes/config.php';
 
         <div class="row justify-content-center">
           <div class="col-12 col-md-6 col-lg-4 g-3">
+            <a href="burnout-stress-therapy-michigan" class="text-black">
+              <div class="card">
+                <img loading="lazy" src="assets/img/blog-9.jpg" class="card-img-top" alt="burnout stress therapy michigan">
+                <div class="card-body">
+                  <h5 class="card-title">Burnout & Work Stress Therapy</h5>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="hstack my-2">
+                        <div class="me-3">
+                          <i class="fa fa-user me-1 text-primary"></i>
+                          <span class="fs-6">Dr. Nadia Habhab</span>
+                        </div>
+                        <div>
+                          <i class="fa fa-calendar me-1 text-primary"></i>
+                          <span class="fs-6">12/31/2025</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text">Feeling burned out from work? Learn the signs of burnout, how it differs from stress, and when to seek help..</p>
+                  <a href="burnout-stress-therapy-michigan" class="btn btn-primary mt-3">Read More</a>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 g-3">
             <a href="healing-starts-with-you" class="text-black">
               <div class="card">
                 <img loading="lazy" src="assets/img/blog-8.jpg" class="card-img-top" alt="healing starts with you">
@@ -480,33 +506,6 @@ require_once 'includes/config.php';
                   <p class="card-text">Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that affects
                     communication..</p>
                   <a href="is-autism-curable" class="btn btn-primary mt-3">Read More</a>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 g-3">
-            <a href="autism-signs" class="text-black">
-              <div class="card">
-                <img loading="lazy" src="assets/img/blog-6.jpg" class="card-img-top" alt="parenting child">
-                <div class="card-body">
-                  <h5 class="card-title">Parenting a Child with Autism</h5>
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="hstack my-2">
-                        <div class="me-3">
-                          <i class="fa fa-user me-1 text-primary"></i>
-                          <span class="fs-6">Amal Ayad</span>
-                        </div>
-                        <div>
-                          <i class="fa fa-calendar me-1 text-primary"></i>
-                          <span class="fs-6">03/06/2025</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="card-text">Raising a child with autism spectrum disorder (ASD) comes with unique joys and challenges..
-                  </p>
-                  <a href="parenting-child" class="btn btn-primary mt-3">Read More</a>
                 </div>
               </div>
             </a>
