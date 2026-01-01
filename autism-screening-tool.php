@@ -14,7 +14,8 @@ require_once 'includes/config.php';
 <body class="index-page">
     <?php include 'includes/header.php'; ?>
 
-        <main id="main-content">
+        <main class="main">
+        <div class="container py-5">
             <!-- Screening Tool Section -->
             <section id="screening" class="content-section active" aria-label="Autism Screening Tool">
                 <div class="screening-intro">
@@ -302,7 +303,8 @@ require_once 'includes/config.php';
                     <a href="https://healingtherapycenter.com/appointment" style="color: #4a90a4; font-weight: bold;">schedule online</a>.
                 </div>
             </section>
-        </main>
+        </div>
+    </main>
 
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/scripts.php'; ?>
