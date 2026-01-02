@@ -404,12 +404,11 @@
 <!-- Clarity Enhanced Tracking -->
 <script type="text/javascript">
 (function() {
-    // Wait for Clarity to load
+    // Use requestIdleCallback for non-critical tracking setup
+    var scheduleTask = window.requestIdleCallback || function(cb) { setTimeout(cb, 1); };
+
     function initClarityEnhancements() {
-        if (typeof clarity === 'undefined') {
-            setTimeout(initClarityEnhancements, 100);
-            return;
-        }
+        if (typeof clarity === 'undefined') return;
 
         var path = window.location.pathname.toLowerCase();
         var pageType = 'other';
@@ -422,22 +421,17 @@
                    path.includes('autism') || path.includes('trauma') || path.includes('coping') ||
                    path.includes('healing-starts') || path.includes('breaking-stigma') ||
                    path.includes('burnout') || path.includes('parenting') || path.includes('therapist')) {
-            if (path.includes('all-blogs')) {
-                pageType = 'blog-listing';
-            } else {
-                pageType = 'blog';
-            }
+            pageType = path.includes('all-blogs') ? 'blog-listing' : 'blog';
         } else if (path.includes('therapy') || path.includes('testing') || path.includes('telehealth') ||
                    path.includes('perinatal') || path.includes('counseling') || path.includes('treatment')) {
             pageType = 'service';
         } else if (path.includes('amal') || path.includes('nadia') || path.includes('tiffany') ||
                    path.includes('malak') || path.includes('donna')) {
             pageType = 'therapist';
-            if (path.includes('amal')) therapistName = 'Amal Ayad';
-            else if (path.includes('nadia')) therapistName = 'Dr. Nadia Habhab';
-            else if (path.includes('tiffany')) therapistName = 'Tiffany Murray';
-            else if (path.includes('malak')) therapistName = 'Malak Wehbe';
-            else if (path.includes('donna')) therapistName = 'Donna Majed';
+            therapistName = path.includes('amal') ? 'Amal Ayad' :
+                           path.includes('nadia') ? 'Dr. Nadia Habhab' :
+                           path.includes('tiffany') ? 'Tiffany Murray' :
+                           path.includes('malak') ? 'Malak Wehbe' : 'Donna Majed';
         } else if (path.includes('therapists')) {
             pageType = 'team';
         } else if (path.includes('appointment')) {
@@ -452,88 +446,76 @@
 
         // Set Clarity tags
         clarity('set', 'page_type', pageType);
-        if (therapistName) {
-            clarity('set', 'therapist', therapistName);
-        }
+        if (therapistName) clarity('set', 'therapist', therapistName);
+        if (pageType === 'service') clarity('set', 'service_viewed', path.replace(/[^a-z]/g, ' ').trim());
 
-        // Track appointment button clicks
-        document.querySelectorAll('a[href*="appointment"], .cta-btn, a.btn-primary').forEach(function(btn) {
-            if (btn.textContent.toLowerCase().includes('appointment') ||
-                btn.href && btn.href.includes('appointment')) {
-                btn.addEventListener('click', function() {
-                    clarity('set', 'appointment_clicked', 'true');
-                    clarity('event', 'Appointment_Button_Click');
-                });
-            }
-        });
+        // Use event delegation for click tracking (single listener instead of many)
+        document.body.addEventListener('click', function(e) {
+            var target = e.target.closest('a, button');
+            if (!target) return;
 
-        // Track phone number clicks
-        document.querySelectorAll('a[href^="tel:"]').forEach(function(link) {
-            link.addEventListener('click', function() {
+            var href = target.href || '';
+            var text = (target.textContent || '').toLowerCase();
+
+            if (href.includes('appointment') || text.includes('appointment')) {
+                clarity('set', 'appointment_clicked', 'true');
+                clarity('event', 'Appointment_Button_Click');
+            } else if (href.startsWith('tel:')) {
                 clarity('set', 'phone_clicked', 'true');
                 clarity('event', 'Phone_Call_Click');
-            });
-        });
-
-        // Track email clicks
-        document.querySelectorAll('a[href^="mailto:"]').forEach(function(link) {
-            link.addEventListener('click', function() {
+            } else if (href.startsWith('mailto:')) {
                 clarity('set', 'email_clicked', 'true');
                 clarity('event', 'Email_Click');
-            });
-        });
-
-        // Track form submissions
-        document.querySelectorAll('form').forEach(function(form) {
-            form.addEventListener('submit', function() {
-                var formType = 'unknown';
-                if (form.id) formType = form.id;
-                else if (form.className) formType = form.className.split(' ')[0];
-                clarity('set', 'form_submitted', formType);
-                clarity('event', 'Form_Submission');
-            });
-        });
-
-        // Track blog read more clicks
-        document.querySelectorAll('a.btn-primary').forEach(function(btn) {
-            if (btn.textContent.toLowerCase().includes('read more')) {
-                btn.addEventListener('click', function() {
-                    clarity('event', 'Blog_Read_More_Click');
-                });
+            } else if (text.includes('read more')) {
+                clarity('event', 'Blog_Read_More_Click');
             }
-        });
+        }, {passive: true});
 
-        // Scroll depth tracking for blog posts
+        // Track form submissions with delegation
+        document.body.addEventListener('submit', function(e) {
+            var form = e.target;
+            if (form.tagName !== 'FORM') return;
+            var formType = form.id || (form.className ? form.className.split(' ')[0] : 'unknown');
+            clarity('set', 'form_submitted', formType);
+            clarity('event', 'Form_Submission');
+        }, {passive: true});
+
+        // Throttled scroll depth tracking for blog posts only
         if (pageType === 'blog') {
-            var scrollMarkers = [25, 50, 75, 100];
             var scrollTriggered = {};
+            var ticking = false;
 
             window.addEventListener('scroll', function() {
-                var scrollPercent = Math.round((window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100);
-
-                scrollMarkers.forEach(function(marker) {
-                    if (scrollPercent >= marker && !scrollTriggered[marker]) {
-                        scrollTriggered[marker] = true;
-                        clarity('set', 'scroll_depth', marker + '%');
-                        clarity('event', 'Scroll_' + marker + '_Percent');
-                    }
+                if (ticking) return;
+                ticking = true;
+                requestAnimationFrame(function() {
+                    var scrollPercent = Math.round((window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100);
+                    [25, 50, 75, 100].forEach(function(marker) {
+                        if (scrollPercent >= marker && !scrollTriggered[marker]) {
+                            scrollTriggered[marker] = true;
+                            clarity('set', 'scroll_depth', marker + '%');
+                            clarity('event', 'Scroll_' + marker + '_Percent');
+                        }
+                    });
+                    ticking = false;
                 });
-            });
-        }
-
-        // Track service page views
-        if (pageType === 'service') {
-            var serviceName = path.replace(/[^a-z]/g, ' ').trim();
-            clarity('set', 'service_viewed', serviceName);
+            }, {passive: true});
         }
     }
 
-    // Initialize when DOM is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initClarityEnhancements);
-    } else {
-        initClarityEnhancements();
-    }
+    // Wait for Clarity to load, then run when idle
+    window.addEventListener('load', function() {
+        scheduleTask(function() {
+            if (typeof clarity !== 'undefined') {
+                initClarityEnhancements();
+            } else {
+                // Clarity not loaded yet, try once more after a delay
+                setTimeout(function() {
+                    if (typeof clarity !== 'undefined') initClarityEnhancements();
+                }, 500);
+            }
+        });
+    });
 })();
 </script>
 
