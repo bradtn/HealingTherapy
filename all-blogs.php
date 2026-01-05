@@ -21,6 +21,136 @@ require_once 'includes/config.php';
                     <div class="col-lg-8 col-12">
                         <div class="row g-4">
                             <div class="col col-md-6">
+                                <a href="grief-loss-counseling-guide" class="text-black">
+                                    <div class="card">
+                                        <img src="assets/img/grief-blog.jpg" class="card-img-top" alt="grief loss counseling michigan">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Grief & Loss Counseling</h5>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Amal Ayad</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">01/05/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Understanding grief, types of loss, and how counseling can help you navigate the healing process.</p>
+                                            <a href="grief-loss-counseling-guide" class="btn btn-primary mt-3">Read More</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-md-6">
+                                <a href="teen-mental-health-guide" class="text-black">
+                                    <div class="card">
+                                        <img src="assets/img/teen-mental-health.jpg" class="card-img-top" alt="teen mental health michigan">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Teen Mental Health Guide</h5>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Dr. Nadia Habhab</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">01/04/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Warning signs every parent should know and how to support your teenager's mental health.</p>
+                                            <a href="teen-mental-health-guide" class="btn btn-primary mt-3">Read More</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-md-6">
+                                <a href="ptsd-trauma-therapy-guide" class="text-black">
+                                    <div class="card">
+                                        <img src="assets/img/trauma-blog.jpg" class="card-img-top" alt="ptsd trauma therapy michigan">
+                                        <div class="card-body">
+                                            <h5 class="card-title">PTSD & Trauma Therapy</h5>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Amal Ayad</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">01/03/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Learn about PTSD symptoms, types of trauma, and evidence-based treatments for healing.</p>
+                                            <a href="ptsd-trauma-therapy-guide" class="btn btn-primary mt-3">Read More</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-md-6">
+                                <a href="adhd-guide-adults-children" class="text-black">
+                                    <div class="card">
+                                        <img src="assets/img/adhd-blog.jpg" class="card-img-top" alt="adhd testing michigan">
+                                        <div class="card-body">
+                                            <h5 class="card-title">ADHD in Adults & Children</h5>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Dr. Nadia Habhab</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">01/02/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Comprehensive guide to ADHD symptoms, testing, and treatment options for all ages.</p>
+                                            <a href="adhd-guide-adults-children" class="btn btn-primary mt-3">Read More</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-md-6">
+                                <a href="anxiety-therapy-guide" class="text-black">
+                                    <div class="card">
+                                        <img src="assets/img/anxiety-blog.jpg" class="card-img-top" alt="anxiety therapy michigan">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Understanding Anxiety</h5>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Amal Ayad</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">01/01/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Learn about anxiety disorders, symptoms, and evidence-based treatments available in Michigan.</p>
+                                            <a href="anxiety-therapy-guide" class="btn btn-primary mt-3">Read More</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col col-md-6">
                                 <a href="burnout-stress-therapy-michigan" class="text-black">
                                     <div class="card">
                                         <img src="assets/img/blog-9.jpg" class="card-img-top" alt="burnout stress therapy michigan">
@@ -303,59 +433,57 @@ require_once 'includes/config.php';
                                 <!-- Single Post -->
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
-                                        <img src="assets/img/blog-4.jpg" class="object-fit-cover" height="70"
-                                            width="100" alt="breaking stigma">
+                                        <img src="assets/img/grief-blog.jpg" class="object-fit-cover" height="70"
+                                            width="100" alt="grief loss counseling">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="breaking-stigma">Breaking the Stigma</a></h5>
+                                        <h6><a href="grief-loss-counseling-guide">Grief & Loss Counseling</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>02/18/2025</span>
+                                                        aria-hidden="true"></i>01/05/2026</span>
                                             </div>
                                     </div>
                                 </div>
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
-                                        <img src="assets/img/blog3.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="coping depression">
+                                        <img src="assets/img/teen-mental-health.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="teen mental health">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="coping-with-postpartum-depression">Coping with
-                                                Depression</a></h5>
+                                        <h6><a href="teen-mental-health-guide">Teen Mental Health</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>02/10/2025</span>
+                                                        aria-hidden="true"></i>01/04/2026</span>
                                             </div>
                                     </div>
                                 </div>
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
-                                        <img src="assets/img/blog2.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="find right therapist">
+                                        <img src="assets/img/trauma-blog.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="ptsd trauma therapy">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="how-to-find-the-right-therapist">How to Find the Right
-                                                Therapist</a></h5>
+                                        <h6><a href="ptsd-trauma-therapy-guide">PTSD & Trauma Therapy</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>02/05/2025</span>
+                                                        aria-hidden="true"></i>01/03/2026</span>
                                             </div>
                                     </div>
                                 </div>
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
-                                        <img src="assets/img/blog1.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="understanding stigma">
+                                        <img src="assets/img/adhd-blog.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="adhd guide">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="understanding-depression">Understanding Depression</a></h5>
+                                        <h6><a href="adhd-guide-adults-children">ADHD: Adults & Children</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>01/27/2025</span>
+                                                        aria-hidden="true"></i>01/02/2026</span>
                                             </div>
                                     </div>
                                 </div>
