@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Individual Therapy in Dearborn, MI | Healing Therapy Center';
-$page_description = 'Professional individual therapy and counseling in Dearborn, Michigan. Expert treatment for anxiety, depression, trauma, and life challenges. In-person and telehealth.';
+$page_title = 'Individual Therapy in Dearborn, MI | BCBS, Aetna Insurance Accepted';
+$page_description = 'Individual therapy in Dearborn, Michigan for anxiety, depression, trauma & stress. Licensed therapists accepting Blue Cross Blue Shield, Aetna, Priority Health. Telehealth available. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/individual-therapy';
 $current_service = 'individual'; // For sidebar active state
 
@@ -262,7 +262,7 @@ require_once 'includes/config.php';
                                 <div class="card h-100 border-0 shadow-sm">
                                     <div class="card-body">
                                         <p class="mb-2"><i class="bi bi-shield-check text-success me-2"></i><strong>Insurance Accepted</strong></p>
-                                        <p class="small mb-0">BCBS, McLaren, Priority Health, Aetna, HAP, Michigan Medicaid. Sliding scale available.</p>
+                                        <p class="small mb-0">Blue Cross Blue Shield, Aetna, Priority Health, McLaren, HAP. Sliding scale available.</p>
                                     </div>
                                 </div>
                             </div>
@@ -376,7 +376,7 @@ require_once 'includes/config.php';
 
                         <div class="alert alert-success mt-3" role="alert">
                             <h5 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>Insurance Accepted</h5>
-                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, McLaren Health Plan, Priority Health, Aetna, and Michigan Medicaid. Both in-person (Dearborn office) and telehealth appointments available throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
+                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, Aetna, Priority Health, McLaren Health Plan, and HAP. Both in-person (Dearborn office) and telehealth appointments available throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
                         </div>
                         </div>
                     </div>

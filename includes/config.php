@@ -170,11 +170,10 @@ $team_members = [
 
 $insurance_providers = [
     'Blue Cross Blue Shield of Michigan',
-    'McLaren Health Plan',
-    'Priority Health',
     'Aetna',
-    'HAP',
-    'Michigan Medicaid'
+    'Priority Health',
+    'McLaren Health Plan',
+    'HAP'
 ];
 
 // Insurance acceptance text

@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Family Therapy in Dearborn, MI | Healing Therapy Center';
-$page_description = 'Expert family therapy and counseling in Dearborn, Michigan. Improve communication, resolve conflicts, and strengthen family bonds. In-person and telehealth.';
+$page_title = 'Family Therapy in Dearborn, MI | Insurance Accepted | Healing Therapy Center';
+$page_description = 'Family therapy and counseling in Dearborn, Michigan. Improve communication, resolve conflicts, strengthen bonds. Accepts Blue Cross Blue Shield, Aetna, Priority Health. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/family-therapy';
 $current_service = 'family'; // For sidebar active state
 
@@ -245,7 +245,7 @@ require_once 'includes/config.php';
                         <p>We understand that scheduling therapy for multiple family members is challenging. We offer evening and Saturday appointments to accommodate school and work schedules.</p>
 
                         <h3 class="mt-3">Insurance Accepted</h3>
-                        <p>We accept most major insurance plans including Blue Cross Blue Shield, McLaren Health Plan, Priority Health, Aetna, and Michigan Medicaid. Many plans cover family therapy—call (313) 654-1915 to verify your coverage.</p>
+                        <p>We accept most major insurance plans including Blue Cross Blue Shield, Aetna, Priority Health, McLaren Health Plan, and HAP. Many plans cover family therapy—call (313) 654-1915 to verify your coverage.</p>
 
                         <h3 class="mt-3">Convenient Dearborn Location</h3>
                         <p>Our office is located at 22005 Outer Dr W in Dearborn, easily accessible from I-94 and major routes throughout Metro Detroit. We serve families from Dearborn, Dearborn Heights, Allen Park, Plymouth, Livonia, Westland, Canton, and throughout Wayne and Oakland Counties.</p>
@@ -347,7 +347,7 @@ require_once 'includes/config.php';
 
                         <div class="alert alert-success mt-3" role="alert">
                             <h5 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>Insurance Accepted</h5>
-                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, McLaren Health Plan, Priority Health, Aetna, and Michigan Medicaid. Both in-person (Dearborn office) and telehealth appointments available throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
+                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, Aetna, Priority Health, McLaren Health Plan, and HAP. Both in-person (Dearborn office) and telehealth appointments available throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
                         </div>
 
                         <p class="mt-3"><em>Evening and weekend appointments available. We work with all family structures and configurations.</em></p>

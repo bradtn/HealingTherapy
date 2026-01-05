@@ -184,7 +184,7 @@ require_once 'includes/config.php';
                                     <p class="mb-2"><i class="bi bi-check-circle text-info me-2"></i><strong>Telehealth options:</strong> Virtual sessions available for when you can't leave home</p>
                                 </div>
                                 <div class="col-md-6">
-                                    <p class="mb-2"><i class="bi bi-check-circle text-info me-2"></i><strong>Insurance accepted:</strong> We accept most major insurance plans including Medicaid</p>
+                                    <p class="mb-2"><i class="bi bi-check-circle text-info me-2"></i><strong>Insurance accepted:</strong> We accept most major insurance plans including BCBS, Aetna, Priority Health</p>
                                     <p class="mb-2"><i class="bi bi-check-circle text-info me-2"></i><strong>Compassionate support:</strong> Our team understands the unique demands of this season of life</p>
                                 </div>
                             </div>

@@ -146,7 +146,7 @@ require_once 'includes/config.php';
 
                     <details class="faq-item" style="margin-bottom: 20px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
                         <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">Does insurance cover autism therapy?</summary>
-                        <p style="margin-top: 15px;">Most insurance plans, including Medicaid, cover autism therapy services like ABA, speech, and occupational therapy. Our billing team will verify your coverage and help maximize your benefits.</p>
+                        <p style="margin-top: 15px;">Most major insurance plans cover autism therapy services like ABA, speech, and occupational therapy. Our billing team will verify your coverage and help maximize your benefits.</p>
                     </details>
 
                     <details class="faq-item" style="margin-bottom: 20px; padding: 20px; background: #f8f9fa; border-radius: 10px;">

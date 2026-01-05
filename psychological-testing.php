@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Psychological Testing & Evaluation in Michigan | Healing Therapy Center';
-$page_description = 'Comprehensive psychological testing in Michigan. IQ testing, learning disabilities, ADHD evaluation, autism screening, personality assessment. Expert psychologists.';
+$page_title = 'Psychological Testing in Michigan | Autism, ADHD & Learning Disability Evaluations';
+$page_description = 'Comprehensive psychological testing in Dearborn, Michigan. Autism evaluations, ADHD testing, learning disability assessments for children & adults. Accepts BCBS, Aetna, Priority Health. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/psychological-testing';
 $current_service = 'testing'; // For sidebar active state
 
@@ -396,7 +396,7 @@ require_once 'includes/config.php';
                         <p>We provide detailed written reports within 2 weeks of completing testing—faster than many clinics while maintaining thorough, high-quality documentation.</p>
 
                         <h3 class="mt-3">Insurance Accepted</h3>
-                        <p>We accept most major insurance plans including Blue Cross Blue Shield, McLaren Health Plan, Priority Health, Aetna, and Michigan Medicaid. Many insurance plans cover psychological testing when medically necessary. Call (313) 654-1915 to verify your coverage and understand costs.</p>
+                        <p>We accept most major insurance plans including Blue Cross Blue Shield, Aetna, Priority Health, McLaren Health Plan, and HAP. Many insurance plans cover psychological testing when medically necessary. Call (313) 654-1915 to verify your coverage and understand costs.</p>
 
                         <h3 class="mt-3">Convenient Dearborn Location</h3>
                         <p>Our office at 22005 Outer Dr W in Dearborn is easily accessible from I-94 and major routes throughout Metro Detroit. We serve families from Dearborn, Dearborn Heights, Allen Park, Plymouth, Livonia, Westland, Canton, and throughout Wayne and Oakland Counties.</p>
@@ -530,7 +530,7 @@ require_once 'includes/config.php';
 
                         <div class="alert alert-success mt-3" role="alert">
                             <h5 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>Insurance Accepted</h5>
-                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, McLaren Health Plan, Priority Health, Aetna, and Michigan Medicaid. Testing available for children (ages 2+), adolescents, and adults throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
+                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, Aetna, Priority Health, McLaren Health Plan, and HAP. Testing available for children (ages 2+), adolescents, and adults throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
                         </div>
 
                         <p class="mt-3"><em>Comprehensive evaluations for autism, ADHD, learning disabilities, and more. In-person testing at our Dearborn office.</em></p>

@@ -230,7 +230,7 @@ require_once 'includes/config.php';
                   <i class="bi bi-shield-check"></i>
                 </div>
                 <h5 class="card-title">Insurance Accepted</h5>
-                <p class="card-text small text-muted">We accept BCBS, McLaren, Priority Health, Aetna, HAP, and Michigan Medicaid—making care affordable and accessible.</p>
+                <p class="card-text small text-muted">We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, HAP, and most major insurance plans.</p>
               </div>
             </div>
           </div>
@@ -358,7 +358,7 @@ require_once 'includes/config.php';
               <div class="card-body text-center">
                 <i class="bi bi-credit-card text-primary" style="font-size: 3rem;"></i>
                 <h5 class="card-title mt-3">Insurance Accepted</h5>
-                <p class="card-text">We work with most major Michigan insurance plans including BCBS, McLaren, Priority Health, Aetna, HAP, and Medicaid.</p>
+                <p class="card-text">We work with most major Michigan insurance plans including Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP.</p>
               </div>
             </div>
           </div>
