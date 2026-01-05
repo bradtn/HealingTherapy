@@ -61,7 +61,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">01/04/2026</span>
+                                                            <span class="fs-6">12/27/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -87,7 +87,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">01/03/2026</span>
+                                                            <span class="fs-6">12/18/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -113,7 +113,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">01/02/2026</span>
+                                                            <span class="fs-6">12/10/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -139,7 +139,7 @@ require_once 'includes/config.php';
                                                         </div>
                                                         <div>
                                                             <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">01/01/2026</span>
+                                                            <span class="fs-6">12/01/2025</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -447,6 +447,20 @@ require_once 'includes/config.php';
                                 </div>
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
+                                        <img src="assets/img/blog-9.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="burnout stress therapy">
+                                    </div>
+                                    <div class="content">
+                                        <h6><a href="burnout-stress-therapy-michigan">Burnout & Work Stress</a></h5>
+                                            <div class="comment d-flex align-items-center">
+                                                <span class="text-muted" style="font-size:13px"><i
+                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
+                                                        aria-hidden="true"></i>12/31/2025</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="single-post d-flex my-3 border-bottom pb-2">
+                                    <div class="image me-3">
                                         <img src="assets/img/teen-mental-health.jpg" class="object-fit-cover" height="70" width="100"
                                             alt="teen mental health">
                                     </div>
@@ -455,7 +469,7 @@ require_once 'includes/config.php';
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>01/04/2026</span>
+                                                        aria-hidden="true"></i>12/27/2025</span>
                                             </div>
                                     </div>
                                 </div>
@@ -469,21 +483,7 @@ require_once 'includes/config.php';
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>01/03/2026</span>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="single-post d-flex my-3 border-bottom pb-2">
-                                    <div class="image me-3">
-                                        <img src="assets/img/adhd-blog.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="adhd guide">
-                                    </div>
-                                    <div class="content">
-                                        <h6><a href="adhd-guide-adults-children">ADHD: Adults & Children</a></h5>
-                                            <div class="comment d-flex align-items-center">
-                                                <span class="text-muted" style="font-size:13px"><i
-                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>01/02/2026</span>
+                                                        aria-hidden="true"></i>12/18/2025</span>
                                             </div>
                                     </div>
                                 </div>
