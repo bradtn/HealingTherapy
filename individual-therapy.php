@@ -357,7 +357,7 @@ require_once 'includes/config.php';
 
 <div class="alert alert-light border-info mt-5" data-aos="fade-up">
                             <h3 class="h6 text-info mb-2"><i class="bi bi-map me-2"></i>Serving Metro Detroit</h3>
-                            <p class="small mb-0"><strong>Wayne County:</strong> Dearborn, Dearborn Heights, Allen Park, Lincoln Park, Taylor, Plymouth, Livonia, Westland, Canton • <strong>Oakland County:</strong> Novi, Northville, Farmington Hills, Southfield, Royal Oak • <strong>Telehealth:</strong> Anywhere in Michigan • <strong>Accessible:</strong> Free parking, wheelchair facilities</p>
+                            <p class="small mb-0"><strong>Wayne County:</strong> Dearborn, Dearborn Heights, Allen Park, Lincoln Park, Taylor, Plymouth, Livonia, Westland, Canton, Inkster, Romulus, Wayne, Garden City • <strong>Oakland County:</strong> Novi, Northville, Farmington Hills, Southfield, Royal Oak, Birmingham, Troy, Bloomfield Hills • <strong>Washtenaw:</strong> Ann Arbor, Ypsilanti • <strong>Telehealth:</strong> Anywhere in Michigan</p>
                         </div>
 
                         <h2 class="mt-5 mb-3">Ready to Start Individual Therapy in Dearborn?</h2>

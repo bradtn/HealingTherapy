@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Healing Therapy Center | Mental Health Services in Dearborn, MI';
-$page_description = 'We provide compassionate healing therapy services for stress, trauma, and anxiety. Contact Healing Therapy Center for personalized mental health support today.';
+$page_title = 'Healing Therapy Center | Therapists in Dearborn, MI | BCBS, Aetna Accepted';
+$page_description = 'Mental health therapy in Dearborn, Michigan. Individual, couples & family therapy, autism evaluations, ADHD testing. Accepts Blue Cross Blue Shield, Aetna, Priority Health. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/';
 
 // Include configuration

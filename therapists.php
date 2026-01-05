@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Our Therapists | Healing Therapy Center Dearborn';
-$page_description = 'Meet our licensed therapists in Dearborn, Michigan. Experienced mental health professionals specializing in anxiety, depression, trauma, couples therapy & more.';
+$page_title = 'Licensed Therapists in Dearborn, MI | BCBS, Aetna Accepted';
+$page_description = 'Meet our licensed therapists in Dearborn, Michigan. Experts in anxiety, depression, trauma, ADHD & couples therapy. Accepts Blue Cross Blue Shield, Aetna, Priority Health. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapists';
 
 // Include configuration
