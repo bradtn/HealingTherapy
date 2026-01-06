@@ -21,188 +21,6 @@ require_once 'includes/config.php';
                     <div class="col-lg-8 col-12">
                         <div class="row g-4">
                             <div class="col col-md-6">
-                                <a href="grief-loss-counseling-guide" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/grief-blog.jpg" class="card-img-top" alt="grief loss counseling michigan">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Grief & Loss Counseling</h5>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Amal Ayad</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">01/05/2026</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Understanding grief, types of loss, and how counseling can help you navigate the healing process.</p>
-                                            <a href="grief-loss-counseling-guide" class="btn btn-primary mt-3">Read More</a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col col-md-6">
-                                <a href="teen-mental-health-guide" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/teen-mental-health.jpg" class="card-img-top" alt="teen mental health michigan">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Teen Mental Health Guide</h5>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Dr. Nadia Habhab</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/27/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Warning signs every parent should know and how to support your teenager's mental health.</p>
-                                            <a href="teen-mental-health-guide" class="btn btn-primary mt-3">Read More</a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col col-md-6">
-                                <a href="ptsd-trauma-therapy-guide" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/trauma-blog.jpg" class="card-img-top" alt="ptsd trauma therapy michigan">
-                                        <div class="card-body">
-                                            <h5 class="card-title">PTSD & Trauma Therapy</h5>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Amal Ayad</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/18/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Learn about PTSD symptoms, types of trauma, and evidence-based treatments for healing.</p>
-                                            <a href="ptsd-trauma-therapy-guide" class="btn btn-primary mt-3">Read More</a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col col-md-6">
-                                <a href="adhd-guide-adults-children" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/adhd-blog.jpg" class="card-img-top" alt="adhd testing michigan">
-                                        <div class="card-body">
-                                            <h5 class="card-title">ADHD in Adults & Children</h5>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Dr. Nadia Habhab</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/10/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Comprehensive guide to ADHD symptoms, testing, and treatment options for all ages.</p>
-                                            <a href="adhd-guide-adults-children" class="btn btn-primary mt-3">Read More</a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col col-md-6">
-                                <a href="anxiety-therapy-guide" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/anxiety-blog.jpg" class="card-img-top" alt="anxiety therapy michigan">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Understanding Anxiety</h5>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Amal Ayad</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/01/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Learn about anxiety disorders, symptoms, and evidence-based treatments available in Michigan.</p>
-                                            <a href="anxiety-therapy-guide" class="btn btn-primary mt-3">Read More</a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col col-md-6">
-                                <a href="burnout-stress-therapy-michigan" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/blog-9.jpg" class="card-img-top" alt="burnout stress therapy michigan">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Burnout & Work Stress Therapy</h5>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Dr. Nadia Habhab</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/31/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Feeling burned out from work? Learn the signs of burnout, how it differs from stress, and when to seek professional help..</p>
-                                            <a href="burnout-stress-therapy-michigan" class="btn btn-primary mt-3">Read More</a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col col-md-6">
-                                <a href="autism-evaluation-michigan-insurance" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/autism-evaluation.jpg" class="card-img-top" alt="autism evaluation michigan insurance">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Autism Evaluation in Michigan: Insurance Guide</h5>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Dr. Nadia Habhab</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/23/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Complete guide to autism evaluations in Michigan. Learn about insurance coverage, what to expect, and how to schedule..</p>
-                                            <a href="autism-evaluation-michigan-insurance" class="btn btn-primary mt-3">Read More</a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col col-md-6">
                                 <a href="healing-starts-with-you" class="text-black">
                                     <div class="card">
                                         <img src="assets/img/blog-8.jpg" class="card-img-top" alt="healing starts with you">
@@ -433,57 +251,57 @@ require_once 'includes/config.php';
                                 <!-- Single Post -->
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
-                                        <img src="assets/img/grief-blog.jpg" class="object-fit-cover" height="70"
-                                            width="100" alt="grief loss counseling">
+                                        <img src="assets/img/blog-8.jpg" class="object-fit-cover" height="70"
+                                            width="100" alt="healing starts with you">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="grief-loss-counseling-guide">Grief & Loss Counseling</a></h5>
+                                        <h6><a href="healing-starts-with-you">Healing Starts With You</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>01/05/2026</span>
+                                                        aria-hidden="true"></i>12/16/2025</span>
                                             </div>
                                     </div>
                                 </div>
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
-                                        <img src="assets/img/blog-9.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="burnout stress therapy">
+                                        <img src="assets/img/blog-7.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="is autism curable">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="burnout-stress-therapy-michigan">Burnout & Work Stress</a></h5>
+                                        <h6><a href="is-autism-curable">Is Autism Curable</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>12/31/2025</span>
+                                                        aria-hidden="true"></i>12/09/2025</span>
                                             </div>
                                     </div>
                                 </div>
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
-                                        <img src="assets/img/teen-mental-health.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="teen mental health">
+                                        <img src="assets/img/blog-6.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="parenting child autism">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="teen-mental-health-guide">Teen Mental Health</a></h5>
+                                        <h6><a href="parenting-child">Parenting a Child with Autism</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>12/27/2025</span>
+                                                        aria-hidden="true"></i>12/02/2025</span>
                                             </div>
                                     </div>
                                 </div>
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
-                                        <img src="assets/img/trauma-blog.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="ptsd trauma therapy">
+                                        <img src="assets/img/blog-5.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="autism signs children">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="ptsd-trauma-therapy-guide">PTSD & Trauma Therapy</a></h5>
+                                        <h6><a href="autism-signs">Early Signs of Autism</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>12/18/2025</span>
+                                                        aria-hidden="true"></i>11/25/2025</span>
                                             </div>
                                     </div>
                                 </div>
