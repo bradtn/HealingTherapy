@@ -34,13 +34,13 @@ require_once 'includes/config.php';
                                         provide invaluable support for both parents
                                         and children, helping to enhance overall well-being and strengthen family
                                         dynamics.<br><a
-                                            href="https://healingtherapycenter.com/dr-nadia-habhab">Learn more
+                                            href="https://www.healingtherapycenter.com/dr-nadia-habhab">Learn more
                                             about Dr. Nadia Habhab's approach to therapy</a></p>
-                                    <h5>The Benefits of Therapy for Parents of Children with Autism</h5>
+                                    <h2>The Benefits of Therapy for Parents of Children with Autism</h2>
                                     <p>Therapy services are not just for children with ASD; parents can greatly benefit
                                         from professional guidance and support.
                                         Here’s how:</p>
-                                    <h6>1. Emotional Support and Stress Management</h6>
+                                    <h3>1. Emotional Support and Stress Management</h3>
                                     <ul>
                                         <li>Parenting a child with autism can be overwhelming, leading to anxiety,
                                             depression, and burnout.</li>
@@ -50,9 +50,9 @@ require_once 'includes/config.php';
                                             help reduce stress and improve emotional
                                             resilience.</li>
                                     </ul>
-                                    <p><a href="https://healingtherapycenter.com/telehealth-therapy">Explore our
+                                    <p><a href="https://www.healingtherapycenter.com/telehealth-therapy">Explore our
                                             comprehensive Telehealth Therapy services</a></p>
-                                    <h6>2. Improved Parenting Strategies</h6>
+                                    <h3>2. Improved Parenting Strategies</h3>
                                     <ul>
                                         <li>Therapists can help parents understand their child’s behaviors and needs,
                                             providing tailored strategies for
@@ -63,9 +63,9 @@ require_once 'includes/config.php';
                                         <li>Understanding sensory triggers can help parents create supportive home
                                             environments that minimize meltdowns and anxiety.</li>
                                     </ul>
-                                    <p><a href="https://healingtherapycenter.com/psychological-testing">Discover
+                                    <p><a href="https://www.healingtherapycenter.com/psychological-testing">Discover
                                             more about Psychological Testing services</a></p>
-                                    <h6>3. Strengthened Family Relationships</h6>
+                                    <h3>3. Strengthened Family Relationships</h3>
                                     <ul>
                                         <li>Sibling relationships can be affected by the extra attention a child with
                                             ASD requires. Family therapy helps balance
@@ -74,7 +74,7 @@ require_once 'includes/config.php';
                                             parenting a child with autism, fostering
                                             teamwork and reducing conflict.</li>
                                     </ul>
-                                    <h6>4. Guidance on Navigating Resources and Services</h6>
+                                    <h3>4. Guidance on Navigating Resources and Services</h3>
                                     <ul>
                                         <li>Many parents struggle with accessing special education services, insurance
                                             coverage, and community programs.</li>
@@ -82,9 +82,9 @@ require_once 'includes/config.php';
                                             navigate school systems and government
                                             assistance programs effectively.</li>
                                     </ul>
-                                    <p><a href="https://healingtherapycenter.com/faq">Find answers to common
+                                    <p><a href="https://www.healingtherapycenter.com/faq">Find answers to common
                                             questions on our FAQ page</a></p>
-                                    <h6>5. Building a Support Network</h6>
+                                    <h3>5. Building a Support Network</h3>
                                     <ul>
                                         <li>Joining therapy groups for parents of children with autism provides a sense
                                             of community and shared experiences.</li>
@@ -92,7 +92,7 @@ require_once 'includes/config.php';
                                             a child with ASD can be incredibly
                                             validating and empowering</li>
                                     </ul>
-                                    <h5>When to Seek Therapy Services</h5>
+                                    <h2>When to Seek Therapy Services</h2>
                                     <p>Parents should consider seeking therapy if they experience:</p>
                                     <ul>
                                         <li>Persistent stress, anxiety, or depression related to parenting
@@ -103,22 +103,22 @@ require_once 'includes/config.php';
                                         <li>A need for guidance on accessing special education, therapy, or support
                                             services.</li>
                                     </ul>
-                                    <p><a href="https://healingtherapycenter.com/appointment">Book an appointment
+                                    <p><a href="https://www.healingtherapycenter.com/appointment">Book an appointment
                                             today with Dr. Nadia Habhab</a> to start your journey toward healing and
                                         support.</p>
-                                    <h5>How to Get Started with Therapy</h5>
+                                    <h2>How to Get Started with Therapy</h2>
                                     <p>Seeking therapy services is a proactive step toward a healthier and happier
                                         family life. Dr. Nadia Habhab specializes in
                                         providing support for parents of children with autism, offering personalized
                                         therapy sessions that address emotional
                                         resilience, parenting strategies, and stress management.</p>
                                     <p>For more information on therapy services, visit our <a
-                                            href="https://healingtherapycenter.com/telehealth-therapy">Telehealth
+                                            href="https://www.healingtherapycenter.com/telehealth-therapy">Telehealth
                                             Therapy Page</a> or check out our <a
-                                            href="https://healingtherapycenter.com/psychological-testing">Psychological
+                                            href="https://www.healingtherapycenter.com/psychological-testing">Psychological
                                             Testing Page</a>
                                         for insights into diagnostic assessments.<br><br><a
-                                            href="https://healingtherapycenter.com/#contact">Contact us today for more
+                                            href="https://www.healingtherapycenter.com/#contact">Contact us today for more
                                             details</a></p>
                                     <p>By prioritizing their own mental health and well-being, parents can create a more
                                         positive and nurturing environment for

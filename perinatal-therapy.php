@@ -46,14 +46,14 @@ require_once 'includes/config.php';
                             changing relationships, and the weight of new responsibilities can leave you feeling overwhelmed, anxious,
                             or isolated. We're here to remind you that struggling doesn't mean you're failing—it means you're human.</p>
 
-                        <h5 class="fw-bold mt-4">You Deserve More Than Just Getting By</h5>
+                        <h2 class="fw-bold mt-4">You Deserve More Than Just Getting By</h2>
                         <p>Many expectant and new parents find themselves simply trying to survive each day, telling themselves that
                             this is just how it has to be. But parenthood shouldn't mean losing yourself. Whether you're experiencing
                             prenatal anxiety, postpartum depression, birth trauma, difficulties with bonding, or simply feeling like
                             you've lost your sense of self, know that there is help available and you don't have to face this alone.</p>
 
                         <div class="alert alert-light border-primary my-4" data-aos="fade-up">
-                            <h5 class="fw-bold text-primary mb-3"><i class="bi bi-heart-pulse me-2"></i>We Specialize In Supporting:</h5>
+                            <h3 class="fw-bold text-primary mb-3"><i class="bi bi-heart-pulse me-2"></i>We Specialize In Supporting:</h3>
                             <div class="row small">
                                 <div class="col-md-6">
                                     <p class="mb-1"><i class="bi bi-check-circle text-success me-2"></i>Prenatal and postpartum anxiety and depression</p>
@@ -74,7 +74,7 @@ require_once 'includes/config.php';
                             </div>
                         </div>
 
-                        <h5 class="fw-bold">Our Approach to Perinatal Mental Health</h5>
+                        <h2 class="fw-bold">Our Approach to Perinatal Mental Health</h2>
                         <p>We believe that effective perinatal support should be grounded in compassion, expertise, and respect for
                             your individual journey. Our therapists are specially trained in perinatal mental health and understand
                             the unique challenges that arise during this transformative time.</p>
@@ -190,7 +190,7 @@ require_once 'includes/config.php';
                             </div>
                         </div>
 
-                        <h5 class="fw-bold">You Don't Have to Do This Alone</h5>
+                        <h2 class="fw-bold">You Don't Have to Do This Alone</h2>
                         <p>The transition to parenthood is one of life's most significant changes, and it's okay to need support.
                             Seeking help isn't a sign of weakness—it's an act of courage and self-care. Whether you're struggling
                             with your mental health, processing a difficult experience, or simply seeking guidance during this

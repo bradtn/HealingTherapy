@@ -346,7 +346,7 @@ require_once 'includes/config.php';
                         </div>
 
                         <div class="alert alert-success mt-3" role="alert">
-                            <h5 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>Insurance Accepted</h5>
+                            <h3 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>Insurance Accepted</h3>
                             <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, Aetna, Priority Health, McLaren Health Plan, and HAP. Both in-person (Dearborn office) and telehealth appointments available throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
                         </div>
 

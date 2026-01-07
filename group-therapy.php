@@ -40,7 +40,7 @@ require_once 'includes/config.php';
                             can share their experiences and learn from one another. Our experienced therapists
                             facilitate these sessions to help
                             participants gain insights, develop coping strategies, and build a sense of community.</p>
-                        <h5 class="fw-bold">What is Group Therapy?</h5>
+                        <h3 class="fw-bold">What is Group Therapy?</h3>
                         <p>Group therapy involves sessions with multiple participants and one or more licensed
                             therapists. This form of therapy
                             provides a unique opportunity for individuals to connect with others facing similar
@@ -48,7 +48,7 @@ require_once 'includes/config.php';
                             and understanding. Group therapy can be beneficial for a variety of issues, including
                             anxiety, depression, grief,
                             addiction, and more.</p>
-                        <h5 class="fw-bold">Our Approach</h5>
+                        <h3 class="fw-bold">Our Approach</h3>
                         <p>We believe in a holistic and inclusive approach to group therapy. Our therapists are skilled
                             in various therapeutic
                             techniques, including Cognitive-Behavioral Therapy (CBT), Dialectical Behavior Therapy
@@ -56,7 +56,7 @@ require_once 'includes/config.php';
                             Stress Reduction (MBSR). This allows us to create a dynamic and effective group therapy
                             experience tailored to the needs
                             of the participants.</p>
-                        <h5 class="fw-bold mt-4">Benefits of Group Therapy</h5>
+                        <h3 class="fw-bold mt-4">Benefits of Group Therapy</h3>
 
                         <div class="row g-3 mb-4">
                             <div class="col-md-6" data-aos="fade-up" data-aos-delay="0">
@@ -100,13 +100,13 @@ require_once 'includes/config.php';
                                 </div>
                             </div>
                         </div>
-                        <h5 class="fw-bold">Our Therapists</h5>
+                        <h3 class="fw-bold">Our Therapists</h3>
                         <p>Our team of compassionate and skilled therapists brings over 20 combined years of experience
                             to Healing Therapy Center.
                             We are committed to ongoing professional development and staying current with the latest
                             research and techniques in
                             group therapy. Our goal is to provide you with the highest quality care and support.</p>
-                        <h5 class="fw-bold">Getting Started</h5>
+                        <h3 class="fw-bold">Getting Started</h3>
                         <p>Joining a group therapy session at Healing Therapy Center is simple. Contact us to learn
                             about our current group
                             offerings and schedule an initial consultation. During this consultation, we will discuss

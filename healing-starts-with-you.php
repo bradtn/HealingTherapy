@@ -34,7 +34,7 @@ require_once 'includes/config.php';
                                     </p>
                                     <p>In this blog, we’ll explore how individual therapy can dramatically transform how you relate to others, deepen your
                                     emotional awareness, and resolve long-standing relational patterns.</p>
-                                    <h5>Why Do Relationship Problems Often Feel So Personal?</h5>
+                                    <h2>Why Do Relationship Problems Often Feel So Personal?</h2>
                                     <p>When communication breaks down, tempers flare, or silence stretches for days, the emotional toll can be heavy. Poor
                                     communication is one of the most common and overlooked sources of relational distress. Often, partners or family members
                                     are not just arguing about issues but about how they communicate those issues.</p>
@@ -56,7 +56,7 @@ require_once 'includes/config.php';
                                     
                                     <p>Most people enter therapy hoping to change someone else’s behavior. What they often find instead is a mirror a
                                     compassionate space to see their own triggers, reactions, and fears more clearly.</p>
-                                    <h5>Understanding Attachment Styles and Their Role in Conflict</h5>
+                                    <h2>Understanding Attachment Styles and Their Role in Conflict</h2>
                                     <p>Many relational struggles stem from our attachment style a psychological blueprint formed in early childhood based on
                                     how our caregivers responded to our emotional needs. These attachment styles shape how we perceive intimacy, trust,
                                     safety, and communication in our adult relationships.</p>
@@ -81,7 +81,7 @@ require_once 'includes/config.php';
                                     importantly, we help them develop healthier relational strategies through consistent emotional support, cognitive
                                     restructuring, and inner healing. Recognizing these patterns is often the first step toward breaking unhealthy cycles
                                     and building secure connections.</p>
-                                    <h5>Why Starting with Individual Therapy Makes All the Difference</h5>
+                                    <h2>Why Starting with Individual Therapy Makes All the Difference</h2>
                                     <p>Individual therapy isn’t selfish, it’s foundational. It gives you the emotional tools to respond rather than react, to
                                     understand rather than accuse, and to connect instead of withdraw.</p>
                                     <p>Here’s how individual therapy sets the stage for healthier relationships:</p>
@@ -96,7 +96,7 @@ require_once 'includes/config.php';
                                         
                                         <li><b>Healing Trauma:</b> Unpack the past to stop reliving it in the present</li>
                                     </ul>
-                                    <h5>Tools & Techniques Used in Individual Therapy</h5>
+                                    <h2>Tools & Techniques Used in Individual Therapy</h2>
                                     <p>IEvidence-based approaches are used to equip clients with the tools they need to build healthy, fulfilling relationships.
                                     Each therapeutic technique is personalized based on the client’s goals, experiences, and emotional needs.</p>
                                     <ul>
@@ -128,7 +128,7 @@ require_once 'includes/config.php';
                                     <p>By focusing on strengths, accommodations, and inclusion, we can help individuals
                                         with autism thrive rather than trying
                                         to change who they are.</p>
-                                    <h5>How Can Families and Caregivers Support Individuals with Autism?</h5>
+                                    <h2>How Can Families and Caregivers Support Individuals with Autism?</h2>
                                     <p>If you have a loved one with autism, here are some ways to offer meaningful
                                         support:</p>
                                     <ul>
@@ -143,7 +143,7 @@ require_once 'includes/config.php';
                                         <li><b>Seek Professional Guidance</b> – Work with specialists like
                                             psychologists, therapists, and educators who understand autism.</li>
                                     </ul>
-                                    <h5>Common Myths About Therapy for Relationship Issues</h5>
+                                    <h2>Common Myths About Therapy for Relationship Issues</h2>
                                     <div>
                                         <b>Myth 1: "We need couples therapy, not individual help."</b>
                                         <p>Truth: You can make real change on your own—even if your partner
@@ -159,19 +159,19 @@ require_once 'includes/config.php';
                                         <p>Truth: Many clients begin seeing shifts in just a few sessions with the right
                                         tools and insights.</p>
                                     </div>
-                                    <h5>Heal Yourself, Heal Your Relationships</h5>
+                                    <h2>Heal Yourself, Heal Your Relationships</h2>
                                     <p>Family and relationship issues can feel overwhelming but you don’t have to face them alone. Taking that first step into
                                     individual therapy is an act of courage and commitment—not just to yourself, but to the people you love.</p>
                                     <ul>
-                                        <li><a href="https://healingtherapycenter.com/appointment"
+                                        <li><a href="https://www.healingtherapycenter.com/appointment"
                                                 target="_blank" rel="noopener noreferrer">Schedule your online therapy session today</a></li>
-                                        <li><a href="https://healingtherapycenter.com/dr-nadia-habhab" target="_blank" rel="noopener noreferrer">Meet Dr. Nadia Habhab, Licensed Psychologist</a>
+                                        <li><a href="https://www.healingtherapycenter.com/dr-nadia-habhab" target="_blank" rel="noopener noreferrer">Meet Dr. Nadia Habhab, Licensed Psychologist</a>
                                         </li>
-                                        <li><a href="https://healingtherapycenter.com/faq" target="_blank" rel="noopener noreferrer">Still have questions? Visit our FAQ</a></li>
+                                        <li><a href="https://www.healingtherapycenter.com/faq" target="_blank" rel="noopener noreferrer">Still have questions? Visit our FAQ</a></li>
                                     </ul>
-                                    <p>Serving <b>Ann Arbor, Canton, Troy, Dearborn, Novi,</b> and across Michigan <a href="https://healingtherapycenter.com/#contact">Contact Us</a> | <a href="https://healingtherapycenter.com/appointment">Book Your Appointment Now.</a>
+                                    <p>Serving <b>Ann Arbor, Canton, Troy, Dearborn, Novi,</b> and across Michigan <a href="https://www.healingtherapycenter.com/#contact">Contact Us</a> | <a href="https://www.healingtherapycenter.com/appointment">Book Your Appointment Now.</a>
                                     <ul>
-                                        <h5>Resources</h5>
+                                        <h3>Resources</h3>
                                         <li><a
                                                 href="https://www.apa.org/helpcenter/relationships"
                                                 target="_blank" rel="noopener noreferrer">American Psychological Association: Relationship Stress & Mental Health</a></li>
