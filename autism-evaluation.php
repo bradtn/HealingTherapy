@@ -111,6 +111,45 @@ require_once 'includes/config.php';
                                 </div>
                             </div>
                         </div>
+                        <h2 class="mt-5 mb-4">Why Choose Healing Therapy Center?</h2>
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="0">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-award text-primary me-2"></i>Licensed Psychologists</h3>
+                                        <p class="small mb-0">Our evaluations are conducted by licensed psychologists with specialized training in autism spectrum disorders and developmental assessments.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-heart text-success me-2"></i>Family-Centered Care</h3>
+                                        <p class="small mb-0">We involve families throughout the process, ensuring you understand results and have actionable steps for supporting your child or yourself.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-shield-check text-info me-2"></i>Insurance Accepted</h3>
+                                        <p class="small mb-0">We accept most major insurance plans including Blue Cross Blue Shield and Aetna. Our team helps verify your benefits before your appointment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-2"><i class="bi bi-geo-alt text-warning me-2"></i>Convenient Location</h3>
+                                        <p class="small mb-0">Located in Dearborn, Michigan, our office is easily accessible for families throughout Metro Detroit and surrounding areas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="mt-5 mb-4">After the Evaluation</h2>
+                        <p>Receiving an autism diagnosis opens doors to understanding and support. Our detailed evaluation report can be used to access school accommodations through an IEP or 504 plan, qualify for therapy services such as ABA, speech therapy, or occupational therapy, and connect with community resources and support groups. We work with families to ensure you leave our office with a clear understanding of the diagnosis and practical next steps for moving forward.</p>
+
                         <div class="alert alert-primary mt-4" data-aos="fade-up">
                             <h5 class="mb-2"><i class="bi bi-calendar-check me-2"></i>Request an Evaluation Today</h5>
                             <p class="mb-2">Start your journey toward understanding and support. Our comprehensive autism evaluations can unlock new possibilities for growth, learning, and well-being.</p>

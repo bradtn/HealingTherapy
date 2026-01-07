@@ -15,9 +15,29 @@ require_once 'includes/config.php';
     <?php include 'includes/header.php'; ?>
 
     <main class="main">
-        <section class="news-single section">
+        <section class="topArea blog-intro position-relative">
+            <div class="overlay"></div>
+            <div class="position-absolute text-center w-100">
+                <h1 class="display-3 fw-bold text-white">Mental Health Blog</h1>
+                <hr class="text-white w-25 m-auto my-3">
+                <p class="text-white fs-5 mx-auto" style="max-width: 800px;">Expert insights and practical guidance from our licensed therapists to support your mental health journey</p>
+            </div>
+        </section>
+
+        <section class="about section">
             <div class="container">
-                <h1 class="mb-4">Mental Health Blog - Articles & Resources</h1>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <p class="text-center mb-4">Welcome to the Healing Therapy Center blog, where our team of licensed mental health professionals shares valuable insights, practical strategies, and evidence-based information to support your mental health journey. Whether you are navigating anxiety, depression, relationship challenges, or exploring resources for autism and child development, our articles provide guidance you can trust.</p>
+                        <p class="text-center mb-0">We believe that knowledge is an important part of healing. Our blog covers a wide range of topics including understanding mental health conditions, coping strategies for everyday challenges, parenting support, and tips for finding the right therapeutic approach for your needs. Browse our articles below and discover resources that can help you and your loved ones thrive.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-single section light-background">
+            <div class="container">
+                <h2 class="mb-4 text-center">Articles & Resources</h2>
                 <div class="row">
                     <div class="col-lg-8 col-12">
                         <div class="row g-4">

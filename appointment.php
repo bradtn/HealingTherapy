@@ -125,6 +125,48 @@ require_once 'includes/config.php';
 
         </section>
 
+        <section id="what-to-expect" class="about section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>What to Expect</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card h-100 p-4">
+                            <h3><i class="bi bi-1-circle text-primary me-2"></i>Initial Consultation</h3>
+                            <p>Your first session is an opportunity for you and your therapist to get to know each other. We will discuss your concerns, goals for therapy, and answer any questions you may have about the process. This helps us create a personalized treatment plan tailored to your needs.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card h-100 p-4">
+                            <h3><i class="bi bi-2-circle text-primary me-2"></i>Ongoing Sessions</h3>
+                            <p>Sessions typically last 50-60 minutes and are scheduled weekly or bi-weekly depending on your needs. Your therapist will work with you using evidence-based approaches to help you develop coping strategies, process emotions, and work toward your therapeutic goals.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100 p-4">
+                            <h3><i class="bi bi-3-circle text-primary me-2"></i>Flexible Options</h3>
+                            <p>We offer both in-person sessions at our Dearborn office and telehealth appointments for your convenience. Whether you prefer face-to-face interaction or the flexibility of online therapy, we are here to accommodate your schedule and comfort level.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="insurance-info" class="faq section light-background">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Insurance and Payment</h2>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+                        <p class="text-center mb-4">We accept most major insurance plans to make mental health care accessible and affordable. Our team will work with you to verify your benefits and explain any out-of-pocket costs before your first appointment. We believe financial concerns should not prevent anyone from receiving the care they need.</p>
+                        <p class="text-center mb-4">If you have questions about insurance coverage or payment options, please contact us at <a href="tel:313-654-1915">(313) 654-1915</a> or email <a href="mailto:info@healingtherapycenter.com">info@healingtherapycenter.com</a>. Our administrative staff is available to assist you with insurance verification and answer any billing questions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <?php include 'includes/footer.php'; ?>
