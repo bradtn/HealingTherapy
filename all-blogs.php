@@ -45,7 +45,7 @@ require_once 'includes/config.php';
                                 <div class="card">
                                     <img src="assets/img/blog-8.jpg" class="card-img-top" alt="healing starts with you">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="healing-starts-with-you" class="text-black">Healing Starts With You</a></h5>
+                                        <h4 class="card-title"><a href="healing-starts-with-you" class="text-black">Healing Starts With You</a></h4>
                                         <div class="row">
                                             <div class="col-12">
                                                 <div class="hstack my-2">
@@ -60,7 +60,7 @@ require_once 'includes/config.php';
                                                 </div>
                                             </div>
                                         </div>
-                                        <p class="card-text">Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that affects communication..</p>
+                                        <p class="card-text">Family dynamics and romantic relationships are among our most meaningful connections. What if the path to healing starts within you?..</p>
                                         <a href="healing-starts-with-you" class="btn btn-primary mt-3">Learn About Healing & Relationships</a>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@ require_once 'includes/config.php';
                                 <div class="card">
                                     <img src="assets/img/blog-7.jpg" class="card-img-top" alt="autism curable">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="is-autism-curable" class="text-black">Is Autism Curable</a></h5>
+                                        <h4 class="card-title"><a href="is-autism-curable" class="text-black">Is Autism Curable</a></h4>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -93,7 +93,7 @@ require_once 'includes/config.php';
                                 <div class="card">
                                     <img src="assets/img/blog-6.jpg" class="card-img-top" alt="parenting child">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="parenting-child" class="text-black">Parenting a Child with Autism</a></h5>
+                                        <h4 class="card-title"><a href="parenting-child" class="text-black">Parenting a Child with Autism</a></h4>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -117,7 +117,7 @@ require_once 'includes/config.php';
                                 <div class="card">
                                     <img src="assets/img/blog-5.jpg" class="card-img-top" alt="autism signs">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="autism-signs" class="text-black">Early Signs of Autism in children</a></h5>
+                                        <h4 class="card-title"><a href="autism-signs" class="text-black">Early Signs of Autism in children</a></h4>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -143,7 +143,7 @@ require_once 'includes/config.php';
                                 <div class="card">
                                     <img src="assets/img/blog-4.jpg" class="card-img-top" alt="breaking stigma">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="breaking-stigma" class="text-black">Breaking the Stigma</a></h5>
+                                        <h4 class="card-title"><a href="breaking-stigma" class="text-black">Breaking the Stigma</a></h4>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -169,7 +169,7 @@ require_once 'includes/config.php';
                                 <div class="card">
                                     <img src="assets/img/blog3.jpg" class="card-img-top" alt="coping postpartum">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="coping-with-postpartum-depression" class="text-black">Coping with Depression</a></h5>
+                                        <h4 class="card-title"><a href="coping-with-postpartum-depression" class="text-black">Coping with Depression</a></h4>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -195,7 +195,7 @@ require_once 'includes/config.php';
                                 <div class="card">
                                     <img src="assets/img/blog2.jpg" class="card-img-top" alt="fint right therapist">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="how-to-find-the-right-therapist" class="text-black">How to Find the Right Therapist</a></h5>
+                                        <h4 class="card-title"><a href="how-to-find-the-right-therapist" class="text-black">How to Find the Right Therapist</a></h4>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -221,7 +221,7 @@ require_once 'includes/config.php';
                                 <div class="card">
                                     <img src="assets/img/blog1.jpg" class="card-img-top" alt="understanding depression">
                                     <div class="card-body">
-                                        <h5 class="card-title"><a href="understanding-depression" class="text-black">Understanding Depression</a></h5>
+                                        <h4 class="card-title"><a href="understanding-depression" class="text-black">Understanding Depression</a></h4>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -257,7 +257,7 @@ require_once 'includes/config.php';
                                             width="100" alt="healing starts with you">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="healing-starts-with-you">Healing Starts With You</a></h5>
+                                        <h5><a href="healing-starts-with-you">Healing Starts With You</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
@@ -271,7 +271,7 @@ require_once 'includes/config.php';
                                             alt="is autism curable">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="is-autism-curable">Is Autism Curable</a></h5>
+                                        <h5><a href="is-autism-curable">Is Autism Curable</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
@@ -285,7 +285,7 @@ require_once 'includes/config.php';
                                             alt="parenting child autism">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="parenting-child">Parenting a Child with Autism</a></h5>
+                                        <h5><a href="parenting-child">Parenting a Child with Autism</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
@@ -299,7 +299,7 @@ require_once 'includes/config.php';
                                             alt="autism signs children">
                                     </div>
                                     <div class="content">
-                                        <h6><a href="autism-signs">Early Signs of Autism</a></h5>
+                                        <h5><a href="autism-signs">Early Signs of Autism</a></h5>
                                             <div class="comment d-flex align-items-center">
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
