@@ -89,9 +89,9 @@ require_once 'includes/config.php';
 
                 <!-- Service Badges -->
                 <div style="display: flex; justify-content: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
-                    <a href="https://healingtherapycenter.com/#hero" style="text-decoration: none;"><span style="background: #e3f2fd; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Insurance Accepted</span></a>
-                    <a href="https://healingtherapycenter.com/therapists" style="text-decoration: none;"><span style="background: #e8f5e9; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Licensed Therapists</span></a>
-                    <a href="https://healingtherapycenter.com/autism-evaluation" style="text-decoration: none;"><span style="background: #fff3e0; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Evidence-Based</span></a>
+                    <a href="https://www.healingtherapycenter.com/#hero" style="text-decoration: none;"><span style="background: #e3f2fd; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Insurance Accepted</span></a>
+                    <a href="https://www.healingtherapycenter.com/therapists" style="text-decoration: none;"><span style="background: #e8f5e9; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Licensed Therapists</span></a>
+                    <a href="https://www.healingtherapycenter.com/autism-evaluation" style="text-decoration: none;"><span style="background: #fff3e0; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Evidence-Based</span></a>
                 </div>
             </section>
 
@@ -117,7 +117,7 @@ require_once 'includes/config.php';
 
                 <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-top: 40px;">
                     <h3>Serving Families Throughout Southeast Michigan</h3>
-                    <p>We proudly serve families in <strong>Dearborn, Detroit, Livonia, Westland, Taylor, Lincoln Park, and surrounding communities</strong>. Our therapists understand the unique needs of our local community and work with area schools, pediatricians, and support organizations.</p>
+                    <p>We proudly serve families in <strong>Dearborn</strong>, Detroit, Livonia, Westland, Taylor, Lincoln Park, and surrounding communities. Our therapists understand the unique needs of our local community and work with area schools, pediatricians, and support organizations.</p>
                     
                     <h4 style="margin-top: 20px;">Why Choose Local Therapy?</h4>
                     <ul>
@@ -177,35 +177,35 @@ require_once 'includes/config.php';
                         <div class="resource-icon"></div>
                         <h3>Evidence-Based Therapies</h3>
                         <p>Compare ABA, DIR/Floortime, TEACCH, and other proven autism interventions. Find what works for your child.</p>
-                        <a href="https://healingtherapycenter.com/is-autism-curable" style="color: #667eea;">Explore Therapies →</a>
+                        <a href="https://www.healingtherapycenter.com/is-autism-curable" style="color: #667eea;">Explore Therapies →</a>
                     </article>
 
                     <article class="resource-card">
                         <div class="resource-icon"></div>
                         <h3>IEP & School Support</h3>
                         <p>Navigate special education: IEP vs 504 plans, advocacy tips, classroom accommodations, and your rights.</p>
-                        <a href="https://healingtherapycenter.com/#contact" style="color: #667eea;">School Resources →</a>
+                        <a href="https://www.healingtherapycenter.com/#contact" style="color: #667eea;">School Resources →</a>
                     </article>
 
                     <article class="resource-card">
                         <div class="resource-icon"></div>
                         <h3>Family & Sibling Support</h3>
                         <p>Resources for parents, siblings, and caregivers. Support groups, respite care, and family therapy options.</p>
-                        <a href="https://healingtherapycenter.com/parenting-child" style="color: #667eea;">Family Resources →</a>
+                        <a href="https://www.healingtherapycenter.com/parenting-child" style="color: #667eea;">Family Resources →</a>
                     </article>
 
                     <article class="resource-card">
                         <div class="resource-icon"></div>
                         <h3>Sensory Processing Help</h3>
                         <p>Sensory diets, calming strategies, weighted blankets, noise reduction, and creating sensory-friendly spaces.</p>
-                        <a href="https://healingtherapycenter.com/healing-starts-with-you" style="color: #667eea;">Sensory Tools →</a>
+                        <a href="https://www.healingtherapycenter.com/healing-starts-with-you" style="color: #667eea;">Sensory Tools →</a>
                     </article>
 
                     <article class="resource-card">
                         <div class="resource-icon"></div>
                         <h3>Social Skills Development</h3>
                         <p>Social stories, peer interaction strategies, friendship skills, and social groups for different ages.</p>
-                        <a href="https://healingtherapycenter.com/autism-signs" style="color: #667eea;">Social Resources →</a>
+                        <a href="https://www.healingtherapycenter.com/autism-signs" style="color: #667eea;">Social Resources →</a>
                     </article>
                 </div>
             </section>
@@ -300,7 +300,7 @@ require_once 'includes/config.php';
                 <div style="background: #e3f2fd; padding: 20px; border-radius: 10px; margin-top: 30px;">
                     <strong>Concerned about missed milestones?</strong> Our developmental specialists can provide comprehensive evaluation and early intervention services. 
                     <a href="tel:313-654-1915" style="color: #4a90a4; font-weight: bold;">Call (313) 654-1915</a> or 
-                    <a href="https://healingtherapycenter.com/appointment" style="color: #4a90a4; font-weight: bold;">schedule online</a>.
+                    <a href="https://www.healingtherapycenter.com/appointment" style="color: #4a90a4; font-weight: bold;">schedule online</a>.
                 </div>
             </section>
         </div>

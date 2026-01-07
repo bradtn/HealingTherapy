@@ -34,7 +34,7 @@ require_once 'includes/config.php';
                 <div class="row">
                     <div class="col-md-9">
                         <div class="mx-auto" class="content-max-width">
-                        <h1>Group Therapy</h1>
+                        <h2 class="fw-bold">Group Therapy</h2>
                         <p>At Healing Therapy Center, our group therapy services offer a supportive and collaborative
                             environment where individuals
                             can share their experiences and learn from one another. Our experienced therapists

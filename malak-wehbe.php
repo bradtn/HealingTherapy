@@ -42,7 +42,8 @@ require_once 'includes/config.php';
                     </div>
                     <div class="col-lg-8 col-md-8"
                         data-aos="fade-up" data-aos-delay="100">
-                        <p>Hi, I’m so glad you landed on my page! My name is Malak Wehbe, MA, TLLP, and I am a therapist trained from the Michigan School of Psychology .</p>
+                        <h2>Background & Experience</h2>
+                        <p>Hi, I'm so glad you landed on my page! My name is Malak Wehbe, MA, TLLP, and I am a therapist trained from the Michigan School of Psychology .</p>
                         <p>
                         I help children who are struggling at home or school, as well as teens and adults navigating life’s challenges. I understand how overwhelming it can feel as a parent when your child is experiencing symptoms of ADHD, autism, anxiety, depression, trauma, or family conflict. That’s why I create a safe, supportive, and welcoming space where individuals and families can process emotions, build resilience, and grow.</p>
                         <p>Before becoming a therapist, I worked for three years as a case manager at ACCESS in Dearborn, supporting families with complex mental health needs. Those experiences shaped my dedication to providing culturally responsive care, particularly within the Arab American and Muslim communities.</p>

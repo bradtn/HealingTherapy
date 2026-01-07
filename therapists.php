@@ -46,9 +46,9 @@ require_once 'includes/config.php';
                                     <img loading="lazy" src="assets/img/amal.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="amal ayad">
                                 </div>
                                 <div class="member-info mt-3">
-                                    <h5>Amal Ayad,MA</h5>
+                                    <h3 class="h5">Amal Ayad,MA</h3>
                                     <span>Life Coach</span>
-                                    <a href="amal-ayad" class="btn btn-primary d-block w-50 m-auto mt-3">View Bio</a>
+                                    <a href="amal-ayad" class="btn btn-primary d-block w-50 m-auto mt-3">View Amal's Bio</a>
                                 </div>
                             </div>
                         </a>
@@ -60,9 +60,9 @@ require_once 'includes/config.php';
                                     <img loading="lazy" src="assets/img/nadia.jpg" class="img-fluid rounded-circle p-3 doc-pic doc-2" alt="nadia habhab">
                                 </div>
                                 <div class="member-info mt-3">
-                                    <h5>Nadia Habhab , Ph.D , LP</h5>
+                                    <h3 class="h5">Nadia Habhab , Ph.D , LP</h3>
                                     <span>Licensed Psychologist</span>
-                                    <a href="dr-nadia-habhab" class="btn btn-primary d-block w-50 m-auto mt-3">View Bio</a>
+                                    <a href="dr-nadia-habhab" class="btn btn-primary d-block w-50 m-auto mt-3">View Dr. Habhab's Bio</a>
                                 </div>
                             </div>
                         </a>
@@ -74,9 +74,9 @@ require_once 'includes/config.php';
                                     <img loading="lazy" src="assets/img/tiffany.jpg" class="img-fluid rounded-circle doc-pic" alt="tiffany murray">
                                 </div>
                                 <div class="member-info mt-3">
-                                    <h5>Tiffany Murray LMSW</h5>
+                                    <h3 class="h5">Tiffany Murray LMSW</h3>
                                     <span>Licensed Clinical Social Worker</span>
-                                    <a href="dr-tiffany-murray" class="btn btn-primary d-block w-50 m-auto mt-3">View Bio</a>
+                                    <a href="dr-tiffany-murray" class="btn btn-primary d-block w-50 m-auto mt-3">View Tiffany's Bio</a>
                                 </div>
                             </div>
                         </a>
@@ -93,9 +93,9 @@ require_once 'includes/config.php';
                                     <img loading="lazy" src="assets/img/malak.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="malak wehbe">
                                 </div>
                                 <div class="member-info mt-3">
-                                    <h5>Malak Wehbe, TLLP</h5>
+                                    <h3 class="h5">Malak Wehbe, TLLP</h3>
                                     <span>Therapist</span>
-                                    <a href="malak-wehbe" class="btn btn-primary d-block w-50 m-auto mt-3">View Bio</a>
+                                    <a href="malak-wehbe" class="btn btn-primary d-block w-50 m-auto mt-3">View Malak's Bio</a>
                                 </div>
                             </div>
                         </a>
@@ -107,9 +107,9 @@ require_once 'includes/config.php';
                                     <img loading="lazy" src="assets/img/donna.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="donna majed">
                                 </div>
                                 <div class="member-info mt-3">
-                                    <h5>Donna Majed, TLLP</h5>
+                                    <h3 class="h5">Donna Majed, TLLP</h3>
                                     <span>Therapist</span>
-                                    <a href="donna-majed" class="btn btn-primary d-block w-50 m-auto mt-3">View Bio</a>
+                                    <a href="donna-majed" class="btn btn-primary d-block w-50 m-auto mt-3">View Donna's Bio</a>
                                 </div>
                             </div>
                         </a>

@@ -43,6 +43,7 @@ require_once 'includes/config.php';
                     </div>
                     <div class="col-lg-8 col-md-8"
                         data-aos="fade-up" data-aos-delay="100">
+                        <h2>Background & Experience</h2>
                         <p>As a PhD licensed psychologist with 10+ years in mental health, I believe in a client centered approach which fosters
                         resilience and personal growth. In addition to training and certification in evidence based attachment therapies and
                         cognitive behavioral therapies, I have extensive knowledge, training and experience in the field of child and adolescent

@@ -34,7 +34,7 @@ require_once 'includes/config.php';
                 <div class="row">
                     <div class="col-md-9">
                         <div class="mx-auto" class="content-max-width">
-                        <h1>Telehealth Therapy</h1>
+                        <h2 class="fw-bold">Telehealth Therapy</h2>
                         <p>At Healing Therapy Center, we understand that accessing mental health care can sometimes be
                             challenging due to busy
                             schedules, geographical limitations, or other barriers. That’s why we offer telehealth

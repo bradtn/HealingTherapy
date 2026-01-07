@@ -22,37 +22,34 @@ require_once 'includes/config.php';
                     <div class="col-lg-8 col-12">
                         <div class="row g-4">
                             <div class="col col-md-6">
-                                <a href="healing-starts-with-you" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/blog-8.jpg" class="card-img-top" alt="healing starts with you">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Healing Starts With You</h5>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Dr. Nadia Habhab</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/16/2025</span>
-                                                        </div>
+                                <div class="card">
+                                    <img src="assets/img/blog-8.jpg" class="card-img-top" alt="healing starts with you">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="healing-starts-with-you" class="text-black">Healing Starts With You</a></h5>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="hstack my-2">
+                                                    <div class="me-3">
+                                                        <i class="fa fa-user me-1 text-primary"></i>
+                                                        <span class="fs-6">Dr. Nadia Habhab</span>
+                                                    </div>
+                                                    <div>
+                                                        <i class="fa fa-calendar me-1 text-primary"></i>
+                                                        <span class="fs-6">12/16/2025</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="card-text">Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that affects communication..</p>
-                                            <a href="healing-starts-with-you" class="btn btn-primary mt-3">Learn About Healing & Relationships</a>
                                         </div>
+                                        <p class="card-text">Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that affects communication..</p>
+                                        <a href="healing-starts-with-you" class="btn btn-primary mt-3">Learn About Healing & Relationships</a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col col-md-6">
-                                <a href="autism-signs" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/blog-7.jpg" class="card-img-top" alt="autism curable">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Is Autism Curable</h5>
+                                <div class="card">
+                                    <img src="assets/img/blog-7.jpg" class="card-img-top" alt="autism curable">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="is-autism-curable" class="text-black">Is Autism Curable</a></h5>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -68,17 +65,15 @@ require_once 'includes/config.php';
                                                 </div>
                                             </div>
                                             <p class="card-text">Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that affects communication..</p>
-                                            <a href="is-autism-curable" class="btn btn-primary mt-3">Explore Autism Treatment Facts</a>
-                                        </div>
+                                        <a href="is-autism-curable" class="btn btn-primary mt-3">Explore Autism Treatment Facts</a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col col-md-6">
-                                <a href="autism-signs" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/blog-6.jpg" class="card-img-top" alt="parenting child">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Parenting a Child with Autism</h5>
+                                <div class="card">
+                                    <img src="assets/img/blog-6.jpg" class="card-img-top" alt="parenting child">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="parenting-child" class="text-black">Parenting a Child with Autism</a></h5>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -94,17 +89,15 @@ require_once 'includes/config.php';
                                                 </div>
                                             </div>
                                             <p class="card-text">Raising a child with autism spectrum disorder (ASD) comes with unique joys and challenges..</p>
-                                            <a href="parenting-child" class="btn btn-primary mt-3">Explore Autism Parenting Tips</a>
-                                        </div>
+                                        <a href="parenting-child" class="btn btn-primary mt-3">Explore Autism Parenting Tips</a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col col-md-6">
-                                <a href="autism-signs" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/blog-5.jpg" class="card-img-top" alt="autism signs">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Early Signs of Autism in children</h5>
+                                <div class="card">
+                                    <img src="assets/img/blog-5.jpg" class="card-img-top" alt="autism signs">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="autism-signs" class="text-black">Early Signs of Autism in children</a></h5>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -122,17 +115,15 @@ require_once 'includes/config.php';
                                             <p class="card-text">Navigating the early years of your child’s life is filled with joy and challenges.
                                                 As a parent, you want to ensure that
                                                 your child..</p>
-                                            <a href="autism-signs" class="btn btn-primary mt-3">Learn About Early Autism Signs</a>
-                                        </div>
+                                        <a href="autism-signs" class="btn btn-primary mt-3">Learn About Early Autism Signs</a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col col-md-6">
-                                <a href="breaking-stigma" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/blog-4.jpg" class="card-img-top" alt="breaking stigma">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Breaking the Stigma</h5>
+                                <div class="card">
+                                    <img src="assets/img/blog-4.jpg" class="card-img-top" alt="breaking stigma">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="breaking-stigma" class="text-black">Breaking the Stigma</a></h5>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -150,17 +141,15 @@ require_once 'includes/config.php';
                                             <p class="card-text">In order to be able to break stigma around mental
                                                 health treatment it is important
                                                 to understand what stigma is ..</p>
-                                            <a href="breaking-stigma" class="btn btn-primary mt-3">Learn About Mental Health Stigma</a>
-                                        </div>
+                                        <a href="breaking-stigma" class="btn btn-primary mt-3">Learn About Mental Health Stigma</a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col col-md-6">
-                                <a href="coping-with-postpartum-depression" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/blog3.jpg" class="card-img-top" alt="coping postpartum">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Coping with Depression</h5>
+                                <div class="card">
+                                    <img src="assets/img/blog3.jpg" class="card-img-top" alt="coping postpartum">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="coping-with-postpartum-depression" class="text-black">Coping with Depression</a></h5>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -178,18 +167,15 @@ require_once 'includes/config.php';
                                             <p class="card-text">Becoming a mother is one of life’s most beautiful and
                                                 transformative experiences.
                                                 However, it also comes..</p>
-                                            <a href="coping-with-postpartum-depression"
-                                                class="btn btn-primary mt-3">Explore Postpartum Depression Tips</a>
-                                        </div>
+                                        <a href="coping-with-postpartum-depression" class="btn btn-primary mt-3">Explore Postpartum Depression Tips</a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col col-md-6">
-                                <a href="how-to-find-the-right-therapist" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/blog2.jpg" class="card-img-top" alt="fint right therapist">
-                                        <div class="card-body">
-                                            <h5 class="card-title">How to Find the Right Therapist</h5>
+                                <div class="card">
+                                    <img src="assets/img/blog2.jpg" class="card-img-top" alt="fint right therapist">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="how-to-find-the-right-therapist" class="text-black">How to Find the Right Therapist</a></h5>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -207,18 +193,15 @@ require_once 'includes/config.php';
                                             <p class="card-text">Finding the right therapist is a crucial step toward
                                                 improving your mental health
                                                 and overall well-being..</p>
-                                            <a href="how-to-find-the-right-therapist"
-                                                class="btn btn-primary mt-3">Read Therapist Selection Guide</a>
-                                        </div>
+                                        <a href="how-to-find-the-right-therapist" class="btn btn-primary mt-3">Read Therapist Selection Guide</a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col col-md-6">
-                                <a href="understanding-depression" class="text-black">
-                                    <div class="card">
-                                        <img src="assets/img/blog1.jpg" class="card-img-top" alt="understanding depression">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Understanding Depression</h5>
+                                <div class="card">
+                                    <img src="assets/img/blog1.jpg" class="card-img-top" alt="understanding depression">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="understanding-depression" class="text-black">Understanding Depression</a></h5>
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="hstack my-2">
@@ -237,11 +220,9 @@ require_once 'includes/config.php';
                                                 concentrating? Maybe you
                                                 thought could this be depression?
                                                 Sometime..</p>
-                                            <a href="understanding-depression" class="btn btn-primary mt-3">Read
-                                                More</a>
-                                        </div>
+                                        <a href="understanding-depression" class="btn btn-primary mt-3">Read More</a>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
