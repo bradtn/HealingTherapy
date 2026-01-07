@@ -34,9 +34,9 @@ require_once 'includes/config.php';
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch justify-content-center text-center"
                         data-aos="fade-up" data-aos-delay="100">
                         <div class="team-member">
-                            <div class="member-img rounded-circle border border-4 border-primary" style="width: 350px; height: 350px;">
-                                <img src="assets/img/malak.jpg" class="img-fluid rounded-circle p-3" alt="malak wehbe"
-                                    style="object-fit: cover; object-position: center; aspect-ratio: 1;">
+                            <div class="member-img rounded-circle border border-4 border-primary" style="width: 300px; height: 300px; max-width: 100%;">
+                                <img src="assets/img/malak.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="malak wehbe"
+                                    style="width: 100%; height: 100%; object-fit: cover;">
                             </div>
                         </div>
                     </div>
