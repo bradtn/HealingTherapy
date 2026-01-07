@@ -100,7 +100,7 @@ require_once 'includes/config.php';
                                         Through thorough evaluations, families can gain a clearer understanding of their
                                         child's needs and the best treatment
                                         options available.<br><a
-                                            href="https://healingtherapycenter.com/psychological-testing">Learn
+                                            href="https://www.healingtherapycenter.com/psychological-testing">Learn
                                             more about Psychological Testing</a></p>
                                     <h5>Embracing Neurodiversity: Autism as a Different Way of Thinking</h5>
                                     <p>Instead of viewing autism as something to be "cured," many experts and advocates
@@ -135,11 +135,11 @@ require_once 'includes/config.php';
                                             Habhab</b> offers expert psychological testing and
                                         therapy to help individuals and families navigate autism with confidence.</p>
                                     <p><i class="fa fa-calendar me-2"></i><a
-                                            href="https://healingtherapycenter.com/appointment">Book an Appointment
+                                            href="https://www.healingtherapycenter.com/appointment">Book an Appointment
                                             with Dr. Nadia Habhab Today</a></p>
                                     <p>For more information about autism, visit reputable sources like:</p>
                                     <ul>
-                                        <li><a href="https://healingtherapycenter.com/dr-nadia-habhab"
+                                        <li><a href="https://www.healingtherapycenter.com/dr-nadia-habhab"
                                                 target="_blank" rel="noopener noreferrer">Dr. Nadia Habhab – Healing Therapy Center</a></li>
                                         <li><a href="https://www.autismspeaks.org/" target="_blank" rel="noopener noreferrer">Autism Speaks</a>
                                         </li>

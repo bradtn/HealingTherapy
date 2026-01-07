@@ -139,7 +139,7 @@ require_once 'includes/config.php';
                                         It’s not about labeling your child but
                                         rather understanding their needs to provide the best support possible.</p>
                                     <p>If you’re ready to begin, schedule an appointment with <a
-                                            href="https://healingtherapycenter.com/" target="_blank" rel="noopener noreferrer">Healing Therapy
+                                            href="https://www.healingtherapycenter.com/" target="_blank" rel="noopener noreferrer">Healing Therapy
                                             Center</a> today. We offer comprehensive autism
                                         evaluations and supportive services to help your child thrive.</p>
                                 </div>
