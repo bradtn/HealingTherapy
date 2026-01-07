@@ -24,10 +24,16 @@ Redirect 301 /coping-with-postpartum-pepression.html /coping-with-postpartum-dep
 Redirect 301 /is-austim-curable.html /is-autism-curable.html
 Redirect 301 /tiffany-murray.html /dr-tiffany-murray.html
 
-# 4. Force HTTPS (if applicable)
+# 4. Force HTTPS and normalize www/non-www
 RewriteEngine On
+
+# Force HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect non-www to www (canonical domain normalization)
+RewriteCond %{HTTP_HOST} ^healingtherapycenter\.com$ [NC]
+RewriteRule ^(.*)$ https://www.healingtherapycenter.com/$1 [L,R=301]
 
 # 4b. Remove .html extension from URLs
 # Redirect /index to root (prevent duplicate content)
