@@ -32,7 +32,7 @@ require_once 'includes/config.php';
                 <h2>Our Team<br></h2>
                 <p>At Healing Therapy Center, our team of dedicated licensed therapists in Dearborn, MI is committed to providing exceptional care and support to
                 our clients. With over 20 combined years of experience in the field, our therapists bring a wealth of knowledge and
-                expertise to every session. We accept major insurance plans including BCBS and Aetna to make quality mental health care accessible. We believe that the hardest step is the first one but our compassionate and skilled
+                expertise to every session. BCBS, Aetna, and other major insurance plans accepted to make quality mental health care accessible. We believe that the hardest step is the first one but our compassionate and skilled
                 professionals are here to guide you on your journey to health and happiness.</p>
             </div>
             <div class="container-fluid">

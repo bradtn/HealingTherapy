@@ -35,7 +35,7 @@ require_once 'includes/config.php';
                 <div class="row">
                     <div class="col-md-9">
                         <div class="mx-auto" class="content-max-width">
-                        <h1>Compassionate Perinatal Therapy Services</h1>
+                        <h1>Compassionate Perinatal Therapy & Postpartum Treatment in Michigan</h1>
                         <p>The journey of bringing new life into the world can be filled with profound joy, wonder, and anticipation.
                             Yet it can also bring unexpected challenges, deep vulnerability, and emotional complexity. Whether you're
                             navigating pregnancy, preparing for birth, adjusting to life with a newborn, or facing challenges along
