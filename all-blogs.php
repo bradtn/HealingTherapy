@@ -42,7 +42,7 @@ require_once 'includes/config.php';
                                                 </div>
                                             </div>
                                             <p class="card-text">Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that affects communication..</p>
-                                            <a href="healing-starts-with-you" class="btn btn-primary mt-3">Read More</a>
+                                            <a href="healing-starts-with-you" class="btn btn-primary mt-3">Learn About Healing & Relationships</a>
                                         </div>
                                     </div>
                                 </a>
@@ -68,7 +68,7 @@ require_once 'includes/config.php';
                                                 </div>
                                             </div>
                                             <p class="card-text">Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that affects communication..</p>
-                                            <a href="is-autism-curable" class="btn btn-primary mt-3">Read More</a>
+                                            <a href="is-autism-curable" class="btn btn-primary mt-3">Explore Autism Treatment Facts</a>
                                         </div>
                                     </div>
                                 </a>
@@ -94,7 +94,7 @@ require_once 'includes/config.php';
                                                 </div>
                                             </div>
                                             <p class="card-text">Raising a child with autism spectrum disorder (ASD) comes with unique joys and challenges..</p>
-                                            <a href="parenting-child" class="btn btn-primary mt-3">Read More</a>
+                                            <a href="parenting-child" class="btn btn-primary mt-3">Explore Autism Parenting Tips</a>
                                         </div>
                                     </div>
                                 </a>
@@ -122,7 +122,7 @@ require_once 'includes/config.php';
                                             <p class="card-text">Navigating the early years of your child’s life is filled with joy and challenges.
                                                 As a parent, you want to ensure that
                                                 your child..</p>
-                                            <a href="autism-signs" class="btn btn-primary mt-3">Read More</a>
+                                            <a href="autism-signs" class="btn btn-primary mt-3">Learn About Early Autism Signs</a>
                                         </div>
                                     </div>
                                 </a>
@@ -150,7 +150,7 @@ require_once 'includes/config.php';
                                             <p class="card-text">In order to be able to break stigma around mental
                                                 health treatment it is important
                                                 to understand what stigma is ..</p>
-                                            <a href="breaking-stigma" class="btn btn-primary mt-3">Read More</a>
+                                            <a href="breaking-stigma" class="btn btn-primary mt-3">Learn About Mental Health Stigma</a>
                                         </div>
                                     </div>
                                 </a>
@@ -179,7 +179,7 @@ require_once 'includes/config.php';
                                                 transformative experiences.
                                                 However, it also comes..</p>
                                             <a href="coping-with-postpartum-depression"
-                                                class="btn btn-primary mt-3">Read More</a>
+                                                class="btn btn-primary mt-3">Explore Postpartum Depression Tips</a>
                                         </div>
                                     </div>
                                 </a>
@@ -208,7 +208,7 @@ require_once 'includes/config.php';
                                                 improving your mental health
                                                 and overall well-being..</p>
                                             <a href="how-to-find-the-right-therapist"
-                                                class="btn btn-primary mt-3">Read More</a>
+                                                class="btn btn-primary mt-3">Read Therapist Selection Guide</a>
                                         </div>
                                     </div>
                                 </a>
