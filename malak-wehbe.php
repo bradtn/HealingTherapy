@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Malak Wehbe, LLMSW | Therapist | Healing Therapy Center';
-$page_description = 'Malak Wehbe, LLMSW - Licensed therapist at Healing Therapy Center in Dearborn, MI. Specialized in trauma, anxiety, and culturally sensitive therapy.';
+$page_title = 'Malak Wehbe, MA, TLLP | Therapist | Healing Therapy Center';
+$page_description = 'Malak Wehbe, MA, TLLP - Therapist at Healing Therapy Center in Dearborn, MI. Specialized in child therapy, trauma, anxiety, and culturally sensitive care.';
 $canonical_url = 'https://www.healingtherapycenter.com/malak-wehbe';
 
 // Include configuration

@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Amal Ayad, LLMSW | Therapist | Healing Therapy Center';
-$page_description = 'Amal Ayad, LLMSW - Licensed therapist at Healing Therapy Center in Dearborn, MI. Specializing in individual therapy, anxiety, depression, and trauma treatment.';
+$page_title = 'Amal Ayad, MA | Life Coach | Healing Therapy Center';
+$page_description = 'Amal Ayad, MA - Life Coach at Healing Therapy Center in Dearborn, MI. Specializing in life coaching, goal setting, confidence building, and personal growth.';
 $canonical_url = 'https://www.healingtherapycenter.com/amal-ayad';
 
 // Include configuration

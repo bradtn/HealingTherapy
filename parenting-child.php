@@ -30,7 +30,7 @@ require_once 'includes/config.php';
                                         challenges. From navigating sensory
                                         sensitivities to managing behavioral difficulties and social communication
                                         barriers, parents often find themselves
-                                        facing emotional, mental, and physical stress. Seeking therapy services can
+                                        facing emotional, mental, and physical stress. We offer expert tips and ongoing support for families navigating this journey. Seeking therapy services can
                                         provide invaluable support for both parents
                                         and children, helping to enhance overall well-being and strengthen family
                                         dynamics.<br><a

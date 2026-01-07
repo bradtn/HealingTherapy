@@ -25,13 +25,13 @@ require_once 'includes/config.php';
                                     <div class="news-head">
                                         <img loading="lazy" src="assets/img/blog3.jpg" class="img-fluid" alt="coping postpartum">
                                     </div>
-                                    <h1 class="my-2">Coping with Postpartum Depression: Strategies to Improve Mental Well-Being</h1>
+                                    <h1 class="my-2">Coping with Postpartum Depression: Expert Tips & Strategies to Improve Mental Well-Being</h1>
                                     <p>Becoming a mother is one of life&rsquo;s most beautiful and transformative
                                         experiences. However, it also comes with
                                         significant challenges&mdash;sleepless nights, hormonal changes, and the
                                         overwhelming responsibility of caring for a
                                         newborn. For many new moms, these adjustments can lead to feelings of sadness,
-                                        anxiety, and even despair. If
+                                        anxiety, and even despair. Our licensed therapists share expert tips for managing these challenges. If
                                         you&rsquo;re feeling this way, you&rsquo;re not alone.</p>
                                     <p>Postpartum depression (PPD) affects about 1 in 7 women after childbirth, making
                                         it a common yet often misunderstood

@@ -34,11 +34,11 @@ require_once 'includes/config.php';
                 <div class="row">
                     <div class="col-md-9">
                         <div class="mx-auto" class="content-max-width">
-                        <h2 class="fw-bold">Telehealth Therapy</h2>
+                        <h2 class="fw-bold">Telehealth Therapy & Online Counseling</h2>
                         <p>At Healing Therapy Center, we understand that accessing mental health care can sometimes be
                             challenging due to busy
-                            schedules, geographical limitations, or other barriers. That’s why we offer telehealth
-                            therapy services, providing you
+                            schedules, geographical limitations, or other barriers. That's why we offer telehealth
+                            therapy and online counseling services, providing you
                             with the flexibility to receive professional support from the comfort of your own home.</p>
                         <h3 class="fw-bold">What is Telehealth Therapy?</h3>
                         <p>Telehealth therapy, also known as online therapy or virtual therapy, involves conducting
