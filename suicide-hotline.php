@@ -65,7 +65,7 @@ require_once 'includes/config.php';
                             <h3>SAMHSA National Helpline</h3>
                             <p>Free, confidential help for substance use disorders and mental health.</p>
                             <h4 class="text-center">Call: <a href="tel:1-800-662-4357">1-800-662-HELP</a></h4>
-                            <a href="https://www.samhsa.gov/find-help/national-helpline">SAMHSA Helpline</a>
+                            <a href="https://www.samhsa.gov/find-help/helplines/national-helpline">SAMHSA Helpline</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="500">
