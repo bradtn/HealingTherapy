@@ -196,17 +196,15 @@ require_once 'includes/config.php';
 
         <div class="row g-4 justify-content-center">
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
-            <a href="therapists" class="text-decoration-none">
               <div class="card h-100 border-0 shadow-sm text-center">
                 <div class="card-body">
                   <div class="mb-3" style="font-size: 2.5rem; color: var(--accent-color);">
                     <i class="bi bi-person-check-fill"></i>
                   </div>
-                  <h3 class="card-title h5">Same Therapist Every Session</h3>
+                  <h3 class="card-title h5"><a href="therapists" class="text-decoration-none">Meet Our Therapists</a></h3>
                   <p class="card-text small text-muted">Build a real relationship with your therapist—no random assignments or rotating providers like online platforms.</p>
                 </div>
               </div>
-            </a>
           </div>
 
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -432,11 +430,10 @@ require_once 'includes/config.php';
 
         <div class="row justify-content-center">
           <div class="col-12 col-md-6 col-lg-4 g-3">
-            <a href="parenting-child" class="text-black">
               <div class="card">
                 <img loading="lazy" src="assets/img/blog-6.jpg" class="card-img-top" alt="parenting child autism">
                 <div class="card-body">
-                  <h4 class="card-title h5">Parenting a Child with Autism</h4>
+                  <h4 class="card-title h5"><a href="parenting-child" class="text-black">Parenting a Child with Autism</a></h4>
                   <div class="row">
                     <div class="col-12">
                       <div class="hstack my-2">
@@ -452,17 +449,15 @@ require_once 'includes/config.php';
                     </div>
                   </div>
                   <p class="card-text">Raising a child with autism spectrum disorder (ASD) comes with unique joys and challenges..</p>
-                  <a href="parenting-child" class="btn btn-primary mt-3">Read About Autism Parenting</a>
+                  <a href="parenting-child" class="btn btn-primary mt-3">Read More</a>
                 </div>
               </div>
-            </a>
           </div>
           <div class="col-12 col-md-6 col-lg-4 g-3">
-            <a href="healing-starts-with-you" class="text-black">
               <div class="card">
                 <img loading="lazy" src="assets/img/blog-8.jpg" class="card-img-top" alt="healing starts with you">
                 <div class="card-body">
-                  <h4 class="card-title h5">Healing Starts With You</h4>
+                  <h4 class="card-title h5"><a href="healing-starts-with-you" class="text-black">Healing Starts With You</a></h4>
                   <div class="row">
                     <div class="col-12">
                       <div class="hstack my-2">
@@ -478,17 +473,15 @@ require_once 'includes/config.php';
                     </div>
                   </div>
                   <p class="card-text">Family dynamics and romantic relationships are among the most meaningful, and often most complex connections..</p>
-                  <a href="healing-starts-with-you" class="btn btn-primary mt-3">Read About Healing</a>
+                  <a href="healing-starts-with-you" class="btn btn-primary mt-3">Read More</a>
                 </div>
               </div>
-            </a>
           </div>
           <div class="col-12 col-md-6 col-lg-4 g-3">
-            <a href="autism-signs" class="text-black">
               <div class="card">
                 <img loading="lazy" src="assets/img/blog-7.jpg" class="card-img-top" alt="autism curable">
                 <div class="card-body">
-                  <h4 class="card-title h5">Is Autism Curable</h4>
+                  <h4 class="card-title h5"><a href="is-autism-curable" class="text-black">Is Autism Curable</a></h4>
                   <div class="row">
                     <div class="col-12">
                       <div class="hstack my-2">
@@ -505,10 +498,9 @@ require_once 'includes/config.php';
                   </div>
                   <p class="card-text">Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that affects
                     communication..</p>
-                  <a href="is-autism-curable" class="btn btn-primary mt-3">Learn About Autism</a>
+                  <a href="is-autism-curable" class="btn btn-primary mt-3">Read More</a>
                 </div>
               </div>
-            </a>
           </div>
         </div>
         <div class="text-center mt-5">
