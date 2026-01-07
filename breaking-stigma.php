@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Breaking the Stigma: Why Mental Health Matters | Healing Therapy';
+$page_title = 'Breaking Mental Health Stigma | Healing Therapy Blog';
 $page_description = 'Breaking down mental health stigma. Learn why seeking therapy is a sign of strength, not weakness. Tips for talking about mental health openly.';
 $canonical_url = 'https://www.healingtherapycenter.com/breaking-stigma';
 

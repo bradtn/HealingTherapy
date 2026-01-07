@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Donna Majed, TLLP | Therapist | Healing Therapy Center';
-$page_description = 'Donna Majed, TLLP - Licensed therapist at Healing Therapy Center in Dearborn, MI. Specializing in women\'s mental health, anxiety, OCD, depression, postpartum, trauma, and relationship stress.';
+$page_description = 'Donna Majed, TLLP - Therapist in Dearborn, MI. Specializing in women\'s mental health, anxiety, OCD, depression, postpartum, and trauma.';
 $canonical_url = 'https://www.healingtherapycenter.com/donna-majed';
 
 // Include configuration

@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Depression Counseling & Therapy in Michigan | Healing Therapy Center';
+$page_title = 'Depression Counseling in Michigan | Dearborn & Telehealth';
 $page_description = 'Evidence-based depression treatment in Michigan. Therapy for major depression, persistent depression, postpartum depression. Telehealth & Dearborn office.';
 $canonical_url = 'https://www.healingtherapycenter.com/depression-counseling-michigan';
 

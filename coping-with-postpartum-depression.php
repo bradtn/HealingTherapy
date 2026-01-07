@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Coping With Postpartum Depression | Healing Therapy Center Blog';
-$page_description = 'Mental health insights and advice from Healing Therapy Center therapists. Evidence-based tips for wellness and recovery.';
+$page_title = 'Coping With Postpartum Depression | Expert Tips';
+$page_description = 'Learn how to cope with postpartum depression. Symptoms, treatment options, and when to seek help. Expert guidance from licensed therapists.';
 $canonical_url = 'https://www.healingtherapycenter.com/coping-with-postpartum-depression';
 
 // Include configuration

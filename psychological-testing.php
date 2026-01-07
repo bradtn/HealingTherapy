@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Psychological Testing in Michigan | Autism, ADHD & Learning Disability Evaluations';
-$page_description = 'Comprehensive psychological testing in Dearborn, Michigan. Autism evaluations, ADHD testing, learning disability assessments for children & adults. Accepts BCBS, Aetna, Priority Health. Call (313) 654-1915.';
+$page_title = 'Psychological Testing in Michigan | Autism & ADHD';
+$page_description = 'Psychological testing in Dearborn, MI. Autism, ADHD, learning disability evaluations for children & adults. BCBS, Aetna accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/psychological-testing';
 $current_service = 'testing'; // For sidebar active state
 

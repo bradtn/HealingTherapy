@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Free Autism Screening Tool | M-CHAT-R | Healing Therapy Center';
+$page_title = 'Free Autism Screening Tool | M-CHAT-R Assessment';
 $page_description = 'Free online autism screening tool (M-CHAT-R) for children 16-30 months. Quick assessment to determine if autism evaluation is needed. Call (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-screening-tool';
 

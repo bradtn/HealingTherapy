@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Blog | Healing Therapy Center | Mental Health & Wellness Resources';
+$page_title = 'Mental Health Blog | Healing Therapy Center';
 $page_description = 'Mental health blog from Healing Therapy Center. Expert advice on anxiety, depression, relationships, parenting, trauma recovery, and wellness tips.';
 $canonical_url = 'https://www.healingtherapycenter.com/all-blogs';
 

@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Individual Therapy in Dearborn, MI | BCBS, Aetna Insurance Accepted';
-$page_description = 'Individual therapy in Dearborn, Michigan for anxiety, depression, trauma & stress. Licensed therapists accepting Blue Cross Blue Shield, Aetna, Priority Health. Telehealth available. Call (313) 654-1915.';
+$page_title = 'Individual Therapy in Dearborn, MI | Insurance Accepted';
+$page_description = 'Individual therapy in Dearborn, MI for anxiety, depression, trauma & stress. BCBS, Aetna, Priority Health accepted. Telehealth available. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/individual-therapy';
 $current_service = 'individual'; // For sidebar active state
 

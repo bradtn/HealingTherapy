@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Perinatal Therapy & Postpartum Depression Treatment | Michigan';
+$page_title = 'Perinatal Therapy & Postpartum Treatment | Michigan';
 $page_description = 'Specialized perinatal therapy in Michigan. Treatment for postpartum depression, anxiety, birth trauma, pregnancy loss. Compassionate support for new mothers.';
 $canonical_url = 'https://www.healingtherapycenter.com/perinatal-therapy';
 $current_service = 'perinatal'; // For sidebar active state

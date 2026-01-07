@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Dr. Nadia Habhab, PhD, LP | Psychologist | Healing Therapy Center';
+$page_title = 'Dr. Nadia Habhab, PhD, LP | Psychologist in Dearborn';
 $page_description = 'Dr. Nadia Habhab, PhD, LP - Licensed psychologist at Healing Therapy Center in Dearborn, MI. Psychological testing, therapy for adults and children.';
 $canonical_url = 'https://www.healingtherapycenter.com/dr-nadia-habhab';
 

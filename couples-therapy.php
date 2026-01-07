@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Couples Therapy & Marriage Counseling in Dearborn, MI | Insurance Accepted';
-$page_description = 'Expert couples therapy and marriage counseling in Dearborn, Michigan. Rebuild connection, resolve conflicts. Accepts Blue Cross Blue Shield, Aetna, Priority Health. In-person & telehealth. Call (313) 654-1915.';
+$page_title = 'Couples Therapy & Marriage Counseling | Dearborn, MI';
+$page_description = 'Couples therapy and marriage counseling in Dearborn, MI. Rebuild connection, resolve conflicts. BCBS, Aetna accepted. In-person & telehealth. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/couples-therapy';
 $current_service = 'couples'; // For sidebar active state
 

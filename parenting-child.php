@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Parenting Child | Healing Therapy Center Blog';
-$page_description = 'Mental health insights and advice from Healing Therapy Center therapists. Evidence-based tips for wellness and recovery.';
+$page_title = 'Parenting a Child with Autism | Tips & Support';
+$page_description = 'Expert tips for parenting a child with autism. Strategies for communication, behavior management, and family support from licensed therapists.';
 $canonical_url = 'https://www.healingtherapycenter.com/parenting-child';
 
 // Include configuration

@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'ADHD Testing & Evaluation in Michigan | Children & Adults';
-$page_description = 'Comprehensive ADHD testing in Michigan for children and adults. Professional evaluation, diagnosis & treatment planning. Telehealth & Dearborn. Call (313) 654-1915';
+$page_description = 'ADHD testing in Michigan for children and adults. Professional evaluation & diagnosis. Telehealth & Dearborn. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/adhd-testing-evaluation';
 
 // Include configuration

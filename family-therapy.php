@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Family Therapy in Dearborn, MI | Insurance Accepted | Healing Therapy Center';
-$page_description = 'Family therapy and counseling in Dearborn, Michigan. Improve communication, resolve conflicts, strengthen bonds. Accepts Blue Cross Blue Shield, Aetna, Priority Health. Call (313) 654-1915.';
+$page_title = 'Family Therapy in Dearborn, MI | Insurance Accepted';
+$page_description = 'Family therapy in Dearborn, MI. Improve communication, resolve conflicts, strengthen bonds. BCBS, Aetna, Priority Health accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/family-therapy';
 $current_service = 'family'; // For sidebar active state
 

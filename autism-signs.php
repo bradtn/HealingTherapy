@@ -101,10 +101,10 @@ require_once 'includes/config.php';
                                     </ul>
                                     <p>Common assessment tools include:</p>
                                     <ul>
-                                        <li><a href="https://autism.org/autism-diagnostic-observation-schedule-ados-2/" target="_blank" rel="noopener noreferrer">Autism Diagnostic Observation Schedule (ADOS-2)</a></li>
-                                        <li><a href="https://autism.org/autism-diagnostic-interview-adi-r/" target="_blank" rel="noopener noreferrer">Autism Diagnostic Interview (ADI-R)</a></li>
-                                        <li><a href="https://www.pearsonassessments.com/en-us/Store/Professional-Assessments/Behavior/Vineland-Adaptive-Behavior-Scales-%7C-Third-Edition/p/100001622" target="_blank" rel="noopener noreferrer">Vineland Adaptive Behavior Scales (Vineland-3)</a></li>
-                                        <li><a href="https://www.proedinc.com/EHandler404.aspx?p=14550" target="_blank" rel="noopener noreferrer">Childhood Autism Rating Scale (CARS)</a></li>
+                                        <li>Autism Diagnostic Observation Schedule (ADOS-2)</li>
+                                        <li>Autism Diagnostic Interview (ADI-R)</li>
+                                        <li><a href="https://www.pearsonassessments.com/store/usassessments/en/Store/Professional-Assessments/Behavior/Vineland-Adaptive-Behavior-Scales-%7C-Third-Edition/p/100001622.html" target="_blank" rel="noopener noreferrer">Vineland Adaptive Behavior Scales (Vineland-3)</a></li>
+                                        <li>Childhood Autism Rating Scale (CARS)</li>
                                         <li><a href="https://www.proedinc.com/Products/14630/gars3-gilliam-autism-rating-scale-third-edition.aspx" target="_blank" rel="noopener noreferrer">Gilliam Autism Rating Scale</a></li>
                                         <li><a href="https://www.autism.org.uk/what-we-do/diagnostic-interview-for-social-and-communication-disorders" target="_blank" rel="noopener noreferrer">Diagnostic Interview for Social and Communication Disorders (DISCO)</a></li>
                                     </ul>

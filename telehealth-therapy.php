@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Telehealth Therapy in Michigan | Online Counseling | Healing Therapy Center';
+$page_title = 'Telehealth Therapy in Michigan | Online Counseling';
 $page_description = 'Secure telehealth therapy throughout Michigan. Licensed therapists for anxiety, depression, trauma, couples counseling via video. Same quality care from home.';
 $canonical_url = 'https://www.healingtherapycenter.com/telehealth-therapy';
 $current_service = 'telehealth'; // For sidebar active state

@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Healing Starts With You | Healing Therapy Center Blog';
-$page_description = 'Mental health insights and advice from Healing Therapy Center therapists. Evidence-based tips for wellness and recovery.';
+$page_title = 'Healing Starts With You | Family & Relationships';
+$page_description = 'Discover how healing starts with you. Expert advice on improving family dynamics and romantic relationships from licensed therapists.';
 $canonical_url = 'https://www.healingtherapycenter.com/healing-starts-with-you';
 
 // Include configuration

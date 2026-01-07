@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Autism Evaluation in Dearborn, MI | Insurance Accepted | Children & Adults';
-$page_description = 'Comprehensive autism evaluation in Dearborn, Michigan for children and adults. ADOS-2 assessment, expert psychologists. Accepts BCBS, Aetna, Priority Health insurance. Call (313) 654-1915.';
+$page_title = 'Autism Evaluation in Dearborn, MI | Children & Adults';
+$page_description = 'Autism evaluation in Dearborn, MI for children and adults. ADOS-2 assessment, expert psychologists. BCBS, Aetna accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-evaluation';
 
 // Include configuration
