@@ -183,22 +183,22 @@ require_once 'includes/config.php';
                                 <div class="row">
                                     <div class="col-md-3 text-center mb-3 mb-md-0">
                                         <div class="text-primary" style="font-size: 2.5rem;"><i class="bi bi-1-circle-fill"></i></div>
-                                        <h4 class="h6 mt-2">First Session</h4>
+                                        <h3 class="h6 mt-2">First Session</h3>
                                         <p class="small mb-0">60-90 min assessment</p>
                                     </div>
                                     <div class="col-md-3 text-center mb-3 mb-md-0">
                                         <div class="text-success" style="font-size: 2.5rem;"><i class="bi bi-2-circle-fill"></i></div>
-                                        <h4 class="h6 mt-2">Ongoing Sessions</h4>
+                                        <h3 class="h6 mt-2">Ongoing Sessions</h3>
                                         <p class="small mb-0">Weekly/biweekly, 50-60 min</p>
                                     </div>
                                     <div class="col-md-3 text-center mb-3 mb-md-0">
                                         <div class="text-info" style="font-size: 2.5rem;"><i class="bi bi-3-circle-fill"></i></div>
-                                        <h4 class="h6 mt-2">Both Commit</h4>
+                                        <h3 class="h6 mt-2">Both Commit</h3>
                                         <p class="small mb-0">Active participation needed</p>
                                     </div>
                                     <div class="col-md-3 text-center">
                                         <div class="text-warning" style="font-size: 2.5rem;"><i class="bi bi-4-circle-fill"></i></div>
-                                        <h4 class="h6 mt-2">Timeline</h4>
+                                        <h3 class="h6 mt-2">Timeline</h3>
                                         <p class="small mb-0">8-20 sessions typical</p>
                                     </div>
                                 </div>
@@ -395,7 +395,7 @@ require_once 'includes/config.php';
                         <p>You don't have to navigate relationship challenges alone. Whether you're facing a crisis or simply want to build a stronger partnership, our experienced couples therapists at Healing Therapy Center in Dearborn are here to help.</p>
 
                         <div class="alert alert-info mt-4">
-                            <h4>Take the First Step Toward a Healthier Relationship</h4>
+                            <h3>Take the First Step Toward a Healthier Relationship</h3>
                             <p><strong>Call us today:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></p>
                             <p><strong>Location:</strong> 22005 Outer Dr W, Dearborn, MI 48124</p>
                             <p><strong>Hours:</strong> Monday-Friday 9:00 AM - 5:00 PM, Saturday 9:00 AM - 2:00 PM</p>
