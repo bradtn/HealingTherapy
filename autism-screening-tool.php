@@ -20,7 +20,7 @@ require_once 'includes/config.php';
             <section id="screening" class="content-section active" aria-label="Autism Screening Tool">
                 <div class="screening-intro">
                     <h1>Free Autism Spectrum Disorder (ASD) Screening Questionnaire</h1>
-                    <p><strong>Early detection makes a difference.</strong> This free M-CHAT-R (Modified Checklist for Autism in Toddlers, Revised) assessment is an evidence-based screening tool that helps identify potential signs of autism in children. The M-CHAT-R is designed for children ages 16-30 months. <em>Note: This is not a diagnostic tool - professional evaluation is recommended.</em></p>
+                    <p><strong>Early detection makes a difference.</strong> This free screening questionnaire uses the M-CHAT-R (Modified Checklist for Autism in Toddlers, Revised) to help identify potential signs of autism spectrum disorder in children. The M-CHAT-R assessment is designed for children ages 16-30 months. <em>Note: This questionnaire is a screening tool only - professional evaluation is recommended for diagnosis.</em></p>
                 </div>
 
                 <div class="progress-bar">

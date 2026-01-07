@@ -32,8 +32,8 @@ require_once 'includes/config.php';
                                     <p>At Healing Therapy Center, I’ve worked with countless individuals who came in looking to “fix” a relationship only to
                                     discover the most powerful breakthroughs came when they started working on themselves.
                                     </p>
-                                    <p>In this blog, we’ll explore how individual therapy can dramatically transform how you relate to others, deepen your
-                                    emotional awareness, and resolve long-standing relational patterns.</p>
+                                    <p>In this blog, we'll explore how individual therapy strengthens relationships by transforming how you relate to others, deepening your
+                                    emotional awareness, and resolving long-standing relational patterns.</p>
                                     <h2>Why Do Relationship Problems Often Feel So Personal?</h2>
                                     <p>When communication breaks down, tempers flare, or silence stretches for days, the emotional toll can be heavy. Poor
                                     communication is one of the most common and overlooked sources of relational distress. Often, partners or family members
