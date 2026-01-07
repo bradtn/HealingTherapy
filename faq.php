@@ -19,7 +19,7 @@ require_once 'includes/config.php';
         <section class="topArea position-relative">
             <div class="overlay"></div>
             <div class="position-absolute text-center w-100">
-                <h1 class="display-3 fw-bold text-white">Therapy FAQ's</h1>
+                <h1 class="display-3 fw-bold text-white">Frequently Asked Questions About Therapy</h1>
                 <hr class="text-white w-25 m-auto my-3">
                 <a href="appointment" class="btn btn-primary btn-lg">Make an Appointment</a>
             </div>

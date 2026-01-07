@@ -19,7 +19,7 @@ require_once 'includes/config.php';
             <div class="overlay">
             </div>
             <div class="position-absolute text-center w-100">
-                <h1 class="display-3 fw-bold text-white">Donna Majed, TLLP</h1>
+                <h1 class="display-3 fw-bold text-white">Donna Majed, TLLP - Licensed Therapist</h1>
                 <i class="my-3 text-white text-uppercase">Therapist</i>
                 <hr class="text-white w-25 m-auto my-3">
 

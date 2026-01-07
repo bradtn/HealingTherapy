@@ -22,7 +22,7 @@ require_once 'includes/config.php';
             <div class="overlay">
             </div>
             <div class="position-absolute text-center w-100">
-                <div class="display-3 fw-bold text-white">Group Therapy</div>
+                <h1 class="display-3 fw-bold text-white">Group Therapy Sessions in Dearborn, MI</h1>
                 <hr class="text-white w-25 m-auto my-3">
 
                 <a href="appointment" class="btn btn-primary btn-lg">Make an Appointment</a>

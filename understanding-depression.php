@@ -27,8 +27,8 @@ require_once 'includes/config.php';
                                         <img loading="lazy" src="assets/img/blog1.jpg" class="img-fluid" alt="understanding depression">
                                     </div>
                                     <!-- News Title -->
-                                    <h3 class="news-title mt-2">Understanding Depression: Types, Symptoms, and Treatment
-                                        Options</h3>
+                                    <h1 class="news-title mt-2">Understanding Depression: Types, Symptoms, and Treatment
+                                        Options</h1>
                                     <!-- Meta -->
                                     <div class="meta">
                                         <div class="meta-left">

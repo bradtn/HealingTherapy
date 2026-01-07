@@ -25,9 +25,7 @@ require_once 'includes/config.php';
                                     <div class="news-head">
                                         <img loading="lazy" src="assets/img/blog-6.jpg" class="img-fluid" alt="parentinig child">
                                     </div>
-                                    <h3 class="my-3">Why Parents of Children with Autism Should Seek Therapy Services:
-                                        Understanding the Challenges of Parenting a Child with
-                                        Autism</h3>
+                                    <h1 class="my-3">Why Parents of Children with Autism Should Seek Therapy Services</h1>
                                     <p>Raising a child with autism spectrum disorder (ASD) comes with unique joys and
                                         challenges. From navigating sensory
                                         sensitivities to managing behavioral difficulties and social communication

@@ -25,7 +25,7 @@ require_once 'includes/config.php';
                                     <div class="news-head">
                                         <img loading="lazy" src="assets/img/blog-4.jpg" class="img-fluid" alt="breaking stigma">
                                     </div>
-                                    <h3 class="my-2">Breaking the Stigma Around Seeking Mental Health Treatment</h3>
+                                    <h1 class="my-2">Breaking the Stigma Around Seeking Mental Health Treatment</h1>
                                     <p>In order to be able to break stigma around mental health treatment it is important to understand what stigma is and how
                                     it effects why people are hesitant to seek treatment. There are over 59.2 million adults in the United States received
                                     mental health treatment, including therapy, counseling, or medication but Despite growing awareness of mental health,

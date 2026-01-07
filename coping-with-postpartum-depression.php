@@ -25,8 +25,7 @@ require_once 'includes/config.php';
                                     <div class="news-head">
                                         <img loading="lazy" src="assets/img/blog3.jpg" class="img-fluid" alt="coping postpartum">
                                     </div>
-                                    <h3 class="my-2">Coping with Postpartum Depression: 10 Strategies to Improve Mental
-                                        Well-Being</h3>
+                                    <h1 class="my-2">Coping with Postpartum Depression: Strategies to Improve Mental Well-Being</h1>
                                     <p>Becoming a mother is one of life&rsquo;s most beautiful and transformative
                                         experiences. However, it also comes with
                                         significant challenges&mdash;sleepless nights, hormonal changes, and the

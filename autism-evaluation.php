@@ -21,7 +21,7 @@ require_once 'includes/config.php';
             <div class="overlay">
             </div>
             <div class="position-absolute text-center w-100">
-                <div class="display-3 fw-bold text-white">Autism Evaluation</div>
+                <h1 class="display-3 fw-bold text-white">Autism Evaluation for Children & Adults</h1>
                 <hr class="text-white w-25 m-auto my-3">
 
                 <a href="appointment" class="btn btn-primary btn-lg">Make an Appointment</a>
@@ -33,7 +33,7 @@ require_once 'includes/config.php';
                 <div class="row">
                     <div class="col-md-9">
                         <div class="content-max-width">
-                        <h1 class="fw-bold">Autism Evaluations</h1>
+                        <h2 class="fw-bold">Autism Evaluations</h2>
                         <p>Receiving an autism diagnosis can be life-changing for individuals and their families. Our
                             goal at Healing Therapy
                             Center is to offer clear, compassionate guidance throughout the entire process. Our autism

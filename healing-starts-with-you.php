@@ -25,7 +25,7 @@ require_once 'includes/config.php';
                                     <div class="news-head">
                                         <img loading="lazy" src="assets/img/blog-8.jpg" class="img-fluid" alt="healing starts with you">
                                     </div>
-                                    <h3 class="my-3">Healing Starts with You: How Individual Therapy Can Strengthen Relationships and Resolve Family Conflict</h3>
+                                    <h1 class="my-3">Healing Starts with You: How Individual Therapy Strengthens Relationships</h1>
                                     <p>Family dynamics and romantic relationships are among the most meaningful, and often most complex connections we
                                     experience. When conflicts arise, it’s easy to assume the issue lies with the other person. But what if the path to
                                     healing starts within you?</p>

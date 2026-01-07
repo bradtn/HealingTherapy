@@ -17,6 +17,7 @@ require_once 'includes/config.php';
     <main class="main">
         <section class="news-single section">
             <div class="container">
+                <h1 class="mb-4">Mental Health Blog - Articles & Resources</h1>
                 <div class="row">
                     <div class="col-lg-8 col-12">
                         <div class="row g-4">

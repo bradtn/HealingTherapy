@@ -19,7 +19,7 @@ require_once 'includes/config.php';
             <!-- Screening Tool Section -->
             <section id="screening" class="content-section active" aria-label="Autism Screening Tool">
                 <div class="screening-intro">
-                    <h2>Free Autism Spectrum Disorder (ASD) Screening Questionnaire</h2>
+                    <h1>Free Autism Spectrum Disorder (ASD) Screening Questionnaire</h1>
                     <p><strong>Early detection makes a difference.</strong> This evidence-based screening tool helps identify potential signs of autism in children. <em>Note: This is not a diagnostic tool - professional evaluation is recommended.</em></p>
                 </div>
 
