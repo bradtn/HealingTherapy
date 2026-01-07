@@ -88,6 +88,49 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://www.healingtherapycenter.com/adhd-testing-evaluation</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/trauma-ptsd-treatment</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Location-Specific Service Pages -->
+  <url>
+    <loc>https://www.healingtherapycenter.com/anxiety-therapy-michigan</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/autism-evaluation-michigan-insurance</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/burnout-stress-therapy-michigan</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/depression-counseling-michigan</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Therapist Pages -->
   <url>
     <loc>https://www.healingtherapycenter.com/dr-nadia-habhab</loc>
@@ -113,6 +156,13 @@
   <url>
     <loc>https://www.healingtherapycenter.com/amal-ayad</loc>
     <lastmod>2025-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/donna-majed</loc>
+    <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -191,6 +241,41 @@
   <url>
     <loc>https://www.healingtherapycenter.com/understanding-depression</loc>
     <lastmod>2025-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/adhd-guide-adults-children</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/anxiety-therapy-guide</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/grief-loss-counseling-guide</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/ptsd-trauma-therapy-guide</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/teen-mental-health-guide</loc>
+    <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
