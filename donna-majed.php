@@ -50,6 +50,56 @@ require_once 'includes/config.php';
                         <p>Therapy is not about becoming someone new; it&rsquo;s about coming home to yourself! You are not broken; you are emerging, growing, and evolving. Every chapter of your story matters, and I would be honored to walk beside you as you write the next one.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section id="credentials" class="faq section light-background">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <h2 class="text-center mb-4">Credentials & Specializations</h2>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100 p-4">
+                                    <h3><i class="bi bi-mortarboard text-primary me-2"></i>Education & Training</h3>
+                                    <ul class="mb-0">
+                                        <li>TLLP - Temporary Limited Licensed Psychologist</li>
+                                        <li>Trained in CBT, DBT, Psychodynamic Therapy</li>
+                                        <li>Humanistic (Person-Centered) Therapy</li>
+                                        <li>Trauma-Informed Care</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100 p-4">
+                                    <h3><i class="bi bi-star text-primary me-2"></i>Areas of Expertise</h3>
+                                    <ul class="mb-0">
+                                        <li>Women's Mental Health</li>
+                                        <li>Anxiety & OCD</li>
+                                        <li>Depression</li>
+                                        <li>Postpartum & Perinatal Mental Health</li>
+                                        <li>Trauma & Domestic Violence Recovery</li>
+                                        <li>Marriage & Relationship Stress</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule-cta" class="about section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2>Schedule a Session with Donna</h2>
+                        <p class="mb-4">If you are a woman navigating life's challenges and seeking compassionate, empowering support, Donna is here to walk alongside you. She offers both individual and group therapy in a safe, supportive environment. Contact us today to schedule your consultation.</p>
+                        <a href="appointment" class="btn btn-primary btn-lg">Book an Appointment</a>
+                        <p class="mt-3">Or call: <a href="tel:313-654-1915">(313) 654-1915</a></p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 

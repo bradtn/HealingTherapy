@@ -58,6 +58,54 @@ require_once 'includes/config.php';
             </div>
 
         </section>
+
+        <section id="credentials" class="faq section light-background">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <h2 class="text-center mb-4">Credentials & Specializations</h2>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100 p-4">
+                                    <h3><i class="bi bi-mortarboard text-primary me-2"></i>Education & Licensure</h3>
+                                    <ul class="mb-0">
+                                        <li>PhD in Psychology</li>
+                                        <li>Licensed Psychologist (LP)</li>
+                                        <li>10+ Years Clinical Experience</li>
+                                        <li>Certified in Evidence-Based Attachment Therapies</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100 p-4">
+                                    <h3><i class="bi bi-star text-primary me-2"></i>Areas of Expertise</h3>
+                                    <ul class="mb-0">
+                                        <li>Autism Evaluations & Diagnosis</li>
+                                        <li>Psychological Testing</li>
+                                        <li>Child & Adolescent Development</li>
+                                        <li>Cognitive Behavioral Therapy (CBT)</li>
+                                        <li>Family Systems Therapy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule-cta" class="about section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2>Schedule a Session with Dr. Habhab</h2>
+                        <p class="mb-4">Whether you need psychological testing, autism evaluation, or therapy services, Dr. Habhab provides compassionate, evidence-based care for children, adolescents, and adults. Contact us today to schedule your consultation.</p>
+                        <a href="appointment" class="btn btn-primary btn-lg">Book an Appointment</a>
+                        <p class="mt-3">Or call: <a href="tel:313-654-1915">(313) 654-1915</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <?php include 'includes/footer.php'; ?>

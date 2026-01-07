@@ -58,6 +58,52 @@ require_once 'includes/config.php';
                     </div>
                 </div>
         </section>
+
+        <section id="credentials" class="faq section light-background">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <h2 class="text-center mb-4">Credentials & Specializations</h2>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100 p-4">
+                                    <h3><i class="bi bi-mortarboard text-primary me-2"></i>Education</h3>
+                                    <ul class="mb-0">
+                                        <li>Master's Degree in Counseling Psychology</li>
+                                        <li>Wayne State University</li>
+                                        <li>Certified Life Coach</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100 p-4">
+                                    <h3><i class="bi bi-star text-primary me-2"></i>Areas of Focus</h3>
+                                    <ul class="mb-0">
+                                        <li>Life Coaching & Goal Setting</li>
+                                        <li>Confidence Building</li>
+                                        <li>Personal Growth & Development</li>
+                                        <li>Work-Life Balance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule-cta" class="about section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2>Schedule a Session with Amal</h2>
+                        <p class="mb-4">Ready to take the next step in your personal growth journey? Amal offers both in-person sessions at our Dearborn office and telehealth appointments for your convenience. Contact us today to schedule your consultation.</p>
+                        <a href="appointment" class="btn btn-primary btn-lg">Book an Appointment</a>
+                        <p class="mt-3">Or call: <a href="tel:313-654-1915">(313) 654-1915</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <?php include 'includes/footer.php'; ?>
