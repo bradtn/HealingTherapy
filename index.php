@@ -455,30 +455,6 @@ require_once 'includes/config.php';
           </div>
           <div class="col-12 col-md-6 col-lg-4 g-3">
               <div class="card">
-                <img loading="lazy" src="assets/img/blog-8.jpg" class="card-img-top" alt="healing starts with you">
-                <div class="card-body">
-                  <h4 class="card-title h5"><a href="healing-starts-with-you" class="text-black">Healing Starts With You</a></h4>
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="hstack my-2">
-                        <div class="me-3">
-                          <i class="fa fa-user me-1 text-primary"></i>
-                          <span class="fs-6">Dr. Nadia Habhab</span>
-                        </div>
-                        <div>
-                          <i class="fa fa-calendar me-1 text-primary"></i>
-                          <span class="fs-6">12/16/2025</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="card-text">Family dynamics and romantic relationships are among the most meaningful, and often most complex connections..</p>
-                  <a href="healing-starts-with-you" class="btn btn-primary mt-3">Read More</a>
-                </div>
-              </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 g-3">
-              <div class="card">
                 <img loading="lazy" src="assets/img/blog-7.jpg" class="card-img-top" alt="autism curable">
                 <div class="card-body">
                   <h4 class="card-title h5"><a href="is-autism-curable" class="text-black">Is Autism Curable</a></h4>

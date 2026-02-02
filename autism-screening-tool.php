@@ -198,7 +198,7 @@ require_once 'includes/config.php';
                         <div class="resource-icon"></div>
                         <h3>Sensory Processing Help</h3>
                         <p>Sensory diets, calming strategies, weighted blankets, noise reduction, and creating sensory-friendly spaces.</p>
-                        <a href="https://www.healingtherapycenter.com/healing-starts-with-you" style="color: #667eea;">Sensory Tools →</a>
+                        <a href="https://www.healingtherapycenter.com/parenting-child" style="color: #667eea;">Sensory Tools →</a>
                     </article>
 
                     <article class="resource-card">
