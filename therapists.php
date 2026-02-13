@@ -127,11 +127,11 @@ require_once 'includes/config.php';
                 <div class="row gy-4">
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <h3>Evidence-Based Treatment</h3>
-                        <p>Our therapists utilize evidence-based therapeutic approaches tailored to each client's unique needs. We draw from cognitive behavioral therapy, dialectical behavior therapy, EMDR, and other proven modalities to help you achieve your mental health goals. Our team stays current with the latest research and best practices in the field.</p>
+                        <p>Our therapists utilize evidence-based therapeutic approaches tailored to each client's unique needs. We draw from cognitive behavioral therapy, dialectical behavior therapy, and other proven modalities to help you achieve your mental health goals. Our team stays current with the latest research and best practices in the field.</p>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                        <h3>Culturally Sensitive Care</h3>
-                        <p>We understand that cultural background plays an important role in mental health treatment. Our diverse team brings cultural awareness and sensitivity to every therapeutic relationship, creating a safe and welcoming environment for clients from all backgrounds. We are committed to providing inclusive care that respects your values and experiences.</p>
+                        <h3>Culturally Sensitive & Multicultural Therapy</h3>
+                        <p>We understand that cultural background plays an important role in mental health treatment. Our diverse team specializes in multicultural therapy, bringing cultural awareness and sensitivity to every therapeutic relationship and creating a safe, welcoming environment for clients from all backgrounds. We are committed to providing inclusive care that respects your values and experiences.</p>
                     </div>
                 </div>
             </div>

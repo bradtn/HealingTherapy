@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Individual Therapy in Dearborn, MI | Insurance Accepted';
-$page_description = 'Individual therapy in Dearborn, MI for anxiety, depression, trauma & stress. BCBS, Aetna, Priority Health accepted. Telehealth available. (313) 654-1915';
+$page_description = 'Individual therapy in Dearborn, MI for anxiety, depression, PTSD therapy & grief therapy. Trauma informed, LGBTQ affirming. Insurance accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/individual-therapy';
 $current_service = 'individual'; // For sidebar active state
 
@@ -90,7 +90,7 @@ require_once 'includes/config.php';
                                 <div class="card h-100 border-0 shadow-sm">
                                     <div class="card-body">
                                         <h3 class="h5 mb-2"><i class="bi bi-bandaid-fill text-warning me-2"></i>Trauma & PTSD</h3>
-                                        <p class="small mb-2">Flashbacks, nightmares, feeling unsafe. EMDR and trauma-focused therapy for healing.</p>
+                                        <p class="small mb-2">Flashbacks, nightmares, feeling unsafe. Trauma-focused therapy for healing.</p>
                                         <p class="small mb-0"><a href="trauma-ptsd-treatment">Learn more →</a></p>
                                     </div>
                                 </div>
@@ -150,12 +150,7 @@ require_once 'includes/config.php';
                             <p class="small mb-0">For emotion regulation, self-harm, intense reactions. Teaches mindfulness, distress tolerance, emotion regulation, and interpersonal skills.</p>
                         </div>
 
-                        <div class="alert alert-light border-warning mb-3" data-aos="fade-up" data-aos-delay="200">
-                            <h3 class="h5 text-warning mb-2"><i class="bi bi-eye me-2"></i>EMDR (Eye Movement Desensitization)</h3>
-                            <p class="small mb-0">Specialized for trauma and PTSD. Helps brain reprocess traumatic memories. Often produces faster relief than traditional talk therapy.</p>
-                        </div>
-
-                        <div class="alert alert-light border-info mb-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="alert alert-light border-info mb-3" data-aos="fade-up" data-aos-delay="200">
                             <h3 class="h5 text-info mb-2"><i class="bi bi-flower1 me-2"></i>Mindfulness-Based Therapy</h3>
                             <p class="small mb-0">Observe thoughts without judgment. Stay present. Respond thoughtfully vs. react automatically. Helpful for anxiety, depression, pain, stress.</p>
                         </div>

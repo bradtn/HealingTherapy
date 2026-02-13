@@ -44,15 +44,9 @@ require_once 'includes/config.php';
                     <div class="col-lg-8 col-md-8"
                         data-aos="fade-up" data-aos-delay="100">
                         <h2>Background & Experience</h2>
-                        <p>As a PhD licensed psychologist with 10+ years in mental health, I believe in a client centered approach which fosters
-                        resilience and personal growth. In addition to training and certification in evidence based attachment therapies and
-                        cognitive behavioral therapies, I have extensive knowledge, training and experience in the field of child and adolescent
-                        development and family systems. This includes specialized experience in Autism-Focused evaluations and diagnosis</p>
-                        <p>
-                        My therapeutic approach is grounded in attachment theory, family systems and humanistic psychology which allows me to
-                        create a supportive and personalized treatment plan that is tailored to your needs. Whether you are seeking support to
-                        manage relationships, navigate a diagnosis or foster support, I am committed to offering a safe, non-judgmental space
-                        where you can explore your experiences and work towards healing.</p>
+                        <p>Struggling with anxiety, depression or the lasting effects of trauma? You may find yourself feeling on edge, overthinking, or reliving painful experiences. As a PhD-licensed psychologist with over 12 years of experience, I help adults understand and regulate their emotions, heal from trauma, and find relief from anxiety and depression. My approach is evidence-based, emotion focused therapy, which will help you change your overwhelming, negative emotions into more positive and adaptive emotions.</p>
+                        <p>I draw from attachment-based and emotion-focused approaches to help you make sense of your experiences and create meaningful change. I'm trained in both Emotion-Focused Therapy (EFT), Cognitive Behavioral Therapy (CBT), Trauma Informed approaches, and I tailor each session to you and your experiences. I hold certification in emotion focused individual therapy (EFIT), CBT, and experience in providing trauma informed care. I am trained in the Gottman method and have experience with trauma survivors, first responders and complex PTSD.</p>
+                        <p>I work with clients experiencing challenges related to anxiety and complex trauma. In our initial sessions, we will explore sources of conflict, identify triggers, and develop strategies for emotional regulation and removing emotional blocks. At the same time, we will focus on building emotional tolerance and resilience to foster long-term well-being.</p>
                     </div>
                 </div>
             </div>

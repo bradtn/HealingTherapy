@@ -70,8 +70,6 @@ require_once 'includes/config.php';
                                         your quality of life.</li>
                                         <li><b>Dialectical Behavior Therapy (DBT)-</b> is a structured program with a strong educational component designed to provide
                                         skills for managing intense emotions and negotiating social relationships.</li>
-                                        <li><b>Eye Movement Desensitization and Reprocessing (EMDR) –</b> is a treatment that is designed to alleviate the distress
-                                        associated with traumatic memories.</li>
                                         <li><b>Acceptance and Commitment Therapy (ACT) -</b> focuses on helping individuals accept their thoughts and feelings, rather than
                                         trying to control them, and then commit to taking actions aligned with their personal values to live a meaningful life,
                                         thereby increasing their psychological flexibility.</li>

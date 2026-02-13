@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Couples Therapy & Marriage Counseling | Dearborn, MI';
-$page_description = 'Couples therapy and marriage counseling in Dearborn, MI. Rebuild connection, resolve conflicts. BCBS, Aetna accepted. In-person & telehealth. (313) 654-1915';
+$page_description = 'Couples therapy & marriage counseling in Dearborn, MI. Help with attachment styles, relationship anxiety, codependency & communication. LGBTQ affirming. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/couples-therapy';
 $current_service = 'couples'; // For sidebar active state
 
@@ -109,6 +109,22 @@ require_once 'includes/config.php';
                                     <div class="card-body">
                                         <h3 class="h5 mb-3"><i class="bi bi-currency-dollar text-success me-2"></i>Financial Stress & Money Conflicts</h3>
                                         <p class="small mb-0">Money disagreements create stress. We help develop healthy financial communication and aligned money management strategies.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="800">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-3"><i class="bi bi-link-45deg text-primary me-2"></i>Attachment Styles & Relationship Anxiety</h3>
+                                        <p class="small mb-0">Anxious attachment or avoidant attachment patterns affecting your relationship? We help partners understand attachment styles and build secure bonds.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="900">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 mb-3"><i class="bi bi-exclamation-octagon text-danger me-2"></i>Unhealthy Relationship Patterns</h3>
+                                        <p class="small mb-0">Recognizing gaslighting signs, love bombing, codependency, or narcissistic personality traits? We help establish healthy boundaries in relationships.</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Trauma & PTSD Treatment in Michigan | Healing Therapy Center';
-$page_description = 'Specialized trauma and PTSD therapy in Michigan. EMDR, trauma-focused CBT, somatic therapy. Expert treatment for childhood trauma, PTSD, complex trauma.';
+$page_description = 'Specialized trauma and PTSD therapy in Michigan. Trauma-focused CBT, somatic therapy. Expert treatment for childhood trauma, PTSD, complex trauma.';
 $canonical_url = 'https://www.healingtherapycenter.com/trauma-ptsd-treatment';
 
 // Include configuration
@@ -28,7 +28,7 @@ require_once 'includes/config.php';
 
 <div class="alert alert-light border-primary mt-4 mb-4">
     <h5 class="alert-heading"><i class="bi bi-heart-fill text-primary me-2"></i>You Don't Have to Carry Trauma Alone</h5>
-    <p class="mb-0">Trauma therapy provides a safe, supportive space to process painful experiences at your own pace. Healing is possible - and you don't have to relive trauma to heal from it. Specialized approaches like EMDR help your brain reprocess traumatic memories so they no longer control your life.</p>
+    <p class="mb-0">Trauma therapy provides a safe, supportive space to process painful experiences at your own pace. Healing is possible - and you don't have to relive trauma to heal from it. Specialized approaches help your brain reprocess traumatic memories so they no longer control your life.</p>
 </div>
 
 
@@ -114,12 +114,7 @@ require_once 'includes/config.php';
 
 <h2 class="mt-5 mb-4">Evidence-Based Trauma Treatments</h2>
 
-<div class="alert alert-light border-primary mb-3" data-aos="fade-up" data-aos-delay="0">
-    <h3 class="h5 text-primary mb-2"><i class="bi bi-eye-fill me-2"></i>EMDR (Eye Movement Desensitization & Reprocessing)</h3>
-    <p class="small mb-0">EMDR is one of the most effective trauma treatments, helping your brain reprocess traumatic memories so they're less distressing. During EMDR, you briefly focus on traumatic memories while engaging in bilateral stimulation (eye movements, tapping, or sounds). This helps your brain process the trauma and reduce its emotional charge. Many people experience significant relief in 6-12 sessions. Research shows EMDR is as effective as trauma-focused CBT with faster results for some.</p>
-</div>
-
-<div class="alert alert-light border-success mb-3" data-aos="fade-up" data-aos-delay="100">
+<div class="alert alert-light border-success mb-3" data-aos="fade-up" data-aos-delay="0">
     <h3 class="h5 text-success mb-2"><i class="bi bi-shield-check me-2"></i>Trauma-Focused CBT</h3>
     <p class="small mb-0">Specialized CBT helping you process trauma memories, challenge unhelpful trauma-related beliefs, and develop coping skills. Includes gradual exposure to trauma reminders in safe, controlled ways to reduce avoidance and fear.</p>
 </div>
@@ -153,7 +148,7 @@ require_once 'includes/config.php';
             <div class="col-md-4 mb-3 mb-md-0 text-center">
                 <div class="text-success" style="font-size: 2rem;"><i class="bi bi-2-circle-fill"></i></div>
                 <h4 class="h6 mt-2 fw-bold">Processing Trauma</h4>
-                <p class="mb-0">Using EMDR, exposure therapy, or other methods, we carefully process traumatic memories. You won't be re-traumatized - therapy helps you process trauma so it no longer controls you.</p>
+                <p class="mb-0">Using exposure therapy and other evidence-based methods, we carefully process traumatic memories. You won't be re-traumatized - therapy helps you process trauma so it no longer controls you.</p>
             </div>
             <div class="col-md-4 mb-3 mb-md-0 text-center">
                 <div class="text-warning" style="font-size: 2rem;"><i class="bi bi-3-circle-fill"></i></div>
@@ -165,10 +160,10 @@ require_once 'includes/config.php';
 </div>
 
 <h2 class="mt-4">Do I Have to Talk About the Trauma in Detail?</h2>
-<p>Not necessarily. EMDR and some other trauma therapies don't require detailed verbal recounting of trauma. You focus on the memory internally while the therapist guides the processing. For other approaches, you gradually share details at your own pace. You're never forced to discuss anything before you're ready.</p>
+<p>Not necessarily. Some trauma therapies don't require detailed verbal recounting of trauma. You focus on the memory internally while the therapist guides the processing. For other approaches, you gradually share details at your own pace. You're never forced to discuss anything before you're ready.</p>
 
 <h2 class="mt-4">Telehealth Trauma Therapy Throughout Michigan</h2>
-<p>We provide trauma therapy via secure telehealth to clients throughout Michigan. Research shows telehealth EMDR and trauma therapy are effective. Many trauma survivors prefer therapy from the safety and privacy of home.</p>
+<p>We provide trauma therapy via secure telehealth to clients throughout Michigan. Research shows telehealth trauma therapy is effective. Many trauma survivors prefer therapy from the safety and privacy of home.</p>
 
 <h2 class="mt-4">Frequently Asked Questions</h2>
 
@@ -188,16 +183,6 @@ require_once 'includes/config.php';
             <div class="card border-0 shadow-sm h-100 faq-card">
                 <div class="card-body">
                     <h3 class="h6 card-title text-primary mb-3">
-                        <i class="bi bi-question-circle-fill me-2"></i>What is EMDR and does it really work?
-                    </h3>
-                    <p class="card-text text-muted mb-0">EMDR uses bilateral stimulation while you focus on trauma memories, helping your brain reprocess them. It sounds unusual but is backed by extensive research showing effectiveness equal to or better than other trauma therapies, often with faster results.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="200">
-            <div class="card border-0 shadow-sm h-100 faq-card">
-                <div class="card-body">
-                    <h3 class="h6 card-title text-primary mb-3">
                         <i class="bi bi-question-circle-fill me-2"></i>Can old trauma (from childhood) still be treated?
                     </h3>
                     <p class="card-text text-muted mb-0">Absolutely. It's never too late to heal childhood trauma. Many people successfully process decades-old trauma in adulthood and experience profound relief.</p>
@@ -210,7 +195,7 @@ require_once 'includes/config.php';
                     <h3 class="h6 card-title text-primary mb-3">
                         <i class="bi bi-question-circle-fill me-2"></i>Is telehealth effective for trauma therapy?
                     </h3>
-                    <p class="card-text text-muted mb-0">Yes. Research shows telehealth trauma therapy, including EMDR, is effective. It also provides safety and privacy some trauma survivors prefer.</p>
+                    <p class="card-text text-muted mb-0">Yes. Research shows telehealth trauma therapy is effective. It also provides safety and privacy some trauma survivors prefer.</p>
                 </div>
             </div>
         </div>
