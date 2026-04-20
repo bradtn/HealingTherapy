@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Depression Counseling in Michigan | Dearborn & Telehealth';
-$page_description = 'Evidence-based depression treatment in Michigan. Therapy for major depression, persistent depression, postpartum depression. Telehealth & Dearborn office.';
+$page_description = 'Depression treatment in Michigan - Detroit, Dearborn, Ann Arbor. Therapy for major depression, persistent depression, postpartum. CBT & evidence-based care. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/depression-counseling-michigan';
 
 // Include configuration

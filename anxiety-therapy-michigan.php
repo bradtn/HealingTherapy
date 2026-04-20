@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Anxiety Therapy in Michigan | Telehealth & Dearborn';
-$page_description = 'Anxiety therapy in Michigan. Treat panic attacks, GAD, social anxiety & phobias with CBT. Telehealth statewide. (313) 654-1915';
+$page_description = 'Anxiety therapy in Michigan - Detroit, Ann Arbor, Dearborn. Treat panic attacks, GAD, social anxiety & phobias with CBT. Telehealth throughout Michigan. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/anxiety-therapy-michigan';
 
 // Include configuration

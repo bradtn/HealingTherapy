@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Individual Therapy in Dearborn, MI | Insurance Accepted';
-$page_description = 'Individual therapy in Dearborn, MI for anxiety, depression, PTSD therapy & grief therapy. Trauma informed, LGBTQ affirming. Insurance accepted. (313) 654-1915';
+$page_description = 'Individual therapy in Michigan - Dearborn, Detroit, Ann Arbor for anxiety, depression, trauma, PTSD & grief. EMDR, CBT, trauma informed care. LGBTQ affirming. Insurance accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/individual-therapy';
 $current_service = 'individual'; // For sidebar active state
 
@@ -153,6 +153,11 @@ require_once 'includes/config.php';
                         <div class="alert alert-light border-info mb-3" data-aos="fade-up" data-aos-delay="200">
                             <h3 class="h5 text-info mb-2"><i class="bi bi-flower1 me-2"></i>Mindfulness-Based Therapy</h3>
                             <p class="small mb-0">Observe thoughts without judgment. Stay present. Respond thoughtfully vs. react automatically. Helpful for anxiety, depression, pain, stress.</p>
+                        </div>
+
+                        <div class="alert alert-light border-warning mb-3" data-aos="fade-up" data-aos-delay="300">
+                            <h3 class="h5 text-warning mb-2"><i class="bi bi-eye me-2"></i>EMDR (Eye Movement Desensitization & Reprocessing)</h3>
+                            <p class="small mb-0">Highly effective for trauma and PTSD. Uses bilateral stimulation to help your brain reprocess traumatic memories. Many clients experience significant relief in 6-12 sessions. Evidence-based treatment for trauma, anxiety, and disturbing memories.</p>
                         </div>
 
                         <div class="alert alert-light border-secondary mb-3" data-aos="fade-up" data-aos-delay="400">

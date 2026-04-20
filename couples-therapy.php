@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Couples Therapy & Marriage Counseling | Dearborn, MI';
-$page_description = 'Couples therapy & marriage counseling in Dearborn, MI. Help with attachment styles, relationship anxiety, codependency & communication. LGBTQ affirming. (313) 654-1915';
+$page_description = 'Couples therapy & marriage counseling in Michigan - Dearborn, Detroit, Ann Arbor. Help with attachment styles, relationship anxiety, codependency, communication. LGBTQ affirming. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/couples-therapy';
 $current_service = 'couples'; // For sidebar active state
 

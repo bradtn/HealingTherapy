@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Healing Therapy Center | Therapists in Dearborn, MI';
-$page_description = 'Mental health therapy in Dearborn, MI. Individual, couples & family counseling, autism & ADHD testing. BCBS, Aetna accepted. (313) 654-1915';
+$page_description = 'Mental health therapy in Michigan - Dearborn, Detroit, Ann Arbor. Individual therapy, couples counseling, trauma therapy, EMDR, autism & ADHD testing. BCBS, Aetna accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/';
 
 // Include configuration

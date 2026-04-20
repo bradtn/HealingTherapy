@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Autism Evaluation in Dearborn, MI | Children & Adults';
-$page_description = 'Autism evaluation in Dearborn, MI for children and adults. ADOS-2 assessment, expert psychologists. BCBS, Aetna accepted. (313) 654-1915';
+$page_description = 'Autism evaluation in Michigan for children and adults. ADOS-2 assessment, expert psychologists in Dearborn, Detroit, Ann Arbor areas. BCBS, Aetna accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-evaluation';
 
 // Include configuration
@@ -33,12 +33,8 @@ require_once 'includes/config.php';
                 <div class="row">
                     <div class="col-md-9">
                         <div class="content-max-width">
-                        <h2 class="fw-bold">Autism Evaluations</h2>
-                        <p>Receiving an autism diagnosis can be life-changing for individuals and their families. Our
-                            goal at Healing Therapy
-                            Center is to offer clear, compassionate guidance throughout the entire process. Our autism
-                            evaluations provide a
-                            comprehensive view of social, emotional, communication, and behavioral functioning.</p>
+                        <h2 class="fw-bold">Autism Evaluations in Michigan</h2>
+                        <p>Searching for an autism evaluation in Michigan? Receiving an autism diagnosis can be life-changing for individuals and their families. Our goal at Healing Therapy Center is to offer clear, compassionate guidance throughout the entire process. Serving families across Metro Detroit, Ann Arbor, and throughout Michigan via telehealth, our autism evaluations provide a comprehensive view of social, emotional, communication, and behavioral functioning.</p>
 
                         <h2 class="mt-5 mb-4">Who Might Need an Autism Evaluation?</h2>
                         <div class="row g-3 mb-4">
