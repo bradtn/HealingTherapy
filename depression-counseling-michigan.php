@@ -28,7 +28,7 @@ require_once 'includes/config.php';
 
 <div class="alert alert-success mt-4 mb-4">
     <h5 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>Depression Treatment Works</h5>
-    <p class="mb-0">Research shows that therapy is as effective as medication for treating mild to moderate depression, with longer-lasting results. Cognitive Behavioral Therapy (CBT) produces significant improvement in 60-70% of people within 12-20 sessions.</p>
+    <p class="mb-0">Research shows that therapy is as effective as medication for treating mild to moderate depression, with longer-lasting results. Cognitive Behavioral Therapy (CBT) produces significant improvement in 60-70% of people within 12-20 sessions. Explore our <a href="individual-therapy">individual therapy approach</a> or learn about <a href="anxiety-therapy-michigan">anxiety treatment</a> if you're experiencing both conditions.</p>
 </div>
 
 

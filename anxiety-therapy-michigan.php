@@ -28,7 +28,7 @@ require_once 'includes/config.php';
 
 <div class="alert alert-info mt-4 mb-4">
     <h5 class="alert-heading"><i class="bi bi-info-circle-fill me-2"></i>Good News About Anxiety Treatment</h5>
-    <p class="mb-0">Anxiety disorders are among the most treatable mental health conditions. With evidence-based therapy like CBT and exposure therapy, 60-80% of people experience significant improvement, often within 12-16 sessions.</p>
+    <p class="mb-0">Anxiety disorders are among the most treatable mental health conditions. With evidence-based therapy like CBT and exposure therapy, 60-80% of people experience significant improvement, often within 12-16 sessions. For anxiety related to past trauma, we also offer <a href="trauma-ptsd-treatment">EMDR therapy</a>. Learn more about our <a href="individual-therapy">individual therapy services</a>.</p>
 </div>
 
 

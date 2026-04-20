@@ -4,6 +4,100 @@ $page_title = 'Healing Therapy Center | Therapists in Dearborn, MI';
 $page_description = 'Mental health therapy in Michigan - Dearborn, Detroit, Ann Arbor. Individual therapy, couples counseling, trauma therapy, EMDR, autism & ADHD testing. BCBS, Aetna accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/';
 
+// LocalBusiness Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'MedicalBusiness',
+    'name' => 'Healing Therapy Center',
+    'description' => 'Mental health therapy center in Michigan offering individual therapy, couples counseling, trauma therapy, EMDR, autism and ADHD testing',
+    'url' => 'https://www.healingtherapycenter.com',
+    'telephone' => '+13136541915',
+    'email' => 'info@healingtherapycenter.com',
+    'address' => [
+        '@type' => 'PostalAddress',
+        'streetAddress' => '22005 Outer Dr W',
+        'addressLocality' => 'Dearborn',
+        'addressRegion' => 'MI',
+        'postalCode' => '48124',
+        'addressCountry' => 'US'
+    ],
+    'geo' => [
+        '@type' => 'GeoCoordinates',
+        'latitude' => '42.3223',
+        'longitude' => '-83.2133'
+    ],
+    'areaServed' => [
+        ['@type' => 'City', 'name' => 'Dearborn'],
+        ['@type' => 'City', 'name' => 'Detroit'],
+        ['@type' => 'City', 'name' => 'Ann Arbor'],
+        ['@type' => 'City', 'name' => 'Troy'],
+        ['@type' => 'City', 'name' => 'Livonia'],
+        ['@type' => 'State', 'name' => 'Michigan']
+    ],
+    'medicalSpecialty' => [
+        'Mental Health',
+        'Psychology',
+        'Psychotherapy'
+    ],
+    'availableService' => [
+        [
+            '@type' => 'MedicalTherapy',
+            'name' => 'Individual Therapy',
+            'description' => 'Individual counseling for anxiety, depression, trauma, and PTSD'
+        ],
+        [
+            '@type' => 'MedicalTherapy',
+            'name' => 'EMDR Therapy',
+            'description' => 'Eye Movement Desensitization and Reprocessing for trauma treatment'
+        ],
+        [
+            '@type' => 'MedicalTherapy',
+            'name' => 'Couples Therapy',
+            'description' => 'Marriage and relationship counseling'
+        ],
+        [
+            '@type' => 'MedicalTest',
+            'name' => 'Autism Evaluation',
+            'description' => 'Comprehensive autism testing for children and adults'
+        ],
+        [
+            '@type' => 'MedicalTest',
+            'name' => 'ADHD Testing',
+            'description' => 'ADHD evaluation and diagnosis for all ages'
+        ]
+    ],
+    'paymentAccepted' => 'Cash, Check, Credit Card, Insurance',
+    'openingHoursSpecification' => [
+        [
+            '@type' => 'OpeningHoursSpecification',
+            'dayOfWeek' => ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            'opens' => '09:00',
+            'closes' => '19:00'
+        ],
+        [
+            '@type' => 'OpeningHoursSpecification',
+            'dayOfWeek' => 'Saturday',
+            'opens' => '09:00',
+            'closes' => '14:00'
+        ]
+    ],
+    'priceRange' => '$$',
+    'hasOfferCatalog' => [
+        '@type' => 'OfferCatalog',
+        'name' => 'Therapy Services',
+        'itemListElement' => [
+            [
+                '@type' => 'Offer',
+                'itemOffered' => [
+                    '@type' => 'Service',
+                    'name' => 'Telehealth Therapy',
+                    'description' => 'Online therapy available throughout Michigan'
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

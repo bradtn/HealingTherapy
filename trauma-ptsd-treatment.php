@@ -4,6 +4,54 @@ $page_title = 'Trauma & PTSD Treatment in Michigan | Healing Therapy Center';
 $page_description = 'Specialized trauma and PTSD therapy in Michigan. EMDR, trauma-focused CBT, somatic therapy. Expert treatment for childhood trauma, PTSD, complex trauma.';
 $canonical_url = 'https://www.healingtherapycenter.com/trauma-ptsd-treatment';
 
+// FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'FAQPage',
+    'mainEntity' => [
+        [
+            '@type' => 'Question',
+            'name' => 'How long does trauma therapy take?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'This varies based on trauma type, complexity, and individual factors. Single-incident trauma (car accident) may improve in 6-12 sessions. Complex or childhood trauma often requires longer-term work. Healing happens at your pace.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'What is EMDR and does it really work?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'EMDR uses bilateral stimulation while you focus on trauma memories, helping your brain reprocess them. It sounds unusual but is backed by extensive research showing effectiveness equal to or better than other trauma therapies, often with faster results.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'Can old trauma (from childhood) still be treated?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Absolutely. It\'s never too late to heal childhood trauma. Many people successfully process decades-old trauma in adulthood and experience profound relief.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'Is telehealth effective for trauma therapy?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Yes. Research shows telehealth trauma therapy, including EMDR, is effective. It also provides safety and privacy some trauma survivors prefer.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'Does insurance cover PTSD treatment in Michigan?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Most Michigan insurance plans cover PTSD and trauma treatment. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Call (313) 654-1915 to verify coverage.'
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

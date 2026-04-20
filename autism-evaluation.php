@@ -72,7 +72,7 @@ require_once 'includes/config.php';
                             </div>
                         </div>
                         <div class="alert alert-light border-primary my-4" data-aos="fade-up">
-                            <p class="small mb-0"><i class="bi bi-info-circle text-primary me-2"></i><strong>Our Approach:</strong> Our autism evaluation process is guided by best practices in psychological assessment. We use a combination of standardized testing, behavioral observations, and input from caregivers, teachers, and the client themselves. Our approach ensures a complete and accurate understanding of the individual's strengths and challenges.</p>
+                            <p class="small mb-0"><i class="bi bi-info-circle text-primary me-2"></i><strong>Our Approach:</strong> Our autism evaluation process is guided by best practices in psychological assessment. We use a combination of standardized testing, behavioral observations, and input from caregivers, teachers, and the client themselves. Our approach ensures a complete and accurate understanding of the individual's strengths and challenges. We also provide <a href="adhd-testing-evaluation">ADHD testing</a> and <a href="psychological-testing">comprehensive psychological testing</a>.</p>
                         </div>
 
                         <h2 class="mt-5 mb-4">What Does the Autism Evaluation Process Look Like?</h2>
