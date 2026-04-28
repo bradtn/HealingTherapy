@@ -87,7 +87,7 @@ tiffany-murray.html: Fixed address in schema markup to 22005 Outer Dr W
 tiffany-murray.html: Added security attributes to 2 external link(s)
 tiffany-murray.html: Added Google Analytics library script
 tiffany-murray.html: Added canonical URL: https://www.healingtherapycenter.com/tiffany-murray
-tiffany-murray.html: Updated page title to: Tiffany Murray, LLMSW | Therapist | Healing Therapy Center
+tiffany-murray.html: Updated page title to: Tiffany Murray, LMSW | Therapist | Healing Therapy Center
 tiffany-murray.html: Removed empty keywords meta tag
 malak-wehbe.html: Fixed schema.org URL (http://www -> https://)
 malak-wehbe.html: Removed trailing tabs from schema markup
@@ -111,7 +111,7 @@ dr-tiffany-murray.html: Fixed address in schema markup to 22005 Outer Dr W
 dr-tiffany-murray.html: Added security attributes to 2 external link(s)
 dr-tiffany-murray.html: Added Google Analytics library script
 dr-tiffany-murray.html: Added canonical URL: https://www.healingtherapycenter.com/dr-tiffany-murray
-dr-tiffany-murray.html: Updated page title to: Dr. Tiffany Murray, LLMSW | Therapist | Healing Therapy Center
+dr-tiffany-murray.html: Updated page title to: Dr. Tiffany Murray, LMSW | Therapist | Healing Therapy Center
 dr-tiffany-murray.html: Removed empty keywords meta tag
 faq.html: Fixed schema.org URL (http://www -> https://)
 faq.html: Removed trailing tabs from schema markup

@@ -85,7 +85,7 @@ This guide implements the latest 2026 SEO best practices for your therapy practi
 - [ ] Sign up at psychologytoday.com/us/therapists
 - [ ] Create profiles for all 4 therapists:
   - Dr. Nadia Habhab, PhD, LP
-  - Dr. Tiffany Murray, LLMSW
+  - Dr. Tiffany Murray, LMSW
   - Donna Majed, TLLP
   - Amal Ayad, MA
 - [ ] Upload professional photos

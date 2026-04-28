@@ -141,10 +141,10 @@ $team_members = [
     [
         'id' => 'tiffany-murray',
         'name' => 'Tiffany Murray',
-        'credentials' => 'LLMSW',
+        'credentials' => 'LMSW',
         'url' => 'dr-tiffany-murray',
         'image' => 'assets/img/tiffany.jpg',
-        'alt' => 'Tiffany Murray, LLMSW'
+        'alt' => 'Tiffany Murray, LMSW'
     ],
     [
         'id' => 'malak-wehbe',

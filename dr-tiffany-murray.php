@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Tiffany Murray, LLMSW | Therapist | Healing Therapy Center';
-$page_description = 'Tiffany Murray, LLMSW - Licensed therapist at Healing Therapy Center in Dearborn, MI. Individual therapy, couples counseling, anxiety and depression treatment.';
+$page_title = 'Tiffany Murray, LMSW | Therapist | Healing Therapy Center';
+$page_description = 'Tiffany Murray, LMSW - Licensed therapist at Healing Therapy Center in Dearborn, MI. Individual therapy, couples counseling, anxiety and depression treatment.';
 $canonical_url = 'https://www.healingtherapycenter.com/dr-tiffany-murray';
 
 // Include configuration
@@ -19,7 +19,7 @@ require_once 'includes/config.php';
             <div class="overlay">
             </div>
             <div class="position-absolute text-center w-100">
-                <h1 class="display-3 fw-bold text-white">Tiffany Murray, LLMSW - Licensed Therapist</h1>
+                <h1 class="display-3 fw-bold text-white">Tiffany Murray, LMSW - Licensed Therapist</h1>
                 <hr class="text-white w-25 m-auto my-3">
 
                 <a href="appointment" class="btn btn-primary btn-lg">Make an Appointment</a>
@@ -119,7 +119,7 @@ require_once 'includes/config.php';
                                 <div class="card h-100 p-4">
                                     <h3><i class="bi bi-mortarboard text-primary me-2"></i>Education & Certifications</h3>
                                     <ul class="mb-0">
-                                        <li>LLMSW - Licensed Limited Master Social Worker</li>
+                                        <li>LMSW - Licensed Master Social Worker</li>
                                         <li>Wayne State University School of Social Work (2012)</li>
                                         <li>PSI Certified in Perinatal Mental Health (2015)</li>
                                         <li>PSI Advanced Psychotherapy Certification (2020)</li>

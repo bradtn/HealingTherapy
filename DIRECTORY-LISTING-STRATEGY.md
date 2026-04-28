@@ -28,7 +28,7 @@ Directory listings are a 2026 SEO priority as brand signals that strengthen loca
 **Setup Steps:**
 1. Create profile for each therapist:
    - Dr. Nadia Habhab, PhD, LP
-   - Dr. Tiffany Murray, LLMSW
+   - Dr. Tiffany Murray, LMSW
    - Donna Majed, TLLP
    - Amal Ayad, MA
 2. Include:
