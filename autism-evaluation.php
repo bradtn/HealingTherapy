@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Autism Evaluation in Dearborn, MI | Children & Adults';
-$page_description = 'Autism evaluation in Michigan for children and adults. ADOS-2 assessment, expert psychologists in Dearborn, Detroit, Ann Arbor areas. BCBS, Aetna accepted. (313) 654-1915';
+$page_title = 'Autism Evaluation in Dearborn, MI | Children';
+$page_description = 'Autism evaluation in Michigan for children. ADOS-2 assessment, expert psychologists in Dearborn, Detroit, Ann Arbor areas. BCBS, Aetna accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-evaluation';
 
 // Include configuration
@@ -21,7 +21,7 @@ require_once 'includes/config.php';
             <div class="overlay">
             </div>
             <div class="position-absolute text-center w-100">
-                <h1 class="display-3 fw-bold text-white">Autism Evaluation for Children & Adults</h1>
+                <h1 class="display-3 fw-bold text-white">Autism Evaluation for Children</h1>
                 <hr class="text-white w-25 m-auto my-3">
 
                 <a href="appointment" class="btn btn-primary btn-lg">Make an Appointment</a>
@@ -59,14 +59,6 @@ require_once 'includes/config.php';
                                     <div class="card-body">
                                         <h3 class="h5 mb-2"><i class="bi bi-calendar-check text-info me-2"></i>Rigid Routines & Change Resistance</h3>
                                         <p class="small mb-0">Individuals who need strict routines, become distressed by changes, or have difficulty adapting to new situations.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                                <div class="card h-100 border-0 shadow-sm">
-                                    <div class="card-body">
-                                        <h3 class="h5 mb-2"><i class="bi bi-search text-warning me-2"></i>Lifelong Questions & Answers</h3>
-                                        <p class="small mb-0">Adults seeking answers about lifelong difficulties with social skills, sensory issues, masking behaviors, or feeling "different" from peers.</p>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +113,7 @@ require_once 'includes/config.php';
                                 <div class="card h-100 border-0 shadow-sm">
                                     <div class="card-body">
                                         <h3 class="h5 mb-2"><i class="bi bi-heart text-success me-2"></i>Family-Centered Care</h3>
-                                        <p class="small mb-0">We involve families throughout the process, ensuring you understand results and have actionable steps for supporting your child or yourself.</p>
+                                        <p class="small mb-0">We involve families throughout the process, ensuring you understand results and have actionable steps for supporting your child.</p>
                                     </div>
                                 </div>
                             </div>
@@ -157,16 +149,6 @@ require_once 'includes/config.php';
                                                 <i class="bi bi-question-circle-fill me-2"></i>How long does an autism evaluation take?
                                             </h3>
                                             <p class="card-text text-muted mb-0">The complete evaluation process typically takes 4-6 weeks from initial consultation to feedback session. Testing sessions usually last 2-4 hours depending on the individual's age and needs.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 mb-3" data-aos="fade-up" data-aos-delay="100">
-                                    <div class="card border-0 shadow-sm h-100 faq-card">
-                                        <div class="card-body">
-                                            <h3 class="h6 card-title text-primary mb-3">
-                                                <i class="bi bi-question-circle-fill me-2"></i>Can adults get autism evaluations?
-                                            </h3>
-                                            <p class="card-text text-muted mb-0">Yes! We evaluate both children and adults. Many adults seek diagnosis later in life after years of feeling different or struggling with social interactions. Adult autism evaluation follows a similar process but is tailored to adult experiences.</p>
                                         </div>
                                     </div>
                                 </div>
