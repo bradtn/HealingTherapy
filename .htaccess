@@ -39,8 +39,9 @@ RewriteRule ^(.*)$ https://www.healingtherapycenter.com/$1 [L,R=301]
 # Redirect /index to root (prevent duplicate content)
 RewriteRule ^index/?$ / [L,R=301]
 
-# Redirect .html URLs to clean URLs
+# Redirect .html URLs to clean URLs (except Google verification files)
 RewriteCond %{THE_REQUEST} ^GET\ /[^\ ]+\.html
+RewriteCond %{REQUEST_URI} !^/google[a-zA-Z0-9]+\.html$ [NC]
 RewriteRule ^(.*)\.html$ /$1 [L,R=301]
 
 # Internally rewrite clean URLs to .php files first (for refactored pages), then .html files
