@@ -1,163 +1,18 @@
+<?php
+// Page-specific variables
+$page_title = 'Mental Health Blog | Healing Therapy Center';
+$page_description = 'Mental health blog from Healing Therapy Center. Expert advice on anxiety, depression, relationships, parenting, trauma recovery, and wellness tips.';
+$canonical_url = 'https://www.healingtherapycenter.com/all-blogs';
+
+// Include configuration
+require_once 'includes/config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
+<?php include 'includes/head.php'; ?>
 
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Mental Health Blog | Healing Therapy Center</title>
-    <meta name="title" content="Mental Health Blog | Healing Therapy Center">
-    <meta name="description"
-        content="Mental health blog from Healing Therapy Center. Expert advice on anxiety, depression, relationships, parenting, trauma recovery, and wellness tips.">
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css?v=1.27" rel="stylesheet">
-    <script type='application/ld+json'>
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Healing Therapy Center",
-    "url": "https://www.healingtherapycenter.com/",
-    "sameAs": [
-      "https://www.instagram.com/Healingtherapycenter_",
-      "https://web.facebook.com/people/Healing-Therapy-Center/61566519586496/"
-    ],
-    "logo": "https://www.healingtherapycenter.com/assets/img/hel_logo.webp",
-    "description": "\"Healing Therapy Center is a mental health practice offering compassionate, personalized care for children, adults, and families. We provide therapy both online and in person, ensuring flexible and accessible support for our clients.\nWe accept insurance to make mental health care more affordable and accessible. In addition to therapy services, we offer comprehensive psychological testing, including autism evaluations, to support accurate diagnosis and effective treatment planning.\"",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "22005 Outer Dr W",
-      "addressLocality": "Dearborn",
-      "addressRegion": "MI",
-      "postalCode": "48124",
-      "addressCountry": "US"
-    },
-    "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00 Sa 09:00-14:00",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "(313) 654-1915"
-    }
-  }
-  </script>
-    <link rel="canonical" href="https://www.healingtherapycenter.com/all-blogs">
-</head>
 <body class="index-page">
-
-    <header id="header" class="header sticky-top">
-        <div class="topbar d-flex align-items-center">
-            <div class="container d-flex justify-content-center justify-content-md-end">
-                <div class="d-flex align-items-center">
-                    <i class="bi bi-phone me-1"></i>Call us now <a href="tel:313-654-1915"
-                        class="btn btn-link text-white">313-654-1915</a>
-                    <div class="social-links d-flex">
-                        <a href="https://web.facebook.com/people/Healing-Therapy-Center/61566519586496/"><i
-                                class="bi bi-facebook text-white mx-3"></i></a>
-                        <a href="https://www.instagram.com/Healingtherapycenter_" target="_blank" rel="noopener noreferrer"><i
-                                class="bi bi-instagram text-white"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="branding d-flex align-items-center">
-
-            <div class="container position-relative d-flex align-items-center justify-content-end">
-                <a href="/" class="logo d-flex align-items-center me-auto">
-                    <img src="assets/img/hel_logo.webp" alt="healing therapy logo">
-                </a>
-
-                <nav id="navmenu" class="navmenu">
-                    <ul>
-                        <li><a href="https://www.healingtherapycenter.com/#hero">Home</a></li>
-                        <li class="dropdown"><a href="therapists" class="active"><span>Our Team</span> <i
-                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li class="dropdown"><a href="therapists"><span>Meet Our Therapists</span> <i
-                                            class="bi bi-chevron-right d-md-block d-none toggle-dropdown"></i><i
-                                            class="bi bi-chevron-down d-md-none toggle-dropdown"></i></a>
-                                    <ul>
-                                        <li><a href="amal-ayad">Amal Ayad</a></li>
-                                        <li><a href="dr-nadia-habhab">Dr. Nadia Habhab</a></li>
-                                        <li><a href="dr-tiffany-murray">Tiffany Murray</a></li>
-                                        <li><a href="malak-wehbe">Malak Wehbe</a></li>
-                                        <li><a href="donna-majed">Donna Majed</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="https://www.healingtherapycenter.com/#services"><span>Services</span>
-                                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="individual-therapy">
-                                        Individual Therapy
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="couples-therapy">
-                                        Couple Therapy
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="family-therapy">
-                                        Family Therapy
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="group-therapy">
-                                        Group Therapy
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="psychological-testing">
-                                        Psychological Testing
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="telehealth-therapy">
-                                        Telehealth Therapy
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="suicide-hotline"><span>Resources</span> <i
-                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li><a href="suicide-hotline">Suicidal Hotline</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="all-blogs">Blog</a></li>
-            <li><a href="faq">FAQ</a></li>
-                        <li><a href="https://www.healingtherapycenter.com/#contact">Contact</a></li>
-                        <li class="d-md-none"><a href="appointment">Make an Appointment</a></li>
-                    </ul>
-                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-                </nav>
-
-                <a class="cta-btn d-none d-md-block" href="appointment">Make an Appointment</a>
-
-            </div>
-
-        </div>
-
-    </header>
+    <?php include 'includes/header.php'; ?>
 
     <main class="main">
         <section class="topArea blog-intro position-relative">
@@ -188,6 +43,102 @@
                         <div class="row g-4">
                             <div class="col col-md-6">
                                 <div class="card">
+                                    <img src="assets/img/blog-6.jpg" class="card-img-top" alt="FEP Blue mental health benefits">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="fep-blue-mental-health-benefits-guide" class="text-black">FEP Blue Mental Health Benefits Guide for Federal Employees</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/16/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Complete guide to FEP Blue mental health coverage for federal employees in Michigan. Learn about co-pays, covered services, and how to maximize your benefits..</p>
+                                        <a href="fep-blue-mental-health-benefits-guide" class="btn btn-primary mt-3">Read Benefits Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog-5.jpg" class="card-img-top" alt="federal employee stress">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="federal-employee-stress-management-therapy" class="text-black">Managing Stress as a Federal Employee</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/16/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Unique stressors federal employees face and when to seek therapy. USPS, CBP, FBI, VA employees - learn how therapy can help..</p>
+                                        <a href="federal-employee-stress-management-therapy" class="btn btn-primary mt-3">Read Stress Management Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog-7.jpg" class="card-img-top" alt="PTSD law enforcement">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="ptsd-therapy-federal-law-enforcement" class="text-black">PTSD Treatment for Federal Law Enforcement</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/16/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">EMDR and trauma-focused therapy for CBP officers, FBI agents, and federal first responders. Confidential, effective PTSD treatment..</p>
+                                        <a href="ptsd-therapy-federal-law-enforcement" class="btn btn-primary mt-3">Read PTSD Treatment Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog-6.jpg" class="card-img-top" alt="shift work therapy">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="shift-work-federal-employee-therapy" class="text-black">Work-Life Balance for Federal Shift Workers</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/16/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Therapy solutions for USPS, CBP, and federal shift workers. Sleep issues, relationship strain, mental health support..</p>
+                                        <a href="shift-work-federal-employee-therapy" class="btn btn-primary mt-3">Read Shift Work Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
                                     <img src="assets/img/blog-8.jpg" class="card-img-top" alt="person first approach therapy">
                                     <div class="card-body">
                                         <h4 class="card-title"><a href="person-first-approach" class="text-black">Treat the Person Not the Diagnosis</a></h4>
@@ -207,174 +158,6 @@
                                             </div>
                                             <p class="card-text">Why I believe in a Person-First Approach to Understanding Symptoms and Emotions through Emotion Focused Therapy..</p>
                                         <a href="person-first-approach" class="btn btn-primary mt-3">Read About Person-First Therapy</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-md-6">
-                                <div class="card">
-                                    <img src="assets/img/grief-blog.jpg" class="card-img-top" alt="grief loss counseling michigan">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="grief-loss-counseling-guide" class="text-black">Grief & Loss Counseling</a></h4>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Amal Ayad</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">01/05/2026</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Understanding grief, types of loss, and how counseling can help you navigate the healing process.</p>
-                                        <a href="grief-loss-counseling-guide" class="btn btn-primary mt-3">Learn About Grief & Loss Counseling</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-md-6">
-                                <div class="card">
-                                    <img src="assets/img/teen-mental-health.jpg" class="card-img-top" alt="teen mental health michigan">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="teen-mental-health-guide" class="text-black">Teen Mental Health Guide</a></h4>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Dr. Nadia Habhab</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/27/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Warning signs every parent should know and how to support your teenager's mental health.</p>
-                                        <a href="teen-mental-health-guide" class="btn btn-primary mt-3">Explore Teen Mental Health Guide</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-md-6">
-                                <div class="card">
-                                    <img src="assets/img/trauma-blog.jpg" class="card-img-top" alt="ptsd trauma therapy michigan">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="ptsd-trauma-therapy-guide" class="text-black">PTSD & Trauma Therapy</a></h4>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Amal Ayad</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/18/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Learn about PTSD symptoms, types of trauma, and evidence-based treatments for healing.</p>
-                                        <a href="ptsd-trauma-therapy-guide" class="btn btn-primary mt-3">Learn About PTSD & Trauma Therapy</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-md-6">
-                                <div class="card">
-                                    <img src="assets/img/adhd-blog.jpg" class="card-img-top" alt="adhd testing michigan">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="adhd-guide-adults-children" class="text-black">ADHD in Adults & Children</a></h4>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Dr. Nadia Habhab</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/10/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Comprehensive guide to ADHD symptoms, testing, and treatment options for all ages.</p>
-                                        <a href="adhd-guide-adults-children" class="btn btn-primary mt-3">Explore ADHD Testing & Treatment</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-md-6">
-                                <div class="card">
-                                    <img src="assets/img/anxiety-blog.jpg" class="card-img-top" alt="anxiety therapy michigan">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="anxiety-therapy-guide" class="text-black">Understanding Anxiety</a></h4>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Amal Ayad</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/01/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Learn about anxiety disorders, symptoms, and evidence-based treatments available in Michigan.</p>
-                                        <a href="anxiety-therapy-guide" class="btn btn-primary mt-3">Learn About Anxiety Treatment</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-md-6">
-                                <div class="card">
-                                    <img src="assets/img/blog-9.jpg" class="card-img-top" alt="burnout stress therapy michigan">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="burnout-stress-therapy-michigan" class="text-black">Burnout & Work Stress Therapy</a></h4>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Dr. Nadia Habhab</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/31/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Feeling burned out from work? Learn the signs of burnout, how it differs from stress, and when to seek professional help..</p>
-                                        <a href="burnout-stress-therapy-michigan" class="btn btn-primary mt-3">Explore Burnout Recovery Tips</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-md-6">
-                                <div class="card">
-                                    <img src="assets/img/autism-evaluation.jpg" class="card-img-top" alt="autism evaluation michigan insurance">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="autism-evaluation-michigan-insurance" class="text-black">Autism Evaluation in Michigan: Insurance Guide</a></h4>
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <div class="hstack my-2">
-                                                        <div class="me-3">
-                                                            <i class="fa fa-user me-1 text-primary"></i>
-                                                            <span class="fs-6">Dr. Nadia Habhab</span>
-                                                        </div>
-                                                        <div>
-                                                            <i class="fa fa-calendar me-1 text-primary"></i>
-                                                            <span class="fs-6">12/23/2025</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="card-text">Complete guide to getting an autism evaluation in Michigan. Learn about insurance coverage, the evaluation process, and how to schedule.</p>
-                                        <a href="autism-evaluation-michigan-insurance" class="btn btn-primary mt-3">Read Autism Evaluation Guide</a>
                                     </div>
                                 </div>
                             </div>
@@ -563,11 +346,68 @@
                         <div class="main-sidebar">
                             <div class="single-widget recent-post">
                                 <h3 class="title">Recent posts</h3>
-                                <!-- Single Post -->
+                                <!-- Federal Employee Blog Posts -->
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
-                                        <img src="assets/img/blog-8.jpg" class="object-fit-cover" height="70"
-                                            width="100" alt="person first approach therapy">
+                                        <img src="assets/img/blog-6.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="FEP Blue benefits">
+                                    </div>
+                                    <div class="content">
+                                        <h5><a href="fep-blue-mental-health-benefits-guide">FEP Blue Benefits Guide</a></h5>
+                                            <div class="comment d-flex align-items-center">
+                                                <span class="text-muted" style="font-size:13px"><i
+                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
+                                                        aria-hidden="true"></i>06/16/2026</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="single-post d-flex my-3 border-bottom pb-2">
+                                    <div class="image me-3">
+                                        <img src="assets/img/blog-5.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="federal employee stress">
+                                    </div>
+                                    <div class="content">
+                                        <h5><a href="federal-employee-stress-management-therapy">Federal Employee Stress Management</a></h5>
+                                            <div class="comment d-flex align-items-center">
+                                                <span class="text-muted" style="font-size:13px"><i
+                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
+                                                        aria-hidden="true"></i>06/16/2026</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="single-post d-flex my-3 border-bottom pb-2">
+                                    <div class="image me-3">
+                                        <img src="assets/img/blog-7.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="PTSD law enforcement">
+                                    </div>
+                                    <div class="content">
+                                        <h5><a href="ptsd-therapy-federal-law-enforcement">PTSD for Law Enforcement</a></h5>
+                                            <div class="comment d-flex align-items-center">
+                                                <span class="text-muted" style="font-size:13px"><i
+                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
+                                                        aria-hidden="true"></i>06/16/2026</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="single-post d-flex my-3 border-bottom pb-2">
+                                    <div class="image me-3">
+                                        <img src="assets/img/blog-6.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="shift work therapy">
+                                    </div>
+                                    <div class="content">
+                                        <h5><a href="shift-work-federal-employee-therapy">Shift Worker Balance</a></h5>
+                                            <div class="comment d-flex align-items-center">
+                                                <span class="text-muted" style="font-size:13px"><i
+                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
+                                                        aria-hidden="true"></i>06/16/2026</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                <!-- Previous Posts -->
+                                <div class="single-post d-flex my-3 border-bottom pb-2">
+                                    <div class="image me-3">
+                                        <img src="assets/img/blog-8.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="person first approach therapy">
                                     </div>
                                     <div class="content">
                                         <h5><a href="person-first-approach">Treat the Person Not the Diagnosis</a></h5>
@@ -575,62 +415,6 @@
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
                                                         aria-hidden="true"></i>05/20/2026</span>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="single-post d-flex my-3 border-bottom pb-2">
-                                    <div class="image me-3">
-                                        <img src="assets/img/grief-blog.jpg" class="object-fit-cover" height="70"
-                                            width="100" alt="grief loss counseling">
-                                    </div>
-                                    <div class="content">
-                                        <h5><a href="grief-loss-counseling-guide">Grief & Loss Counseling</a></h5>
-                                            <div class="comment d-flex align-items-center">
-                                                <span class="text-muted" style="font-size:13px"><i
-                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>01/05/2026</span>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="single-post d-flex my-3 border-bottom pb-2">
-                                    <div class="image me-3">
-                                        <img src="assets/img/blog-9.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="burnout stress therapy">
-                                    </div>
-                                    <div class="content">
-                                        <h5><a href="burnout-stress-therapy-michigan">Burnout & Work Stress</a></h5>
-                                            <div class="comment d-flex align-items-center">
-                                                <span class="text-muted" style="font-size:13px"><i
-                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>12/31/2025</span>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="single-post d-flex my-3 border-bottom pb-2">
-                                    <div class="image me-3">
-                                        <img src="assets/img/teen-mental-health.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="teen mental health">
-                                    </div>
-                                    <div class="content">
-                                        <h5><a href="teen-mental-health-guide">Teen Mental Health</a></h5>
-                                            <div class="comment d-flex align-items-center">
-                                                <span class="text-muted" style="font-size:13px"><i
-                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>12/27/2025</span>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="single-post d-flex my-3 border-bottom pb-2">
-                                    <div class="image me-3">
-                                        <img src="assets/img/trauma-blog.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="ptsd trauma therapy">
-                                    </div>
-                                    <div class="content">
-                                        <h5><a href="ptsd-trauma-therapy-guide">PTSD & Trauma Therapy</a></h5>
-                                            <div class="comment d-flex align-items-center">
-                                                <span class="text-muted" style="font-size:13px"><i
-                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>12/18/2025</span>
                                             </div>
                                     </div>
                                 </div>
@@ -645,219 +429,7 @@
         </section>
     </main>
 
-    <footer id="footer" class="footer light-background">
-    
-        <div class="container footer-top">
-            <div class="row gy-4">
-                <div class="col-lg-4 col-md-6 footer-about">
-                    <a href="/" class="logo d-flex align-items-center me-auto">
-                        <img src="assets/img/hel_logo.webp" alt="healing therapy logo">
-                    </a>
-                    <div>
-                        <p>We are Licensed Mental Health professionals that know that healing is a process that takes time.
-                            We want
-                            to take the
-                            first steps of healing with you today.</p>
-                    </div>
-                </div>
-    
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <p>Useful Links</p>
-                    <ul>
-                        <li><a href="https://www.healingtherapycenter.com/#hero">Home</a></li>
-                        <li><a href="therapists">Our Team</a></li>
-                        <li><a href="https://www.healingtherapycenter.com/#services">Services</a></li>
-                        <li><a href="suicide-hotline">Resources</a></li>
-                        <li><a href="all-blogs">Blog</a></li>
-            <li><a href="faq">FAQ</a></li>
-                        <li><a href="appointment">Appointment</a></li>
-                    </ul>
-                </div>
-    
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <p>Our Services</p>
-                    <ul>
-                        <li><a href="individual-therapy">Individual Therapy</a></li>
-                        <li><a href="couples-therapy">Couple Therapy</a></li>
-                        <li><a href="family-therapy">Family Therapy</a></li>
-                        <li><a href="group-therapy">Group Therapy</a></li>
-                        <li><a href="psychological-testing">Psychological Testing</a></li>
-                        <li><a href="telehealth-therapy">Telehealth Therapy</a></li>
-                    </ul>
-                </div>
-    
-                <div class="col-lg-4 col-md-3 footer-links">
-                    <p>Contact</p>
-                     <div class="footer-contact">
-            <p><a href="tel:313-654-1915"><i class="fa fa-phone me-2"></i>313-654-1915</a></p>
-            <p><a href="mailto:info@healingtherapycenter.com"><i class="fa fa-envelope me-2"></i>info@healingtherapycenter.com</a>
-            </p>
-             <p><a href="https://www.google.com/maps/place/Healing+Therapy+Center/@42.2856222,-83.2362161,17z/data=!3m1!4b1!4m6!3m5!1s0x49209db55e5af6b9:0xac011e6fed0001a0!8m2!3d42.2856183!4d-83.2336412!16s%2Fg%2F11y8d4mlbr?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><i class="fa fa-location-pin me-2"></i>22005 Outer Dr W, Dearborn, MI 48124</a>
-            </p>
-          </div>
-                </div>
-    
-            </div>
-        </div>
-    
-        <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">Healing Therapy Center</strong> <span>All Rights
-                    Reserved</span></p>
-            <div class="specter-credit" style="margin-top: 15px;">
-                <a href="https://spectersystems.ca/portfolio" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-                    <span style="display: block; font-size: 12px; color: #666; margin-bottom: 5px;">Designed by</span>
-                    <img src="assets/img/SpecterSystemsBlack.svg" alt="Specter Systems" style="height: 40px; opacity: 0.7;">
-                </a>
-            </div>
-        </div>
-
-    </footer>
-
-    <!-- Scroll Top -->
-    <a href="#top" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/contact.js"></script>
-    <script src="assets/vendor/php-email-form/appointment.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TSBF8KK4BW"></script>
-<script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-TSBF8KK4BW'); </script>
-<!-- Microsoft Clarity -->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "uubyusuesp");
-</script>
-<!-- Clarity Enhanced Tracking -->
-<script type="text/javascript">
-(function() {
-    // Use requestIdleCallback for non-critical tracking setup
-    var scheduleTask = window.requestIdleCallback || function(cb) { setTimeout(cb, 1); };
-
-    function initClarityEnhancements() {
-        if (typeof clarity === 'undefined') return;
-
-        var path = window.location.pathname.toLowerCase();
-        var pageType = 'other';
-        var therapistName = '';
-
-        // Detect page type
-        if (path === '/' || path === '/index' || path.includes('index.php') || path.includes('index.html')) {
-            pageType = 'home';
-        } else if (path.includes('blog') || path.includes('depression') || path.includes('anxiety') ||
-                   path.includes('autism') || path.includes('trauma') || path.includes('coping') ||
-                   path.includes('healing-starts') || path.includes('breaking-stigma') ||
-                   path.includes('burnout') || path.includes('parenting') || path.includes('therapist')) {
-            pageType = path.includes('all-blogs') ? 'blog-listing' : 'blog';
-        } else if (path.includes('therapy') || path.includes('testing') || path.includes('telehealth') ||
-                   path.includes('perinatal') || path.includes('counseling') || path.includes('treatment')) {
-            pageType = 'service';
-        } else if (path.includes('amal') || path.includes('nadia') || path.includes('tiffany') ||
-                   path.includes('malak') || path.includes('donna')) {
-            pageType = 'therapist';
-            therapistName = path.includes('amal') ? 'Amal Ayad' :
-                           path.includes('nadia') ? 'Dr. Nadia Habhab' :
-                           path.includes('tiffany') ? 'Tiffany Murray' :
-                           path.includes('malak') ? 'Malak Wehbe' : 'Donna Majed';
-        } else if (path.includes('therapists')) {
-            pageType = 'team';
-        } else if (path.includes('appointment')) {
-            pageType = 'appointment';
-        } else if (path.includes('contact')) {
-            pageType = 'contact';
-        } else if (path.includes('faq')) {
-            pageType = 'faq';
-        } else if (path.includes('screening')) {
-            pageType = 'screening-tool';
-        }
-
-        // Set Clarity tags
-        clarity('set', 'page_type', pageType);
-        if (therapistName) clarity('set', 'therapist', therapistName);
-        if (pageType === 'service') clarity('set', 'service_viewed', path.replace(/[^a-z]/g, ' ').trim());
-
-        // Use event delegation for click tracking (single listener instead of many)
-        document.body.addEventListener('click', function(e) {
-            var target = e.target.closest('a, button');
-            if (!target) return;
-
-            var href = target.href || '';
-            var text = (target.textContent || '').toLowerCase();
-
-            if (href.includes('appointment') || text.includes('appointment')) {
-                clarity('set', 'appointment_clicked', 'true');
-                clarity('event', 'Appointment_Button_Click');
-            } else if (href.startsWith('tel:')) {
-                clarity('set', 'phone_clicked', 'true');
-                clarity('event', 'Phone_Call_Click');
-            } else if (href.startsWith('mailto:')) {
-                clarity('set', 'email_clicked', 'true');
-                clarity('event', 'Email_Click');
-            } else if (text.includes('read more')) {
-                clarity('event', 'Blog_Read_More_Click');
-            }
-        }, {passive: true});
-
-        // Track form submissions with delegation
-        document.body.addEventListener('submit', function(e) {
-            var form = e.target;
-            if (form.tagName !== 'FORM') return;
-            var formType = form.id || (form.className ? form.className.split(' ')[0] : 'unknown');
-            clarity('set', 'form_submitted', formType);
-            clarity('event', 'Form_Submission');
-        }, {passive: true});
-
-        // Throttled scroll depth tracking for blog posts only
-        if (pageType === 'blog') {
-            var scrollTriggered = {};
-            var ticking = false;
-
-            window.addEventListener('scroll', function() {
-                if (ticking) return;
-                ticking = true;
-                requestAnimationFrame(function() {
-                    var scrollPercent = Math.round((window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100);
-                    [25, 50, 75, 100].forEach(function(marker) {
-                        if (scrollPercent >= marker && !scrollTriggered[marker]) {
-                            scrollTriggered[marker] = true;
-                            clarity('set', 'scroll_depth', marker + '%');
-                            clarity('event', 'Scroll_' + marker + '_Percent');
-                        }
-                    });
-                    ticking = false;
-                });
-            }, {passive: true});
-        }
-    }
-
-    // Wait for Clarity to load, then run when idle
-    window.addEventListener('load', function() {
-        scheduleTask(function() {
-            if (typeof clarity !== 'undefined') {
-                initClarityEnhancements();
-            } else {
-                // Clarity not loaded yet, try once more after a delay
-                setTimeout(function() {
-                    if (typeof clarity !== 'undefined') initClarityEnhancements();
-                }, 500);
-            }
-        });
-    });
-})();
-</script>
-
+    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/scripts.php'; ?>
 </body>
-
 </html>
