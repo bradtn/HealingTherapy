@@ -363,4 +363,77 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Insurance-Specific Landing Pages -->
+  <url>
+    <loc>https://www.healingtherapycenter.com/blue-cross-blue-shield-therapy-michigan</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/priority-health-therapy-michigan</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/aetna-therapy-michigan</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/united-healthcare-therapy-michigan</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Wealthy Suburb City Pages -->
+  <url>
+    <loc>https://www.healingtherapycenter.com/therapist-troy-mi</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/therapist-birmingham-mi</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/therapist-rochester-hills-mi</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Professional Niche Pages -->
+  <url>
+    <loc>https://www.healingtherapycenter.com/executive-stress-therapy-michigan</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/physician-burnout-therapy-michigan</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/premarital-counseling-michigan</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
