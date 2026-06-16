@@ -32,6 +32,9 @@ $og_image = $og_image ?? OG_IMAGE_DEFAULT;
     <title><?php echo htmlspecialchars($page_title); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
 
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="9551257daa769288">
+
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="<?php echo htmlspecialchars($og_title); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($og_description); ?>">
