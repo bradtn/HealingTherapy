@@ -43,6 +43,102 @@ require_once 'includes/config.php';
                         <div class="row g-4">
                             <div class="col col-md-6">
                                 <div class="card">
+                                    <img src="assets/img/blog-6.jpg" class="card-img-top" alt="FEP Blue mental health benefits">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="fep-blue-mental-health-benefits-guide" class="text-black">FEP Blue Mental Health Benefits Guide for Federal Employees</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/16/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Complete guide to FEP Blue mental health coverage for federal employees in Michigan. Learn about co-pays, covered services, and how to maximize your benefits..</p>
+                                        <a href="fep-blue-mental-health-benefits-guide" class="btn btn-primary mt-3">Read Benefits Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog-5.jpg" class="card-img-top" alt="federal employee stress">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="federal-employee-stress-management-therapy" class="text-black">Managing Stress as a Federal Employee</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/16/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Unique stressors federal employees face and when to seek therapy. USPS, CBP, FBI, VA employees - learn how therapy can help..</p>
+                                        <a href="federal-employee-stress-management-therapy" class="btn btn-primary mt-3">Read Stress Management Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog-7.jpg" class="card-img-top" alt="PTSD law enforcement">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="ptsd-therapy-federal-law-enforcement" class="text-black">PTSD Treatment for Federal Law Enforcement</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/16/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">EMDR and trauma-focused therapy for CBP officers, FBI agents, and federal first responders. Confidential, effective PTSD treatment..</p>
+                                        <a href="ptsd-therapy-federal-law-enforcement" class="btn btn-primary mt-3">Read PTSD Treatment Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog-6.jpg" class="card-img-top" alt="shift work therapy">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="shift-work-federal-employee-therapy" class="text-black">Work-Life Balance for Federal Shift Workers</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/16/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Therapy solutions for USPS, CBP, and federal shift workers. Sleep issues, relationship strain, mental health support..</p>
+                                        <a href="shift-work-federal-employee-therapy" class="btn btn-primary mt-3">Read Shift Work Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
                                     <img src="assets/img/blog-8.jpg" class="card-img-top" alt="person first approach therapy">
                                     <div class="card-body">
                                         <h4 class="card-title"><a href="person-first-approach" class="text-black">Treat the Person Not the Diagnosis</a></h4>
@@ -250,7 +346,64 @@ require_once 'includes/config.php';
                         <div class="main-sidebar">
                             <div class="single-widget recent-post">
                                 <h3 class="title">Recent posts</h3>
-                                <!-- Single Post -->
+                                <!-- Federal Employee Blog Posts -->
+                                <div class="single-post d-flex my-3 border-bottom pb-2">
+                                    <div class="image me-3">
+                                        <img src="assets/img/blog-6.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="FEP Blue benefits">
+                                    </div>
+                                    <div class="content">
+                                        <h5><a href="fep-blue-mental-health-benefits-guide">FEP Blue Benefits Guide</a></h5>
+                                            <div class="comment d-flex align-items-center">
+                                                <span class="text-muted" style="font-size:13px"><i
+                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
+                                                        aria-hidden="true"></i>06/16/2026</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="single-post d-flex my-3 border-bottom pb-2">
+                                    <div class="image me-3">
+                                        <img src="assets/img/blog-5.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="federal employee stress">
+                                    </div>
+                                    <div class="content">
+                                        <h5><a href="federal-employee-stress-management-therapy">Federal Employee Stress Management</a></h5>
+                                            <div class="comment d-flex align-items-center">
+                                                <span class="text-muted" style="font-size:13px"><i
+                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
+                                                        aria-hidden="true"></i>06/16/2026</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="single-post d-flex my-3 border-bottom pb-2">
+                                    <div class="image me-3">
+                                        <img src="assets/img/blog-7.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="PTSD law enforcement">
+                                    </div>
+                                    <div class="content">
+                                        <h5><a href="ptsd-therapy-federal-law-enforcement">PTSD for Law Enforcement</a></h5>
+                                            <div class="comment d-flex align-items-center">
+                                                <span class="text-muted" style="font-size:13px"><i
+                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
+                                                        aria-hidden="true"></i>06/16/2026</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="single-post d-flex my-3 border-bottom pb-2">
+                                    <div class="image me-3">
+                                        <img src="assets/img/blog-6.jpg" class="object-fit-cover" height="70" width="100"
+                                            alt="shift work therapy">
+                                    </div>
+                                    <div class="content">
+                                        <h5><a href="shift-work-federal-employee-therapy">Shift Worker Balance</a></h5>
+                                            <div class="comment d-flex align-items-center">
+                                                <span class="text-muted" style="font-size:13px"><i
+                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
+                                                        aria-hidden="true"></i>06/16/2026</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                <!-- Previous Posts -->
                                 <div class="single-post d-flex my-3 border-bottom pb-2">
                                     <div class="image me-3">
                                         <img src="assets/img/blog-8.jpg" class="object-fit-cover" height="70" width="100"
@@ -262,48 +415,6 @@ require_once 'includes/config.php';
                                                 <span class="text-muted" style="font-size:13px"><i
                                                         class="fa fa-calendar me-1 text-muted" style="font-size:13px"
                                                         aria-hidden="true"></i>05/20/2026</span>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="single-post d-flex my-3 border-bottom pb-2">
-                                    <div class="image me-3">
-                                        <img src="assets/img/blog-7.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="is autism curable">
-                                    </div>
-                                    <div class="content">
-                                        <h5><a href="is-autism-curable">Is Autism Curable</a></h5>
-                                            <div class="comment d-flex align-items-center">
-                                                <span class="text-muted" style="font-size:13px"><i
-                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>12/09/2025</span>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="single-post d-flex my-3 border-bottom pb-2">
-                                    <div class="image me-3">
-                                        <img src="assets/img/blog-6.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="parenting child autism">
-                                    </div>
-                                    <div class="content">
-                                        <h5><a href="parenting-child">Parenting a Child with Autism</a></h5>
-                                            <div class="comment d-flex align-items-center">
-                                                <span class="text-muted" style="font-size:13px"><i
-                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>12/02/2025</span>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="single-post d-flex my-3 border-bottom pb-2">
-                                    <div class="image me-3">
-                                        <img src="assets/img/blog-5.jpg" class="object-fit-cover" height="70" width="100"
-                                            alt="autism signs children">
-                                    </div>
-                                    <div class="content">
-                                        <h5><a href="autism-signs">Early Signs of Autism</a></h5>
-                                            <div class="comment d-flex align-items-center">
-                                                <span class="text-muted" style="font-size:13px"><i
-                                                        class="fa fa-calendar me-1 text-muted" style="font-size:13px"
-                                                        aria-hidden="true"></i>11/25/2025</span>
                                             </div>
                                     </div>
                                 </div>
