@@ -100,71 +100,54 @@ require_once 'includes/config.php';
                                         <li>Residential treatment facilities</li>
                                     </ul>
 
-                                    <h2>How Much Do You Pay? FEP Blue Co-Pays Explained</h2>
+                                    <h2>Understanding FEP Blue Out-of-Pocket Costs</h2>
 
-                                    <p>One of the major advantages of FEP Blue is the affordable out-of-pocket costs for mental health services. Here's what you can expect to pay in 2026:</p>
+                                    <p>One of the major advantages of FEP Blue is typically competitive out-of-pocket costs for mental health services. However, your specific costs depend on your plan type and benefits:</p>
 
-                                    <h3>FEP Blue Standard (Lower Co-Pays)</h3>
-
-                                    <ul>
-                                        <li><strong>Individual therapy sessions:</strong> $15-$25 co-pay per visit</li>
-                                        <li><strong>Couples/family therapy:</strong> $15-$25 co-pay per visit</li>
-                                        <li><strong>Group therapy:</strong> $10-$15 co-pay per visit</li>
-                                        <li><strong>Psychiatrist visits:</strong> $25 co-pay per visit</li>
-                                        <li><strong>Psychological testing:</strong> Typically covered at 90% after deductible</li>
-                                        <li><strong>Telehealth:</strong> Same co-pays as in-person</li>
-                                    </ul>
-
-                                    <h3>FEP Blue Basic (Slightly Higher Co-Pays)</h3>
+                                    <h3>What Affects Your Out-of-Pocket Costs?</h3>
 
                                     <ul>
-                                        <li><strong>Individual therapy sessions:</strong> $25-$30 co-pay per visit</li>
-                                        <li><strong>Couples/family therapy:</strong> $25-$30 co-pay per visit</li>
-                                        <li><strong>Group therapy:</strong> $15-$20 co-pay per visit</li>
-                                        <li><strong>Psychiatrist visits:</strong> $30-$40 co-pay per visit</li>
-                                        <li><strong>Psychological testing:</strong> Typically covered at 80% after deductible</li>
-                                        <li><strong>Telehealth:</strong> Same co-pays as in-person</li>
+                                        <li><strong>Plan type:</strong> FEP Blue Standard vs. Basic have different cost-sharing structures</li>
+                                        <li><strong>Service type:</strong> Individual therapy, couples therapy, psychological testing, etc. may have different copays or coinsurance</li>
+                                        <li><strong>Deductibles:</strong> Some services may require meeting a deductible first</li>
+                                        <li><strong>Network status:</strong> In-network providers typically cost less than out-of-network</li>
                                     </ul>
 
-                                    <div class="alert alert-success my-4">
-                                        <h4 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>No Deductible for Outpatient Mental Health</h4>
-                                        <p class="mb-0">Unlike many health insurance plans, FEP Blue does NOT require you to meet your annual deductible before mental health therapy coverage kicks in. Your co-pay is all you pay from day one.</p>
+                                    <div class="alert alert-info my-4">
+                                        <h4 class="alert-heading"><i class="bi bi-info-circle-fill me-2"></i>Verify Your Specific Costs</h4>
+                                        <p class="mb-0">Coverage, copays, deductibles, and coinsurance vary by FEP Blue plan and year. Before scheduling, call your therapist's office or FEP Blue directly to verify your exact out-of-pocket costs for mental health services.</p>
                                     </div>
 
                                     <h2>Do You Need Pre-Authorization?</h2>
 
-                                    <p><strong>Good news: NO!</strong> For most outpatient mental health services (individual therapy, couples therapy, family therapy), FEP Blue does <strong>NOT</strong> require pre-authorization. You can:</p>
+                                    <p>Pre-authorization requirements vary by FEP Blue plan and service type. Many FEP Blue plans offer streamlined access to outpatient mental health services, though some plans may require authorization for certain services.</p>
 
-                                    <ol>
-                                        <li>Find a licensed therapist who accepts FEP Blue</li>
-                                        <li>Call and schedule an appointment</li>
-                                        <li>Start therapy immediately</li>
-                                        <li>Pay only your co-pay at each session</li>
-                                    </ol>
-
-                                    <p>The only time pre-authorization might be required:</p>
+                                    <h3>Services That May Require Authorization:</h3>
 
                                     <ul>
                                         <li>Inpatient psychiatric hospitalization</li>
                                         <li>Intensive outpatient programs (IOP)</li>
                                         <li>Partial hospitalization programs (PHP)</li>
                                         <li>Residential treatment</li>
+                                        <li>Some psychological testing procedures</li>
                                     </ul>
 
-                                    <p>Your therapist or treatment facility will handle pre-authorization if needed—you don't have to do anything.</p>
+                                    <p><strong>Important:</strong> Always verify authorization requirements with your specific plan before starting services. Your therapist's office can help check if pre-authorization is needed and assist with that process if required.</p>
 
-                                    <h2>Is There a Limit on the Number of Therapy Sessions?</h2>
+                                    <h2>Are There Session Limits?</h2>
 
-                                    <p><strong>No!</strong> FEP Blue provides <strong>unlimited outpatient mental health visits</strong> per year. Unlike some insurance plans that cap therapy at 20-30 sessions annually, FEP Blue recognizes that mental health treatment is individualized and ongoing.</p>
+                                    <p>Session limits, if any, vary by FEP Blue plan and year. Many FEP Blue plans offer generous allowances for outpatient mental health services, though specific limits depend on your plan type and coverage year.</p>
 
-                                    <p>This means you can:</p>
+                                    <p><strong>What This Means for You:</strong></p>
 
                                     <ul>
-                                        <li>Attend weekly therapy for as long as you need</li>
-                                        <li>Continue therapy for months or years if beneficial</li>
-                                        <li>Seek therapy for multiple concerns throughout the year</li>
-                                        <li>Have different family members in therapy simultaneously (each covered under their own benefit)</li>
+                                        <li>Some plans may allow ongoing weekly therapy</li>
+                                        <li>Coverage details vary by Standard vs. Basic plans</li>
+                                        <li>Annual or lifetime limits may apply depending on your plan</li>
+                                        <li>Your therapist can help check your remaining benefits</li>
                                     </ul>
+
+                                    <p><strong>Important:</strong> Call FEP Blue or your therapist's office to verify your specific plan's session limits before starting treatment.</p>
 
                                     <h2>Finding a FEP Blue Therapist in Michigan</h2>
 
@@ -213,7 +196,7 @@ require_once 'includes/config.php';
 
                                     <h3>Myth #2: "I need a referral from my primary care doctor"</h3>
 
-                                    <p><strong>FALSE.</strong> FEP Blue does not require referrals for mental health services. You can call a therapist directly and schedule an appointment without seeing your primary care physician first.</p>
+                                    <p><strong>Often not required, but varies by plan.</strong> Many FEP Blue plans do not require referrals for mental health services, allowing you to call a therapist directly. However, referral requirements can vary by plan type and year. Check your specific plan's requirements before scheduling.</p>
 
                                     <h3>Myth #3: "Therapy will affect my security clearance"</h3>
 
@@ -301,7 +284,7 @@ require_once 'includes/config.php';
 
                                     <h3>1. Don't Wait Until You're in Crisis</h3>
 
-                                    <p>With unlimited sessions and low co-pays, FEP Blue allows you to seek therapy proactively. You don't need to wait until you're in crisis—therapy for stress management, relationship enhancement, or personal growth is all covered.</p>
+                                    <p>FEP Blue plans often provide competitive coverage for outpatient mental health services. You may be able to seek therapy proactively for stress management, relationship enhancement, or personal growth. Check your specific plan's coverage details.</p>
 
                                     <h3>2. Use Telehealth for Convenience</h3>
 
@@ -317,7 +300,7 @@ require_once 'includes/config.php';
 
                                     <h3>5. Stay with a Therapist Long-Term if Beneficial</h3>
 
-                                    <p>Since there's no session limit, you can continue therapy as long as it's helpful. Many people benefit from ongoing therapy over months or years—and your FEP Blue benefits make this affordable.</p>
+                                    <p>Many FEP Blue plans offer generous session allowances, potentially allowing ongoing therapy if medically necessary. Check your specific plan's session limits and coverage period. Many people benefit from ongoing therapy over months or years.</p>
 
                                     <h2>Common Questions Federal Employees Ask</h2>
 
@@ -370,7 +353,7 @@ require_once 'includes/config.php';
 
                                     <h2>Take the First Step</h2>
 
-                                    <p>As a federal employee, you've earned excellent mental health benefits through your service. FEP Blue provides some of the best mental health coverage available—low co-pays, no session limits, no pre-authorization, and telehealth options.</p>
+                                    <p>As a federal employee, you've earned excellent mental health benefits through your service. FEP Blue often provides competitive mental health coverage that may include favorable copays, generous session allowances, streamlined authorization processes, and telehealth options. Your specific benefits vary by plan.</p>
 
                                     <p>Whether you're dealing with work stress, anxiety, depression, relationship challenges, PTSD, or simply want support during a difficult time, quality mental health care is accessible and affordable with your FEP Blue insurance.</p>
 

@@ -262,7 +262,7 @@ require_once 'includes/config.php';
                                 <div class="card h-100 border-0 shadow-sm">
                                     <div class="card-body">
                                         <p class="mb-2"><i class="bi bi-shield-check text-success me-2"></i><strong>Insurance Accepted</strong></p>
-                                        <p class="small mb-0">Blue Cross Blue Shield (including FEP Blue for federal employees), Aetna, Priority Health, McLaren, HAP. Sliding scale available.</p>
+                                        <p class="small mb-0">Blue Cross Blue Shield (including <a href="fep-blue-federal-employee-therapy">FEP Blue for federal employees</a>), Aetna, Priority Health, McLaren, HAP. <a href="insurance">View all accepted insurance plans</a>. Sliding scale available.</p>
                                     </div>
                                 </div>
                             </div>

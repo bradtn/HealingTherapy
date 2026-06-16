@@ -251,20 +251,21 @@ require_once 'includes/config.php';
                                     </ul>
 
                                     <h3>Duration</h3>
-                                    <p>Many officers see significant improvement in 12-20 sessions, though some continue longer for additional support. Your FEP Blue insurance has NO LIMIT on sessions—you can continue as long as treatment is beneficial.</p>
+                                    <p>Many officers see significant improvement in 12-20 sessions, though some continue longer for additional support. FEP Blue plans often provide generous session allowances—check your specific plan's coverage details.</p>
 
-                                    <h2>Your FEP Blue Benefits Cover PTSD Treatment</h2>
+                                    <h2>Your FEP Blue Benefits May Cover PTSD Treatment</h2>
 
-                                    <p>As a federal employee, your mental health benefits are excellent:</p>
+                                    <p>As a federal employee, your FEP Blue mental health benefits often provide competitive coverage:</p>
 
                                     <ul>
-                                        <li><strong>Co-pay:</strong> $15-$30 per therapy session</li>
-                                        <li><strong>No pre-authorization:</strong> Start treatment immediately</li>
-                                        <li><strong>Unlimited sessions:</strong> Continue as long as needed</li>
-                                        <li><strong>Telehealth covered:</strong> Attend sessions from home if preferred</li>
-                                        <li><strong>Psychiatry visits:</strong> Covered if medication is needed</li>
-                                        <li><strong>Couples/family therapy:</strong> Covered if PTSD affects relationships</li>
+                                        <li><strong>Outpatient therapy:</strong> Many plans offer favorable copays for mental health services</li>
+                                        <li><strong>Streamlined access:</strong> Many plans provide simplified authorization for outpatient therapy</li>
+                                        <li><strong>Generous allowances:</strong> FEP Blue plans often provide substantial session benefits</li>
+                                        <li><strong>Telehealth options:</strong> May be covered similarly to in-person visits</li>
+                                        <li><strong>Psychiatry visits:</strong> May be covered if medication is needed</li>
+                                        <li><strong>Couples/family therapy:</strong> May be covered if PTSD affects relationships</li>
                                     </ul>
+                                    <p><strong>Important:</strong> Coverage, copays, session limits, and authorization requirements vary by plan. Call us at (313) 654-1915 to verify your specific benefits before starting treatment.</p>
 
                                     <div class="alert alert-success my-4">
                                         <h4 class="alert-heading"><i class="bi bi-lock-fill me-2"></i>Your Treatment is Completely Confidential</h4>

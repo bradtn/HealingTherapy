@@ -151,7 +151,7 @@ require_once 'includes/config.php';
           <div class="container rounded">
             <h2 class="text-center">Insurance We Accept - Including FEP Blue for Federal Employees</h2>
             <div class="alert alert-info text-center mx-auto mb-4" style="max-width: 900px;">
-              <p class="mb-0"><i class="bi bi-shield-check me-2"></i><strong>Federal Employees:</strong> We accept <strong>FEP Blue</strong> (Blue Cross Blue Shield Federal Employee Program) insurance. If you work for USPS, CBP, FBI, VA, or any federal agency in Michigan, your mental health services are covered with low co-pays ($15-$30 per session). <a href="fep-blue-federal-employee-therapy" class="alert-link"><strong>Learn more about FEP Blue coverage →</strong></a></p>
+              <p class="mb-0"><i class="bi bi-shield-check me-2"></i><strong>Federal Employees:</strong> We accept <strong>FEP Blue</strong> (Blue Cross Blue Shield Federal Employee Program) insurance. If you work for USPS, CBP, FBI, VA, or any federal agency in Michigan, your mental health services may be covered. Coverage, copays, session limits, and authorization requirements vary by plan. <a href="fep-blue-federal-employee-therapy" class="alert-link"><strong>Learn more about FEP Blue coverage →</strong></a></p>
             </div>
             <div class="slider">
               <div class="logos">
@@ -171,7 +171,7 @@ require_once 'includes/config.php';
                 <img loading="lazy" src="assets/img/in-6.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="HAP logo">
               </div>
             </div>
-            <p class="text-center mt-4 mb-0">We accept most major insurance plans including <strong>Blue Cross Blue Shield (including FEP Blue for federal employees)</strong>, Priority Health, Aetna, McLaren Health Plan, HAP, Blue Care Network, United Healthcare, and Michigan Medicaid. Call <a href="tel:313-654-1915"><strong>(313) 654-1915</strong></a> to verify your coverage.</p>
+            <p class="text-center mt-4 mb-0">We accept most major insurance plans including <strong>Blue Cross Blue Shield (including <a href="fep-blue-federal-employee-therapy">FEP Blue for federal employees</a>)</strong>, Priority Health, Aetna, McLaren Health Plan, HAP, Blue Care Network, United Healthcare, and Michigan Medicaid. <a href="insurance"><strong>View all accepted insurance plans and payment options</strong></a>. Call <a href="tel:313-654-1915"><strong>(313) 654-1915</strong></a> to verify your coverage.</p>
           </div>
         </div>
 

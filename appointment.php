@@ -74,6 +74,13 @@ require_once 'includes/config.php';
                             <!-- Honeypot field (hidden - for spam detection) -->
                             <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
 
+                            <!-- Tracking fields (hidden) -->
+                            <input type="hidden" name="landing_page" id="landing_page" value="">
+                            <input type="hidden" name="referrer" id="referrer" value="">
+                            <input type="hidden" name="utm_source" id="utm_source" value="">
+                            <input type="hidden" name="utm_medium" id="utm_medium" value="">
+                            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
+
                             <div class="row">
                                 <div class="col-md-4 form-group">
                                     <input type="text" name="Name" class="form-control" id="name"
@@ -106,6 +113,21 @@ require_once 'includes/config.php';
                                         <option value="Donna Majed">Donna Majed</option>
                                     </select>
                                 </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="referral_source" class="form-label">How did you hear about us?</label>
+                                <select class="form-control" name="ReferralSource" id="referral_source" aria-label="How did you hear about us?">
+                                    <option value="">Please select...</option>
+                                    <option value="Google Search">Google Search</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Instagram">Instagram</option>
+                                    <option value="Friend/Family Referral">Friend/Family Referral</option>
+                                    <option value="Doctor Referral">Doctor Referral</option>
+                                    <option value="Insurance Provider">Insurance Provider (FEP Blue, BCBS, etc.)</option>
+                                    <option value="Psychology Today">Psychology Today</option>
+                                    <option value="Federal Employee Recommendation">Federal Employee Recommendation</option>
+                                    <option value="Other">Other</option>
+                                </select>
                             </div>
                             <div class="form-group mt-3">
                                 <label for="message" class="form-label">Message / Reason for Appointment</label>
@@ -172,5 +194,33 @@ require_once 'includes/config.php';
 
     <?php include 'includes/footer.php'; ?>
     <?php include 'includes/scripts.php'; ?>
+
+    <!-- Tracking script to capture referrer and UTM parameters -->
+    <script>
+    (function() {
+        // Capture landing page URL
+        document.getElementById('landing_page').value = window.location.href;
+
+        // Capture referrer
+        if (document.referrer) {
+            document.getElementById('referrer').value = document.referrer;
+        }
+
+        // Capture UTM parameters from URL
+        const urlParams = new URLSearchParams(window.location.search);
+
+        if (urlParams.has('utm_source')) {
+            document.getElementById('utm_source').value = urlParams.get('utm_source');
+        }
+
+        if (urlParams.has('utm_medium')) {
+            document.getElementById('utm_medium').value = urlParams.get('utm_medium');
+        }
+
+        if (urlParams.has('utm_campaign')) {
+            document.getElementById('utm_campaign').value = urlParams.get('utm_campaign');
+        }
+    })();
+    </script>
 </body>
 </html>

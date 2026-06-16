@@ -255,18 +255,19 @@ require_once 'includes/config.php';
                                         <li><strong>Regular medical checkups:</strong> Monitor for shift work health risks</li>
                                     </ul>
 
-                                    <h2>Your FEP Blue Benefits Make Therapy Accessible</h2>
+                                    <h2>Your FEP Blue Benefits May Make Therapy Accessible</h2>
 
-                                    <p>As a federal shift worker, you have excellent mental health coverage through FEP Blue:</p>
+                                    <p>As a federal shift worker, FEP Blue often provides competitive mental health coverage:</p>
 
                                     <ul>
-                                        <li><strong>Low co-pays:</strong> $15-$30 per session</li>
-                                        <li><strong>No session limits:</strong> Continue therapy as long as helpful</li>
-                                        <li><strong>No pre-authorization:</strong> Start immediately</li>
-                                        <li><strong>Telehealth covered:</strong> Perfect for irregular schedules</li>
+                                        <li><strong>Competitive copays:</strong> Many FEP Blue plans offer favorable rates for outpatient therapy</li>
+                                        <li><strong>Generous allowances:</strong> FEP Blue plans often provide substantial mental health session benefits</li>
+                                        <li><strong>Streamlined access:</strong> Many plans offer simplified authorization for mental health services</li>
+                                        <li><strong>Telehealth options:</strong> May be covered, perfect for irregular schedules</li>
                                         <li><strong>Flexible appointment times:</strong> Find therapists offering evening, early morning, or weekend sessions</li>
-                                        <li><strong>Couples/family therapy:</strong> Same benefits if your relationships are struggling</li>
+                                        <li><strong>Couples/family therapy:</strong> May be covered if your relationships are struggling</li>
                                     </ul>
+                                    <p><strong>Important:</strong> Coverage, copays, session limits, and authorization requirements vary by plan. Call us at (313) 654-1915 to verify your specific benefits.</p>
 
                                     <h2>Finding a Therapist Who Understands Shift Work</h2>
 

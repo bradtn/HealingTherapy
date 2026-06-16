@@ -311,4 +311,56 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Insurance & Payment Pages -->
+  <url>
+    <loc>https://www.healingtherapycenter.com/insurance</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- FEP Blue Assessment Pages -->
+  <url>
+    <loc>https://www.healingtherapycenter.com/fep-blue-autism-testing-michigan</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/fep-blue-adhd-assessment-michigan</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Local Federal Employee City Pages -->
+  <url>
+    <loc>https://www.healingtherapycenter.com/federal-employee-therapy-dearborn</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/federal-employee-therapy-detroit</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/federal-employee-therapy-livonia</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.healingtherapycenter.com/federal-employee-therapy-ann-arbor</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

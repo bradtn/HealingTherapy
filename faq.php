@@ -5,6 +5,102 @@ $page_description = 'Get answers to common questions about therapy services, sch
 $canonical_url = 'https://www.healingtherapycenter.com/faq';
 $og_title = 'Frequently Asked Questions | Healing Therapy Center';
 
+// FAQ Schema for rich snippets
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'FAQPage',
+    'mainEntity' => [
+        [
+            '@type' => 'Question',
+            'name' => 'What types of therapy do you offer?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'We offer a range of therapy services including Individual Therapy, Couples Therapy, Family Therapy, Group Therapy, Psychological Testing, and Telehealth Therapy. Each service is tailored to meet your specific needs and goals.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'How do I schedule an appointment?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Scheduling an appointment is easy! You can contact us via phone at (313) 654-1915, email, or through our online booking system on our website. Our team will assist you in finding a convenient time for your session.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'What can I expect during my first therapy session?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'During your first session, your therapist will get to know you and understand your concerns. This initial meeting is an opportunity to discuss your goals and develop a personalized treatment plan.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'Do you offer online therapy sessions?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Yes, we offer Telehealth Therapy sessions. You can receive the same high-quality care from our licensed therapists through secure online sessions, allowing you to access therapy from the comfort of your home.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'Are your therapists licensed and experienced?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Absolutely. All our therapists are licensed mental health professionals with years of experience in various therapeutic modalities. They are dedicated to providing compassionate and effective care.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'How do I know if therapy is right for me?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Therapy can be beneficial for anyone facing mental health challenges or seeking personal growth. If you\'re unsure, we offer initial consultations to help you determine if our services are a good fit for your needs.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'What insurance do you accept?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'We accept most major insurance plans including Blue Cross Blue Shield, FEP Blue for federal employees, Aetna, Priority Health, United Healthcare, HAP, McLaren, and many others. Our administrative team can help verify your benefits and explain any out-of-pocket costs before your first appointment.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'Do you accept FEP Blue insurance for federal employees?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Yes! We accept FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance. Coverage, copays, deductibles, session limits, and authorization requirements vary by FEP Blue plan. We handle all insurance billing directly. Contact us at (313) 654-1915 to verify your specific FEP Blue benefits and schedule an appointment.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'How long does each therapy session last?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Individual therapy sessions typically last 50-60 minutes. The frequency of sessions depends on your individual needs and treatment plan, which you and your therapist will discuss together. Many clients start with weekly sessions and adjust as they progress in their healing journey.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'Do you offer psychological testing and evaluations?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Yes, we offer comprehensive psychological testing including autism evaluations, ADHD assessments, and other diagnostic evaluations for children and adults. Our licensed psychologist conducts thorough assessments to provide accurate diagnoses and personalized treatment recommendations.'
+            ]
+        ],
+        [
+            '@type' => 'Question',
+            'name' => 'Is therapy confidential?',
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                'text' => 'Absolutely. Confidentiality is a cornerstone of the therapeutic relationship. Everything discussed in therapy remains private, with few legal exceptions such as risk of harm to yourself or others. Your therapist will explain the limits of confidentiality during your first session so you feel safe and informed.'
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>
@@ -95,17 +191,17 @@ require_once 'includes/config.php';
                             <div class="faq-item">
                                 <h3>Do you accept FEP Blue insurance for federal employees?</h3>
                                 <div class="faq-content">
-                                    <p>Yes! We are proud to accept FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance. Federal employees working for USPS, CBP, FBI, VA, and all other federal agencies have excellent mental health coverage through FEP Blue, with low co-pays typically ranging from $15-$30 per session.</p>
-                                    <p>We accept FEP Blue for:</p>
+                                    <p>Yes! We are proud to accept FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance. Federal employees working for USPS, CBP, FBI, VA, and all other federal agencies often have excellent mental health coverage through FEP Blue.</p>
+                                    <p>FEP Blue may cover:</p>
                                     <ul>
                                         <li>Individual therapy for anxiety, depression, stress, and PTSD</li>
                                         <li>Couples and marriage counseling</li>
                                         <li>Family therapy</li>
                                         <li>Psychological testing (ADHD evaluations, autism assessments)</li>
-                                        <li>Telehealth therapy sessions (same coverage as in-person)</li>
+                                        <li>Telehealth therapy sessions (may be covered similarly to in-person)</li>
                                     </ul>
-                                    <p>Most FEP Blue mental health services do not require pre-authorization, and there is no deductible to meet. We handle all insurance billing directly, so you only pay your co-pay at the time of service. Whether you work at the Detroit Federal Building, CBP Port of Entry, USPS facilities, or any federal agency in Michigan, your mental health benefits make quality therapy accessible and affordable.</p>
-                                    <p><strong>Learn more:</strong> <a href="fep-blue-federal-employee-therapy">Complete guide to FEP Blue mental health coverage for federal employees</a></p>
+                                    <p><strong>Important:</strong> Coverage, copays, deductibles, session limits, and authorization requirements vary by FEP Blue plan. We handle all insurance billing directly. Whether you work at the Detroit Federal Building, CBP Port of Entry, USPS facilities, or any federal agency in Michigan, we can help verify your benefits and make therapy accessible.</p>
+                                    <p><strong>Learn more:</strong> <a href="fep-blue-federal-employee-therapy">Complete guide to FEP Blue mental health coverage for federal employees</a> or <a href="insurance">view all accepted insurance plans</a>.</p>
                                     <p>Contact us at <a href="tel:313-654-1915">(313) 654-1915</a> to verify your specific FEP Blue benefits and schedule an appointment.</p>
                                 </div>
                                 <i class="faq-toggle bi bi-chevron-right"></i>

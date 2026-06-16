@@ -233,15 +233,16 @@ require_once 'includes/config.php';
 
                                     <p>As a federal employee, you have excellent mental health coverage through FEP Blue (Blue Cross Blue Shield Federal Employee Program). Here's what you need to know:</p>
 
-                                    <h3>What's Covered</h3>
+                                    <h3>What May Be Covered</h3>
 
                                     <ul>
-                                        <li><strong>Individual therapy:</strong> $15-$30 co-pay per session (depending on Standard vs. Basic plan)</li>
-                                        <li><strong>No pre-authorization required:</strong> Start therapy immediately</li>
-                                        <li><strong>Unlimited sessions:</strong> No annual cap on therapy visits</li>
-                                        <li><strong>Telehealth available:</strong> Same co-pay as in-person, perfect for busy schedules</li>
+                                        <li><strong>Individual therapy:</strong> Many FEP Blue plans offer competitive copays for outpatient therapy</li>
+                                        <li><strong>Streamlined access:</strong> Many plans offer simplified authorization processes for mental health services</li>
+                                        <li><strong>Generous benefits:</strong> FEP Blue plans often provide substantial mental health coverage</li>
+                                        <li><strong>Telehealth available:</strong> May be covered similarly to in-person visits</li>
                                         <li><strong>Couples/family therapy:</strong> If work stress is affecting your relationships</li>
                                     </ul>
+                                    <p><strong>Important:</strong> Coverage details vary by plan. Call us at (313) 654-1915 to verify your specific benefits.</p>
 
                                     <h3>It Won't Affect Your Job</h3>
 
@@ -333,7 +334,7 @@ require_once 'includes/config.php';
 
                                     <p>Federal service is important, meaningful work—but it shouldn't come at the cost of your mental health and relationships. If work stress is affecting your sleep, mood, relationships, or quality of life, therapy can help.</p>
 
-                                    <p>Your FEP Blue benefits make therapy affordable and accessible. With low co-pays, no session limits, and the ability to start immediately without referrals or pre-authorization, there's no reason to continue suffering in silence.</p>
+                                    <p>Your FEP Blue benefits may make therapy affordable and accessible. Many FEP Blue plans offer competitive copays and generous mental health coverage. Call us to verify your specific benefits and start getting the support you deserve.</p>
 
                                     <p>Taking care of your mental health isn't a weakness—it's a sign of strength and self-awareness. Federal employees deserve support, and effective help is available.</p>
 

@@ -420,7 +420,7 @@ require_once 'includes/config.php';
 
                         <div class="alert alert-success mt-3" role="alert">
                             <h3 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>Insurance Accepted</h3>
-                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan, Aetna, Priority Health, McLaren Health Plan, and HAP. Both in-person (Dearborn office) and telehealth appointments available throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
+                            <p class="mb-0">We accept most major insurance plans including Blue Cross Blue Shield of Michigan (<a href="fep-blue-federal-employee-therapy" class="alert-link">FEP Blue for federal employees</a>), Aetna, Priority Health, McLaren Health Plan, and HAP. <a href="insurance" class="alert-link">View all accepted insurance plans</a>. Both in-person (Dearborn office) and telehealth appointments available throughout Michigan. Call <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a> to verify your coverage.</p>
                         </div>
 
                         <p class="mt-3"><em>Evening and weekend appointments available. Both in-person and telehealth sessions offered.</em></p>
