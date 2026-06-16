@@ -66,7 +66,7 @@ $schema_json = json_encode([
             'description' => 'ADHD evaluation and diagnosis for all ages'
         ]
     ],
-    'paymentAccepted' => 'Cash, Check, Credit Card, Insurance',
+    'paymentAccepted' => 'Cash, Check, Credit Card, Insurance, FEP Blue, BCBS Federal Employee Program, Blue Cross Blue Shield',
     'openingHoursSpecification' => [
         [
             '@type' => 'OpeningHoursSpecification',
@@ -93,8 +93,20 @@ $schema_json = json_encode([
                     'name' => 'Telehealth Therapy',
                     'description' => 'Online therapy available throughout Michigan'
                 ]
+            ],
+            [
+                '@type' => 'Offer',
+                'itemOffered' => [
+                    '@type' => 'Service',
+                    'name' => 'FEP Blue Mental Health Services',
+                    'description' => 'Therapy services for federal employees with FEP Blue insurance coverage'
+                ]
             ]
         ]
+    ],
+    'audience' => [
+        '@type' => 'PeopleAudience',
+        'audienceType' => 'Federal employees, USPS workers, CBP officers, FBI staff, VA employees, federal government employees in Michigan'
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
@@ -137,7 +149,10 @@ require_once 'includes/config.php';
       <div class="container">
         <div class="row align-items-center">
           <div class="container rounded">
-            <h2 class="text-center">Insurance we Accept</h2>
+            <h2 class="text-center">Insurance We Accept - Including FEP Blue for Federal Employees</h2>
+            <div class="alert alert-info text-center mx-auto mb-4" style="max-width: 900px;">
+              <p class="mb-0"><i class="bi bi-shield-check me-2"></i><strong>Federal Employees:</strong> We accept <strong>FEP Blue</strong> (Blue Cross Blue Shield Federal Employee Program) insurance. If you work for USPS, CBP, FBI, VA, or any federal agency in Michigan, your mental health services are covered with low co-pays ($15-$30 per session). <a href="fep-blue-federal-employee-therapy" class="alert-link"><strong>Learn more about FEP Blue coverage →</strong></a></p>
+            </div>
             <div class="slider">
               <div class="logos">
                 <img loading="lazy" src="assets/img/in-5.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="Blue Care Network of Michigan logo">
@@ -156,9 +171,10 @@ require_once 'includes/config.php';
                 <img loading="lazy" src="assets/img/in-6.png" width="150" height="100" class="img-fluid object-fit-cover mx-3" alt="HAP logo">
               </div>
             </div>
+            <p class="text-center mt-4 mb-0">We accept most major insurance plans including <strong>Blue Cross Blue Shield (including FEP Blue for federal employees)</strong>, Priority Health, Aetna, McLaren Health Plan, HAP, Blue Care Network, United Healthcare, and Michigan Medicaid. Call <a href="tel:313-654-1915"><strong>(313) 654-1915</strong></a> to verify your coverage.</p>
           </div>
         </div>
-      
+
       </div>
     </section>
 
@@ -450,7 +466,7 @@ require_once 'includes/config.php';
               <div class="card-body text-center">
                 <i class="bi bi-credit-card text-primary" style="font-size: 3rem;"></i>
                 <h3 class="card-title mt-3 h5">Major Insurance Plans</h3>
-                <p class="card-text">We work with most major Michigan insurance plans including Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP.</p>
+                <p class="card-text">We work with most major Michigan insurance plans including Blue Cross Blue Shield (FEP Blue for federal employees), Aetna, Priority Health, McLaren, and HAP.</p>
               </div>
             </div>
           </div>

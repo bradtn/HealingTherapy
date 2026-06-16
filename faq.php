@@ -93,6 +93,25 @@ require_once 'includes/config.php';
                             </div>
 
                             <div class="faq-item">
+                                <h3>Do you accept FEP Blue insurance for federal employees?</h3>
+                                <div class="faq-content">
+                                    <p>Yes! We are proud to accept FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance. Federal employees working for USPS, CBP, FBI, VA, and all other federal agencies have excellent mental health coverage through FEP Blue, with low co-pays typically ranging from $15-$30 per session.</p>
+                                    <p>We accept FEP Blue for:</p>
+                                    <ul>
+                                        <li>Individual therapy for anxiety, depression, stress, and PTSD</li>
+                                        <li>Couples and marriage counseling</li>
+                                        <li>Family therapy</li>
+                                        <li>Psychological testing (ADHD evaluations, autism assessments)</li>
+                                        <li>Telehealth therapy sessions (same coverage as in-person)</li>
+                                    </ul>
+                                    <p>Most FEP Blue mental health services do not require pre-authorization, and there is no deductible to meet. We handle all insurance billing directly, so you only pay your co-pay at the time of service. Whether you work at the Detroit Federal Building, CBP Port of Entry, USPS facilities, or any federal agency in Michigan, your mental health benefits make quality therapy accessible and affordable.</p>
+                                    <p><strong>Learn more:</strong> <a href="fep-blue-federal-employee-therapy">Complete guide to FEP Blue mental health coverage for federal employees</a></p>
+                                    <p>Contact us at <a href="tel:313-654-1915">(313) 654-1915</a> to verify your specific FEP Blue benefits and schedule an appointment.</p>
+                                </div>
+                                <i class="faq-toggle bi bi-chevron-right"></i>
+                            </div>
+
+                            <div class="faq-item">
                                 <h3>How long does each therapy session last?</h3>
                                 <div class="faq-content">
                                     <p>Individual therapy sessions typically last 50-60 minutes. The frequency of sessions depends on your individual needs and treatment plan, which you and your therapist will discuss together. Many clients start with weekly sessions and adjust as they progress in their healing journey.</p>

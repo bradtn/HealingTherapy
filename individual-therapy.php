@@ -262,7 +262,7 @@ require_once 'includes/config.php';
                                 <div class="card h-100 border-0 shadow-sm">
                                     <div class="card-body">
                                         <p class="mb-2"><i class="bi bi-shield-check text-success me-2"></i><strong>Insurance Accepted</strong></p>
-                                        <p class="small mb-0">Blue Cross Blue Shield, Aetna, Priority Health, McLaren, HAP. Sliding scale available.</p>
+                                        <p class="small mb-0">Blue Cross Blue Shield (including FEP Blue for federal employees), Aetna, Priority Health, McLaren, HAP. Sliding scale available.</p>
                                     </div>
                                 </div>
                             </div>
@@ -356,8 +356,8 @@ require_once 'includes/config.php';
 </div>
 
 <div class="alert alert-light border-info mt-5" data-aos="fade-up">
-                            <h3 class="h6 text-info mb-2"><i class="bi bi-map me-2"></i>Serving Metro Detroit</h3>
-                            <p class="small mb-0"><strong>Wayne County:</strong> Dearborn, Dearborn Heights, Allen Park, Lincoln Park, Taylor, Plymouth, Livonia, Westland, Canton, Inkster, Romulus, Wayne, Garden City • <strong>Oakland County:</strong> Novi, Northville, Farmington Hills, Southfield, Royal Oak, Birmingham, Troy, Bloomfield Hills • <strong>Washtenaw:</strong> Ann Arbor, Ypsilanti • <strong>Telehealth:</strong> Anywhere in Michigan</p>
+                            <h3 class="h6 text-info mb-2"><i class="bi bi-map me-2"></i>Serving Metro Detroit & Federal Employees</h3>
+                            <p class="small mb-0"><strong>Wayne County:</strong> Dearborn, Dearborn Heights, Allen Park, Lincoln Park, Taylor, Plymouth, Livonia, Westland, Canton, Inkster, Romulus, Wayne, Garden City • <strong>Oakland County:</strong> Novi, Northville, Farmington Hills, Southfield, Royal Oak, Birmingham, Troy, Bloomfield Hills • <strong>Washtenaw:</strong> Ann Arbor, Ypsilanti • <strong>Telehealth:</strong> Anywhere in Michigan • <strong>Federal Employees:</strong> We accept FEP Blue insurance and are conveniently located near Detroit Federal Building, CBP Port of Entry, and USPS facilities. <a href="fep-blue-federal-employee-therapy" class="text-info">Learn more</a></p>
                         </div>
 
                         <h2 class="mt-5 mb-3">Ready to Start Individual Therapy in Dearborn?</h2>
