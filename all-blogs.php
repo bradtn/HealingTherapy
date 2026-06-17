@@ -315,6 +315,150 @@ require_once 'includes/config.php';
                             </div>
                             <div class="col col-md-6">
                                 <div class="card">
+                                    <img src="assets/img/blog-9.jpg" class="card-img-top" alt="ADHD guide">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="adhd-guide-adults-children" class="text-black">ADHD in Adults & Children: Complete Guide</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/17/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Comprehensive guide to ADHD symptoms, testing, and treatment for adults and children in Michigan..</p>
+                                        <a href="adhd-guide-adults-children" class="btn btn-primary mt-3">Read ADHD Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog2.jpg" class="card-img-top" alt="anxiety guide">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="anxiety-therapy-guide" class="text-black">Understanding Anxiety: Complete Treatment Guide</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/17/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Learn about anxiety signs, types, and effective treatment options in Dearborn and throughout Michigan..</p>
+                                        <a href="anxiety-therapy-guide" class="btn btn-primary mt-3">Read Anxiety Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog3.jpg" class="card-img-top" alt="grief counseling">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="grief-loss-counseling-guide" class="text-black">Grief & Loss Counseling Guide</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/17/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Coping with loss and finding healing through professional grief counseling support..</p>
+                                        <a href="grief-loss-counseling-guide" class="btn btn-primary mt-3">Read Grief Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog-4.jpg" class="card-img-top" alt="PTSD trauma therapy">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="ptsd-trauma-therapy-guide" class="text-black">PTSD & Trauma Therapy Guide</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/17/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Understanding PTSD and trauma healing through evidence-based therapy approaches..</p>
+                                        <a href="ptsd-trauma-therapy-guide" class="btn btn-primary mt-3">Read PTSD Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog-5.jpg" class="card-img-top" alt="teen mental health">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="teen-mental-health-guide" class="text-black">Teen Mental Health: Parent's Guide</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/17/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Warning signs and how parents can support their teenager's mental health..</p>
+                                        <a href="teen-mental-health-guide" class="btn btn-primary mt-3">Read Teen Health Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
+                                    <img src="assets/img/blog-6.jpg" class="card-img-top" alt="autism evaluation insurance">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><a href="autism-evaluation-michigan-insurance" class="text-black">Autism Evaluation: Insurance Coverage Guide</a></h4>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="hstack my-2">
+                                                        <div class="me-3">
+                                                            <i class="fa fa-user me-1 text-primary"></i>
+                                                            <span class="fs-6">Healing Therapy Center</span>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa fa-calendar me-1 text-primary"></i>
+                                                            <span class="fs-6">06/17/2026</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="card-text">Complete guide to autism evaluation insurance coverage in Michigan - BCBS, Aetna, Priority Health..</p>
+                                        <a href="autism-evaluation-michigan-insurance" class="btn btn-primary mt-3">Read Insurance Guide</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card">
                                     <img src="assets/img/blog1.jpg" class="card-img-top" alt="understanding depression">
                                     <div class="card-body">
                                         <h4 class="card-title"><a href="understanding-depression" class="text-black">Understanding Depression</a></h4>

@@ -27,7 +27,7 @@ if (!defined('BUSINESS_NAME')) {
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
 <!-- Main JS File -->
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.min.js"></script>
 
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo GA_TRACKING_ID; ?>"></script>

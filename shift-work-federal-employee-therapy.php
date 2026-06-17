@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Work-Life Balance for Shift Workers: Therapy for Federal Employees | Michigan';
+$page_title = 'Shift Worker Therapy for Federal Employees | Michigan';
 $page_description = 'Mental health support for federal shift workers in Michigan. USPS, CBP, law enforcement. FEP Blue coverage. Flexible scheduling, telehealth. Improve sleep, relationships, work-life balance.';
 $canonical_url = 'https://www.healingtherapycenter.com/shift-work-federal-employee-therapy';
 

@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'FEP Blue Mental Health Benefits Guide for Federal Employees in Michigan | 2026';
+$page_title = 'FEP Blue Mental Health Benefits Guide | Michigan 2026';
 $page_description = 'Complete guide to FEP Blue mental health coverage for federal employees in Michigan. Learn about co-pays, covered services, finding therapists, and maximizing your benefits. USPS, CBP, FBI, VA employees.';
 $canonical_url = 'https://www.healingtherapycenter.com/fep-blue-mental-health-benefits-guide';
 

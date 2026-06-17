@@ -3,6 +3,13 @@
 User-agent: *
 Allow: /
 
+# Allow CSS and JavaScript files (Google needs these for rendering)
+Allow: /assets/vendor/*.css
+Allow: /assets/vendor/*.js
+Allow: /assets/*.css
+Allow: /assets/*.js
+
+# Block other resources
 Disallow: /forms/
 Disallow: /assets/vendor/
 Disallow: /error_log

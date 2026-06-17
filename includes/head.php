@@ -60,7 +60,7 @@ $og_image = $og_image ?? OG_IMAGE_DEFAULT;
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="assets/css/main.css?v=<?php echo CSS_VERSION; ?>" rel="stylesheet">
+    <link href="assets/css/main.min.css?v=<?php echo CSS_VERSION; ?>" rel="stylesheet">
 
     <?php if (isset($schema_json) && !empty($schema_json)): ?>
     <!-- Page-Specific Structured Data -->
