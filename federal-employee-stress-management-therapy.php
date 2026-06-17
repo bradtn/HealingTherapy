@@ -25,7 +25,7 @@ require_once 'includes/config.php';
                                     <div class="news-head">
                                         <img loading="lazy" src="assets/img/blog-5.jpg" class="img-fluid" alt="federal employee stress management">
                                     </div>
-                                    <h1 class="my-2">Managing Stress as a Federal Employee: When to Seek Therapy in Michigan</h1>
+                                    <h1 class="my-2">Federal Employee Stress Management: Recognizing When You Need Professional Support</h1>
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="hstack my-2">

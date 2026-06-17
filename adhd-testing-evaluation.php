@@ -20,7 +20,7 @@ require_once 'includes/config.php';
             <div class="row">
                 <div class="col-12">
                     <div class="mx-auto px-3" style="max-width: 900px;">
-<h1>ADHD Testing & Evaluation in Michigan | Children & Adults</h1>
+<h1>Professional ADHD Testing & Comprehensive Evaluation Services</h1>
 <p>Do you or your child struggle with focus, organization, impulsivity, or hyperactivity that interferes with school, work, or relationships? Are you wondering if it's ADHD or something else? At Healing Therapy Center, our licensed psychologists provide comprehensive ADHD testing and evaluation for children, adolescents, and adults throughout Michigan.</p>
 
 <p>An accurate ADHD diagnosis is the first step toward effective treatment, school accommodations, workplace support, and understanding challenges you've faced for years. Our thorough evaluations provide clarity, answers, and a roadmap forward.</p>
