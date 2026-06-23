@@ -107,7 +107,7 @@ require_once 'includes/config.php';
                                 <div class="card h-100 border-0 shadow-sm">
                                     <div class="card-body">
                                         <h3 class="h5 mb-2"><i class="bi bi-lightning-fill text-info me-2"></i>Stress & Burnout</h3>
-                                        <p class="small mb-0">Set boundaries, develop work-life balance, and build resilience for life's challenges.</p>
+                                        <p class="small mb-0">Set boundaries, develop work-life balance, and build resilience for life's challenges. Specialized support for <a href="shift-work-federal-employee-therapy">shift workers</a> and <a href="federal-employee-stress-management-therapy">federal employees</a>.</p>
                                     </div>
                                 </div>
                             </div>

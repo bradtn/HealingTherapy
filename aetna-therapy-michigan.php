@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Aetna Therapy Michigan | Aetna Mental Health Coverage Accepted';
+$page_title = 'Aetna Therapy Michigan | Mental Health Coverage Accepted';
 $page_description = 'Healing Therapy Center accepts Aetna insurance for mental health services in Dearborn, MI. In-network provider for therapy, counseling, ADHD testing. Aetna HMO, PPO, and employer plans accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/aetna-therapy-michigan';
 $current_service = 'individual';

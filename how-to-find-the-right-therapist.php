@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'How to Find the Right Therapist | Healing Therapy Center Guide';
-$page_description = 'Expert guide to finding the right therapist. Questions to ask, red flags to avoid, insurance tips, and how to know if it's a good fit.';
+$page_title = 'How to Find the Right Therapist | Dearborn, MI Guide';
+$page_description = 'Expert guide to finding the right therapist. Questions to ask, red flags to avoid, insurance tips, and how to know if it\'s a good fit.';
 $canonical_url = 'https://www.healingtherapycenter.com/how-to-find-the-right-therapist';
 
 // Include configuration
@@ -25,7 +25,7 @@ require_once 'includes/config.php';
                                     <div class="news-head">
                                         <img loading="lazy" src="assets/img/blog2.jpg" class="img-fluid" alt="find the right therapist">
                                     </div>
-                                    <h3 class="my-3">How to Find the Right Therapist: A Guide to Choosing the Best Mental Health Professional Near Dearborn, MI</h3>
+                                    <h1 class="my-3">How to Find the Right Therapist: A Guide to Choosing the Best Mental Health Professional Near Dearborn, MI</h1>
                                     <p>Finding the right therapist is a crucial step toward improving your mental health and overall well-being. If you
                                         follow the following steps you will be on your way to finding the best Therapist. Whether you're seeking therapy for
                                         anxiety, depression, stress management, or relationship issues, choosing the right mental health professional can

@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Therapist Rochester Hills MI | Mental Health Counseling Services';
+$page_title = 'Therapist Rochester Hills MI | Mental Health Counseling';
 $page_description = 'Licensed therapist serving Rochester Hills, MI. Individual therapy, couples counseling, family therapy, ADHD testing. Accept BCBS, Aetna, Priority Health, United Healthcare. Telehealth available. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-rochester-hills-mi';
 $current_service = 'individual';

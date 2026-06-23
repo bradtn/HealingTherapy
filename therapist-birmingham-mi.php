@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Therapist Birmingham MI | Counseling & Mental Health Services';
+$page_title = 'Therapist Birmingham MI | Counseling & Mental Health';
 $page_description = 'Licensed therapist serving Birmingham, MI. Individual therapy, couples counseling, executive stress management. Accept BCBS, Aetna, Priority Health. Telehealth & in-person appointments. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-birmingham-mi';
 $current_service = 'individual';

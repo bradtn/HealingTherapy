@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'FEP Blue ADHD Testing Michigan | Federal Employee ADHD Assessment';
+$page_title = 'FEP Blue ADHD Testing Michigan | Federal Employee ADHD';
 $page_description = 'ADHD testing and assessment for federal employees with FEP Blue insurance in Michigan. Comprehensive evaluation for children & adults. USPS, CBP, FBI, VA. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/fep-blue-adhd-assessment-michigan';
 $current_service = 'psychological-testing'; // For sidebar active state

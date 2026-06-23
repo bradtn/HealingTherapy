@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Executive Stress Therapy Michigan | Leadership & C-Suite Mental Health';
+$page_title = 'Executive Stress Therapy Michigan | C-Suite Burnout';
 $page_description = 'Confidential therapy for Michigan executives, CEOs, and business leaders. Manage leadership stress, burnout, decision fatigue. Accept Aetna, BCBS, Priority Health. Telehealth available. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/executive-stress-therapy-michigan';
 $current_service = 'individual';

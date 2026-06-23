@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'FEP Blue Autism Testing Michigan | Federal Employee ASD Evaluation';
+$page_title = 'FEP Blue Autism Testing Michigan | Federal Employee ASD';
 $page_description = 'Autism testing and evaluation for federal employees with FEP Blue insurance in Michigan. Comprehensive ADOS-2 autism assessment for children & adults. USPS, CBP, FBI, VA. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/fep-blue-autism-testing-michigan';
 $current_service = 'psychological-testing'; // For sidebar active state

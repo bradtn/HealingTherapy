@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'ADHD in Adults & Children: Signs, Testing & Treatment | Michigan';
+$page_title = 'ADHD in Adults & Children: Signs & Treatment | Michigan';
 $page_description = 'Comprehensive guide to ADHD symptoms in adults and children. Learn about testing, diagnosis, and treatment options in Michigan. BCBS, Aetna accepted. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/adhd-guide-adults-children';
 

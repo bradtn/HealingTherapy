@@ -26,7 +26,7 @@ require_once 'includes/config.php';
                                         <img loading="lazy" src="assets/img/teen-mental-health.jpg" class="img-fluid" alt="teen mental health therapy michigan">
                                     </div>
                                     <!-- News Title -->
-                                    <h1 class="news-title mt-2">Teen Mental Health: Warning Signs & How Parents Can Help</h1>
+                                    <h1 class="news-title mt-2">Recognizing Mental Health Warning Signs in Teenagers: A Parent's Guide</h1>
                                     <!-- Meta -->
                                     <div class="meta">
                                         <div class="meta-left">

@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Is Autism Curable? Understanding Autism Spectrum Disorder | Healing Therapy';
-$page_description = 'Understanding autism spectrum disorder. Learn about autism treatment, interventions, therapies, and support rather than 'cure'. Expert insights from psychologists.';
+$page_title = 'Is Autism Curable? Understanding ASD | Healing Therapy';
+$page_description = 'Understanding autism spectrum disorder. Learn about autism treatment, interventions, therapies, and support rather than \'cure\'. Expert insights from psychologists.';
 $canonical_url = 'https://www.healingtherapycenter.com/is-autism-curable';
 
 // Include configuration
@@ -25,7 +25,7 @@ require_once 'includes/config.php';
                                     <div class="news-head">
                                         <img src="assets/img/blog-7.jpg" class="img-fluid" alt="autism curable">
                                     </div>
-                                    <h3 class="my-3">Is Autism Curable? Expert Insights from Dr. Nadia Habhab</h3>
+                                    <h1 class="my-3">Is Autism Curable? Expert Insights from Dr. Nadia Habhab</h1>
                                     <h5>Understanding Autism Spectrum Disorder (ASD)</h5>
                                     <p>Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that
                                         affects communication, behavior, and

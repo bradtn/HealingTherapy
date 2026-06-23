@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Blue Cross Blue Shield Therapy Michigan | BCBS Mental Health Coverage';
+$page_title = 'Blue Cross Blue Shield Therapy Michigan | BCBS Mental Health';
 $page_description = 'Healing Therapy Center accepts Blue Cross Blue Shield Michigan insurance for individual therapy, couples counseling, ADHD testing, and trauma treatment. BCBS in-network provider in Dearborn, MI. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/blue-cross-blue-shield-therapy-michigan';
 $current_service = 'individual';

@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Therapist Troy MI | Mental Health Counseling & Therapy Services';
+$page_title = 'Therapist Troy MI | Mental Health Counseling & Therapy';
 $page_description = 'Licensed therapist in Troy, MI serving Oakland County. Individual therapy, couples counseling, ADHD testing. Accept BCBS, Aetna, Priority Health, United Healthcare. Evening appointments. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-troy-mi';
 $current_service = 'individual';

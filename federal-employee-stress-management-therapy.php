@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Managing Stress as a Federal Employee: When to Seek Therapy in Michigan';
+$page_title = 'Federal Employee Stress Management Therapy | Michigan';
 $page_description = 'Stress management strategies for federal employees in Michigan. Learn when work stress becomes a problem and how therapy can help USPS, CBP, FBI, VA employees. FEP Blue coverage explained.';
 $canonical_url = 'https://www.healingtherapycenter.com/federal-employee-stress-management-therapy';
 

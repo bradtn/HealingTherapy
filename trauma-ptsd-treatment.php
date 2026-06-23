@@ -86,7 +86,7 @@ require_once 'includes/config.php';
         <div class="card h-100 border-0 shadow-sm">
             <div class="card-body">
                 <h3 class="h5 mb-2"><i class="bi bi-exclamation-triangle text-danger me-2"></i>PTSD (Post-Traumatic Stress Disorder)</h3>
-                <p class="small mb-0">Develops after experiencing or witnessing traumatic events: accidents, assault, combat, natural disasters, sudden loss. Symptoms include intrusive memories, flashbacks, nightmares, avoidance, negative thoughts, hypervigilance, and exaggerated startle response.</p>
+                <p class="small mb-0">Develops after experiencing or witnessing traumatic events: accidents, assault, combat, natural disasters, sudden loss. Symptoms include intrusive memories, flashbacks, nightmares, avoidance, negative thoughts, hypervigilance, and exaggerated startle response. We offer specialized <a href="ptsd-therapy-federal-law-enforcement" class="text-primary">PTSD treatment for federal law enforcement</a> and first responders.</p>
             </div>
         </div>
     </div>

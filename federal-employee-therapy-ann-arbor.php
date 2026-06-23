@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Federal Employee Therapist Ann Arbor MI | FEP Blue Mental Health';
+$page_title = 'Federal Employee Therapist Ann Arbor MI | FEP Blue';
 $page_description = 'Therapy for federal employees in Ann Arbor, MI with FEP Blue insurance. Serving VA Ann Arbor, University of Michigan federal staff. Telehealth available. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/federal-employee-therapy-ann-arbor';
 $current_service = 'individual';

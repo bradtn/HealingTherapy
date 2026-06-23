@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Burnout & Work Stress Therapy in Michigan | Healing Therapy Center';
+$page_title = 'Burnout & Work Stress Therapy in Michigan | Dearborn';
 $page_description = 'Feeling burned out from work? Professional burnout and stress therapy in Dearborn & Metro Detroit, Michigan. Evidence-based treatment for exhaustion, overwhelm, and career stress.';
 $canonical_url = 'https://www.healingtherapycenter.com/burnout-stress-therapy-michigan';
 

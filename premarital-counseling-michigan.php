@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Premarital Counseling Michigan | Marriage Preparation Therapy';
+$page_title = 'Premarital Counseling Michigan | Marriage Prep Therapy';
 $page_description = 'Premarital counseling in Dearborn, MI for engaged couples. Strengthen your relationship before marriage. Insurance accepted (BCBS, Aetna, Priority Health). Telehealth available. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/premarital-counseling-michigan';
 $current_service = 'couples';

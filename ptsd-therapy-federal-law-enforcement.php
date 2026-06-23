@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'PTSD Treatment for Federal Law Enforcement & First Responders | Michigan';
+$page_title = 'PTSD Treatment for Federal Law Enforcement | Michigan';
 $page_description = 'PTSD therapy for CBP officers, FBI agents, and federal first responders in Michigan. EMDR, trauma-focused treatment. FEP Blue coverage. Confidential care for law enforcement.';
 $canonical_url = 'https://www.healingtherapycenter.com/ptsd-therapy-federal-law-enforcement';
 

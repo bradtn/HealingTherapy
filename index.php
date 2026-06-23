@@ -106,7 +106,7 @@ $schema_json = json_encode([
     ],
     'audience' => [
         '@type' => 'PeopleAudience',
-        'audienceType' => 'Federal employees, USPS workers, CBP officers, FBI staff, VA employees, federal government employees in Michigan'
+        'audienceType' => 'Patients seeking mental health services'
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
@@ -379,13 +379,13 @@ require_once 'includes/config.php';
             <ul class="list-unstyled">
               <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="anxiety-therapy-michigan" class="text-primary text-decoration-underline">Anxiety Disorders</a>:</strong> Generalized anxiety, panic attacks, social anxiety, phobias</li>
               <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="depression-counseling-michigan" class="text-primary text-decoration-underline">Depression</a>:</strong> Major depression, persistent depressive disorder, postpartum depression</li>
-              <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="trauma-ptsd-treatment" class="text-primary text-decoration-underline">Trauma & PTSD</a>:</strong> Childhood trauma, complex PTSD, assault, accidents</li>
+              <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="trauma-ptsd-treatment" class="text-primary text-decoration-underline">Trauma & PTSD</a>:</strong> Childhood trauma, complex PTSD, assault, accidents. Specialized <a href="ptsd-therapy-federal-law-enforcement" class="text-primary">PTSD treatment for federal law enforcement</a> and first responders</li>
             </ul>
           </div>
           <div class="col-md-4">
             <ul class="list-unstyled">
               <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="adhd-testing-evaluation" class="text-primary text-decoration-underline">ADHD Testing</a>:</strong> Children, adolescents, and adults - comprehensive evaluation</li>
-              <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="autism-evaluation" class="text-primary text-decoration-underline">Autism Evaluation</a>:</strong> Gold-standard diagnostic assessments for all ages</li>
+              <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="autism-evaluation" class="text-primary text-decoration-underline">Autism Evaluation</a>:</strong> Gold-standard diagnostic assessments for all ages. Learn about <a href="autism-signs" class="text-primary">early signs of autism</a></li>
               <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="perinatal-therapy" class="text-primary text-decoration-underline">Postpartum Depression</a>:</strong> Perinatal therapy for pregnancy and postpartum</li>
             </ul>
           </div>
@@ -393,7 +393,7 @@ require_once 'includes/config.php';
             <ul class="list-unstyled">
               <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="couples-therapy" class="text-primary text-decoration-underline">Couples & Marriage Counseling</a>:</strong> Communication, conflict, intimacy challenges</li>
               <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="family-therapy" class="text-primary text-decoration-underline">Family Therapy</a>:</strong> Parent-teen issues, sibling rivalry, blended families</li>
-              <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="individual-therapy" class="text-primary text-decoration-underline">Individual Therapy</a>:</strong> Stress, grief, self-esteem, life transitions</li>
+              <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i><strong><a href="individual-therapy" class="text-primary text-decoration-underline">Individual Therapy</a>:</strong> Stress, grief, self-esteem, life transitions. Specialized support for <a href="shift-work-federal-employee-therapy" class="text-primary">shift workers and federal employees</a></li>
             </ul>
           </div>
         </div>

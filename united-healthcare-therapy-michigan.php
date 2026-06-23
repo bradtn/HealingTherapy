@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'United Healthcare Therapy Michigan | UHC Mental Health Coverage';
+$page_title = 'United Healthcare Therapy Michigan | UHC Mental Health';
 $page_description = 'Healing Therapy Center accepts United Healthcare (UHC) insurance for mental health services in Dearborn, MI. In-network provider for therapy, counseling, ADHD testing. UHC, UnitedBehavioral Health accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/united-healthcare-therapy-michigan';
 $current_service = 'individual';

@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Priority Health Therapy Michigan | Mental Health Coverage Accepted';
+$page_title = 'Priority Health Therapy Michigan | Coverage Accepted';
 $page_description = 'Healing Therapy Center accepts Priority Health insurance for therapy in Dearborn, MI. In-network provider for individual therapy, couples counseling, ADHD testing. HMO and PPO plans accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/priority-health-therapy-michigan';
 $current_service = 'individual';

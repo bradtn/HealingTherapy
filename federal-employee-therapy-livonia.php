@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Federal Employee Therapist Livonia MI | FEP Blue Mental Health';
+$page_title = 'Federal Employee Therapist Livonia MI | FEP Blue';
 $page_description = 'Therapy for federal employees in Livonia, MI with FEP Blue insurance. Serving USPS, VA, federal workers in western Wayne County. Telehealth available. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/federal-employee-therapy-livonia';
 $current_service = 'individual';

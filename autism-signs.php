@@ -104,7 +104,7 @@ require_once 'includes/config.php';
                                         <li>Autism Diagnostic Interview (ADI-R)</li>
                                         <li><a href="https://www.pearsonassessments.com/store/usassessments/en/Store/Professional-Assessments/Behavior/Vineland-Adaptive-Behavior-Scales-%7C-Third-Edition/p/100001622.html" target="_blank" rel="noopener noreferrer">Vineland Adaptive Behavior Scales (Vineland-3)</a></li>
                                         <li>Childhood Autism Rating Scale (CARS)</li>
-                                        <li><a href="https://www.proedinc.com/Products/14630/gars3-gilliam-autism-rating-scale-third-edition.aspx" target="_blank" rel="noopener noreferrer">Gilliam Autism Rating Scale</a></li>
+                                        <li>Gilliam Autism Rating Scale (GARS-3)</li>
                                         <li><a href="https://www.autism.org.uk/advice-and-guidance/professional-practice/disco" target="_blank" rel="noopener noreferrer">Diagnostic Interview for Social and Communication Disorders (DISCO)</a></li>
                                     </ul>
                                     <h5>Step 3: Choosing an Experienced Evaluator</h5>

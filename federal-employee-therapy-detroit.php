@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Federal Employee Therapist Detroit MI | FEP Blue Mental Health';
+$page_title = 'Federal Employee Therapist Detroit MI | FEP Blue';
 $page_description = 'Therapy for federal employees in Detroit, MI with FEP Blue insurance. Serving Detroit Federal Building, IRS, SSA, FBI, federal courts. Telehealth available. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/federal-employee-therapy-detroit';
 $current_service = 'individual';

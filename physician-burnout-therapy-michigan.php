@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Physician Burnout Therapy Michigan | Doctor Mental Health Services';
+$page_title = 'Physician Burnout Therapy Michigan | Doctor Mental Health';
 $page_description = 'Confidential therapy for Michigan physicians, doctors, and healthcare providers experiencing burnout, compassion fatigue, moral injury. Accept Aetna, BCBS, Priority Health. Telehealth available. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/physician-burnout-therapy-michigan';
 $current_service = 'individual';

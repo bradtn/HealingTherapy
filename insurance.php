@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Insurance & Payment Options | Healing Therapy Center Dearborn, MI';
+$page_title = 'Insurance & Payment Options | Healing Therapy Dearborn';
 $page_description = 'Healing Therapy Center accepts Blue Cross Blue Shield (FEP Blue), Priority Health, Aetna, United Healthcare, HAP, McLaren, Michigan Medicaid. Verify your mental health coverage. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/insurance';
 $current_service = ''; // For sidebar active state

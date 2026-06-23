@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Understanding Anxiety: Signs, Types & Treatment | Dearborn, MI';
+$page_title = 'Understanding Anxiety: Signs & Treatment | Dearborn, MI';
 $page_description = 'Learn about anxiety disorders, symptoms, and evidence-based treatments. Expert anxiety therapy in Dearborn, Michigan. BCBS, Aetna accepted. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/anxiety-therapy-guide';
 

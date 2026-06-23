@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Federal Employee Therapist Dearborn MI | FEP Blue Mental Health';
+$page_title = 'Federal Employee Therapist Dearborn MI | FEP Blue';
 $page_description = 'Therapy for federal employees in Dearborn, MI with FEP Blue insurance. USPS, CBP, FBI, VA employees. Convenient to Dearborn Post Office & federal facilities. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/federal-employee-therapy-dearborn';
 $current_service = 'individual'; // For sidebar active state
