@@ -4,6 +4,40 @@ $page_title = 'Malak Wehbe, MA, TLLP | Therapist | Healing Therapy Center';
 $page_description = 'Malak Wehbe, MA, TLLP - Therapist at Healing Therapy Center in Dearborn, MI. Specialized in child therapy, trauma, anxiety, and culturally sensitive care.';
 $canonical_url = 'https://www.healingtherapycenter.com/malak-wehbe';
 
+// Person Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Person',
+    'name' => 'Malak Wehbe',
+    'jobTitle' => 'Temporary Limited Licensed Psychologist (TLLP)',
+    'url' => 'https://www.healingtherapycenter.com/malak-wehbe',
+    'image' => 'https://www.healingtherapycenter.com/assets/img/malak.jpg',
+    'worksFor' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ],
+    'knowsAbout' => [
+        'Child & Adolescent Therapy',
+        'ADHD & Autism Support',
+        'Anxiety & Depression',
+        'Trauma & Family Conflict',
+        'Culturally Responsive Care',
+        'Cognitive Behavioral Therapy (CBT)',
+        'Play Therapy',
+        'Art-Based Techniques'
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

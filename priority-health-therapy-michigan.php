@@ -1,9 +1,74 @@
 <?php
 // Page-specific variables
 $page_title = 'Priority Health Therapy Michigan | Coverage Accepted';
-$page_description = 'Healing Therapy Center accepts Priority Health insurance for therapy in Dearborn, MI. In-network provider for individual therapy, couples counseling, ADHD testing. HMO and PPO plans accepted. (313) 654-1915';
+$page_description = 'Priority Health in-network therapy in Dearborn, Michigan. Individual counseling, couples therapy & ADHD testing with HMO and PPO plans. (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/priority-health-therapy-michigan';
 $current_service = 'individual';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Therapy Covered by Priority Health Insurance',
+            'description' => 'Healing Therapy Center is an in-network provider for Priority Health insurance in Dearborn, Michigan, offering individual therapy, couples and marriage counseling, family therapy, and psychological testing for HMO, PPO, and employer-sponsored plans.',
+            'url' => 'https://www.healingtherapycenter.com/priority-health-therapy-michigan',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do I need a referral for therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'If you have a Priority Health HMO plan, you typically need a referral from your primary care physician for mental health services. Priority Health PPO plans usually do not require referrals. We\'ll confirm your specific plan\'s requirements when we verify your benefits.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How many therapy sessions are covered?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Priority Health Michigan plans generally allow 20-50 outpatient therapy visits per year, though this varies by employer group and plan type. Some plans have no session limits. We\'ll check your specific visit allowance during benefits verification.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Is telehealth therapy covered?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Yes, most Priority Health plans cover telehealth mental health services. Many plans reimburse telehealth at the same copay rate as in-person visits. We offer secure video therapy throughout Michigan for your convenience.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does Priority Health cover ADHD and autism testing?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Priority Health often covers psychological testing including ADHD evaluations and autism assessments when medically necessary. Pre-authorization is typically required. We\'ll help you obtain any necessary approvals before scheduling testing.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

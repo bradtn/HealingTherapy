@@ -5,6 +5,112 @@ $page_description = 'Psychological testing in Dearborn, MI. Autism, ADHD, learni
 $canonical_url = 'https://www.healingtherapycenter.com/psychological-testing';
 $current_service = 'testing'; // For sidebar active state
 
+// Service + FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Psychological Testing',
+            'serviceType' => 'Psychological Testing and Evaluation',
+            'description' => 'Comprehensive psychological testing in Dearborn, Michigan including autism evaluations (ADOS-2, ADI-R), ADHD testing, and learning disability assessments for children and adults, with detailed reports and practical recommendations.',
+            'url' => 'https://www.healingtherapycenter.com/psychological-testing',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does insurance cover psychological testing in Michigan?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Many insurance plans do cover psychological testing when it\'s medically necessary (ordered by a physician or when evaluating a suspected mental health condition). Coverage varies by plan and diagnosis. Autism evaluations, ADHD testing, and learning disability assessments are commonly covered. We recommend calling your insurance provider to verify benefits, and our office can help explain coverage when you call (313) 654-1915.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does psychological testing take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'The complete process typically takes 3-4 weeks from initial consultation to feedback session. Testing itself involves 3-6 hours across 2-3 sessions, followed by 1-2 weeks for scoring, analysis, and report writing. We understand families often need results quickly for school deadlines and work to accommodate urgent timelines when possible.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What\'s the difference between psychological testing and a psychiatric evaluation?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Psychological testing involves standardized tests, questionnaires, and systematic assessment by a psychologist to evaluate cognitive, emotional, and behavioral functioning. Psychiatric evaluation (by a psychiatrist or psychiatric nurse practitioner) is typically a clinical interview focused on diagnosing mental health conditions and determining medication needs. Psychological testing is more comprehensive and provides objective data beyond clinical observation alone.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'At what age can children be tested?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'We can evaluate children as young as 2-3 years old using developmentally appropriate assessment tools. Autism evaluations, developmental screenings, and early cognitive assessments are possible even for very young children. Comprehensive learning disability and ADHD evaluations are typically most accurate for children 6 and older when academic skills and attention can be more reliably assessed.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do I need a referral from a doctor?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Referrals are not required to schedule psychological testing at Healing Therapy Center—you can self-refer. However, some insurance plans require a referral for coverage, so check with your insurance provider. Pediatricians, psychiatrists, therapists, and schools commonly refer families for testing.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What should we do to prepare for testing?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Ensure your child (or you) is well-rested, has eaten, and takes any regular medications as prescribed. Bring glasses or hearing aids if used. For children, explain testing as "playing games and solving puzzles to help us understand how your brain works best." There\'s no studying or preparation needed—we want to see natural performance.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can adults get tested for autism or ADHD?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Absolutely. Adult autism and ADHD evaluations are increasingly common as awareness grows. Many adults seek testing after their children are diagnosed, when reading about conditions and recognizing themselves, or after struggling for years without understanding why. It\'s never too late for answers and support.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if my child was already tested but I have questions about the results?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'We offer second opinions on previous evaluations and can conduct re-evaluations if significant time has passed or if previous testing didn\'t answer your questions. Retesting is sometimes appropriate when previous results don\'t match observed functioning or when updated documentation is needed.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How much does psychological testing cost?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Costs vary depending on the type and complexity of evaluation. With insurance, you\'ll pay your copay/coinsurance. For self-pay clients, we provide upfront cost estimates. While comprehensive testing is an investment, it opens access to services, accommodations, and understanding that can be life-changing. Call (313) 654-1915 for specific pricing based on your needs.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

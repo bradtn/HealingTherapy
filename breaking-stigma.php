@@ -4,6 +4,26 @@ $page_title = 'Breaking Mental Health Stigma | Healing Therapy Blog';
 $page_description = 'Breaking down mental health stigma. Learn why seeking therapy is a sign of strength, not weakness. Tips for talking about mental health openly.';
 $canonical_url = 'https://www.healingtherapycenter.com/breaking-stigma';
 
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'Breaking the Stigma Around Seeking Mental Health Treatment',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/blog-4.jpg',
+    'author' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

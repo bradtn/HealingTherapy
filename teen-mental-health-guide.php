@@ -1,8 +1,29 @@
 <?php
 // Page-specific variables
 $page_title = 'Teen Mental Health: Warning Signs & How Parents Can Help';
-$page_description = 'Guide to teen mental health issues, warning signs, and how to help your teenager. Expert adolescent therapy in Michigan. BCBS, Aetna accepted. Call (313) 654-1915.';
+$page_description = 'Guide to teen mental health warning signs and how parents can help. Expert adolescent therapy in Michigan. BCBS, Aetna accepted. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/teen-mental-health-guide';
+
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'Recognizing Mental Health Warning Signs in Teenagers: A Parent\'s Guide',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/teen-mental-health.jpg',
+    'datePublished' => '2025-12-27',
+    'author' => [
+        '@type' => 'Person',
+        'name' => 'Dr. Nadia Habhab'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 // Include configuration
 require_once 'includes/config.php';

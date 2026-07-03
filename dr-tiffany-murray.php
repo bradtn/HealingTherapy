@@ -4,6 +4,41 @@ $page_title = 'Tiffany Murray, LMSW | Therapist | Healing Therapy Center';
 $page_description = 'Tiffany Murray, LMSW - Licensed therapist at Healing Therapy Center in Dearborn, MI. Individual therapy, couples counseling, anxiety and depression treatment.';
 $canonical_url = 'https://www.healingtherapycenter.com/dr-tiffany-murray';
 
+// Person Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Person',
+    'name' => 'Tiffany Murray',
+    'jobTitle' => 'Licensed Master Social Worker (LMSW)',
+    'url' => 'https://www.healingtherapycenter.com/dr-tiffany-murray',
+    'image' => 'https://www.healingtherapycenter.com/assets/img/tiffany.jpg',
+    'worksFor' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ],
+    'knowsAbout' => [
+        'Perinatal Mood & Anxiety Disorders',
+        'Postpartum Depression & Anxiety',
+        'Grief & Loss Counseling',
+        'Life Transitions',
+        'ADHD & Neurodiversity',
+        'Cognitive Behavioral Therapy (CBT)',
+        'Dialectical Behavior Therapy (DBT)',
+        'Acceptance and Commitment Therapy (ACT)',
+        'Emotion-Focused Therapy'
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

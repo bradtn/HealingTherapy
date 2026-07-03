@@ -4,6 +4,15 @@ $page_title = 'Mental Health Blog | Healing Therapy Center';
 $page_description = 'Mental health blog from Healing Therapy Center. Expert advice on anxiety, depression, relationships, parenting, trauma recovery, and wellness tips.';
 $canonical_url = 'https://www.healingtherapycenter.com/all-blogs';
 
+// CollectionPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'CollectionPage',
+    'name' => 'Mental Health Blog',
+    'description' => 'Mental health articles from the licensed therapists at Healing Therapy Center, covering anxiety, depression, relationships, parenting, trauma recovery, autism, and wellness.',
+    'url' => 'https://www.healingtherapycenter.com/all-blogs'
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

@@ -1,9 +1,74 @@
 <?php
 // Page-specific variables
 $page_title = 'FEP Blue Autism Testing Michigan | Federal Employee ASD';
-$page_description = 'Autism testing and evaluation for federal employees with FEP Blue insurance in Michigan. Comprehensive ADOS-2 autism assessment for children & adults. USPS, CBP, FBI, VA. (313) 654-1915';
+$page_description = 'Autism testing for federal employees with FEP Blue insurance in Michigan. ADOS-2 evaluations for children & adults. USPS, CBP, FBI, VA. (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/fep-blue-autism-testing-michigan';
 $current_service = 'psychological-testing'; // For sidebar active state
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Autism Testing Covered by FEP Blue Insurance',
+            'description' => 'Gold-standard autism evaluations for federal employees and their families in Michigan using FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance, including ADOS-2 assessment, ADI-R interview, cognitive testing, and comprehensive diagnostic reports for children and adults.',
+            'url' => 'https://www.healingtherapycenter.com/fep-blue-autism-testing-michigan',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does the autism evaluation take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'The complete evaluation typically takes 8-12 hours total, spread across multiple appointments (usually 3-4 sessions). This includes clinical interviews, ADOS-2 assessment, cognitive testing, and feedback session. We schedule appointments flexibly around your work schedule.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can adults get autism evaluations, or is it just for children?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'We provide autism evaluations for both children and adults. Many adults seek diagnosis later in life after recognizing autistic traits or struggling with social/work situations. Adult autism diagnosis can be validating and provide access to accommodations and support.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Will my FEP Blue insurance cover autism testing?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Many FEP Blue plans provide coverage for autism diagnostic evaluations, though coverage details vary by plan. When you call us at (313) 654-1915, we\'ll verify your benefits, explain your copay/coinsurance, check if pre-authorization is needed, and let you know your out-of-pocket costs before scheduling.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if my child doesn\'t have autism? Will you still provide a diagnosis?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Our evaluation assesses for autism spectrum disorder as well as other conditions that can present similarly (ADHD, social anxiety, language disorders, intellectual disability). If autism is not present, we\'ll identify what is causing the symptoms and provide appropriate recommendations. Either way, you get clarity and a path forward.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Physician Burnout Therapy Michigan | Doctor Mental Health';
-$page_description = 'Confidential therapy for Michigan physicians, doctors, and healthcare providers experiencing burnout, compassion fatigue, moral injury. Accept Aetna, BCBS, Priority Health. Telehealth available. (313) 654-1915';
+$page_description = 'Confidential therapy for Michigan physicians and healthcare providers facing burnout, compassion fatigue, and moral injury. Insurance accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/physician-burnout-therapy-michigan';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Physician Burnout Therapy in Michigan',
+    'description' => 'Confidential mental health support for Michigan physicians, nurses, and healthcare providers experiencing burnout, compassion fatigue, moral injury, and secondary traumatic stress. Telehealth available statewide.',
+    'url' => 'https://www.healingtherapycenter.com/physician-burnout-therapy-michigan',
+    'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 $current_service = 'individual';
 
 // Include configuration

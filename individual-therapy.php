@@ -1,9 +1,107 @@
 <?php
 // Page-specific variables
 $page_title = 'Individual Therapy in Dearborn, MI | Insurance Accepted';
-$page_description = 'Individual therapy in Michigan - Dearborn, Detroit, Ann Arbor for anxiety, depression, trauma, PTSD & grief. EMDR, CBT, trauma informed care. LGBTQ affirming. Insurance accepted. (313) 654-1915';
+$page_description = 'Individual therapy in Dearborn, MI for anxiety, depression, trauma, PTSD & grief. EMDR, CBT, LGBTQ affirming care. Insurance accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/individual-therapy';
 $current_service = 'individual'; // For sidebar active state
+
+// Service + FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Individual Therapy',
+            'serviceType' => 'Individual Therapy',
+            'description' => 'One-on-one therapy in Dearborn, Michigan for anxiety, depression, trauma, PTSD, and grief. Evidence-based approaches including EMDR, CBT, and trauma-informed care, offered in person and via secure telehealth throughout Michigan.',
+            'url' => 'https://www.healingtherapycenter.com/individual-therapy',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does individual therapy take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'There\'s no set timeline for therapy—it depends on your goals, the complexity of your concerns, and how quickly you progress. Some people achieve their goals in 8-12 sessions (short-term therapy), while others benefit from longer-term support over several months or years. Many clients start with weekly sessions and gradually reduce frequency as they improve. Your therapist will regularly discuss progress and help you determine when you\'ve met your goals.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does insurance cover individual therapy in Michigan?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most major insurance plans in Michigan cover individual therapy for mental health conditions. Coverage varies by plan, but typically includes a certain number of sessions per year with copays ranging from $10-$50 per session. We recommend calling your insurance provider or our office at (313) 654-1915 to verify your specific coverage, copay amounts, and deductible information before your first appointment.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if I don\'t feel comfortable with my therapist?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'The therapeutic relationship is the most important factor in successful therapy outcomes. It\'s completely normal and okay if you don\'t feel a good connection with your first therapist. We encourage you to discuss any concerns with your therapist first, as sometimes comfort builds over time. However, if after 2-3 sessions you still don\'t feel it\'s a good fit, we\'re happy to help you find a different therapist on our team whose style might be a better match for you. Your comfort and progress are our priorities.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How much does individual therapy cost without insurance?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Our self-pay rates for individual therapy sessions range from $100-$175 per 50-minute session, depending on the therapist\'s experience level and credentials. We offer a sliding scale fee structure for clients experiencing financial hardship, with rates as low as $75 per session based on income. We also provide superbills for clients with out-of-network insurance benefits who want to submit for reimbursement.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can I do therapy online or do I have to come to your Dearborn office?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'We offer both in-person therapy at our Dearborn location and secure telehealth (online video) therapy for Michigan residents. Research shows that telehealth therapy is equally effective as in-person therapy for most mental health concerns. Many of our clients appreciate the convenience of attending sessions from home, eliminating drive time and parking concerns. You can also switch between in-person and telehealth sessions based on your schedule and preferences.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How do I know if I need therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Consider therapy if you\'re experiencing persistent feelings of sadness, anxiety, or hopelessness; struggling to manage daily responsibilities; using unhealthy coping mechanisms like substance use or self-harm; experiencing relationship conflicts or breakups; feeling stuck or unfulfilled in life; having intrusive thoughts or difficulty concentrating; or simply wanting professional support during a challenging time. You don\'t need to be in crisis to benefit from therapy—many people seek counseling for personal growth or to work through life transitions.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What\'s the difference between a therapist, psychologist, and psychiatrist?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'These terms can be confusing! A therapist (or counselor) is a licensed mental health professional who provides talk therapy and can include Licensed Professional Counselors (LPC), Licensed Clinical Social Workers (LCSW), or Licensed Marriage and Family Therapists (LMFT). A psychologist has a doctoral degree (Ph.D. or Psy.D.) in psychology, provides therapy, and can conduct psychological testing. A psychiatrist is a medical doctor (M.D. or D.O.) who specializes in mental health and can prescribe medication, though they typically don\'t provide regular talk therapy. Our team includes various types of licensed therapists to meet your needs.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Will my therapist tell me what to do?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Good therapy is collaborative, not directive. While your therapist won\'t tell you exactly what to do (since only you know what\'s best for your life), they will help you explore your options, understand patterns in your thinking and behavior, challenge unhelpful beliefs, and develop skills to make decisions that align with your values and goals. Think of your therapist as a guide and partner in your journey, not someone who hands you a prescription for how to live.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

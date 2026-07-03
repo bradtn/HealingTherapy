@@ -1,8 +1,29 @@
 <?php
 // Page-specific variables
 $page_title = 'ADHD in Adults & Children: Signs & Treatment | Michigan';
-$page_description = 'Comprehensive guide to ADHD symptoms in adults and children. Learn about testing, diagnosis, and treatment options in Michigan. BCBS, Aetna accepted. Call (313) 654-1915.';
+$page_description = 'Complete guide to ADHD symptoms in adults and children. Testing, diagnosis, and treatment options in Michigan. BCBS, Aetna accepted. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/adhd-guide-adults-children';
+
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'ADHD in Adults & Children: Signs, Testing & Treatment Options',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/adhd-blog.jpg',
+    'datePublished' => '2025-12-10',
+    'author' => [
+        '@type' => 'Person',
+        'name' => 'Dr. Nadia Habhab'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 // Include configuration
 require_once 'includes/config.php';

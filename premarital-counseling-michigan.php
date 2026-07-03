@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Premarital Counseling Michigan | Marriage Prep Therapy';
-$page_description = 'Premarital counseling in Dearborn, MI for engaged couples. Strengthen your relationship before marriage. Insurance accepted (BCBS, Aetna, Priority Health). Telehealth available. (313) 654-1915';
+$page_description = 'Premarital counseling for engaged couples in Dearborn and across Michigan. Build communication and conflict skills before marriage. Insurance accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/premarital-counseling-michigan';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Premarital Counseling in Michigan',
+    'description' => 'Premarital counseling for engaged couples in Michigan covering communication, conflict resolution, finances, family expectations, intimacy, and life goals. Gottman Method and EFT techniques, in person in Dearborn or via telehealth.',
+    'url' => 'https://www.healingtherapycenter.com/premarital-counseling-michigan',
+    'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 $current_service = 'couples';
 
 // Include configuration

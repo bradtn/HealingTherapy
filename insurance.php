@@ -1,9 +1,82 @@
 <?php
 // Page-specific variables
 $page_title = 'Insurance & Payment Options | Healing Therapy Dearborn';
-$page_description = 'Healing Therapy Center accepts Blue Cross Blue Shield (FEP Blue), Priority Health, Aetna, United Healthcare, HAP, McLaren, Michigan Medicaid. Verify your mental health coverage. (313) 654-1915';
+$page_description = 'Healing Therapy Center in Dearborn accepts BCBS, FEP Blue, Priority Health, Aetna, United Healthcare, HAP & Michigan Medicaid for therapy. (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/insurance';
 $current_service = ''; // For sidebar active state
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Insurance & Payment Options',
+            'description' => 'Healing Therapy Center accepts most major Michigan insurance plans for mental health services, including Blue Cross Blue Shield (FEP Blue), Blue Care Network, Priority Health, Aetna, United Healthcare, HAP, McLaren, and Michigan Medicaid, plus self-pay and payment plan options.',
+            'url' => 'https://www.healingtherapycenter.com/insurance',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do you accept my insurance?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'We accept most major Michigan insurance plans including Blue Cross Blue Shield (FEP Blue for federal employees), Priority Health, Aetna, United Healthcare, HAP, McLaren, Blue Care Network, and Michigan Medicaid. If your plan isn\'t listed, call us at (313) 654-1915 - we may still be able to bill your insurance or provide out-of-network benefits information.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How much will therapy cost me?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Your out-of-pocket cost depends on your specific insurance plan and may include copays, coinsurance, or deductibles. When you call to schedule, we\'ll verify your benefits and tell you your exact cost before your first appointment. There are no surprise bills.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if I don\'t want to use insurance?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'You can choose to pay out-of-pocket (self-pay) instead of using insurance. Some people prefer this for complete privacy or if they haven\'t met their deductible yet. We offer competitive self-pay rates. Call (313) 654-1915 for pricing information.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do I need a referral from my doctor?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most insurance plans do not require a referral for mental health services, but some HMO plans do. We\'ll check your specific plan\'s requirements when we verify your benefits. In many cases, you can call us directly and schedule without seeing your primary care doctor first.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Is telehealth covered the same as in-person therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Many insurance plans cover telehealth mental health services at the same rate as in-person visits. However, coverage varies by plan. We\'ll verify your telehealth benefits when we check your insurance.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';
@@ -68,7 +141,8 @@ require_once 'includes/config.php';
                                     <div class="card h-100 border-0 shadow-sm">
                                         <div class="card-body">
                                             <h3 class="h5 mb-2"><i class="bi bi-shield-check text-primary me-2"></i>Blue Cross Blue Shield of Michigan</h3>
-                                            <p class="small mb-0">We accept BCBS of Michigan plans for individual therapy, couples therapy, family therapy, and psychological testing services. Coverage varies by plan type.</p>
+                                            <p class="small mb-3">We accept BCBS of Michigan plans for individual therapy, couples therapy, family therapy, and psychological testing services. Coverage varies by plan type.</p>
+                                            <a href="blue-cross-blue-shield-therapy-michigan" class="btn btn-outline-primary btn-sm">Blue Cross Blue Shield therapy coverage in Michigan →</a>
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +158,8 @@ require_once 'includes/config.php';
                                     <div class="card h-100 border-0 shadow-sm">
                                         <div class="card-body">
                                             <h3 class="h5 mb-2"><i class="bi bi-shield-check text-primary me-2"></i>Priority Health</h3>
-                                            <p class="small mb-0">Priority Health plans including HMO and PPO options are accepted. We'll verify your behavioral health coverage and out-of-pocket costs.</p>
+                                            <p class="small mb-3">Priority Health plans including HMO and PPO options are accepted. We'll verify your behavioral health coverage and out-of-pocket costs.</p>
+                                            <a href="priority-health-therapy-michigan" class="btn btn-outline-primary btn-sm">Priority Health therapy coverage in Michigan →</a>
                                         </div>
                                     </div>
                                 </div>
@@ -92,7 +167,8 @@ require_once 'includes/config.php';
                                     <div class="card h-100 border-0 shadow-sm">
                                         <div class="card-body">
                                             <h3 class="h5 mb-2"><i class="bi bi-shield-check text-primary me-2"></i>Aetna</h3>
-                                            <p class="small mb-0">We accept Aetna insurance plans for mental health and substance abuse services. Coverage details vary by specific plan.</p>
+                                            <p class="small mb-3">We accept Aetna insurance plans for mental health and substance abuse services. Coverage details vary by specific plan.</p>
+                                            <a href="aetna-therapy-michigan" class="btn btn-outline-primary btn-sm">Aetna therapy coverage in Michigan →</a>
                                         </div>
                                     </div>
                                 </div>
@@ -100,7 +176,8 @@ require_once 'includes/config.php';
                                     <div class="card h-100 border-0 shadow-sm">
                                         <div class="card-body">
                                             <h3 class="h5 mb-2"><i class="bi bi-shield-check text-primary me-2"></i>United Healthcare</h3>
-                                            <p class="small mb-0">UnitedHealthcare and UnitedBehavioral Health plans are accepted. We can check your mental health benefits before your first visit.</p>
+                                            <p class="small mb-3">UnitedHealthcare and UnitedBehavioral Health plans are accepted. We can check your mental health benefits before your first visit.</p>
+                                            <a href="united-healthcare-therapy-michigan" class="btn btn-outline-primary btn-sm">United Healthcare therapy coverage in Michigan →</a>
                                         </div>
                                     </div>
                                 </div>

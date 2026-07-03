@@ -5,6 +5,31 @@ $page_description = 'Supportive group therapy in Dearborn, Michigan. Connect wit
 $canonical_url = 'https://www.healingtherapycenter.com/group-therapy';
 $current_service = 'group'; // For sidebar active state
 
+// Service Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Group Therapy',
+    'serviceType' => 'Group Therapy',
+    'description' => 'Group therapy sessions in Dearborn, Michigan offering a supportive, collaborative environment where participants share experiences, gain insights, develop coping strategies, and build community, facilitated by experienced licensed therapists.',
+    'url' => 'https://www.healingtherapycenter.com/group-therapy',
+    'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

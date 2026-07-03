@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Therapist Troy MI | Mental Health Counseling & Therapy';
-$page_description = 'Licensed therapist in Troy, MI serving Oakland County. Individual therapy, couples counseling, ADHD testing. Accept BCBS, Aetna, Priority Health, United Healthcare. Evening appointments. (313) 654-1915';
+$page_description = 'Licensed therapists serving Troy, MI with individual, couples, and family therapy plus ADHD testing. BCBS, Aetna, and Priority Health accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-troy-mi';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Therapy and Counseling for Troy, MI Residents',
+    'description' => 'Individual therapy, couples counseling, family therapy, and psychological testing for Troy, MI residents and Oakland County families, in person in Dearborn or via telehealth.',
+    'url' => 'https://www.healingtherapycenter.com/therapist-troy-mi',
+    'areaServed' => ['@type' => 'City', 'name' => 'Troy'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 $current_service = 'individual';
 
 // Include configuration

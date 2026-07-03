@@ -4,6 +4,26 @@ $page_title = 'Coping With Postpartum Depression | Expert Tips';
 $page_description = 'Learn how to cope with postpartum depression. Symptoms, treatment options, and when to seek help. Expert guidance from licensed therapists.';
 $canonical_url = 'https://www.healingtherapycenter.com/coping-with-postpartum-depression';
 
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'Coping with Postpartum Depression: Expert Tips & Strategies to Improve Mental Well-Being',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/blog3.jpg',
+    'author' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

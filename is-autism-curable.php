@@ -1,8 +1,28 @@
 <?php
 // Page-specific variables
 $page_title = 'Is Autism Curable? Understanding ASD | Healing Therapy';
-$page_description = 'Understanding autism spectrum disorder. Learn about autism treatment, interventions, therapies, and support rather than \'cure\'. Expert insights from psychologists.';
+$page_description = 'Is autism curable? Understand autism spectrum disorder treatments, therapies, and lifelong support. Expert insights from Dr. Nadia Habhab in Michigan.';
 $canonical_url = 'https://www.healingtherapycenter.com/is-autism-curable';
+
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'Is Autism Curable? Expert Insights from Dr. Nadia Habhab',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/blog-7.jpg',
+    'author' => [
+        '@type' => 'Person',
+        'name' => 'Dr. Nadia Habhab'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 // Include configuration
 require_once 'includes/config.php';

@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Therapist Rochester Hills MI | Mental Health Counseling';
-$page_description = 'Licensed therapist serving Rochester Hills, MI. Individual therapy, couples counseling, family therapy, ADHD testing. Accept BCBS, Aetna, Priority Health, United Healthcare. Telehealth available. (313) 654-1915';
+$page_description = 'Licensed therapists serving Rochester Hills, MI families. Individual, couples, and family therapy plus ADHD testing. Most major insurance accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-rochester-hills-mi';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Therapy and Counseling for Rochester Hills, MI Residents',
+    'description' => 'Individual therapy, couples counseling, family therapy, and psychological testing for Rochester Hills, MI residents and Oakland County families, in person in Dearborn or via telehealth.',
+    'url' => 'https://www.healingtherapycenter.com/therapist-rochester-hills-mi',
+    'areaServed' => ['@type' => 'City', 'name' => 'Rochester Hills'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 $current_service = 'individual';
 
 // Include configuration

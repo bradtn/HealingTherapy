@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'FEP Blue Therapist Michigan | Federal Employee Mental Health';
-$page_description = 'FEP Blue therapist accepting Blue Cross Blue Shield Federal Employee Program insurance in Michigan. Therapy for USPS, CBP, FBI & federal employees. Dearborn, Detroit. (313) 654-1915';
+$page_title = 'FEP Blue Therapy Michigan | Federal Employees';
+$page_description = 'FEP Blue therapy in Michigan for USPS, CBP, FBI & federal employees. Blue Cross Federal Employee Program counseling in Dearborn & Detroit. (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/fep-blue-federal-employee-therapy';
 $current_service = 'individual'; // For sidebar active state
 

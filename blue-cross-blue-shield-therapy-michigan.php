@@ -1,9 +1,74 @@
 <?php
 // Page-specific variables
-$page_title = 'Blue Cross Blue Shield Therapy Michigan | BCBS Mental Health';
-$page_description = 'Healing Therapy Center accepts Blue Cross Blue Shield Michigan insurance for individual therapy, couples counseling, ADHD testing, and trauma treatment. BCBS in-network provider in Dearborn, MI. (313) 654-1915';
+$page_title = 'BCBS Therapy Michigan | Blue Cross Mental Health';
+$page_description = 'BCBS Michigan in-network therapy in Dearborn. Individual & couples counseling, ADHD testing & trauma treatment with Blue Cross Blue Shield. (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/blue-cross-blue-shield-therapy-michigan';
 $current_service = 'individual';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Therapy Covered by Blue Cross Blue Shield Michigan',
+            'description' => 'Healing Therapy Center is an in-network provider for Blue Cross Blue Shield of Michigan (BCBS) and Blue Care Network (BCN), offering individual therapy, couples counseling, family therapy, ADHD testing, autism evaluations, and trauma treatment in Dearborn, Michigan.',
+            'url' => 'https://www.healingtherapycenter.com/blue-cross-blue-shield-therapy-michigan',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do I need a referral from my doctor?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most BCBS PPO plans do not require a referral for mental health services. BCBS HMO and Blue Care Network plans may require a referral from your primary care physician. We\'ll check your specific plan\'s requirements when we verify your benefits.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How many therapy sessions does BCBS cover?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Blue Cross Blue Shield Michigan plans typically allow 20-52 outpatient therapy visits per year, though this varies by plan. Some plans have no session limits. We\'ll verify your specific visit allowance when we check your coverage.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does BCBS cover couples therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Many BCBS Michigan plans cover couples/marriage therapy when one or both partners have a diagnosed mental health condition being treated. Coverage varies by plan. We\'ll verify if couples therapy is covered under your specific BCBS benefits.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Is telehealth covered the same as in-person?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most BCBS Michigan plans cover telehealth mental health services at the same copay rate as in-person visits. This makes online therapy a convenient option if you prefer to meet from home or have scheduling conflicts.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

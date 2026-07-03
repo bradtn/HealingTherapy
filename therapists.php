@@ -4,6 +4,29 @@ $page_title = 'Licensed Therapists in Dearborn, MI | BCBS, Aetna Accepted';
 $page_description = 'Meet our licensed therapists in Dearborn, MI. Experts in anxiety, depression, trauma, ADHD & couples therapy. BCBS, Aetna accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/therapists';
 
+// CollectionPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'CollectionPage',
+    'name' => 'Licensed Therapists in Dearborn, MI',
+    'description' => 'Meet the licensed therapists at Healing Therapy Center in Dearborn, Michigan, specializing in anxiety, depression, trauma, ADHD, and couples therapy.',
+    'url' => 'https://www.healingtherapycenter.com/therapists',
+    'about' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Federal Employee Therapist Dearborn MI | FEP Blue';
-$page_description = 'Therapy for federal employees in Dearborn, MI with FEP Blue insurance. USPS, CBP, FBI, VA employees. Convenient to Dearborn Post Office & federal facilities. (313) 654-1915';
+$page_description = 'Therapy for federal employees in Dearborn, MI with FEP Blue insurance. Serving USPS, CBP, FBI, and VA workers near Dearborn federal facilities.';
 $canonical_url = 'https://www.healingtherapycenter.com/federal-employee-therapy-dearborn';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Therapy for Federal Employees in Dearborn, MI',
+    'description' => 'Confidential therapy for federal employees in Dearborn, MI, including USPS, CBP, FBI, and VA workers. FEP Blue insurance accepted at our Dearborn office, with telehealth available.',
+    'url' => 'https://www.healingtherapycenter.com/federal-employee-therapy-dearborn',
+    'areaServed' => ['@type' => 'City', 'name' => 'Dearborn'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 $current_service = 'individual'; // For sidebar active state
 
 // Include configuration

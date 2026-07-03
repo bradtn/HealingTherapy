@@ -1,9 +1,82 @@
 <?php
 // Page-specific variables
 $page_title = 'United Healthcare Therapy Michigan | UHC Mental Health';
-$page_description = 'Healing Therapy Center accepts United Healthcare (UHC) insurance for mental health services in Dearborn, MI. In-network provider for therapy, counseling, ADHD testing. UHC, UnitedBehavioral Health accepted. (313) 654-1915';
+$page_description = 'United Healthcare (UHC) therapy in Dearborn, Michigan. In-network counseling, couples therapy & ADHD testing via UnitedBehavioral Health. (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/united-healthcare-therapy-michigan';
 $current_service = 'individual';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Therapy Covered by United Healthcare Insurance',
+            'description' => 'Healing Therapy Center accepts United Healthcare (UHC) and UnitedBehavioral Health insurance for mental health services in Dearborn, Michigan, including individual therapy, couples and marriage therapy, family therapy, and psychological testing.',
+            'url' => 'https://www.healingtherapycenter.com/united-healthcare-therapy-michigan',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do I need a referral to see a therapist with UHC?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'United Healthcare PPO plans typically do not require a referral for mental health services. UHC HMO plans may require a referral from your primary care physician. We\'ll verify your specific plan\'s referral requirements during benefits verification.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How many therapy sessions does United Healthcare cover?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'UnitedBehavioral Health plans generally allow 20-52 outpatient therapy sessions per year, though coverage varies by employer and plan. Some plans have unlimited outpatient visits. We\'ll confirm your specific session allowance when we verify your benefits.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does UHC cover telehealth therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Yes, most United Healthcare plans cover telehealth mental health services through UnitedBehavioral Health. Many plans cover virtual visits at the same copay rate as in-person therapy. We offer secure HIPAA-compliant video therapy throughout Michigan.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Is couples therapy covered by United Healthcare?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Many United Healthcare plans cover couples/marriage therapy when one or both partners have a diagnosed mental health condition being addressed. Coverage varies by plan. We\'ll verify if couples therapy is covered under your UHC benefits.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does UHC cover ADHD and autism testing?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'UnitedBehavioral Health often covers psychological testing including ADHD evaluations and autism assessments when medically necessary. Pre-authorization is typically required before scheduling testing. We\'ll help coordinate approval with UHC.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

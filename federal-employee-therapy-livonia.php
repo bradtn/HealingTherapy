@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Federal Employee Therapist Livonia MI | FEP Blue';
-$page_description = 'Therapy for federal employees in Livonia, MI with FEP Blue insurance. Serving USPS, VA, federal workers in western Wayne County. Telehealth available. (313) 654-1915';
+$page_description = 'Therapy for federal employees in Livonia, MI with FEP Blue insurance. Serving USPS, VA, and federal workers in western Wayne County. Telehealth available.';
 $canonical_url = 'https://www.healingtherapycenter.com/federal-employee-therapy-livonia';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Therapy for Federal Employees in Livonia, MI',
+    'description' => 'Therapy for federal employees in Livonia, MI, including USPS, VA, and federal workers throughout western Wayne County. FEP Blue insurance accepted, in person in Dearborn or via telehealth.',
+    'url' => 'https://www.healingtherapycenter.com/federal-employee-therapy-livonia',
+    'areaServed' => ['@type' => 'City', 'name' => 'Livonia'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 $current_service = 'individual';
 
 // Include configuration

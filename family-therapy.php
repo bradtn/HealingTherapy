@@ -5,6 +5,96 @@ $page_description = 'Family therapy in Dearborn, MI. Improve communication, reso
 $canonical_url = 'https://www.healingtherapycenter.com/family-therapy';
 $current_service = 'family'; // For sidebar active state
 
+// Service + FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Family Therapy',
+            'serviceType' => 'Family Therapy',
+            'description' => 'Family therapy in Dearborn, Michigan to improve communication, resolve conflicts, and strengthen family bonds. Serving families throughout Wayne and Oakland Counties with in-person and telehealth sessions.',
+            'url' => 'https://www.healingtherapycenter.com/family-therapy',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does everyone in the family have to attend?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Not necessarily. While having all relevant family members attend is often ideal, therapy can still be effective if one member can\'t or won\'t participate. Your therapist will work with whoever is willing to attend and can create change within the family system even when everyone isn\'t present.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if my child refuses to go to therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'This is common, especially with teenagers. Start by attending with the willing family members—seeing positive changes may encourage the reluctant member to join later. Your therapist can also provide strategies for engaging resistant family members. Sometimes starting with individual parent sessions or parent-child sessions (instead of full family) is less threatening.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Will the therapist take sides or blame someone?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Ethical family therapists remain neutral and view problems as relational patterns rather than any individual\'s fault. The goal is understanding how the family system operates, not assigning blame. Everyone contributes to family patterns, and everyone can contribute to change.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does family therapy take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'This varies greatly depending on the issues being addressed. Some families see improvement in 8-12 sessions for focused problems, while families dealing with complex trauma, severe behavioral issues, or long-standing patterns may benefit from 6+ months of work. Your therapist will regularly assess progress and adjust as needed.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What age do children need to be to participate?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Children as young as 3-4 can participate in family therapy when therapists use developmentally appropriate, play-based techniques. Older children and teenagers can engage in verbal processing. Your therapist will adapt methods to each family member\'s developmental level.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can family therapy help if parents are divorcing?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Absolutely. Family therapy helps divorcing parents establish healthy co-parenting relationships, support children through the transition, and minimize the negative impact of divorce on children. Even after divorce, you\'re still a family—just a different structure.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does insurance cover family therapy in Michigan?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Many insurance plans do cover family therapy, especially when there\'s a diagnosable mental health condition. Coverage varies by plan and sometimes depends on who is listed as the "identified patient." Our office can help verify your benefits when you call (313) 654-1915.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

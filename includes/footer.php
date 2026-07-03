@@ -72,6 +72,48 @@ if (!isset($show_insurance)) {
                 </div>
             </div>
         </div>
+
+        <div class="row gy-4 mt-2">
+            <!-- Insurance We Accept -->
+            <div class="col-lg-4 col-md-6 footer-links">
+                <p>Insurance We Accept</p>
+                <ul>
+                    <li><a href="blue-cross-blue-shield-therapy-michigan">Blue Cross Blue Shield Therapy</a></li>
+                    <li><a href="fep-blue-federal-employee-therapy">FEP Blue Federal Employee Therapy</a></li>
+                    <li><a href="aetna-therapy-michigan">Aetna Therapy Coverage</a></li>
+                    <li><a href="priority-health-therapy-michigan">Priority Health Therapy Coverage</a></li>
+                    <li><a href="united-healthcare-therapy-michigan">United Healthcare Therapy Coverage</a></li>
+                    <li><a href="insurance">All Insurance &amp; Payment Options</a></li>
+                </ul>
+            </div>
+
+            <!-- Areas We Serve -->
+            <div class="col-lg-4 col-md-6 footer-links">
+                <p>Areas We Serve</p>
+                <ul>
+                    <li><a href="federal-employee-therapy-dearborn">Federal Employee Therapy Dearborn</a></li>
+                    <li><a href="federal-employee-therapy-detroit">Federal Employee Therapy Detroit</a></li>
+                    <li><a href="federal-employee-therapy-ann-arbor">Federal Employee Therapy Ann Arbor</a></li>
+                    <li><a href="federal-employee-therapy-livonia">Federal Employee Therapy Livonia</a></li>
+                    <li><a href="therapist-troy-mi">Therapist in Troy, MI</a></li>
+                    <li><a href="therapist-birmingham-mi">Therapist in Birmingham, MI</a></li>
+                    <li><a href="therapist-rochester-hills-mi">Therapist in Rochester Hills, MI</a></li>
+                </ul>
+            </div>
+
+            <!-- Specialized Care -->
+            <div class="col-lg-4 col-md-6 footer-links">
+                <p>Specialized Care</p>
+                <ul>
+                    <li><a href="anxiety-therapy-michigan">Anxiety Therapy</a></li>
+                    <li><a href="depression-counseling-michigan">Depression Counseling</a></li>
+                    <li><a href="trauma-ptsd-treatment">Trauma &amp; PTSD Treatment</a></li>
+                    <li><a href="premarital-counseling-michigan">Premarital Counseling</a></li>
+                    <li><a href="executive-stress-therapy-michigan">Executive Stress Therapy</a></li>
+                    <li><a href="physician-burnout-therapy-michigan">Physician Burnout Therapy</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <?php if ($show_insurance): ?>

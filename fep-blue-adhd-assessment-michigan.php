@@ -1,9 +1,82 @@
 <?php
 // Page-specific variables
 $page_title = 'FEP Blue ADHD Testing Michigan | Federal Employee ADHD';
-$page_description = 'ADHD testing and assessment for federal employees with FEP Blue insurance in Michigan. Comprehensive evaluation for children & adults. USPS, CBP, FBI, VA. (313) 654-1915';
+$page_description = 'ADHD testing for federal employees with FEP Blue insurance in Michigan. Comprehensive evaluations for children & adults. USPS, CBP, FBI, VA. (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/fep-blue-adhd-assessment-michigan';
 $current_service = 'psychological-testing'; // For sidebar active state
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'ADHD Testing Covered by FEP Blue Insurance',
+            'description' => 'Comprehensive ADHD evaluations for federal employees and their families in Michigan using FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance, including clinical interviews, computerized performance testing (CPT-3, TOVA), cognitive testing, and detailed diagnostic reports.',
+            'url' => 'https://www.healingtherapycenter.com/fep-blue-adhd-assessment-michigan',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does the ADHD evaluation take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'The complete ADHD evaluation typically takes 6-10 hours total, spread across 2-3 appointments. This includes clinical interview, computerized performance testing, cognitive assessment, and feedback session. We schedule appointments flexibly around your work schedule.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do you test adults for ADHD, or just children?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'We provide ADHD testing for both children and adults. Many federal employees discover they have ADHD in adulthood when they struggle with demanding work tasks or recognize symptoms after their child is diagnosed. Adult ADHD is common and highly treatable.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Will my FEP Blue insurance cover ADHD testing?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Many FEP Blue plans provide coverage for ADHD diagnostic testing, though coverage details vary by plan. When you call us at (313) 654-1915, we\'ll verify your benefits, explain your copay/coinsurance, check if pre-authorization is needed, and let you know your out-of-pocket costs before scheduling.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Will you prescribe ADHD medication?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Our psychologists provide diagnostic testing and therapy but do not prescribe medication. If medication is recommended, we provide a referral to a psychiatrist or your primary care doctor who can prescribe ADHD medication. Our comprehensive report includes medication recommendations to guide your prescriber.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can I use the ADHD diagnosis to get workplace accommodations?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Yes! Federal employees with ADHD are entitled to reasonable accommodations under the Americans with Disabilities Act (ADA). Our comprehensive report documents your diagnosis and recommends specific workplace accommodations you can present to your HR department or supervisor.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

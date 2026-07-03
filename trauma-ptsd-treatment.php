@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Trauma & PTSD Treatment in Michigan | Healing Therapy Center';
+$page_title = 'Trauma & PTSD Therapy Michigan | HTC Dearborn';
 $page_description = 'Specialized trauma and PTSD therapy in Michigan. EMDR, trauma-focused CBT, somatic therapy. Expert treatment for childhood trauma, PTSD, complex trauma.';
 $canonical_url = 'https://www.healingtherapycenter.com/trauma-ptsd-treatment';
 

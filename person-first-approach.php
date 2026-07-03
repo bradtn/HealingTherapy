@@ -1,8 +1,29 @@
 <?php
 // Page-specific variables
 $page_title = 'Person-First Approach to Therapy | Dr. Nadia Habhab';
-$page_description = 'Dr. Nadia Habhab explains why treating the person, not the diagnosis, is essential in Emotion Focused Therapy. Understanding symptoms and emotions through a person-centered approach.';
+$page_description = 'Dr. Nadia Habhab explains why treating the person, not the diagnosis, matters in Emotion Focused Therapy and person-centered mental health care.';
 $canonical_url = 'https://www.healingtherapycenter.com/person-first-approach';
+
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'Treat the Person Not the Diagnosis: Why I believe in a Person-First Approach to Understanding Symptoms and Emotions',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/blog-8.jpg',
+    'datePublished' => '2026-05-20',
+    'author' => [
+        '@type' => 'Person',
+        'name' => 'Dr. Nadia Habhab'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 // Include configuration
 require_once 'includes/config.php';

@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Federal Employee Therapist Detroit MI | FEP Blue';
-$page_description = 'Therapy for federal employees in Detroit, MI with FEP Blue insurance. Serving Detroit Federal Building, IRS, SSA, FBI, federal courts. Telehealth available. (313) 654-1915';
+$page_description = 'Therapy for federal employees in Detroit, MI with FEP Blue insurance. Serving the Detroit Federal Building, IRS, SSA, FBI, and CBP. Telehealth available.';
 $canonical_url = 'https://www.healingtherapycenter.com/federal-employee-therapy-detroit';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Therapy for Federal Employees in Detroit, MI',
+    'description' => 'Therapy for federal employees in Detroit, MI, including workers at the Patrick V. McNamara Federal Building, CBP, FBI, and USPS. FEP Blue insurance accepted, in person in Dearborn or via telehealth.',
+    'url' => 'https://www.healingtherapycenter.com/federal-employee-therapy-detroit',
+    'areaServed' => ['@type' => 'City', 'name' => 'Detroit'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 $current_service = 'individual';
 
 // Include configuration

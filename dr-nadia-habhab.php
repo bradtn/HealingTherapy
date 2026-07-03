@@ -4,6 +4,41 @@ $page_title = 'Dr. Nadia Habhab, PhD, LP | Psychologist in Dearborn';
 $page_description = 'Dr. Nadia Habhab, PhD, LP - Licensed psychologist at Healing Therapy Center in Dearborn, MI. Psychological testing, therapy for adults and children.';
 $canonical_url = 'https://www.healingtherapycenter.com/dr-nadia-habhab';
 
+// Person Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Person',
+    'name' => 'Dr. Nadia Habhab',
+    'jobTitle' => 'Licensed Psychologist (PhD, LP)',
+    'url' => 'https://www.healingtherapycenter.com/dr-nadia-habhab',
+    'image' => 'https://www.healingtherapycenter.com/assets/img/nadia.jpg',
+    'worksFor' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ],
+    'knowsAbout' => [
+        'Mood Disorders',
+        'Complex Trauma',
+        'Anxiety & Depression',
+        'Cross Cultural Care',
+        'Psychological Testing',
+        'Autism Evaluations',
+        'Emotion-Focused Therapy (EFT)',
+        'Cognitive Behavioral Therapy (CBT)',
+        'Trauma-Informed Care'
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

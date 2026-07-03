@@ -1,9 +1,82 @@
 <?php
 // Page-specific variables
 $page_title = 'Aetna Therapy Michigan | Mental Health Coverage Accepted';
-$page_description = 'Healing Therapy Center accepts Aetna insurance for mental health services in Dearborn, MI. In-network provider for therapy, counseling, ADHD testing. Aetna HMO, PPO, and employer plans accepted. (313) 654-1915';
+$page_description = 'Aetna in-network therapy in Dearborn, Michigan. Counseling, couples therapy & ADHD testing with Aetna PPO, HMO & employer plans. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/aetna-therapy-michigan';
 $current_service = 'individual';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Therapy Covered by Aetna Insurance',
+            'description' => 'Healing Therapy Center accepts Aetna insurance for mental health and behavioral health services in Dearborn, Michigan, including individual therapy, couples therapy, family therapy, and psychological testing.',
+            'url' => 'https://www.healingtherapycenter.com/aetna-therapy-michigan',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do I need a referral to see a therapist?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most Aetna PPO plans do not require a referral for mental health services. Aetna HMO plans may require a referral from your primary care physician. We\'ll verify your specific plan\'s requirements during benefits verification.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How many therapy sessions does Aetna cover per year?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Aetna plans typically allow 20-52 outpatient therapy sessions per year, though coverage varies by employer and plan type. Some plans have unlimited outpatient visits. We\'ll confirm your specific session limit when we verify benefits.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does Aetna cover telehealth therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Yes, most Aetna plans cover telehealth mental health services. Many plans reimburse virtual visits at the same copay as in-person therapy. We offer secure HIPAA-compliant video therapy throughout Michigan.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Is couples therapy covered by Aetna?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Many Aetna plans cover couples/marriage therapy when one or both partners have a diagnosed mental health condition being treated. Coverage varies by plan. We\'ll verify if couples therapy is covered under your specific Aetna benefits.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does Aetna cover ADHD and autism testing?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Aetna often covers psychological testing including ADHD evaluations and autism assessments when medically necessary for diagnosis and treatment planning. Pre-authorization is typically required. We\'ll help coordinate approval with Aetna before scheduling testing.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

@@ -1,8 +1,74 @@
 <?php
 // Page-specific variables
 $page_title = 'Autism Evaluation Michigan: Insurance Coverage Guide';
-$page_description = 'Complete guide to getting an autism evaluation in Michigan. Learn about the evaluation process, what insurance covers, and how to schedule an assessment in Dearborn, Metro Detroit.';
+$page_description = 'Autism evaluation guide for Michigan families: the assessment process, what BCBS, Aetna & other insurance covers, and scheduling in Dearborn.';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-evaluation-michigan-insurance';
+
+// Service + FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Autism Evaluation with Insurance Coverage in Michigan',
+            'serviceType' => 'Autism Diagnostic Evaluation',
+            'description' => 'Comprehensive autism evaluations for children in Metro Detroit, including parent interview, ADOS-2 assessment, cognitive and developmental testing, feedback session, and written report. In-network with Blue Cross Blue Shield, Aetna, McLaren, Priority Health, and HAP, with insurance benefit verification.',
+            'url' => 'https://www.healingtherapycenter.com/autism-evaluation-michigan-insurance',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does an autism evaluation take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'A comprehensive evaluation typically takes 3-6 hours, sometimes spread across 2-3 appointments. This allows us to gather thorough information and provide an accurate assessment.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'At what age can my child be evaluated?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Children can be reliably evaluated for autism as early as 18-24 months. We conduct evaluations for children and teens throughout their developmental years.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if my child doesn\'t have autism?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'An evaluation provides valuable information regardless of the outcome. If your child doesn\'t meet criteria for autism, we often identify other factors that may be affecting their development and can recommend appropriate support.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How soon can I get an appointment?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'We understand that waiting is difficult when you have concerns about your child. Call us at (313) 654-1915 to discuss availability and get scheduled.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Shift Worker Therapy for Federal Employees | Michigan';
-$page_description = 'Mental health support for federal shift workers in Michigan. USPS, CBP, law enforcement. FEP Blue coverage. Flexible scheduling, telehealth. Improve sleep, relationships, work-life balance.';
+$page_description = 'Therapy for federal shift workers in Michigan. Improve sleep, relationships, and work-life balance. USPS, CBP, law enforcement. FEP Blue accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/shift-work-federal-employee-therapy';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Therapy for Federal Shift Workers',
+    'description' => 'Mental health support for federal shift workers in Michigan, including USPS, CBP, and law enforcement. Help with sleep, relationships, and work-life balance. FEP Blue insurance accepted, with telehealth and flexible scheduling.',
+    'url' => 'https://www.healingtherapycenter.com/shift-work-federal-employee-therapy',
+    'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

@@ -4,6 +4,26 @@ $page_title = 'Early Signs of Autism in Children | Healing Therapy Center';
 $page_description = 'Recognize early signs of autism in children. Learn about autism symptoms in toddlers, developmental milestones, and when to seek evaluation. Expert guidance.';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-signs';
 
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'Early Signs of Autism in Young Children and When to Seek an Evaluation',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/blog-5.jpg',
+    'author' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

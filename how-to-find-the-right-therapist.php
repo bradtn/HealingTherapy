@@ -4,6 +4,26 @@ $page_title = 'How to Find the Right Therapist | Dearborn, MI Guide';
 $page_description = 'Expert guide to finding the right therapist. Questions to ask, red flags to avoid, insurance tips, and how to know if it\'s a good fit.';
 $canonical_url = 'https://www.healingtherapycenter.com/how-to-find-the-right-therapist';
 
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'How to Find the Right Therapist: A Guide to Choosing the Best Mental Health Professional Near Dearborn, MI',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/blog2.jpg',
+    'author' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

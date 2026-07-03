@@ -5,6 +5,31 @@ $page_description = 'Specialized perinatal therapy in Michigan. Treatment for po
 $canonical_url = 'https://www.healingtherapycenter.com/perinatal-therapy';
 $current_service = 'perinatal'; // For sidebar active state
 
+// Service Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Perinatal Therapy',
+    'serviceType' => 'Perinatal and Postpartum Therapy',
+    'description' => 'Specialized perinatal therapy in Michigan providing compassionate treatment for postpartum depression, anxiety, birth trauma, and pregnancy loss. Support for mothers and families through pregnancy, birth, and the adjustment to life with a newborn.',
+    'url' => 'https://www.healingtherapycenter.com/perinatal-therapy',
+    'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

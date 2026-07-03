@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Therapist Birmingham MI | Counseling & Mental Health';
-$page_description = 'Licensed therapist serving Birmingham, MI. Individual therapy, couples counseling, executive stress management. Accept BCBS, Aetna, Priority Health. Telehealth & in-person appointments. (313) 654-1915';
+$page_description = 'Therapy and counseling for Birmingham, MI professionals. Individual, couples, and executive stress therapy. BCBS, Aetna, and Priority Health accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-birmingham-mi';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Therapy and Counseling for Birmingham, MI Residents',
+    'description' => 'Individual therapy, couples counseling, and executive stress management for Birmingham, MI residents and Oakland County professionals, in person in Dearborn or via telehealth.',
+    'url' => 'https://www.healingtherapycenter.com/therapist-birmingham-mi',
+    'areaServed' => ['@type' => 'City', 'name' => 'Birmingham'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 $current_service = 'individual';
 
 // Include configuration

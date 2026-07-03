@@ -4,6 +4,29 @@ $page_title = 'Make an Appointment | Healing Therapy Center Dearborn';
 $page_description = 'Schedule your therapy appointment at Healing Therapy Center in Dearborn, MI. Online booking available. Call (313) 654-1915 for immediate assistance.';
 $canonical_url = 'https://www.healingtherapycenter.com/appointment';
 
+// ContactPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'ContactPage',
+    'name' => 'Make an Appointment',
+    'description' => 'Schedule a therapy appointment at Healing Therapy Center in Dearborn, Michigan by phone, email, or online booking.',
+    'url' => 'https://www.healingtherapycenter.com/appointment',
+    'about' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

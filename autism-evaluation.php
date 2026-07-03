@@ -1,8 +1,74 @@
 <?php
 // Page-specific variables
 $page_title = 'Autism Evaluation in Dearborn, MI | Children';
-$page_description = 'Autism evaluation in Michigan for children. ADOS-2 assessment, expert psychologists in Dearborn, Detroit, Ann Arbor areas. BCBS, Aetna accepted. (313) 654-1915';
+$page_description = 'Autism evaluation for children in Dearborn, MI. ADOS-2 assessment by expert psychologists. BCBS, Aetna accepted. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-evaluation';
+
+// Service + FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Autism Evaluation',
+            'serviceType' => 'Autism Diagnostic Evaluation',
+            'description' => 'Comprehensive autism evaluations for children in Dearborn, Michigan using gold-standard assessments including the ADOS-2 and ADI-R, with detailed reports that support school accommodations (IEP/504) and access to therapy services.',
+            'url' => 'https://www.healingtherapycenter.com/autism-evaluation',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does an autism evaluation take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'The complete evaluation process typically takes 4-6 weeks from initial consultation to feedback session. Testing sessions usually last 2-4 hours depending on the individual\'s age and needs.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does insurance cover autism evaluations in Michigan?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most Michigan insurance plans cover autism evaluations when medically necessary. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Contact us at (313) 654-1915 to verify your specific coverage.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What tests are used in autism evaluation?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'We use gold-standard assessments including the ADOS-2 (Autism Diagnostic Observation Schedule) and ADI-R (Autism Diagnostic Interview-Revised), along with standardized cognitive testing, behavioral questionnaires, and developmental history.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if my child doesn\'t have autism? Will we still get a diagnosis?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'If autism isn\'t present, our comprehensive evaluation often identifies other conditions that may explain the symptoms, such as ADHD, anxiety, sensory processing issues, or language disorders. You\'ll receive a detailed report with findings and recommendations regardless of the diagnosis.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

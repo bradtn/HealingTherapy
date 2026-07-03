@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Executive Stress Therapy Michigan | C-Suite Burnout';
-$page_description = 'Confidential therapy for Michigan executives, CEOs, and business leaders. Manage leadership stress, burnout, decision fatigue. Accept Aetna, BCBS, Priority Health. Telehealth available. (313) 654-1915';
+$page_description = 'Confidential therapy for Michigan executives, CEOs, and business leaders. Manage burnout, stress, and decision fatigue. BCBS and Aetna accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/executive-stress-therapy-michigan';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Executive Stress Therapy in Michigan',
+    'description' => 'Confidential therapy for Michigan executives, C-suite leaders, and business owners experiencing leadership stress, burnout, decision fatigue, and performance pressure. Telehealth available statewide.',
+    'url' => 'https://www.healingtherapycenter.com/executive-stress-therapy-michigan',
+    'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 $current_service = 'individual';
 
 // Include configuration

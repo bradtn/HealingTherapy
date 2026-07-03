@@ -1,8 +1,82 @@
 <?php
 // Page-specific variables
 $page_title = 'Depression Counseling in Michigan | Dearborn & Telehealth';
-$page_description = 'Depression treatment in Michigan - Detroit, Dearborn, Ann Arbor. Therapy for major depression, persistent depression, postpartum. CBT & evidence-based care. (313) 654-1915';
+$page_description = 'Depression counseling in Michigan. Evidence-based CBT for major, persistent & postpartum depression. Dearborn office or telehealth. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/depression-counseling-michigan';
+
+// Service + FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Depression Counseling in Michigan',
+            'serviceType' => 'Depression Counseling',
+            'description' => 'Compassionate, evidence-based depression counseling for major depressive disorder, persistent depression, postpartum depression, and seasonal affective disorder. CBT, behavioral activation, IPT, and MBCT via telehealth throughout Michigan or in-person in Dearborn.',
+            'url' => 'https://www.healingtherapycenter.com/depression-counseling-michigan',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'How do I know if I have depression or just sadness?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Depression is more intense, lasts longer (2+ weeks), occurs most of the day nearly every day, and significantly interferes with functioning. If you\'re unsure, it\'s worth getting evaluated.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Will I need antidepressants?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Not necessarily. Many people successfully treat depression with therapy alone. For moderate to severe depression, combining therapy and medication is often most effective. We\'ll discuss all options.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does depression treatment take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most people see improvement in 8-12 weeks of CBT, with full recovery taking 3-6 months. Some need longer, especially for chronic or complex depression. Treatment teaches skills that help prevent future episodes.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if I don\'t have energy to go to therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'This is very common with depression. Telehealth therapy from home requires less energy than in-person sessions. Even when you don\'t feel like it, consistently attending therapy is one of the most important things you can do for depression recovery.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does insurance cover depression counseling in Michigan?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most Michigan insurance plans cover depression treatment. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Call (313) 654-1915 to verify coverage.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

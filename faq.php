@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Frequently Asked Questions | Healing Therapy Center Dearborn';
+$page_title = 'FAQ | Healing Therapy Center Dearborn, MI';
 $page_description = 'Get answers to common questions about therapy services, scheduling, insurance, and what to expect at Healing Therapy Center in Dearborn, Michigan.';
 $canonical_url = 'https://www.healingtherapycenter.com/faq';
 $og_title = 'Frequently Asked Questions | Healing Therapy Center';

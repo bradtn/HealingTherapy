@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Healing Therapy Center | Therapists in Dearborn, MI';
-$page_description = 'Mental health therapy in Michigan - Dearborn, Detroit, Ann Arbor. Individual therapy, couples counseling, trauma therapy, EMDR, autism & ADHD testing. BCBS, Aetna accepted. (313) 654-1915';
+$page_description = 'Therapy in Dearborn, MI and online across Michigan. Individual, couples & trauma therapy, EMDR, autism & ADHD testing. BCBS, Aetna accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/';
 
 // LocalBusiness Schema for SEO
@@ -23,8 +23,8 @@ $schema_json = json_encode([
     ],
     'geo' => [
         '@type' => 'GeoCoordinates',
-        'latitude' => '42.3223',
-        'longitude' => '-83.2133'
+        'latitude' => '42.2856222',
+        'longitude' => '-83.2336412'
     ],
     'areaServed' => [
         ['@type' => 'City', 'name' => 'Dearborn'],
@@ -34,10 +34,14 @@ $schema_json = json_encode([
         ['@type' => 'City', 'name' => 'Livonia'],
         ['@type' => 'State', 'name' => 'Michigan']
     ],
-    'medicalSpecialty' => [
+    'medicalSpecialty' => 'Psychiatry',
+    'knowsAbout' => [
         'Mental Health',
         'Psychology',
-        'Psychotherapy'
+        'Psychotherapy',
+        'EMDR',
+        'Autism Evaluation',
+        'ADHD Testing'
     ],
     'availableService' => [
         [
@@ -72,7 +76,7 @@ $schema_json = json_encode([
             '@type' => 'OpeningHoursSpecification',
             'dayOfWeek' => ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
             'opens' => '09:00',
-            'closes' => '19:00'
+            'closes' => '17:00'
         ],
         [
             '@type' => 'OpeningHoursSpecification',

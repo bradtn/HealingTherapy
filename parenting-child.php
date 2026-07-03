@@ -4,6 +4,26 @@ $page_title = 'Parenting a Child with Autism | Tips & Support';
 $page_description = 'Expert tips for parenting a child with autism. Strategies for communication, behavior management, and family support from licensed therapists.';
 $canonical_url = 'https://www.healingtherapycenter.com/parenting-child';
 
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'Why Parents of Children with Autism Should Seek Therapy Services',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/blog-6.jpg',
+    'author' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

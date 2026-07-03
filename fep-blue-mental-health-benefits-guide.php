@@ -1,8 +1,73 @@
 <?php
 // Page-specific variables
 $page_title = 'FEP Blue Mental Health Benefits Guide | Michigan 2026';
-$page_description = 'Complete guide to FEP Blue mental health coverage for federal employees in Michigan. Learn about co-pays, covered services, finding therapists, and maximizing your benefits. USPS, CBP, FBI, VA employees.';
+$page_description = 'FEP Blue mental health benefits guide for Michigan federal employees. Copays, covered therapy services & how to maximize your coverage. (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/fep-blue-mental-health-benefits-guide';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'FEP Blue Mental Health Benefits Guidance for Federal Employees',
+            'description' => 'Complete guide to FEP Blue (Blue Cross Blue Shield Federal Employee Program) mental health coverage for federal employees in Michigan, covering copays, covered services, telehealth, psychological testing, pre-authorization, and how to find FEP Blue therapists.',
+            'url' => 'https://www.healingtherapycenter.com/fep-blue-mental-health-benefits-guide',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can I switch therapists if I don\'t like my first one?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Absolutely! The therapeutic relationship is crucial to success. If you don\'t click with your therapist after 2-3 sessions, you can find a different provider. Your FEP Blue coverage allows you to try different therapists without penalty.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if I\'m on temporary duty (TDY) or travel frequently?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Use telehealth! You can continue seeing your Michigan therapist via video sessions no matter where you are in the country. FEP Blue covers telehealth from any state.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do I pay more if I see a psychologist vs. a licensed counselor?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'No. FEP Blue pays the same for licensed mental health professionals regardless of their specific degree (psychologist, licensed counselor, social worker, marriage and family therapist). Your co-pay is the same.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if my therapist is out-of-network?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'FEP Blue offers out-of-network benefits, but you\'ll pay more out-of-pocket (typically 70-80% coverage after deductible instead of just a co-pay). It\'s more affordable to find an in-network provider when possible.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

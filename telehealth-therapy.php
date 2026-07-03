@@ -5,6 +5,31 @@ $page_description = 'Secure telehealth therapy throughout Michigan. Licensed the
 $canonical_url = 'https://www.healingtherapycenter.com/telehealth-therapy';
 $current_service = 'telehealth'; // For sidebar active state
 
+// Service Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Telehealth Therapy',
+    'serviceType' => 'Telehealth Therapy and Online Counseling',
+    'description' => 'Secure telehealth therapy and online counseling throughout Michigan. Licensed therapists provide professional support for anxiety, depression, trauma, and couples counseling via video from the comfort of your own home.',
+    'url' => 'https://www.healingtherapycenter.com/telehealth-therapy',
+    'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

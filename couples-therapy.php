@@ -1,9 +1,107 @@
 <?php
 // Page-specific variables
 $page_title = 'Couples Therapy & Marriage Counseling | Dearborn, MI';
-$page_description = 'Couples therapy & marriage counseling in Michigan - Dearborn, Detroit, Ann Arbor. Help with attachment styles, relationship anxiety, codependency, communication. LGBTQ affirming. (313) 654-1915';
+$page_description = 'Couples therapy & marriage counseling in Dearborn, MI. Help with communication, relationship anxiety & codependency. LGBTQ affirming. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/couples-therapy';
 $current_service = 'couples'; // For sidebar active state
+
+// Service + FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Couples Therapy',
+            'serviceType' => 'Couples Therapy and Marriage Counseling',
+            'description' => 'Couples therapy and marriage counseling in Dearborn, Michigan. Evidence-based help with communication, attachment styles, relationship anxiety, codependency, and rebuilding trust, offered in person and via telehealth throughout Michigan.',
+            'url' => 'https://www.healingtherapycenter.com/couples-therapy',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does insurance cover couples therapy in Michigan?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Many insurance plans do cover couples therapy, especially when one partner has a diagnosable mental health condition (such as anxiety or depression) that affects the relationship. Coverage varies by plan. We recommend calling your insurance provider to verify benefits, and our office can help you understand your coverage when you call (313) 654-1915.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if my partner doesn\'t want to go to couples therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'It\'s common for one partner to be more hesitant about therapy initially. If your partner is resistant, consider individual therapy first to work on your own communication and relationship patterns—this often creates positive changes that can motivate a hesitant partner to participate. You can also suggest a "trial" of just a few sessions to see if it\'s helpful. Many initially reluctant partners become engaged once they experience therapy in a safe, non-judgmental environment.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Will the therapist take sides or tell us to break up?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Ethical couples therapists remain neutral and work for the relationship system, not for either individual partner. We don\'t tell couples to stay together or break up—that decision is always yours. Our role is to help you communicate more effectively, understand each other better, and make informed decisions about your relationship from a place of clarity rather than reactivity.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does couples therapy take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'This varies significantly based on the severity of issues, how long problems have existed, and both partners\' commitment to change. Some couples see improvement in 8-12 sessions for focused issues, while couples dealing with infidelity, severe communication breakdown, or long-standing patterns may benefit from 20+ sessions. Your therapist will work with you to set goals and assess progress regularly.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can couples therapy help if we\'re already considering divorce?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Yes. Couples therapy can help even when divorce seems likely. Sometimes therapy helps couples reconnect and rebuild their relationship. Other times, it helps couples gain clarity about the decision to separate and provides tools for a healthier, less contentious divorce and co-parenting relationship. Either outcome is valuable—what matters is that you make the decision from a place of clarity and effort rather than regret.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if we\'ve tried couples therapy before and it didn\'t work?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Not all therapists are equally skilled in couples work, and the fit between couple and therapist matters greatly. If previous therapy wasn\'t helpful, consider whether the therapist was specifically trained in couples therapy, whether both partners were equally committed, and whether you gave the process enough time. A different therapist with specialized training and a different approach may lead to very different results.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Is couples therapy just venting to a therapist, or will we learn actual skills?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'While processing emotions is part of couples therapy, evidence-based approaches teach concrete, practical skills you can use immediately: active listening techniques, conflict de-escalation strategies, emotional regulation tools, and ways to rebuild intimacy and friendship. You\'ll practice these skills in session and apply them at home between sessions.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How much does couples therapy cost in Dearborn?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Our couples therapy rates are competitive with the Metro Detroit area. Session costs vary depending on whether you use insurance (copay/coinsurance rates) or self-pay. Many couples find that investing in their relationship through therapy is far less expensive—financially and emotionally—than separation or divorce. Call us at (313) 654-1915 for specific pricing and to verify your insurance coverage.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

@@ -1,8 +1,82 @@
 <?php
 // Page-specific variables
 $page_title = 'Anxiety Therapy in Michigan | Telehealth & Dearborn';
-$page_description = 'Anxiety therapy in Michigan - Detroit, Ann Arbor, Dearborn. Treat panic attacks, GAD, social anxiety & phobias with CBT. Telehealth throughout Michigan. (313) 654-1915';
+$page_description = 'Anxiety therapy in Michigan for panic attacks, GAD, social anxiety & phobias. CBT with licensed therapists in Dearborn or telehealth. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/anxiety-therapy-michigan';
+
+// Service + FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Anxiety Therapy in Michigan',
+            'serviceType' => 'Anxiety Therapy',
+            'description' => 'Evidence-based anxiety therapy for panic disorder, generalized anxiety, social anxiety, phobias, health anxiety, and agoraphobia. CBT, exposure therapy, ACT, and mindfulness-based treatment via secure telehealth throughout Michigan or in-person in Dearborn.',
+            'url' => 'https://www.healingtherapycenter.com/anxiety-therapy-michigan',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can anxiety be cured or just managed?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'While you may always have some tendency toward anxiety, therapy teaches you skills to manage it effectively so it no longer controls your life. Many people achieve full remission of anxiety disorders with proper treatment.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do I need medication or can therapy alone help?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Many people successfully treat anxiety with therapy alone. Some benefit from combining therapy with medication, especially for severe anxiety. We can discuss both options and help you make informed decisions.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does anxiety therapy take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most people see significant improvement in 12-16 weekly CBT sessions. Some need more time, especially for complex anxiety or multiple anxiety disorders. The skills you learn in therapy continue helping long after treatment ends.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if I\'m too anxious to attend therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'This is very common. Telehealth therapy from home can feel less intimidating than in-person sessions. We also start slowly, building safety and trust before addressing more challenging work.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does insurance cover anxiety treatment in Michigan?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most Michigan insurance plans cover anxiety treatment when provided by licensed therapists. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Call (313) 654-1915 to verify your coverage.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

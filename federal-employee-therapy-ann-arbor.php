@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Federal Employee Therapist Ann Arbor MI | FEP Blue';
-$page_description = 'Therapy for federal employees in Ann Arbor, MI with FEP Blue insurance. Serving VA Ann Arbor, University of Michigan federal staff. Telehealth available. (313) 654-1915';
+$page_description = 'Therapy for federal employees in Ann Arbor, MI with FEP Blue insurance. Serving VA Ann Arbor and University of Michigan federal staff. Telehealth available.';
 $canonical_url = 'https://www.healingtherapycenter.com/federal-employee-therapy-ann-arbor';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Therapy for Federal Employees in Ann Arbor, MI',
+    'description' => 'Therapy for federal employees in Ann Arbor, MI, including VA Ann Arbor Healthcare System staff, University of Michigan federal researchers, and USPS workers. FEP Blue insurance accepted, with telehealth available.',
+    'url' => 'https://www.healingtherapycenter.com/federal-employee-therapy-ann-arbor',
+    'areaServed' => ['@type' => 'City', 'name' => 'Ann Arbor'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 $current_service = 'individual';
 
 // Include configuration

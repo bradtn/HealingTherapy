@@ -4,6 +4,15 @@ $page_title = 'Crisis Resources & Suicide Hotline | Healing Therapy Center';
 $page_description = '24/7 crisis resources and suicide prevention hotlines. Immediate help available. National Suicide Prevention Lifeline: 988. You are not alone.';
 $canonical_url = 'https://www.healingtherapycenter.com/suicide-hotline';
 
+// WebPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'WebPage',
+    'name' => 'Crisis Resources & Suicide Prevention Hotline',
+    'description' => '24/7 crisis resources and suicide prevention hotlines, including the 988 Suicide & Crisis Lifeline, Crisis Text Line, and domestic violence support.',
+    'url' => 'https://www.healingtherapycenter.com/suicide-hotline'
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

@@ -1,8 +1,29 @@
 <?php
 // Page-specific variables
 $page_title = 'Understanding Anxiety: Signs & Treatment | Dearborn, MI';
-$page_description = 'Learn about anxiety disorders, symptoms, and evidence-based treatments. Expert anxiety therapy in Dearborn, Michigan. BCBS, Aetna accepted. Call (313) 654-1915.';
+$page_description = 'Learn about anxiety disorders, symptoms, and evidence-based treatments. Expert anxiety therapy in Dearborn, Michigan. BCBS accepted. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/anxiety-therapy-guide';
+
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'Understanding Anxiety: Signs, Types, and Treatment Options',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/anxiety-blog.jpg',
+    'datePublished' => '2025-12-01',
+    'author' => [
+        '@type' => 'Person',
+        'name' => 'Amal Ayad'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
 // Include configuration
 require_once 'includes/config.php';

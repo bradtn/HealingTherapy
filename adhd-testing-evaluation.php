@@ -1,8 +1,98 @@
 <?php
 // Page-specific variables
 $page_title = 'ADHD Testing & Evaluation in Michigan | Children & Adults';
-$page_description = 'ADHD testing in Michigan - Dearborn, Detroit, Ann Arbor for children and adults. Professional evaluation & diagnosis. Telehealth throughout Michigan. (313) 654-1915';
+$page_description = 'ADHD testing in Michigan for children & adults. Professional evaluation & diagnosis in Dearborn plus telehealth statewide. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/adhd-testing-evaluation';
+
+// Service + FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'ADHD Testing & Evaluation',
+            'serviceType' => 'ADHD Testing and Evaluation',
+            'description' => 'Professional ADHD testing and evaluation in Dearborn, Michigan for children (age 6+) and adults, including clinical interview, rating scales, cognitive testing, and continuous performance testing, with clear diagnosis and treatment recommendations.',
+            'url' => 'https://www.healingtherapycenter.com/adhd-testing-evaluation',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long does ADHD testing take?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'The complete process takes 3-4 weeks: initial consultation, 2-3 testing sessions (3-5 hours total), 1-2 weeks for scoring and report writing, then feedback session. We work to accommodate urgent timelines when possible.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do I need a referral from my doctor?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'You can self-refer for ADHD testing. However, some insurance plans require referrals for coverage - check with your insurer.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does insurance cover ADHD evaluation in Michigan?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most Michigan insurance plans cover ADHD testing when medically necessary. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Call (313) 654-1915 to verify coverage.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can ADHD testing be done via telehealth?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Some components (clinical interview, rating scales) can be done via telehealth. Cognitive testing and CPT require in-person evaluation at our Dearborn office.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'At what age can children be tested?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'We can evaluate children as young as 6 years old. ADHD symptoms must be present before age 12 for diagnosis, but reliable testing is typically done age 6+.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What if it\'s not ADHD - what else could it be?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Anxiety, depression, learning disabilities, sleep disorders, trauma, and other conditions can mimic ADHD. Our comprehensive evaluation identifies what\'s really going on so you get appropriate treatment.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How much does ADHD testing cost?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Cost varies by evaluation complexity. With insurance, you pay your copay/coinsurance. For self-pay, we provide upfront estimates. Call (313) 654-1915 for pricing.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

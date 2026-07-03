@@ -4,6 +4,41 @@ $page_title = 'Donna Majed, TLLP | Therapist | Healing Therapy Center';
 $page_description = 'Donna Majed, TLLP - Therapist in Dearborn, MI. Specializing in women\'s mental health, anxiety, OCD, depression, postpartum, and trauma.';
 $canonical_url = 'https://www.healingtherapycenter.com/donna-majed';
 
+// Person Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Person',
+    'name' => 'Donna Majed',
+    'jobTitle' => 'Temporary Limited Licensed Psychologist (TLLP)',
+    'url' => 'https://www.healingtherapycenter.com/donna-majed',
+    'image' => 'https://www.healingtherapycenter.com/assets/img/donna.jpg',
+    'worksFor' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ],
+    'knowsAbout' => [
+        "Women's Mental Health",
+        'Anxiety',
+        'OCD',
+        'Depression',
+        'Postpartum & Perinatal Mental Health',
+        'Trauma & Domestic Violence Recovery',
+        'Marriage & Relationship Stress',
+        'Cognitive Behavioral Therapy (CBT)',
+        'Dialectical Behavior Therapy (DBT)'
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

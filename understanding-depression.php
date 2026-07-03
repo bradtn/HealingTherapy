@@ -4,6 +4,27 @@ $page_title = 'Understanding Depression | Healing Therapy Center Blog';
 $page_description = 'Mental health insights and advice from Healing Therapy Center therapists. Evidence-based tips for wellness and recovery.';
 $canonical_url = 'https://www.healingtherapycenter.com/understanding-depression';
 
+// Article Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => 'Understanding Depression: Types, Symptoms, and Treatment Options',
+    'description' => $page_description,
+    'url' => $canonical_url,
+    'mainEntityOfPage' => $canonical_url,
+    'image' => 'https://www.healingtherapycenter.com/assets/img/blog1.jpg',
+    'datePublished' => '2019-02-03',
+    'author' => [
+        '@type' => 'Person',
+        'name' => 'Ammal Ayad'
+    ],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Healing Therapy Center',
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

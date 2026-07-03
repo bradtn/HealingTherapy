@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Federal Employee Stress Management Therapy | Michigan';
-$page_description = 'Stress management strategies for federal employees in Michigan. Learn when work stress becomes a problem and how therapy can help USPS, CBP, FBI, VA employees. FEP Blue coverage explained.';
+$page_description = 'Stress management therapy for federal employees in Michigan. Learn when work stress needs professional help. USPS, CBP, FBI, VA. FEP Blue accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/federal-employee-stress-management-therapy';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Stress Management Therapy for Federal Employees',
+    'description' => 'Stress management therapy for federal employees in Michigan, including USPS, CBP, FBI, and VA workers. CBT, stress management techniques, and work-life balance support with FEP Blue insurance accepted.',
+    'url' => 'https://www.healingtherapycenter.com/federal-employee-stress-management-therapy',
+    'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

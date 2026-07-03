@@ -4,6 +4,37 @@ $page_title = 'Amal Ayad, MA | Life Coach | Healing Therapy Center';
 $page_description = 'Amal Ayad, MA - Life Coach at Healing Therapy Center in Dearborn, MI. Specializing in life coaching, goal setting, confidence building, and personal growth.';
 $canonical_url = 'https://www.healingtherapycenter.com/amal-ayad';
 
+// Person Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Person',
+    'name' => 'Amal Ayad',
+    'jobTitle' => 'Life Coach',
+    'url' => 'https://www.healingtherapycenter.com/amal-ayad',
+    'image' => 'https://www.healingtherapycenter.com/assets/img/amal.jpg',
+    'worksFor' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ],
+    'knowsAbout' => [
+        'Life Coaching',
+        'Goal Setting',
+        'Confidence Building',
+        'Personal Growth & Development',
+        'Work-Life Balance'
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

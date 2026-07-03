@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'Burnout & Work Stress Therapy in Michigan | Dearborn';
-$page_description = 'Feeling burned out from work? Professional burnout and stress therapy in Dearborn & Metro Detroit, Michigan. Evidence-based treatment for exhaustion, overwhelm, and career stress.';
+$page_description = 'Professional burnout and work stress therapy in Dearborn and Metro Detroit, Michigan. Evidence-based treatment for exhaustion, overwhelm, and career stress.';
 $canonical_url = 'https://www.healingtherapycenter.com/burnout-stress-therapy-michigan';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'Burnout and Work Stress Therapy in Michigan',
+    'description' => 'Professional burnout and work stress therapy in Dearborn and Metro Detroit. Evidence-based treatment including CBT, mindfulness-based stress reduction, and solution-focused therapy, with telehealth available across Michigan.',
+    'url' => 'https://www.healingtherapycenter.com/burnout-stress-therapy-michigan',
+    'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';

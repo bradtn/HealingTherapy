@@ -4,6 +4,80 @@ $page_title = 'Free Autism Screening Tool | M-CHAT-R Assessment';
 $page_description = 'Free online autism screening tool (M-CHAT-R) for children 16-30 months. Quick assessment to determine if autism evaluation is needed. Call (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-screening-tool';
 
+// Service + FAQPage Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@graph' => [
+        [
+            '@type' => 'Service',
+            'name' => 'Autism Screening Tool',
+            'serviceType' => 'Autism Screening (M-CHAT-R)',
+            'description' => 'Free online autism screening tool (M-CHAT-R) for children 16-30 months. A quick, research-validated questionnaire that helps parents determine whether a comprehensive autism evaluation is recommended.',
+            'url' => 'https://www.healingtherapycenter.com/autism-screening-tool',
+            'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+            'provider' => [
+                '@type' => 'MedicalBusiness',
+                'name' => 'Healing Therapy Center',
+                'telephone' => '+13136541915',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => '22005 Outer Dr W',
+                    'addressLocality' => 'Dearborn',
+                    'addressRegion' => 'MI',
+                    'postalCode' => '48124',
+                    'addressCountry' => 'US'
+                ],
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'What are the early signs of autism in toddlers?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Early signs of autism in toddlers include limited eye contact, not responding to their name by 12 months, not pointing to show interest by 14 months, lack of pretend play by 18 months, and repetitive behaviors. Our screening tool can help identify these signs.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'At what age should my child be screened for autism?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'The American Academy of Pediatrics recommends autism screening at 18 and 24 months. However, if you have concerns at any age, don\'t wait. Early intervention is key to better outcomes.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Does insurance cover autism therapy?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Most major insurance plans cover autism therapy services like ABA, speech, and occupational therapy. Our billing team will verify your coverage and help maximize your benefits.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'How many hours of ABA therapy does my child need?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'The number of ABA therapy hours varies based on individual needs, typically ranging from 10-40 hours per week. Our BCBA will assess your child and recommend an appropriate treatment plan.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What\'s the difference between speech therapy and ABA for communication?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Speech therapy focuses on language development, articulation, and communication skills. ABA addresses the behavioral aspects of communication and teaches functional communication. Many children benefit from both therapies working together.'
+                    ]
+                ]
+            ]
+        ]
+    ]
+], JSON_UNESCAPED_SLASHES);
+
 // Include configuration
 require_once 'includes/config.php';
 ?>

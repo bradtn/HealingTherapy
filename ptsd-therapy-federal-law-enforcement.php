@@ -1,8 +1,32 @@
 <?php
 // Page-specific variables
 $page_title = 'PTSD Treatment for Federal Law Enforcement | Michigan';
-$page_description = 'PTSD therapy for CBP officers, FBI agents, and federal first responders in Michigan. EMDR, trauma-focused treatment. FEP Blue coverage. Confidential care for law enforcement.';
+$page_description = 'Confidential PTSD therapy for CBP officers, FBI agents, and federal first responders in Michigan. EMDR and trauma-focused care. FEP Blue accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/ptsd-therapy-federal-law-enforcement';
+
+// Schema for SEO
+$schema_json = json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Service',
+    'name' => 'PTSD Treatment for Federal Law Enforcement and First Responders',
+    'description' => 'Confidential PTSD treatment for CBP officers, FBI agents, federal corrections officers, and first responders in Michigan. EMDR, Cognitive Processing Therapy, and Prolonged Exposure with FEP Blue insurance accepted.',
+    'url' => 'https://www.healingtherapycenter.com/ptsd-therapy-federal-law-enforcement',
+    'areaServed' => ['@type' => 'State', 'name' => 'Michigan'],
+    'provider' => [
+        '@type' => 'MedicalBusiness',
+        'name' => 'Healing Therapy Center',
+        'telephone' => '+13136541915',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => '22005 Outer Dr W',
+            'addressLocality' => 'Dearborn',
+            'addressRegion' => 'MI',
+            'postalCode' => '48124',
+            'addressCountry' => 'US'
+        ],
+        'url' => 'https://www.healingtherapycenter.com'
+    ]
+], JSON_UNESCAPED_SLASHES);
 
 // Include configuration
 require_once 'includes/config.php';
