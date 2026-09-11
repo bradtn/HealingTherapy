@@ -78,17 +78,17 @@ def remove_trailing_tabs(content, filename):
     return content
 
 def fix_address_in_schema(content, filename):
-    """Fix address to be consistent: 22005 Outer Dr W"""
+    """Fix address to be consistent: 835 Mason St STE D160"""
     old_addresses = [
         '"streetAddress": "23500 Park St"',
         '"streetAddress": "3200 Greenfield Rd"'
     ]
-    new_address = '"streetAddress": "22005 Outer Dr W"'
+    new_address = '"streetAddress": "835 Mason St STE D160"'
 
     for old_addr in old_addresses:
         if old_addr in content:
             content = content.replace(old_addr, new_address)
-            log_change(filename, f"Fixed address in schema markup to 22005 Outer Dr W")
+            log_change(filename, f"Fixed address in schema markup to 835 Mason St STE D160")
 
     return content
 

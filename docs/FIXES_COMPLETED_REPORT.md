@@ -29,7 +29,7 @@ All critical SEO and security issues have been successfully fixed across **27 HT
 
 - [x] **Issue #7:** Address Standardized
   - Changed from: "23500 Park St" and "3200 Greenfield Rd"
-  - Changed to: "22005 Outer Dr W" (consistent across all pages)
+  - Changed to: "835 Mason St STE D160" (consistent across all pages)
   - **Pages fixed:** 27
   - **Instances:** 28
 
@@ -117,7 +117,7 @@ All fixes have been verified using automated testing:
 |------|--------|--------|
 | Schema.org URLs | 32 instances of https://schema.org | ✓ PASS |
 | Old schema URLs | 0 instances found | ✓ PASS |
-| Address consistency | 28 instances of "22005 Outer Dr W" | ✓ PASS |
+| Address consistency | 28 instances of "835 Mason St STE D160" | ✓ PASS |
 | Old addresses | 0 instances found | ✓ PASS |
 | Secure external links | 75 links with rel="noopener noreferrer" | ✓ PASS |
 | Unsecured links | 0 found (excluding perinatal) | ✓ PASS |
@@ -140,8 +140,8 @@ All fixes have been verified using automated testing:
 **Changes:**
 - `"@context": "http://www.schema.org"` → `"@context": "https://schema.org"`
 - Removed trailing `\t` from URLs and text fields
-- Fixed address from "23500 Park St" → "22005 Outer Dr W"
-- Fixed address from "3200 Greenfield Rd" → "22005 Outer Dr W"
+- Fixed address from "23500 Park St" → "835 Mason St STE D160"
+- Fixed address from "3200 Greenfield Rd" → "835 Mason St STE D160"
 
 **Impact:**
 - Schema validation now passes
@@ -222,7 +222,7 @@ All fixes have been verified using automated testing:
   "@context": "https://schema.org",
   "name": "Healing Therapy Center",
   "address": {
-    "streetAddress": "22005 Outer Dr W"
+    "streetAddress": "835 Mason St STE D160"
   }
 }
 </script>

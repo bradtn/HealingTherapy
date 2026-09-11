@@ -55,7 +55,7 @@
     "url": "https://www.healingtherapycenter.com/",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "22005 Outer Dr W",
+      "streetAddress": "835 Mason St STE D160",
       "addressLocality": "Dearborn",
       "addressRegion": "MI",
       "postalCode": "48124"
@@ -86,7 +86,7 @@
 2. ✓ Empty keywords tag removed
 3. ✓ Schema context: http://www -> https://
 4. ✓ Trailing tabs removed (\t)
-5. ✓ Address fixed: 23500 Park St -> 22005 Outer Dr W
+5. ✓ Address fixed: 23500 Park St -> 835 Mason St STE D160
 6. ✓ Canonical URL added
 7. ✓ Security attribute added to Instagram link
 8. ✓ Google Analytics library script added
@@ -147,7 +147,7 @@
 <title>Healing Therapy</title>
 
 <a href="https://www.google.com/maps/..." target="_blank">
-  <i class="fa fa-location-pin"></i>22005 Outer Dr W
+  <i class="fa fa-location-pin"></i>835 Mason St STE D160
 </a>
 ```
 
@@ -156,7 +156,7 @@
 <title>Couples Therapy & Marriage Counseling | Dearborn, MI</title>
 
 <a href="https://www.google.com/maps/..." target="_blank" rel="noopener noreferrer">
-  <i class="fa fa-location-pin"></i>22005 Outer Dr W
+  <i class="fa fa-location-pin"></i>835 Mason St STE D160
 </a>
 ```
 
@@ -221,7 +221,7 @@
 {
   "@context": "https://schema.org",
   "address": {
-    "streetAddress": "22005 Outer Dr W"
+    "streetAddress": "835 Mason St STE D160"
   }
 }
 </script>

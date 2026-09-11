@@ -22,7 +22,7 @@ $schema_json = json_encode([
                 'telephone' => '+13136541915',
                 'address' => [
                     '@type' => 'PostalAddress',
-                    'streetAddress' => '22005 Outer Dr W',
+                    'streetAddress' => '835 Mason St STE D160',
                     'addressLocality' => 'Dearborn',
                     'addressRegion' => 'MI',
                     'postalCode' => '48124',
@@ -505,7 +505,7 @@ require_once 'includes/config.php';
                         <p>We accept most major insurance plans including Blue Cross Blue Shield, Aetna, Priority Health, McLaren Health Plan, and HAP. Many insurance plans cover psychological testing when medically necessary. Call (313) 654-1915 to verify your coverage and understand costs.</p>
 
                         <h3 class="mt-3">Convenient Dearborn Location</h3>
-                        <p>Our office at 22005 Outer Dr W in Dearborn is easily accessible from I-94 and major routes throughout Metro Detroit. We serve families from Dearborn, Dearborn Heights, Allen Park, Plymouth, Livonia, Westland, Canton, and throughout Wayne and Oakland Counties.</p>
+                        <p>Our office at 835 Mason St STE D160 in Dearborn is easily accessible from I-94 and major routes throughout Metro Detroit. We serve families from Dearborn, Dearborn Heights, Allen Park, Plymouth, Livonia, Westland, Canton, and throughout Wayne and Oakland Counties.</p>
 
                         <h2 class="mt-5 mb-4" id="faq">Frequently Asked Questions About Psychological Testing</h2>
 
@@ -629,7 +629,7 @@ require_once 'includes/config.php';
                         <div class="alert alert-info mt-4">
                             <h4>Schedule Your Psychological Evaluation</h4>
                             <p><strong>Call us today:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></p>
-                            <p><strong>Location:</strong> 22005 Outer Dr W, Dearborn, MI 48124</p>
+                            <p><strong>Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124</p>
                             <p><strong>Hours:</strong> Monday-Friday 9:00 AM - 5:00 PM, Saturday 9:00 AM - 2:00 PM</p>
                             <p class="mb-2"><a href="appointment" class="btn btn-primary me-2">Request an Appointment</a> <a href="autism-evaluation" class="btn btn-outline-primary">Autism Evaluation Info</a></p>
                         </div>

@@ -10,7 +10,7 @@ This checklist will help you optimize your Google Business Profile to attract mo
 - [ ] **Business Name:** Verify "Healing Therapy Center" is correct
 - [ ] **Primary Category:** Set to "Mental Health Service" or "Psychotherapist"
 - [ ] **Secondary Categories:** Add "Counselor", "Psychologist", "Family Counselor"
-- [ ] **Address:** Confirm 22005 Outer Dr W, Dearborn, MI 48124 is accurate
+- [ ] **Address:** Confirm 835 Mason St STE D160, Dearborn, MI 48124 is accurate
 - [ ] **Phone:** Verify (313) 654-1915 is displayed prominently
 - [ ] **Website:** Ensure healingtherapycenter.com is linked
 - [ ] **Service Areas:** Add Dearborn, Detroit, Livonia, Ann Arbor, and surrounding areas

@@ -91,7 +91,7 @@ This guide implements the latest 2026 SEO best practices for your therapy practi
 - [ ] Upload professional photos
 - [ ] Complete 100% of profile fields
 - [ ] Use specific keywords (ADHD testing, autism evaluation, trauma therapy)
-- [ ] Verify NAP consistency: (313) 654-1915, 22005 Outer Dr W, Dearborn, MI 48124
+- [ ] Verify NAP consistency: (313) 654-1915, 835 Mason St STE D160, Dearborn, MI 48124
 
 **Cost:** ~$30/month per therapist (~$120/month total)
 **Time Required:** 2-3 hours for all profiles
@@ -115,7 +115,7 @@ This guide implements the latest 2026 SEO best practices for your therapy practi
 **Critical:** Keep NAP (Name, Address, Phone) IDENTICAL everywhere
 ```
 Healing Therapy Center
-22005 Outer Dr W, Dearborn, MI 48124
+835 Mason St STE D160, Dearborn, MI 48124
 (313) 654-1915
 https://www.healingtherapycenter.com
 ```

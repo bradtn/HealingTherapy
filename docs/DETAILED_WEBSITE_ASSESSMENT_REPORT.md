@@ -401,7 +401,7 @@ File: appointment.html, line 297
 File: index.html, line 846
 ... (ALL pages)
 
-22005 Outer Dr W, Dearborn, MI 48124
+835 Mason St STE D160, Dearborn, MI 48124
 ```
 
 #### Why This is Catastrophic for SEO
@@ -432,7 +432,7 @@ Someone searches: "therapy center Dearborn MI"
 **CHOOSE ONE ADDRESS** (verify which is correct):
 - 23500 Park St, Dearborn, MI 48124?
 - 3200 Greenfield Rd, Dearborn, MI 48120?
-- 22005 Outer Dr W, Dearborn, MI 48124? ✓ (Appears most often)
+- 835 Mason St STE D160, Dearborn, MI 48124? ✓ (Appears most often)
 
 Then update:
 - ✅ All 27 HTML pages

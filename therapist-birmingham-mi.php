@@ -18,7 +18,7 @@ $schema_json = json_encode([
         'telephone' => '+13136541915',
         'address' => [
             '@type' => 'PostalAddress',
-            'streetAddress' => '22005 Outer Dr W',
+            'streetAddress' => '835 Mason St STE D160',
             'addressLocality' => 'Dearborn',
             'addressRegion' => 'MI',
             'postalCode' => '48124',
@@ -62,7 +62,7 @@ require_once 'includes/config.php';
 
                             <div class="alert alert-info mb-4" data-aos="fade-up">
                                 <h3 class="h5 mb-3"><i class="bi bi-geo-alt-fill me-2"></i>Convenient for Birmingham Residents</h3>
-                                <p class="mb-2"><strong>Office Location:</strong> 22005 Outer Dr W, Dearborn, MI 48124</p>
+                                <p class="mb-2"><strong>Office Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124</p>
                                 <p class="mb-2"><strong>From Birmingham:</strong> 30 minutes via Woodward to I-696 West to Telegraph South</p>
                                 <p class="mb-2"><strong>Telehealth Option:</strong> Online therapy from your Birmingham home - same insurance coverage</p>
                                 <ul class="mb-0">
@@ -206,7 +206,7 @@ require_once 'includes/config.php';
                                 <h3 class="alert-heading"><i class="bi bi-telephone-fill me-2"></i>Schedule Your Appointment</h3>
                                 <p class="mb-2"><strong>Serving Birmingham, MI & Oakland County</strong></p>
                                 <p class="mb-2"><strong>Phone:</strong> <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a></p>
-                                <p class="mb-2"><strong>Office:</strong> 22005 Outer Dr W, Dearborn, MI 48124 (30 min from Birmingham)</p>
+                                <p class="mb-2"><strong>Office:</strong> 835 Mason St STE D160, Dearborn, MI 48124 (30 min from Birmingham)</p>
                                 <p class="mb-2"><strong>Telehealth:</strong> Online therapy throughout Michigan</p>
                                 <p class="mb-0">We accept Blue Cross, Aetna, Priority Health, United Healthcare, and most major insurance plans.</p>
                             </div>

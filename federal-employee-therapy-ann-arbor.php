@@ -18,7 +18,7 @@ $schema_json = json_encode([
         'telephone' => '+13136541915',
         'address' => [
             '@type' => 'PostalAddress',
-            'streetAddress' => '22005 Outer Dr W',
+            'streetAddress' => '835 Mason St STE D160',
             'addressLocality' => 'Dearborn',
             'addressRegion' => 'MI',
             'postalCode' => '48124',
@@ -184,7 +184,7 @@ require_once 'includes/config.php';
                                 <p class="mb-2"><strong>Serving Ann Arbor Federal Employees</strong></p>
                                 <p class="mb-2"><strong>Phone:</strong> <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a></p>
                                 <p class="mb-2"><strong>Telehealth:</strong> Secure online therapy from your Ann Arbor home</p>
-                                <p class="mb-2"><strong>In-Person:</strong> 22005 Outer Dr W, Dearborn, MI 48124 (40 min via I-94)</p>
+                                <p class="mb-2"><strong>In-Person:</strong> 835 Mason St STE D160, Dearborn, MI 48124 (40 min via I-94)</p>
                                 <p class="mb-0">We accept FEP Blue for all federal employees in Ann Arbor and Washtenaw County.</p>
                             </div>
 

@@ -29,10 +29,10 @@ echo "2. ADDRESS CONSISTENCY"
 echo "=========================================================================="
 old_addr1=$(grep -r '"streetAddress": "23500 Park St"' *.html 2>/dev/null | wc -l)
 old_addr2=$(grep -r '"streetAddress": "3200 Greenfield Rd"' *.html 2>/dev/null | wc -l)
-new_addr=$(grep -r '"streetAddress": "22005 Outer Dr W"' *.html 2>/dev/null | wc -l)
+new_addr=$(grep -r '"streetAddress": "835 Mason St STE D160"' *.html 2>/dev/null | wc -l)
 echo "Old address (23500 Park St): $old_addr1 (should be 0)"
 echo "Old address (3200 Greenfield Rd): $old_addr2 (should be 0)"
-echo "New address (22005 Outer Dr W): $new_addr (should be 27+)"
+echo "New address (835 Mason St STE D160): $new_addr (should be 27+)"
 if [ $old_addr1 -eq 0 ] && [ $old_addr2 -eq 0 ] && [ $new_addr -ge 27 ]; then
     echo "STATUS: ✓ PASS"
 else

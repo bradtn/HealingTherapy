@@ -21,14 +21,14 @@ define('EMAIL', 'info@healingtherapycenter.com');
 define('EMAIL_LINK', 'mailto:info@healingtherapycenter.com');
 
 // Physical Address
-define('ADDRESS_STREET', '22005 Outer Dr W');
+define('ADDRESS_STREET', '835 Mason St STE D160');
 define('ADDRESS_CITY', 'Dearborn');
 define('ADDRESS_STATE', 'MI');
 define('ADDRESS_ZIP', '48124');
 define('ADDRESS_FULL', ADDRESS_STREET . ', ' . ADDRESS_CITY . ', ' . ADDRESS_STATE . ' ' . ADDRESS_ZIP);
 
 // Google Maps
-define('GOOGLE_MAPS_URL', 'https://www.google.com/maps/place/Healing+Therapy+Center/@42.2856222,-83.2362161,17z/data=!3m1!4b1!4m6!3m5!1s0x883b49e5aac26f9d:0x2c055cc0f1697b3d!8m2!3d42.2856222!4d-83.2336412!16s%2Fg%2F11y2tc5d90?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D');
+define('GOOGLE_MAPS_URL', 'https://www.google.com/maps/search/?api=1&query=Healing+Therapy+Center+835+Mason+St+STE+D160+Dearborn+MI+48124');
 
 // ============================================================================
 // SOCIAL MEDIA

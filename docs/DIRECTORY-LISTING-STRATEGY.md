@@ -41,7 +41,7 @@ Directory listings are a 2026 SEO priority as brand signals that strengthen loca
    - Locations: Dearborn, serving Detroit, Ann Arbor, Troy, Livonia
 3. Verify contact info matches website exactly:
    - Phone: (313) 654-1915
-   - Address: 22005 Outer Dr W, Dearborn, MI 48124
+   - Address: 835 Mason St STE D160, Dearborn, MI 48124
    - Website: https://www.healingtherapycenter.com
 
 **Optimization Tips:**
@@ -301,7 +301,7 @@ Directory listings are a 2026 SEO priority as brand signals that strengthen loca
 
 ```
 Name: Healing Therapy Center
-Address: 22005 Outer Dr W, Dearborn, MI 48124
+Address: 835 Mason St STE D160, Dearborn, MI 48124
 Phone: (313) 654-1915
 Website: https://www.healingtherapycenter.com
 Email: info@healingtherapycenter.com (if listed)
@@ -310,7 +310,7 @@ Email: info@healingtherapycenter.com (if listed)
 **Rules:**
 - Exact same spelling, spacing, punctuation
 - Same phone number format: (313) 654-1915
-- Same address format (including "Outer Dr W" not "Outer Drive West")
+- Same address format (including "Mason St STE D160" not "Mason Street Suite D160")
 - HTTPS version of website URL everywhere
 - Don't abbreviate Dearborn as "Dbn" or "Dborn"
 

@@ -55,13 +55,13 @@ After:  "name": "Healing Therapy Center",
 - **Changed from:**
   - "23500 Park St" (found on 20+ pages)
   - "3200 Greenfield Rd" (found on 1 page)
-- **To:** "22005 Outer Dr W" (consistent across all pages)
+- **To:** "835 Mason St STE D160" (consistent across all pages)
 - **Pages Fixed:** 27 pages
 - **Impact:** Critical for local SEO, Google Business Profile consistency
 
 **Verification:**
 - Old address "23500 Park St": 0 instances
-- New address "22005 Outer Dr W": 28 instances
+- New address "835 Mason St STE D160": 28 instances
 
 **SEO Impact:**
 - Fixes NAP (Name, Address, Phone) consistency
@@ -262,7 +262,7 @@ All fixes have been verified and confirmed working:
 | Canonical URLs | 27 | 28 | PASS |
 | Empty keywords tags | 0 | 0 | PASS |
 | Old address (23500 Park St) | 0 | 0 | PASS |
-| New address (22005 Outer Dr W) | 27 | 28 | PASS |
+| New address (835 Mason St STE D160) | 27 | 28 | PASS |
 
 *The 1 unsecured link is in perinatal-therapy.html which was excluded from fixes as instructed.
 

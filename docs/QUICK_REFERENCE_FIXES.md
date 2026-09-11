@@ -27,7 +27,7 @@ AFTER:  "name": "Healing Therapy Center"
 ### 3. Business Address in Schema
 ```json
 BEFORE: "streetAddress": "23500 Park St"
-AFTER:  "streetAddress": "22005 Outer Dr W"
+AFTER:  "streetAddress": "835 Mason St STE D160"
 ```
 
 ### 4. External Link Security
@@ -115,7 +115,7 @@ grep -r '<link rel="canonical"' *.html | wc -l
 grep -r 'googletagmanager.com/gtag/js' *.html | wc -l
 
 # Check address consistency
-grep -r '"streetAddress": "22005 Outer Dr W"' *.html | wc -l
+grep -r '"streetAddress": "835 Mason St STE D160"' *.html | wc -l
 
 # Check secure external links
 grep -r 'target="_blank" rel="noopener noreferrer"' *.html | wc -l

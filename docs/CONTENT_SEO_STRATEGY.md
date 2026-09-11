@@ -369,8 +369,8 @@ Add to every service page footer:
 ```
 Conveniently Located in Dearborn, Serving All of Metro Detroit
 
-Our office at 22005 Outer Dr W is easily accessible from I-94,
-Michigan Ave, and Outer Drive. We serve clients throughout Dearborn,
+Our office at 835 Mason St STE D160 is easily accessible from I-94,
+Michigan Ave (US-12), and the Southfield Fwy (M-39). We serve clients throughout Dearborn,
 Dearborn Heights, Allen Park, Plymouth, Livonia, and surrounding communities.
 Free parking available.
 ```

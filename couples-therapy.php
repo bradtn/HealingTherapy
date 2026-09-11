@@ -22,7 +22,7 @@ $schema_json = json_encode([
                 'telephone' => '+13136541915',
                 'address' => [
                     '@type' => 'PostalAddress',
-                    'streetAddress' => '22005 Outer Dr W',
+                    'streetAddress' => '835 Mason St STE D160',
                     'addressLocality' => 'Dearborn',
                     'addressRegion' => 'MI',
                     'postalCode' => '48124',
@@ -511,7 +511,7 @@ require_once 'includes/config.php';
                         <div class="alert alert-info mt-4">
                             <h3>Take the First Step Toward a Healthier Relationship</h3>
                             <p><strong>Call us today:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></p>
-                            <p><strong>Location:</strong> 22005 Outer Dr W, Dearborn, MI 48124</p>
+                            <p><strong>Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124</p>
                             <p><strong>Hours:</strong> Monday-Friday 9:00 AM - 5:00 PM, Saturday 9:00 AM - 2:00 PM</p>
                             <p class="mb-0"><a href="appointment" class="btn btn-primary">Request an Appointment Online</a></p>
                         </div>

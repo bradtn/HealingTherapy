@@ -278,7 +278,7 @@ require_once 'includes/config.php';
 <div class="alert alert-primary mt-5">
     <h4>Begin Trauma Healing Today</h4>
     <p><strong>Call:</strong> <a href="tel:313-654-1915" class="text-dark fw-bold text-decoration-none">(313) 654-1915</a></p>
-    <p><strong>Location:</strong> 22005 Outer Dr W, Dearborn, MI 48124</p>
+    <p><strong>Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124</p>
     <p class="mb-0">Telehealth available throughout Michigan. <a href="appointment" class="alert-link">Request an appointment online</a></p>
 </div>
                     </div>

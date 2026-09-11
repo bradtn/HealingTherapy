@@ -17,7 +17,7 @@ $schema_json = json_encode([
         'telephone' => '+13136541915',
         'address' => [
             '@type' => 'PostalAddress',
-            'streetAddress' => '22005 Outer Dr W',
+            'streetAddress' => '835 Mason St STE D160',
             'addressLocality' => 'Dearborn',
             'addressRegion' => 'MI',
             'postalCode' => '48124',
@@ -84,7 +84,7 @@ require_once 'includes/config.php';
                                     data-aos-delay="400">
                                     <i class="fa fa-location-pin"></i>
                                     <h3>Contact Us</h3>
-                                    <p><a href="https://www.google.com/maps/place/Healing+Therapy+Center/@42.2856222,-83.2362161,17z/data=!3m1!4b1!4m6!3m5!1s0x49209db55e5af6b9:0xac011e6fed0001a0!8m2!3d42.2856183!4d-83.2336412!16s%2Fg%2F11y8d4mlbr?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D" target="_black">22005 Outer Dr W, Dearborn, MI 48124</a></p>
+                                    <p><a href="https://www.google.com/maps/search/?api=1&query=Healing+Therapy+Center+835+Mason+St+STE+D160+Dearborn+MI+48124" target="_blank" rel="noopener noreferrer">835 Mason St STE D160, Dearborn, MI 48124</a></p>
                                 </div>
                             </div><!-- End Info Item -->
                         </div>

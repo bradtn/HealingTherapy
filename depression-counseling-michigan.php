@@ -21,7 +21,7 @@ $schema_json = json_encode([
                 'telephone' => '+13136541915',
                 'address' => [
                     '@type' => 'PostalAddress',
-                    'streetAddress' => '22005 Outer Dr W',
+                    'streetAddress' => '835 Mason St STE D160',
                     'addressLocality' => 'Dearborn',
                     'addressRegion' => 'MI',
                     'postalCode' => '48124',
@@ -268,7 +268,7 @@ require_once 'includes/config.php';
 <div class="alert alert-primary mt-3">
     <h4>Start Depression Counseling Today</h4>
     <p><strong>Call:</strong> <a href="tel:313-654-1915" class="text-dark fw-bold text-decoration-none">(313) 654-1915</a></p>
-    <p><strong>Location:</strong> 22005 Outer Dr W, Dearborn, MI 48124</p>
+    <p><strong>Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124</p>
     <p class="mb-0">Telehealth available throughout Michigan. <a href="appointment" class="alert-link">Request an appointment online</a></p>
 </div>
                     </div>

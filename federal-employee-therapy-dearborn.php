@@ -18,7 +18,7 @@ $schema_json = json_encode([
         'telephone' => '+13136541915',
         'address' => [
             '@type' => 'PostalAddress',
-            'streetAddress' => '22005 Outer Dr W',
+            'streetAddress' => '835 Mason St STE D160',
             'addressLocality' => 'Dearborn',
             'addressRegion' => 'MI',
             'postalCode' => '48124',
@@ -58,13 +58,13 @@ require_once 'includes/config.php';
                         <div class="mx-auto">
                             <h1>Therapist for Federal Employees in Dearborn, Michigan</h1>
 
-                            <p class="lead">Are you a federal employee working in Dearborn and looking for mental health support? At Healing Therapy Center, located right here in Dearborn at 22005 Outer Dr W, we specialize in providing therapy services to federal employees who accept FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance.</p>
+                            <p class="lead">Are you a federal employee working in Dearborn and looking for mental health support? At Healing Therapy Center, located right here in Dearborn at 835 Mason St STE D160, we specialize in providing therapy services to federal employees who accept FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance.</p>
 
                             <p>Whether you work for USPS at the Dearborn Post Office, commute to the Detroit Federal Building, work for CBP, FBI, VA, or any other federal agency, we understand the unique stressors of federal service and provide confidential, professional mental health care.</p>
 
                             <div class="alert alert-info mb-4" data-aos="fade-up">
                                 <h3 class="h5 mb-3"><i class="bi bi-geo-alt-fill me-2"></i>Conveniently Located in Dearborn</h3>
-                                <p class="mb-2"><strong>22005 Outer Dr W, Dearborn, MI 48124</strong></p>
+                                <p class="mb-2"><strong>835 Mason St STE D160, Dearborn, MI 48124</strong></p>
                                 <ul class="mb-0">
                                     <li>Easy access from Michigan Ave, Ford Rd, and Telegraph Rd</li>
                                     <li>Close to Dearborn Post Office and USPS facilities</li>
@@ -196,7 +196,7 @@ require_once 'includes/config.php';
                             <div class="alert alert-primary mt-5" role="alert">
                                 <h3 class="alert-heading"><i class="bi bi-telephone-fill me-2"></i>Schedule an Appointment</h3>
                                 <p class="mb-2"><strong>Healing Therapy Center - Dearborn Office</strong></p>
-                                <p class="mb-2">22005 Outer Dr W, Dearborn, MI 48124</p>
+                                <p class="mb-2">835 Mason St STE D160, Dearborn, MI 48124</p>
                                 <p class="mb-2"><strong>Phone:</strong> <a href="tel:313-654-1915" class="alert-link">(313) 654-1915</a></p>
                                 <p class="mb-2"><strong>Hours:</strong> Monday-Friday 9am-7pm, Saturday 9am-2pm</p>
                                 <p class="mb-0">We accept FEP Blue insurance for all federal employees in Dearborn and Metro Detroit. Call today to verify your benefits and schedule.</p>

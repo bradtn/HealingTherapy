@@ -15,7 +15,7 @@ $schema_json = json_encode([
     'email' => 'info@healingtherapycenter.com',
     'address' => [
         '@type' => 'PostalAddress',
-        'streetAddress' => '22005 Outer Dr W',
+        'streetAddress' => '835 Mason St STE D160',
         'addressLocality' => 'Dearborn',
         'addressRegion' => 'MI',
         'postalCode' => '48124',
@@ -23,8 +23,8 @@ $schema_json = json_encode([
     ],
     'geo' => [
         '@type' => 'GeoCoordinates',
-        'latitude' => '42.2856222',
-        'longitude' => '-83.2336412'
+        'latitude' => '42.3075635',
+        'longitude' => '-83.2460474'
     ],
     'areaServed' => [
         ['@type' => 'City', 'name' => 'Dearborn'],
@@ -606,36 +606,27 @@ require_once 'includes/config.php';
         </div>
         <div class="row">
           <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.6676062093616!2d-83.2336412!3d42.285618299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x49209db55e5af6b9%3A0xac011e6fed0001a0!2sHealing%20Therapy%20Center!5e0!3m2!1sen!2s!4v1761917102636!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://maps.google.com/maps?q=835%20Mason%20St%20STE%20D160%2C%20Dearborn%2C%20MI%2048124&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="col-12 col-lg-6">
             <div class="p-3">
-              <p><a href="https://www.google.com/maps/place/Healing+Therapy+Center/@42.2856183,-83.2336412,17z/data=!3m1!4b1!4m6!3m5!1s0x49209db55e5af6b9:0xac011e6fed0001a0!8m2!3d42.2856183!4d-83.2336412!16s%2Fg%2F11y8d4mlbr?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+              <p><a href="https://www.google.com/maps/search/?api=1&query=Healing+Therapy+Center+835+Mason+St+STE+D160+Dearborn+MI+48124" target="_blank" rel="noopener noreferrer">
                    Healing Therapy Center</a> is
-                located at 22005 Outer Dr W, <a href="https://cityofdearborn.org/" target="_blank" rel="noopener noreferrer">Dearborn, MI</a> 48124
+                located at 835 Mason St STE D160, <a href="https://cityofdearborn.org/" target="_blank" rel="noopener noreferrer">Dearborn, MI</a> 48124,
+                in the Dearborn Atrium Office Center in downtown West Dearborn.
               </p>
 
 
-              <p>To get reach our center from Downtown Dearborn, MI by bus, start at <a
+              <p>To reach our center by bus, start at <a
                   href=" https://moovitapp.com/index/en/public_transit-Michigan_Oakwood_Blvd-Detroit_MI-stop_43027411-745"
-                  target="_blank" rel="noopener noreferrer">Michigan Ave & Oakwood Blvd</a> and board the westbound
-                bus toward Summit & Outer Drive. Travel approximately 2 miles before getting off at Michigan Ave &
-                Military St. From
-                there, walk for a short distance south on Military St, then turn right onto Claremont St, where the
-                Healing Therapy
-                Center will be on the left.</p>
+                  target="_blank" rel="noopener noreferrer">Michigan Ave & Oakwood Blvd</a> and board a westbound
+                bus along Michigan Ave, such as SMART Bus Route 200 toward Westland Mall. Travel approximately 1 mile
+                before getting off at Michigan Ave & Mason St. From there, walk a short distance south on Mason St —
+                the Healing Therapy Center is inside the Dearborn Atrium Office Center at 835 Mason St, Suite D160.</p>
 
-              <p>Alternatively, you can take SMART Bus Route 200 from Michigan Ave & Oakwood Blvd and head west toward
-                Westland Mall.
-                After traveling about 1.8 miles, get off at Monroe St & Mason St, then walk for a short distance south
-                on Monroe St
-                before turning left onto Claremont St, where we will be on the right.</p>
-
-              <p>To reach us from Downtown Dearborn, MI by car, drive approximately 2.2 miles. Take Michigan Ave (US-12)
-                westbound and
-                continue for about 1.8 miles. Turn left onto Monroe St and drive for a short distance south, then turn
-                left onto
-                Claremont St, where our center will be on the right.</p>
+              <p>To reach us by car, take Michigan Ave (US-12) westbound into downtown West Dearborn and turn
+                left onto Mason St. Our center is a short distance down on Mason St, inside the Dearborn Atrium
+                Office Center (Suite D160), with public parking available nearby.</p>
 
               <p>We are available Monday to Friday from 9:00 am to 5:00 pm and Saturday from 9:00 am to 2:00 pm.</p>
 

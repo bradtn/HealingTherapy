@@ -382,7 +382,7 @@ Edit one file: `includes/config.php`
 define('PHONE', '313-654-1915');
 
 // Update address - changes everywhere
-define('ADDRESS_STREET', '22005 Outer Dr W');
+define('ADDRESS_STREET', '835 Mason St STE D160');
 
 // Update email - changes everywhere
 define('EMAIL', 'info@healingtherapycenter.com');

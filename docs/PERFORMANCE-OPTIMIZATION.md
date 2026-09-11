@@ -284,7 +284,7 @@ curl -H "Accept-Encoding: gzip" -I https://www.healingtherapycenter.com
    Ensure identical info everywhere:
    ```
    Name: Healing Therapy Center
-   Address: 22005 Outer Dr W, Dearborn, MI 48124
+   Address: 835 Mason St STE D160, Dearborn, MI 48124
    Phone: (313) 654-1915
    ```
 
