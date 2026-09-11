@@ -18,7 +18,7 @@ $schema_json = json_encode([
         'telephone' => '+13136541915',
         'address' => [
             '@type' => 'PostalAddress',
-            'streetAddress' => '22005 Outer Dr W',
+            'streetAddress' => '835 Mason St STE D160',
             'addressLocality' => 'Dearborn',
             'addressRegion' => 'MI',
             'postalCode' => '48124',
@@ -213,6 +213,7 @@ require_once 'includes/config.php';
                                     <li><a href="individual-therapy">Individual Therapy Services</a></li>
                                     <li><a href="anxiety-therapy-michigan">Anxiety Therapy</a></li>
                                     <li><a href="burnout-stress-therapy-michigan">Burnout & Stress Therapy</a></li>
+                                    <li><a href="womens-mental-health-therapy-michigan">Therapy for Women & Working Mothers</a></li>
                                     <li><a href="insurance">Insurance & Payment Options</a></li>
                                 </ul>
                             </div>

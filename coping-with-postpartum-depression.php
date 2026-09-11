@@ -181,7 +181,9 @@ require_once 'includes/config.php';
                                         journey.</p>
                                     <p>If you or someone you know is struggling with postpartum depression, don&rsquo;t
                                         hesitate to reach out to Healing
-                                        Therapy Center . We are here to support you through every stage of motherhood.
+                                        Therapy Center. Our therapists are trained in perinatal mood and anxiety disorders
+                                        &mdash; learn more about our <a href="postpartum-depression-therapy-michigan">postpartum
+                                        depression therapy in Michigan</a>. We are here to support you through every stage of motherhood.
                                         If you are looking for a <a href="/">healing therapist</a> in
                                         Dearborn , Mi, Plymouth, Novi, Northville, Birmingham, Royal Oak , and the
                                         surrounding Metro Detroit area. Contact

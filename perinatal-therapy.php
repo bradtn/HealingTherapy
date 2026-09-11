@@ -20,7 +20,7 @@ $schema_json = json_encode([
         'telephone' => '+13136541915',
         'address' => [
             '@type' => 'PostalAddress',
-            'streetAddress' => '22005 Outer Dr W',
+            'streetAddress' => '835 Mason St STE D160',
             'addressLocality' => 'Dearborn',
             'addressRegion' => 'MI',
             'postalCode' => '48124',
@@ -233,6 +233,15 @@ require_once 'includes/config.php';
                             <hr>
                             <p class="mb-0">Serving expectant and new parents in Dearborn, Plymouth, Novi, Northville, Birmingham,
                                 Royal Oak, and throughout Metro Detroit.</p>
+                        </div>
+
+                        <div class="alert alert-light border-primary mt-4">
+                            <p class="mb-2"><strong>Related Pages:</strong></p>
+                            <ul class="mb-0">
+                                <li><a href="postpartum-depression-therapy-michigan">Postpartum Depression &amp; Anxiety Therapy in Michigan</a></li>
+                                <li><a href="womens-mental-health-therapy-michigan">Women's Mental Health Therapy</a></li>
+                                <li><a href="coping-with-postpartum-depression">Coping With Postpartum Depression: A Guide</a></li>
+                            </ul>
                         </div>
                         </div>
                     </div>
