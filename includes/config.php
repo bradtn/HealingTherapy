@@ -230,6 +230,9 @@ define('CSS_VERSION', '1.29');
 // Google Analytics
 define('GA_TRACKING_ID', 'G-TSBF8KK4BW');
 
+// Microsoft Clarity
+define('CLARITY_PROJECT_ID', 'uubyusuesp');
+
 // ============================================================================
 // NAVIGATION MENU STRUCTURE
 // ============================================================================
