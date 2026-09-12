@@ -277,6 +277,10 @@ $schema_json = json_encode([
                         <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Understand family backgrounds</li>
                     </ul>
                     <p><strong>30% higher success rate</strong> with premarital counseling</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <h2>Why Choose Healing Therapy Center?</h2>

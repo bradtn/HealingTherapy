@@ -269,8 +269,11 @@ require_once __DIR__ . '/includes/config.php';
                 <div class="callout callout--brand">
                     <h3>Questions About Your Coverage?</h3>
                     <p>Our team is here to help you understand your insurance benefits and make therapy affordable.</p>
-                    <p><strong>Call us at <a href="tel:313-654-1915">(313) 654-1915</a></strong></p>
                     <p>We'll verify your insurance, explain your costs, and get you scheduled with the right therapist for your needs.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p>

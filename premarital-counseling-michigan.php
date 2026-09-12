@@ -179,9 +179,12 @@ $current_service = 'couples';
 
                 <div class="callout callout--brand">
                     <h3>Start Your Marriage Strong</h3>
-                    <p><strong>Call (313) 654-1915 to schedule premarital counseling</strong></p>
                     <p>Invest in your future together with professional premarital counseling.</p>
                     <p><strong>Healing Therapy Center</strong> | Dearborn, MI | Telehealth throughout Michigan</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p><a href="/appointment" class="btn btn--pill btn--primary">Request an Appointment</a></p>

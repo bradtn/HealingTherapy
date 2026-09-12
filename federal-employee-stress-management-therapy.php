@@ -350,8 +350,11 @@ require_once __DIR__ . '/includes/config.php';
                 <div class="callout callout--brand">
                     <h4>Ready to Get Help?</h4>
                     <p>Healing Therapy Center in Dearborn, Michigan specializes in working with federal employees throughout Metro Detroit. We accept FEP Blue insurance and understand the unique stressors of federal service.</p>
-                    <p><strong>Call (313) 654-1915</strong> to schedule an appointment today.</p>
                     <p>We offer flexible scheduling including evenings and weekends, plus telehealth options for maximum convenience. Serving USPS, CBP, FBI, VA, and all federal employees in Michigan.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <div class="callout callout--soft">

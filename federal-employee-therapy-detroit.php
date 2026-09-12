@@ -150,9 +150,12 @@ require_once __DIR__ . '/includes/config.php';
                 <div class="callout callout--brand">
                     <h3>Schedule an Appointment</h3>
                     <p><strong>Serving Detroit Federal Employees</strong></p>
-                    <p><strong>Phone:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></p>
                     <p><strong>Office Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124 (15 min from downtown Detroit)</p>
                     <p>In-person and telehealth appointments available. We accept FEP Blue for all Detroit federal employees.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p style="text-align:center"><a href="/appointment" class="btn btn--pill btn--primary">Request an Appointment</a></p>

@@ -413,8 +413,11 @@ require_once __DIR__ . '/includes/config.php';
                 <div class="callout callout--brand">
                     <h3>Ready to Use Your FEP Blue Benefits?</h3>
                     <p>Healing Therapy Center in Dearborn, Michigan accepts FEP Blue insurance and specializes in working with federal employees throughout Metro Detroit.</p>
-                    <p><strong>Call (313) 654-1915</strong> to verify your benefits and schedule your first appointment.</p>
                     <p>We offer flexible scheduling, telehealth options, and evening/weekend appointments to accommodate federal employee schedules. Serving USPS, CBP, FBI, VA, and all federal employees in Michigan.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <div class="callout callout--soft">

@@ -17,7 +17,7 @@ if (!defined('BUSINESS_NAME')) {
 if (!defined('V2_PREVIEW')) {
     define('V2_PREVIEW', false);
 }
-define('V2_CSS_VERSION', '2.8.3');
+define('V2_CSS_VERSION', '2.8.4');
 
 $og_title = $og_title ?? $page_title;
 $og_description = $og_description ?? $page_description;

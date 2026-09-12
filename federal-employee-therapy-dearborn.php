@@ -156,9 +156,12 @@ require_once __DIR__ . '/includes/config.php';
                     <h3>Schedule an Appointment</h3>
                     <p><strong>Healing Therapy Center - Dearborn Office</strong></p>
                     <p>835 Mason St STE D160, Dearborn, MI 48124</p>
-                    <p><strong>Phone:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></p>
                     <p><strong>Hours:</strong> Monday-Friday 9am-7pm, Saturday 9am-2pm</p>
                     <p>We accept FEP Blue insurance for all federal employees in Dearborn and Metro Detroit. Call today to verify your benefits and schedule.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p style="text-align:center"><a href="/appointment" class="btn btn--pill btn--primary">Request an Appointment Online</a></p>

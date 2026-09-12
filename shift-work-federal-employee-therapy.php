@@ -320,8 +320,11 @@ require_once __DIR__ . '/includes/config.php';
                 <div class="callout callout--brand">
                     <h4>Therapy for Federal Shift Workers in Michigan</h4>
                     <p>Healing Therapy Center in Dearborn, Michigan offers flexible therapy options for federal shift workers. We accept FEP Blue insurance and provide telehealth sessions perfect for irregular schedules.</p>
-                    <p><strong>Call (313) 654-1915</strong> to schedule an appointment that works for your shift.</p>
                     <p>Specializing in sleep issues, relationship stress, depression, and work-life balance for USPS, CBP, federal law enforcement, and all shift workers in Michigan.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <div class="callout callout--soft">

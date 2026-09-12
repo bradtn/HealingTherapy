@@ -173,9 +173,12 @@ $current_service = 'individual';
 
                 <div class="callout callout--brand">
                     <h3>Confidential Support for Healthcare Providers</h3>
-                    <p><strong>Call (313) 654-1915 for a confidential consultation</strong></p>
                     <p>You take care of patients. Let us take care of you.</p>
                     <p><strong>Telehealth available throughout Michigan</strong> | Insurance accepted or self-pay for privacy</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p><a href="/appointment" class="btn btn--pill btn--primary">Request a Confidential Appointment</a></p>

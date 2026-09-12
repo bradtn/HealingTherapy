@@ -294,6 +294,10 @@ require_once __DIR__ . '/includes/config.php';
                     <p>We provide comprehensive ADHD testing for federal employees and their families throughout Michigan.</p>
                     <p><strong>Call <a href="tel:313-654-1915">(313) 654-1915</a></strong> to verify your FEP Blue benefits and schedule your assessment.</p>
                     <p>Located in Dearborn, convenient to Detroit Federal Building, CBP, USPS, and all Metro Detroit federal facilities. Serving USPS, CBP, FBI, VA, and all federal employees in Michigan.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p style="text-align:center"><a href="/appointment" class="btn btn--pill btn--primary">Request Assessment Online</a></p>

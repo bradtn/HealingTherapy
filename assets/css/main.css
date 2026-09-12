@@ -1617,6 +1617,8 @@ main, header, footer { position: relative; z-index: 1; }
    they don't disappear (same treatment as the CTA band / image heroes). */
 .callout--brand .btn--primary { background: var(--cream); color: var(--slate-deep); }
 .callout--brand .btn--primary:hover { background: var(--white); color: var(--ink); }
+/* Action button row inside callouts */
+.callout__actions { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1.1rem 0 0; }
 .callout--soft { background: var(--cream); border-left-color: var(--beige); }
 
 /* --- panels (replace bootstrap cards) --- */

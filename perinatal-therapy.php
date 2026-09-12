@@ -150,6 +150,10 @@ $schema_json = json_encode([
                     <h3>Ready to Get Started?</h3>
                     <p>If you're ready to take the first step toward better mental health and emotional well-being during the perinatal period, we're here to help. Contact us today at <a href="tel:313-654-1915">313-654-1915</a> to schedule your initial consultation.</p>
                     <p>Serving expectant and new parents in Dearborn, Plymouth, Novi, Northville, Birmingham, Royal Oak, and throughout Metro Detroit.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <div class="callout callout--soft">

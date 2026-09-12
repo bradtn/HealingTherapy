@@ -315,8 +315,11 @@ require_once __DIR__ . '/includes/config.php';
                 <div class="callout callout--brand">
                     <h4>Confidential PTSD Treatment for Federal Law Enforcement</h4>
                     <p>Healing Therapy Center in Dearborn, Michigan provides confidential, specialized PTSD treatment for federal law enforcement and first responders. We accept FEP Blue insurance and understand the unique challenges of your profession.</p>
-                    <p><strong>Call (313) 654-1915</strong> for a confidential consultation.</p>
                     <p>EMDR, trauma-focused therapy, flexible scheduling, telehealth available. Serving CBP, FBI, federal corrections, and all law enforcement in Michigan.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <div class="callout callout--soft">

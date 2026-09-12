@@ -168,9 +168,12 @@ require_once __DIR__ . '/includes/config.php';
 
                 <div class="callout callout--brand">
                     <h3>You Deserve to Feel Like Yourself Again</h3>
-                    <p><strong>Call (313) 654-1915 to schedule with a perinatal-trained therapist</strong></p>
                     <p>Postpartum depression and anxiety are highly treatable. Most moms start feeling better within weeks of beginning therapy.</p>
                     <p><strong>Telehealth available throughout Michigan</strong> | In-person care in Dearborn | Insurance accepted</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p><a href="/appointment" class="btn btn--pill btn--primary">Request an Appointment</a></p>

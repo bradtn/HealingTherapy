@@ -150,9 +150,12 @@ require_once __DIR__ . '/includes/config.php';
 
                 <div class="callout callout--brand">
                     <h3>Take One Hour Back for Yourself</h3>
-                    <p><strong>Call (313) 654-1915 to schedule an appointment</strong></p>
                     <p>You spend your days taking care of everyone else. Therapy is where someone takes care of you.</p>
                     <p><strong>Telehealth available throughout Michigan</strong> | In-person care in Dearborn | Insurance accepted</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p><a href="/appointment" class="btn btn--pill btn--primary">Request an Appointment</a></p>

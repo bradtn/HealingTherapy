@@ -358,10 +358,13 @@ require_once __DIR__ . '/includes/config.php';
 
                 <div class="callout callout--brand">
                     <h3>Contact Us - We Accept FEP Blue</h3>
-                    <p><strong>Phone:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></p>
                     <p><strong>Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124</p>
                     <p><strong>Hours:</strong> Monday-Friday 9am-7pm, Saturday 9am-2pm</p>
                     <p><strong>Telehealth:</strong> Available throughout Michigan for federal employees</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <div class="callout">

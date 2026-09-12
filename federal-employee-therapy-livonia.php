@@ -145,9 +145,12 @@ require_once __DIR__ . '/includes/config.php';
                 <div class="callout callout--brand">
                     <h3>Schedule an Appointment</h3>
                     <p><strong>Serving Livonia Federal Employees</strong></p>
-                    <p><strong>Phone:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></p>
                     <p><strong>Office:</strong> 835 Mason St STE D160, Dearborn, MI 48124 (10-15 min from Livonia)</p>
                     <p>In-person and telehealth available. We accept FEP Blue for all federal employees in Livonia and western Wayne County.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p style="text-align:center"><a href="/appointment" class="btn btn--pill btn--primary">Request an Appointment</a></p>

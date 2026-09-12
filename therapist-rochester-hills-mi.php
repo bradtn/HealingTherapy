@@ -173,10 +173,13 @@ $current_service = 'individual';
                 <div class="callout callout--brand">
                     <h3>Schedule Your Appointment</h3>
                     <p><strong>Serving Rochester Hills, MI &amp; Oakland County</strong></p>
-                    <p><strong>Phone:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></p>
                     <p><strong>Office:</strong> 835 Mason St STE D160, Dearborn, MI 48124 (35 min from Rochester Hills)</p>
                     <p><strong>Telehealth:</strong> Online therapy throughout Michigan</p>
                     <p>We accept Blue Cross, Aetna, Priority Health, United Healthcare, and most major insurance plans.</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p><a href="/appointment" class="btn btn--pill btn--primary">Request an Appointment</a></p>

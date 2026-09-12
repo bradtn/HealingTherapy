@@ -164,9 +164,12 @@ $current_service = 'individual';
 
                 <div class="callout callout--brand">
                     <h3>Confidential Consultation for Executives</h3>
-                    <p><strong>Call (313) 654-1915 for a private consultation</strong></p>
                     <p>We understand the pressures of executive leadership. Let us help you perform at your best while protecting your wellbeing.</p>
                     <p><strong>Telehealth available throughout Michigan</strong> | Insurance accepted or self-pay for privacy</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p><a href="/appointment" class="btn btn--pill btn--primary">Request a Confidential Appointment</a></p>

@@ -218,9 +218,12 @@ $schema_json = json_encode([
 
                 <div class="callout callout--brand">
                     <h3>Ready to Use Your Aetna Benefits?</h3>
-                    <p><strong>Call (313) 654-1915 to get started</strong></p>
                     <p>We'll verify your Aetna mental health coverage, explain your out-of-pocket costs, and schedule you with an experienced therapist.</p>
                     <p><strong>Healing Therapy Center</strong> | 835 Mason St STE D160, Dearborn, MI 48124 | Telehealth throughout Michigan</p>
+                    <p class="callout__actions">
+                        <a href="tel:313-654-1915" class="btn btn--pill btn--primary">Call (313) 654-1915</a>
+                        <a href="/appointment" class="btn btn--pill btn--ghost-light">Request an Appointment →</a>
+                    </p>
                 </div>
 
                 <p><a href="/appointment" class="btn btn--pill btn--primary">Request an Appointment</a></p>
