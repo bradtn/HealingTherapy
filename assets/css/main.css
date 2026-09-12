@@ -1563,6 +1563,9 @@ main, header, footer { position: relative; z-index: 1; }
 
 /* --- long-form typography --- */
 .prose { max-width: 760px; }
+/* On pages without a sidebar, center the reading column in the shell
+   instead of letting it hug the left on wide screens. */
+.shell:not(.with-sidebar) > .prose { margin-inline: auto; }
 .prose > h2 {
     font-family: var(--font-display);
     font-weight: 500;
