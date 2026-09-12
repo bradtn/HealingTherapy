@@ -34,7 +34,7 @@ $schema_json = json_encode([
 // URLs and photos come from config.php $team_members (single source of truth).
 $team_display = [
     'nadia-habhab'   => ['title' => 'Licensed Psychologist',            'specialties' => ['Complex Trauma & Mood Disorders', 'Anxiety & Depression', 'Psychological Testing']],
-    'tiffany-murray' => ['title' => 'Licensed Clinical Social Worker',   'specialties' => ['Perinatal & Postpartum Mental Health', 'Grief & Loss', 'Trauma-Focused Therapy']],
+    'tiffany-murray' => ['title' => 'Licensed Master Social Worker',     'specialties' => ['Perinatal & Postpartum Mental Health', 'Grief & Loss', 'Trauma-Focused Therapy']],
     'amal-ayad'      => ['title' => 'Owner',                             'specialties' => ['Life Coaching & Goal Setting', 'Confidence Building', 'Work-Life Balance']],
     'malak-wehbe'    => ['title' => 'Therapist',                         'specialties' => ['Child & Adolescent Therapy', 'ADHD & Autism Support', 'Anxiety & Trauma']],
     'donna-majed'    => ['title' => 'Therapist',                         'specialties' => ["Women's Mental Health", 'Anxiety & OCD', 'Postpartum & Trauma']],
