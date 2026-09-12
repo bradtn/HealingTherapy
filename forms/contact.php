@@ -126,8 +126,14 @@ if (empty($message) || strlen($message) < 10) {
     exit;
 }
 
+// Optional: preferred therapist (dropdown value). Sanitized; not required.
+$doctor = isset($_POST['Doctor']) ? trim($_POST['Doctor']) : '';
+$doctor = htmlspecialchars(strip_tags($doctor), ENT_QUOTES, 'UTF-8');
+$doctor = preg_replace('/[\r\n]/', '', $doctor);
+$doctor = substr($doctor, 0, 100);
+
 // ============================================
-// 5. BUILD SECURE EMAIL
+// 5. BUILD SECURE EMAIL (branded HTML)
 // ============================================
 
 // Safe headers - prevent email injection
@@ -136,24 +142,56 @@ $headers = [
     'From: Healing Therapy Center <info@healingtherapycenter.com>',
     'Reply-To: ' . $safeEmail,
     'X-Mailer: PHP/' . phpversion(),
-    'Content-Type: text/plain; charset=UTF-8',
+    'MIME-Version: 1.0',
+    'Content-Type: text/html; charset=UTF-8',
     'X-Priority: 3'
 ];
 
-$emailSubject = "Contact Form: " . $subject;
+// Descriptive subject line: who + what
+$emailSubject = "New message from " . $name . " — " . $subject;
+$emailSubject = substr(preg_replace('/[\r\n]/', '', $emailSubject), 0, 150);
 
-$emailBody = "New contact form submission from Healing Therapy Center website\n\n";
-$emailBody .= "==================================================\n\n";
-$emailBody .= "Name: " . $name . "\n";
-$emailBody .= "Email: " . $email . "\n";
-$emailBody .= "Subject: " . $subject . "\n\n";
-$emailBody .= "Message:\n";
-$emailBody .= $message . "\n\n";
-$emailBody .= "==================================================\n\n";
-$emailBody .= "Submission Details:\n";
-$emailBody .= "Date/Time: " . date('Y-m-d H:i:s') . "\n";
-$emailBody .= "IP Address: " . $clientIP . "\n";
-$emailBody .= "User Agent: " . ($_SERVER['HTTP_USER_AGENT'] ?? 'Unknown') . "\n";
+$submittedAt = date('l, F j, Y \a\t g:i A');
+$userAgent = htmlspecialchars(substr($_SERVER['HTTP_USER_AGENT'] ?? 'Unknown', 0, 200), ENT_QUOTES, 'UTF-8');
+
+// Reusable row renderer
+$row = function ($label, $value) {
+    return '<tr>'
+        . '<td style="padding:10px 0;color:#82977F;font-weight:bold;font-size:13px;vertical-align:top;width:160px;border-bottom:1px solid #EEEAE2">' . $label . '</td>'
+        . '<td style="padding:10px 0;color:#17394D;font-size:14px;vertical-align:top;border-bottom:1px solid #EEEAE2">' . $value . '</td>'
+        . '</tr>';
+};
+
+$rows = $row('Name', $name);
+$rows .= $row('Email', '<a href="mailto:' . $safeEmail . '" style="color:#245C78">' . $safeEmail . '</a>');
+$rows .= $row('What they need', $subject);
+if ($doctor !== '' && strtolower($doctor) !== 'no preference') {
+    $rows .= $row('Preferred therapist', $doctor);
+}
+
+$emailBody = '
+<div style="background:#F4F2EC;padding:24px 12px;font-family:Arial,Helvetica,sans-serif;margin:0">
+  <div style="max-width:600px;margin:0 auto;background:#FFFFFF;border:1px solid #E8E4DC;border-radius:12px;overflow:hidden">
+    <div style="background:#245C78;padding:22px 28px">
+      <div style="color:#FFFFFF;font-size:19px;font-weight:bold;letter-spacing:.3px">Healing Therapy Center</div>
+      <div style="color:#CFE0E8;font-size:13px;margin-top:3px">New website contact message</div>
+    </div>
+    <div style="padding:26px 28px 8px">
+      <table style="width:100%;border-collapse:collapse">' . $rows . '</table>
+      <div style="margin-top:22px">
+        <div style="color:#82977F;font-weight:bold;font-size:13px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.06em">Message</div>
+        <div style="background:#FCFBF7;border-left:3px solid #82977F;border-radius:0 8px 8px 0;padding:16px 18px;color:#17394D;font-size:14px;line-height:1.65;white-space:pre-wrap">' . $message . '</div>
+      </div>
+      <div style="margin-top:24px;text-align:center">
+        <a href="mailto:' . $safeEmail . '" style="display:inline-block;background:#245C78;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:bold;padding:12px 26px;border-radius:999px">Reply to ' . $name . '</a>
+      </div>
+    </div>
+    <div style="padding:16px 28px;border-top:1px solid #EEEAE2;color:#9AA5AC;font-size:12px;line-height:1.5">
+      Received ' . $submittedAt . '<br>
+      IP ' . htmlspecialchars($clientIP, ENT_QUOTES, 'UTF-8') . ' · ' . $userAgent . '
+    </div>
+  </div>
+</div>';
 
 // ============================================
 // 6. SEND EMAIL

@@ -125,15 +125,17 @@ $team_members = [
     [
         'id' => 'amal-ayad',
         'name' => 'Amal Ayad',
-        'credentials' => 'LLMSW',
+        'credentials' => 'MA',
+        'role' => 'Life Coach & Therapist',
         'url' => 'amal-ayad',
         'image' => 'assets/img/amal.jpg',
-        'alt' => 'Amal Ayad, LLMSW'
+        'alt' => 'Amal Ayad, MA'
     ],
     [
         'id' => 'nadia-habhab',
         'name' => 'Dr. Nadia Habhab',
         'credentials' => 'PhD, LP',
+        'role' => 'Licensed Psychologist',
         'url' => 'dr-nadia-habhab',
         'image' => 'assets/img/nadia.jpg',
         'alt' => 'Dr. Nadia Habhab, PhD, LP'
@@ -142,6 +144,7 @@ $team_members = [
         'id' => 'tiffany-murray',
         'name' => 'Tiffany Murray',
         'credentials' => 'LMSW',
+        'role' => 'Licensed Therapist',
         'url' => 'dr-tiffany-murray',
         'image' => 'assets/img/tiffany.jpg',
         'alt' => 'Tiffany Murray, LMSW'
@@ -149,15 +152,17 @@ $team_members = [
     [
         'id' => 'malak-wehbe',
         'name' => 'Malak Wehbe',
-        'credentials' => 'LLMSW',
+        'credentials' => 'TLLP',
+        'role' => 'Licensed Therapist',
         'url' => 'malak-wehbe',
         'image' => 'assets/img/malak.jpg',
-        'alt' => 'Malak Wehbe, LLMSW'
+        'alt' => 'Malak Wehbe, MA, TLLP'
     ],
     [
         'id' => 'donna-majed',
         'name' => 'Donna Majed',
         'credentials' => 'TLLP',
+        'role' => 'Licensed Therapist',
         'url' => 'donna-majed',
         'image' => 'assets/img/donna.jpg',
         'alt' => 'Donna Majed, TLLP'

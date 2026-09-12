@@ -142,6 +142,7 @@ $allowedDoctors = [
     'Tiffany Murray',
     'Amal Ayad',
     'Malak Wehbe',
+    'Donna Majed',
     'No Preference'
 ];
 
@@ -166,40 +167,79 @@ if (empty($message) || strlen($message) < 10) {
     exit;
 }
 
+// Optional: how they heard about us
+$referral = isset($_POST['ReferralSource']) ? trim($_POST['ReferralSource']) : '';
+$referral = htmlspecialchars(strip_tags($referral), ENT_QUOTES, 'UTF-8');
+$referral = preg_replace('/[\r\n]/', '', $referral);
+$referral = substr($referral, 0, 100);
+
 // ============================================
-// 5. BUILD SECURE EMAIL
+// 5. BUILD SECURE EMAIL (branded HTML — matches contact form)
 // ============================================
 
-// Safe headers - prevent email injection
 $safeEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
+$telHref = 'tel:' . preg_replace('/[^0-9+]/', '', $phone);
 $headers = [
     'From: Healing Therapy Center <info@healingtherapycenter.com>',
     'Reply-To: ' . $safeEmail,
     'X-Mailer: PHP/' . phpversion(),
-    'Content-Type: text/plain; charset=UTF-8',
+    'MIME-Version: 1.0',
+    'Content-Type: text/html; charset=UTF-8',
     'X-Priority: 1'  // High priority for appointments
 ];
 
-$emailSubject = "New Appointment Request from " . $name;
+// Descriptive subject: who + preference context
+$subjectBits = [];
+if ($preferredDoctor !== '' && strtolower($preferredDoctor) !== 'no preference') $subjectBits[] = 'prefers ' . $preferredDoctor;
+if ($preferredDate !== '' && strtolower($preferredDate) !== 'not specified') $subjectBits[] = $preferredDate;
+$emailSubject = "New appointment request — " . $name . (count($subjectBits) ? ' (' . implode(', ', $subjectBits) . ')' : '');
+$emailSubject = substr(preg_replace('/[\r\n]/', '', $emailSubject), 0, 150);
 
-$emailBody = "NEW APPOINTMENT REQUEST - Healing Therapy Center\n\n";
-$emailBody .= "==================================================\n\n";
-$emailBody .= "Contact Information:\n";
-$emailBody .= "Name: " . $name . "\n";
-$emailBody .= "Email: " . $email . "\n";
-$emailBody .= "Phone: " . $phone . "\n\n";
-$emailBody .= "Appointment Preferences:\n";
-$emailBody .= "Preferred Date: " . $preferredDate . "\n";
-$emailBody .= "Preferred Therapist: " . $preferredDoctor . "\n\n";
-$emailBody .= "Message/Reason for Appointment:\n";
-$emailBody .= $message . "\n\n";
-$emailBody .= "==================================================\n\n";
-$emailBody .= "Submission Details:\n";
-$emailBody .= "Date/Time: " . date('Y-m-d H:i:s') . "\n";
-$emailBody .= "IP Address: " . $clientIP . "\n";
-$emailBody .= "User Agent: " . ($_SERVER['HTTP_USER_AGENT'] ?? 'Unknown') . "\n";
-$emailBody .= "\n==================================================\n";
-$emailBody .= "ACTION REQUIRED: Please contact this person within 24 hours.\n";
+$submittedAt = date('l, F j, Y \a\t g:i A');
+$userAgent = htmlspecialchars(substr($_SERVER['HTTP_USER_AGENT'] ?? 'Unknown', 0, 200), ENT_QUOTES, 'UTF-8');
+
+$row = function ($label, $value) {
+    return '<tr>'
+        . '<td style="padding:10px 0;color:#82977F;font-weight:bold;font-size:13px;vertical-align:top;width:170px;border-bottom:1px solid #EEEAE2">' . $label . '</td>'
+        . '<td style="padding:10px 0;color:#17394D;font-size:14px;vertical-align:top;border-bottom:1px solid #EEEAE2">' . $value . '</td>'
+        . '</tr>';
+};
+
+$rows = $row('Name', $name);
+$rows .= $row('Email', '<a href="mailto:' . $safeEmail . '" style="color:#245C78">' . $safeEmail . '</a>');
+$rows .= $row('Phone', '<a href="' . $telHref . '" style="color:#245C78">' . $phone . '</a>');
+$rows .= $row('Preferred date', $preferredDate);
+$rows .= $row('Preferred therapist', $preferredDoctor);
+if ($referral !== '') {
+    $rows .= $row('Heard about us via', $referral);
+}
+
+$emailBody = '
+<div style="background:#F4F2EC;padding:24px 12px;font-family:Arial,Helvetica,sans-serif;margin:0">
+  <div style="max-width:600px;margin:0 auto;background:#FFFFFF;border:1px solid #E8E4DC;border-radius:12px;overflow:hidden">
+    <div style="background:#245C78;padding:22px 28px">
+      <div style="color:#FFFFFF;font-size:19px;font-weight:bold;letter-spacing:.3px">Healing Therapy Center</div>
+      <div style="color:#CFE0E8;font-size:13px;margin-top:3px">New appointment request</div>
+    </div>
+    <div style="background:#FBF4F1;border-bottom:1px solid #F0E3DD;padding:12px 28px;color:#B4634F;font-size:13px;font-weight:bold">
+      Please contact this person within 24 hours.
+    </div>
+    <div style="padding:26px 28px 8px">
+      <table style="width:100%;border-collapse:collapse">' . $rows . '</table>
+      <div style="margin-top:22px">
+        <div style="color:#82977F;font-weight:bold;font-size:13px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.06em">Message / Reason for appointment</div>
+        <div style="background:#FCFBF7;border-left:3px solid #82977F;border-radius:0 8px 8px 0;padding:16px 18px;color:#17394D;font-size:14px;line-height:1.65;white-space:pre-wrap">' . $message . '</div>
+      </div>
+      <div style="margin-top:24px;text-align:center">
+        <a href="mailto:' . $safeEmail . '" style="display:inline-block;background:#245C78;color:#FFFFFF;text-decoration:none;font-size:14px;font-weight:bold;padding:12px 26px;border-radius:999px">Reply to ' . $name . '</a>
+      </div>
+    </div>
+    <div style="padding:16px 28px;border-top:1px solid #EEEAE2;color:#9AA5AC;font-size:12px;line-height:1.5">
+      Received ' . $submittedAt . '<br>
+      IP ' . htmlspecialchars($clientIP, ENT_QUOTES, 'UTF-8') . ' · ' . $userAgent . '
+    </div>
+  </div>
+</div>';
 
 // ============================================
 // 6. SEND EMAIL

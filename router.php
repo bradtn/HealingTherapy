@@ -10,7 +10,7 @@ $request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $path = ltrim($request_uri, '/');
 
 // Check if it's a static file first (CSS, JS, images, fonts, etc.)
-if (preg_match('/\.(css|js|jpg|jpeg|png|gif|webp|svg|ico|woff|woff2|ttf|eot|pdf|xml|txt)$/i', $path)) {
+if (preg_match('/\.(css|js|jpg|jpeg|png|gif|webp|avif|svg|ico|woff|woff2|ttf|eot|pdf|xml|txt)$/i', $path)) {
     // Let the built-in server handle static files
     return false;
 }
@@ -18,6 +18,13 @@ if (preg_match('/\.(css|js|jpg|jpeg|png|gif|webp|svg|ico|woff|woff2|ttf|eot|pdf|
 // If empty, serve index.php
 if (empty($path) || $path === '/') {
     require 'index.php';
+    return true;
+}
+
+// Directory request with an index.php (e.g. /v2/ → v2/index.php)
+$dir = rtrim($path, '/');
+if ($dir !== '' && is_dir($dir) && file_exists($dir . '/index.php')) {
+    require $dir . '/index.php';
     return true;
 }
 
