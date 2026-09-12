@@ -381,7 +381,7 @@ $schema_json = json_encode([
 
             <div class="section__foot reveal" style="margin-top:1.5rem">
                 <a class="btn btn--pill btn--primary" href="tel:313-654-1915">
-                    Verify Your Insurance — (313) 654-1915
+                    Verify Your Insurance — <span style="white-space:nowrap">(313)&nbsp;654-1915</span>
                 </a>
                 <p class="ins__note" style="margin-top:1rem">Coverage varies by plan. <a href="/insurance">View all accepted insurance plans and payment options</a>, or contact us to verify benefits.</p>
             </div>
