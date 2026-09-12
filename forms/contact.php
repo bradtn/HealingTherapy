@@ -138,6 +138,12 @@ $insurance = htmlspecialchars(strip_tags($insurance), ENT_QUOTES, 'UTF-8');
 $insurance = preg_replace('/[\r\n]/', '', $insurance);
 $insurance = substr($insurance, 0, 100);
 
+// Optional: how they heard about us (dropdown value). Sanitized; not required.
+$referral = isset($_POST['ReferralSource']) ? trim($_POST['ReferralSource']) : '';
+$referral = htmlspecialchars(strip_tags($referral), ENT_QUOTES, 'UTF-8');
+$referral = preg_replace('/[\r\n]/', '', $referral);
+$referral = substr($referral, 0, 100);
+
 // ============================================
 // 5. BUILD SECURE EMAIL (branded HTML)
 // ============================================
@@ -179,6 +185,9 @@ if ($doctor !== '' && strtolower($doctor) !== 'no preference') {
 }
 if ($insurance !== '') {
     $rows .= $row('Insurance', $insurance);
+}
+if ($referral !== '') {
+    $rows .= $row('Heard about us via', $referral);
 }
 
 $emailBody = '

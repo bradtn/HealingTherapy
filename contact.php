@@ -120,6 +120,29 @@ $schema_json = json_encode([
                                     <option value="Other / Not listed">Other / Not listed</option>
                                 </select>
                             </div>
+                            <div class="form-field">
+                                <label for="cf_referral">How did you hear about us? <span style="font-weight:400;color:var(--color-muted)">(optional)</span></label>
+                                <select name="ReferralSource" id="cf_referral">
+                                    <option value="">Please select…</option>
+                                    <option value="Google Search">Google Search</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Instagram">Instagram</option>
+                                    <option value="Friend/Family Referral">Friend/Family Referral</option>
+                                    <option value="Doctor Referral">Doctor Referral</option>
+                                    <option value="Insurance Provider">Insurance Provider (FEP Blue, BCBS, etc.)</option>
+                                    <option value="Psychology Today">Psychology Today</option>
+                                    <option value="Federal Employee Recommendation">Federal Employee Recommendation</option>
+                                    <optgroup label="AI Assistant">
+                                        <option value="ChatGPT">ChatGPT</option>
+                                        <option value="Google Gemini">Google Gemini</option>
+                                        <option value="Perplexity">Perplexity</option>
+                                        <option value="Microsoft Copilot">Microsoft Copilot</option>
+                                        <option value="Claude">Claude</option>
+                                        <option value="Other AI Assistant">Other AI assistant</option>
+                                    </optgroup>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
                             <div class="form-field form-field--full">
                                 <label for="cf_message">Message</label>
                                 <textarea name="Message" id="cf_message" rows="5" placeholder="Tell us a little about what you're looking for..." required></textarea>
