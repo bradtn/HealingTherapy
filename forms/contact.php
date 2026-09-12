@@ -132,6 +132,12 @@ $doctor = htmlspecialchars(strip_tags($doctor), ENT_QUOTES, 'UTF-8');
 $doctor = preg_replace('/[\r\n]/', '', $doctor);
 $doctor = substr($doctor, 0, 100);
 
+// Optional: insurance (dropdown value). Sanitized; not required.
+$insurance = isset($_POST['Insurance']) ? trim($_POST['Insurance']) : '';
+$insurance = htmlspecialchars(strip_tags($insurance), ENT_QUOTES, 'UTF-8');
+$insurance = preg_replace('/[\r\n]/', '', $insurance);
+$insurance = substr($insurance, 0, 100);
+
 // ============================================
 // 5. BUILD SECURE EMAIL (branded HTML)
 // ============================================
@@ -167,6 +173,9 @@ $rows .= $row('Email', '<a href="mailto:' . $safeEmail . '" style="color:#245C78
 $rows .= $row('What they need', $subject);
 if ($doctor !== '' && strtolower($doctor) !== 'no preference') {
     $rows .= $row('Preferred therapist', $doctor);
+}
+if ($insurance !== '') {
+    $rows .= $row('Insurance', $insurance);
 }
 
 $emailBody = '

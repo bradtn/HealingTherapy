@@ -189,6 +189,31 @@ $insurance_text = 'We accept most major insurance plans including ' .
 
 $insurance_short_list = implode(', ', $insurance_providers);
 
+// Detailed plan list for the contact / appointment form dropdowns.
+$insurance_options = [
+    'Aetna Commercial',
+    'Aetna Medicaid',
+    'BCBS / Anthem',
+    'BCN',
+    'Blue Cross Complete',
+    'Cigna',
+    'McLaren Commercial',
+    'McLaren Medicaid',
+    'Priority Health Commercial',
+    'Priority Health Medicaid',
+    'HAP Commercial',
+    'HAP Medicaid',
+    'Beacon',
+    'Humana',
+    'TRICARE',
+    'Medicare',
+    'Optum',
+    'United Healthcare Commercial',
+    'United Healthcare Medicaid',
+    'Molina',
+    'Meridian',
+];
+
 // ============================================================================
 // SITE CONFIGURATION
 // ============================================================================

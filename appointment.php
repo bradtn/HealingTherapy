@@ -105,6 +105,16 @@ $schema_json = json_encode([
                                 </select>
                             </div>
                             <div class="form-field">
+                                <label for="insurance">Insurance <span style="font-weight:400;color:var(--color-muted)">(optional)</span></label>
+                                <select name="Insurance" id="insurance">
+                                    <option value="">Please select...</option>
+                                    <?php foreach ($insurance_options as $ins): ?>
+                                    <option value="<?php echo htmlspecialchars($ins); ?>"><?php echo htmlspecialchars($ins); ?></option>
+                                    <?php endforeach; ?>
+                                    <option value="Other / Not listed">Other / Not listed</option>
+                                </select>
+                            </div>
+                            <div class="form-field">
                                 <label for="referral_source">How did you hear about us?</label>
                                 <select name="ReferralSource" id="referral_source">
                                     <option value="">Please select...</option>

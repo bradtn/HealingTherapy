@@ -173,6 +173,12 @@ $referral = htmlspecialchars(strip_tags($referral), ENT_QUOTES, 'UTF-8');
 $referral = preg_replace('/[\r\n]/', '', $referral);
 $referral = substr($referral, 0, 100);
 
+// Optional: insurance (dropdown value). Sanitized; not required.
+$insurance = isset($_POST['Insurance']) ? trim($_POST['Insurance']) : '';
+$insurance = htmlspecialchars(strip_tags($insurance), ENT_QUOTES, 'UTF-8');
+$insurance = preg_replace('/[\r\n]/', '', $insurance);
+$insurance = substr($insurance, 0, 100);
+
 // ============================================
 // 5. BUILD SECURE EMAIL (branded HTML — matches contact form)
 // ============================================
@@ -210,6 +216,9 @@ $rows .= $row('Email', '<a href="mailto:' . $safeEmail . '" style="color:#245C78
 $rows .= $row('Phone', '<a href="' . $telHref . '" style="color:#245C78">' . $phone . '</a>');
 $rows .= $row('Preferred date', $preferredDate);
 $rows .= $row('Preferred therapist', $preferredDoctor);
+if ($insurance !== '') {
+    $rows .= $row('Insurance', $insurance);
+}
 if ($referral !== '') {
     $rows .= $row('Heard about us via', $referral);
 }
