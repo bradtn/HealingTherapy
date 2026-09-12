@@ -773,6 +773,7 @@ main, header, footer { position: relative; z-index: 1; }
     text-decoration-color: var(--sage-soft);
 }
 .team-item:hover .team-item__name { text-decoration: underline; }
+.team-item__fullname { white-space: nowrap; }
 .team-item__creds {
     font-family: var(--font-body);
     font-size: .76rem;
