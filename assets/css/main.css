@@ -1738,7 +1738,7 @@ main, header, footer { position: relative; z-index: 1; }
 }
 
 /* --- M-CHAT-R screening tool --- */
-.mchat { max-width: 760px; }
+.mchat { max-width: 760px; margin-inline: auto; }
 .mchat__bar {
     position: sticky;
     top: 96px;
