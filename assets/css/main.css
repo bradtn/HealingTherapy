@@ -1604,6 +1604,10 @@ main, header, footer { position: relative; z-index: 1; }
 .callout--brand { background: var(--slate); border-left: 0; color: rgba(252, 251, 247, .92); }
 .callout--brand h3, .callout--brand strong { color: var(--white); }
 .callout--brand a { color: var(--cream); }
+/* Primary buttons sit on the slate callout background — invert them to cream so
+   they don't disappear (same treatment as the CTA band / image heroes). */
+.callout--brand .btn--primary { background: var(--cream); color: var(--slate-deep); }
+.callout--brand .btn--primary:hover { background: var(--white); color: var(--ink); }
 .callout--soft { background: var(--cream); border-left-color: var(--beige); }
 
 /* --- panels (replace bootstrap cards) --- */
