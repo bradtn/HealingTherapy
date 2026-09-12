@@ -94,7 +94,7 @@ $schema_json = json_encode([
 
                 <div class="callout callout--brand">
                     <h3>Contact Us</h3>
-                    <p>Ready to take the first step towards healing in a supportive group setting? <strong>Call:</strong> <a href="tel:313-654-1915">(313) 654-1915</a> or <a href="/appointment">Request an Appointment Online</a></p>
+                    <p>Ready to take the first step towards healing in a supportive group setting?<br><span style="white-space:nowrap"><strong>Call:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></span><br>or <a href="/appointment">Request an Appointment Online</a></p>
                 </div>
             </article>
 

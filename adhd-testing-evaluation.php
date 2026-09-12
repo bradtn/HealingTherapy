@@ -309,7 +309,7 @@ require_once __DIR__ . '/includes/config.php';
 
                 <div class="callout callout--brand">
                     <h3>Schedule ADHD Evaluation</h3>
-                    <p><strong>Call:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></p>
+                    <p><span style="white-space:nowrap"><strong>Call:</strong> <a href="tel:313-654-1915">(313) 654-1915</a></span></p>
                     <p><strong>Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124</p>
                     <p>Testing for children, teens, and adults. <a href="/appointment">Request an appointment online</a> or <a href="/psychological-testing">learn more about our testing services</a></p>
                 </div>
