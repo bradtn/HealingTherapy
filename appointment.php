@@ -126,14 +126,7 @@ $schema_json = json_encode([
                                     <option value="Insurance Provider">Insurance Provider (FEP Blue, BCBS, etc.)</option>
                                     <option value="Psychology Today">Psychology Today</option>
                                     <option value="Federal Employee Recommendation">Federal Employee Recommendation</option>
-                                    <optgroup label="AI Assistant">
-                                        <option value="ChatGPT">ChatGPT</option>
-                                        <option value="Google Gemini">Google Gemini</option>
-                                        <option value="Perplexity">Perplexity</option>
-                                        <option value="Microsoft Copilot">Microsoft Copilot</option>
-                                        <option value="Claude">Claude</option>
-                                        <option value="Other AI Assistant">Other AI assistant</option>
-                                    </optgroup>
+                                    <option value="AI Assistant">AI assistant (ChatGPT, Gemini, etc.)</option>
                                     <option value="Other">Other</option>
                                 </select>
                             </div>
