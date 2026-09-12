@@ -1,0 +1,8 @@
+# Runtime spam rate-limit state written by the form handlers
+forms/rate_limit.txt
+forms/appointment_rate_limit.txt
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
