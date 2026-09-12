@@ -775,6 +775,7 @@ main, header, footer { position: relative; z-index: 1; }
 .team-item:hover .team-item__name { text-decoration: underline; }
 .team-item__fullname { white-space: nowrap; }
 .team-item__creds {
+    display: block;
     font-family: var(--font-body);
     font-size: .76rem;
     font-weight: 500;

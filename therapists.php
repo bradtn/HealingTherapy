@@ -39,7 +39,7 @@ $team_display = [
     'malak-wehbe'    => ['title' => 'Therapist',                         'specialties' => ['Child & Adolescent Therapy', 'ADHD & Autism Support', 'Anxiety & Trauma']],
     'donna-majed'    => ['title' => 'Therapist',                         'specialties' => ["Women's Mental Health", 'Anxiety & OCD', 'Postpartum & Trauma']],
 ];
-$team_order = ['nadia-habhab', 'tiffany-murray', 'amal-ayad', 'malak-wehbe', 'donna-majed'];
+$team_order = ['amal-ayad', 'tiffany-murray', 'nadia-habhab', 'malak-wehbe', 'donna-majed'];
 ?>
 <!DOCTYPE html>
 <html lang="en">

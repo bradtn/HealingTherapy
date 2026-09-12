@@ -328,7 +328,7 @@ $schema_json = json_encode([
                         <span class="team-item__img">
                             <img src="/<?php echo $m['image']; ?>" alt="<?php echo htmlspecialchars($m['alt']); ?>" width="112" height="112" loading="lazy">
                         </span>
-                        <span class="team-item__name"><span class="team-item__fullname"><?php echo $m['name']; ?></span><span class="team-item__creds">, <?php echo $m['credentials']; ?></span></span>
+                        <span class="team-item__name"><span class="team-item__fullname"><?php echo $m['name']; ?></span><span class="team-item__creds"><?php echo $m['credentials']; ?></span></span>
                         <span class="team-item__role"><?php echo $role; ?>
                             <svg class="ico team-item__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
                         </span>
