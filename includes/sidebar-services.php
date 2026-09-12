@@ -4,7 +4,7 @@
  * Optional: $current_service (service id from config.php) for active state.
  */
 if (!defined('BUSINESS_NAME')) {
-    require_once dirname(__DIR__, 2) . '/includes/config.php';
+    require_once __DIR__ . '/config.php';
 }
 $current_service = $current_service ?? '';
 ?>

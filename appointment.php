@@ -1,10 +1,12 @@
 <?php
-// Page-specific variables
+// Page-specific variables — verbatim from production
 $page_title = 'Make an Appointment | Healing Therapy Center Dearborn';
 $page_description = 'Schedule your therapy appointment at Healing Therapy Center in Dearborn, MI. Online booking available. Call (313) 654-1915 for immediate assistance.';
 $canonical_url = 'https://www.healingtherapycenter.com/appointment';
 
-// ContactPage Schema for SEO
+require_once __DIR__ . '/includes/config.php';
+
+// ContactPage Schema — verbatim from production
 $schema_json = json_encode([
     '@context' => 'https://schema.org',
     '@type' => 'ContactPage',
@@ -26,120 +28,85 @@ $schema_json = json_encode([
         'url' => 'https://www.healingtherapycenter.com'
     ]
 ], JSON_UNESCAPED_SLASHES);
-
-// Include configuration
-require_once 'includes/config.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'includes/head.php'; ?>
+<?php include __DIR__ . '/includes/head.php'; ?>
 
-<body class="index-page">
-    <?php include 'includes/header.php'; ?>
+<body>
+<?php include __DIR__ . '/includes/header.php'; ?>
 
-    <main class="main">
+<main id="main">
 
-        <section class="topArea appointment position-relative">
-            <div class="overlay">
-            </div>
-            <div class="position-absolute text-center w-100">
-                <h1 class="display-3 fw-bold text-white text-uppercase mt-5 pt-2">Schedule Your Therapy Appointment</h1>
-            </div>
+    <?php
+    $hero_eyebrow = 'Get Started';
+    $hero_h1 = 'Schedule Your Therapy Appointment';
+    $hero_lead = "Ready to take the first step towards better mental health? Schedule an appointment with our licensed professionals today. We're here to provide the support and care you need on your journey to wellness.";
+    $hero_img = 'appt-hero';
+    $hero_img_alt = 'Writing an appointment in a planner beside a phone';
+    include __DIR__ . '/includes/image-hero.php';
+    ?>
 
-        </section>
-
-        <section id="appointment" class="appointment section light-background">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>MAKE AN APPOINTMENT</h2>
-                <p>Ready to take the first step towards better mental health? Schedule an appointment with our licensed
-                    professionals
-                    today. We’re here to provide the support and care you need on your journey to wellness.</p>
-            </div><!-- End Section Title -->
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row">
-                    <div class="col-md-5 ">
-                        <div class="row gy-4">
-                            <div class="col-12">
-                                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-                                    data-aos-delay="300">
-                                    <i class="bi bi-telephone"></i>
-                                    <h3>Call Us</h3>
-                                    <p><a href="tel:313-654-1915">313-654-1915</a></p>
-                                </div>
-                            </div><!-- End Info Item -->
-                    
-                            <div class="col-12">
-                                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-                                    data-aos-delay="400">
-                                    <i class="bi bi-envelope"></i>
-                                    <h3>Email Us</h3>
-                                    <p><a href="mailto:info@healingtherapycenter.com">info@healingtherapycenter.com</a></p>
-                                </div>
-                            </div><!-- End Info Item -->
-                            <div class="col-12">
-                                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-                                    data-aos-delay="400">
-                                    <i class="fa fa-location-pin"></i>
-                                    <h3>Contact Us</h3>
-                                    <p><a href="https://www.google.com/maps/search/?api=1&query=Healing+Therapy+Center+835+Mason+St+STE+D160+Dearborn+MI+48124" target="_blank" rel="noopener noreferrer">835 Mason St STE D160, Dearborn, MI 48124</a></p>
-                                </div>
-                            </div><!-- End Info Item -->
-                        </div>
+    <section class="page" id="appointment">
+        <div class="shell">
+            <div class="appt-layout">
+                <div>
+                    <div class="contact-tile">
+                        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
+                        <div><h3>Call Us</h3><p><a href="tel:313-654-1915">313-654-1915</a></p></div>
                     </div>
-                    <div class="col-12 col-md-7">
-                        <form id="appointment_form" method="post" class="php-email-form">
-                            <!-- CSRF Token (hidden) -->
-                            <input type="hidden" name="csrf_token" id="csrf_token" value="">
+                    <div class="contact-tile">
+                        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                        <div><h3>Email Us</h3><p><a href="mailto:info@healingtherapycenter.com">info@healingtherapycenter.com</a></p></div>
+                    </div>
+                    <div class="contact-tile">
+                        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+                        <div><h3>Visit Us</h3><p><a href="https://www.google.com/maps/search/?api=1&query=Healing+Therapy+Center+835+Mason+St+STE+D160+Dearborn+MI+48124" target="_blank" rel="noopener noreferrer">835 Mason St STE D160, Dearborn, MI 48124</a></p></div>
+                    </div>
+                </div>
 
-                            <!-- Honeypot field (hidden - for spam detection) -->
-                            <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+                <div class="form-card">
+                    <form id="appointment_form" method="post">
+                        <input type="hidden" name="csrf_token" id="csrf_token" value="">
+                        <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+                        <input type="hidden" name="landing_page" id="landing_page" value="">
+                        <input type="hidden" name="referrer" id="referrer" value="">
+                        <input type="hidden" name="utm_source" id="utm_source" value="">
+                        <input type="hidden" name="utm_medium" id="utm_medium" value="">
+                        <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
 
-                            <!-- Tracking fields (hidden) -->
-                            <input type="hidden" name="landing_page" id="landing_page" value="">
-                            <input type="hidden" name="referrer" id="referrer" value="">
-                            <input type="hidden" name="utm_source" id="utm_source" value="">
-                            <input type="hidden" name="utm_medium" id="utm_medium" value="">
-                            <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
-
-                            <div class="row">
-                                <div class="col-md-4 form-group">
-                                    <input type="text" name="Name" class="form-control" id="name"
-                                        placeholder="Your Name" aria-label="Your full name" required>
-                                </div>
-                                <div class="col-md-4 form-group mt-3 mt-md-0">
-                                    <input type="email" class="form-control" name="Email" id="email"
-                                        placeholder="Your Email" aria-label="Your email address" required>
-                                </div>
-                                <div class="col-md-4 form-group mt-3 mt-md-0">
-                                    <input type="tel" class="form-control" name="Phone" id="phone"
-                                        placeholder="Your Phone" aria-label="Your phone number" required>
-                                </div>
+                        <div class="form-grid">
+                            <div class="form-field">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="Name" id="name" placeholder="Your Name" required>
                             </div>
-                            <div class="row mt-3">
-                                <div class="col-md-6 form-group">
-                                    <label for="preferredDate" class="form-label">Preferred Appointment Date</label>
-                                    <input type="date" class="form-control" name="Date" id="preferredDate"
-                                        min="<?php echo date('Y-m-d', strtotime('+1 day')); ?>">
-                                    <small class="text-muted">Optional - We'll contact you to confirm</small>
-                                </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0">
-                                    <label for="preferredDoctor" class="form-label">Preferred Therapist</label>
-                                    <select class="form-control" name="Doctor" id="preferredDoctor" aria-label="Select your preferred therapist">
-                                        <option value="No Preference">No Preference</option>
-                                        <option value="Dr. Nadia Habhab">Dr. Nadia Habhab</option>
-                                        <option value="Tiffany Murray">Tiffany Murray</option>
-                                        <option value="Amal Ayad">Amal Ayad</option>
-                                        <option value="Malak Wehbe">Malak Wehbe</option>
-                                        <option value="Donna Majed">Donna Majed</option>
-                                    </select>
-                                </div>
+                            <div class="form-field">
+                                <label for="email">Your Email</label>
+                                <input type="email" name="Email" id="email" placeholder="Your Email" required>
                             </div>
-                            <div class="form-group mt-3">
-                                <label for="referral_source" class="form-label">How did you hear about us?</label>
-                                <select class="form-control" name="ReferralSource" id="referral_source" aria-label="How did you hear about us?">
+                            <div class="form-field">
+                                <label for="phone">Your Phone</label>
+                                <input type="tel" name="Phone" id="phone" placeholder="Your Phone" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="preferredDate">Preferred Appointment Date</label>
+                                <input type="date" name="Date" id="preferredDate" min="<?php echo date('Y-m-d', strtotime('+1 day')); ?>">
+                                <small>Optional — We'll contact you to confirm</small>
+                            </div>
+                            <div class="form-field">
+                                <label for="preferredDoctor">Preferred Therapist</label>
+                                <select name="Doctor" id="preferredDoctor">
+                                    <option value="No Preference">No Preference</option>
+                                    <option value="Dr. Nadia Habhab">Dr. Nadia Habhab</option>
+                                    <option value="Tiffany Murray">Tiffany Murray</option>
+                                    <option value="Amal Ayad">Amal Ayad</option>
+                                    <option value="Malak Wehbe">Malak Wehbe</option>
+                                    <option value="Donna Majed">Donna Majed</option>
+                                </select>
+                            </div>
+                            <div class="form-field">
+                                <label for="referral_source">How did you hear about us?</label>
+                                <select name="ReferralSource" id="referral_source">
                                     <option value="">Please select...</option>
                                     <option value="Google Search">Google Search</option>
                                     <option value="Facebook">Facebook</option>
@@ -152,98 +119,58 @@ require_once 'includes/config.php';
                                     <option value="Other">Other</option>
                                 </select>
                             </div>
-                            <div class="form-group mt-3">
-                                <label for="message" class="form-label">Message / Reason for Appointment</label>
-                                <textarea class="form-control" id="message" name="Message" rows="5"
-                                    placeholder="Please tell us briefly about your needs..." required></textarea>
+                            <div class="form-field form-field--full">
+                                <label for="message">Message / Reason for Appointment</label>
+                                <textarea name="Message" id="message" rows="5" placeholder="Please tell us briefly about your needs..." required></textarea>
                             </div>
-                            <div class="col-md-12 text-center">
-                                <button id="ap_btn_submit" type="submit"
-                                    class="btn btn-primary rounded-pill px-4 fs-5 mt-3">Request Appointment</button>
-                                <div id="ap_msgSubmit" class="h3 text-center hidden"></div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                        <button id="ap_btn_submit" type="submit" class="btn btn--pill btn--primary" style="margin-top:1.2rem">Request Appointment</button>
+                        <p id="ap_status" class="form-status" role="status" aria-live="polite"></p>
+                    </form>
                 </div>
-
             </div>
+        </div>
+    </section>
 
-        </section>
-
-        <section id="what-to-expect" class="about section">
-            <div class="container section-title" data-aos="fade-up">
+    <section class="section section--white">
+        <div class="shell">
+            <div class="section__head section-title reveal">
+                <p class="eyebrow">What to Expect</p>
                 <h2>What to Expect</h2>
             </div>
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="card h-100 p-4">
-                            <h3><i class="bi bi-1-circle text-primary me-2"></i>Initial Consultation</h3>
-                            <p>Your first session is an opportunity for you and your therapist to get to know each other. We will discuss your concerns, goals for therapy, and answer any questions you may have about the process. This helps us create a personalized treatment plan tailored to your needs.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card h-100 p-4">
-                            <h3><i class="bi bi-2-circle text-primary me-2"></i>Ongoing Sessions</h3>
-                            <p>Sessions typically last 50-60 minutes and are scheduled weekly or bi-weekly depending on your needs. Your therapist will work with you using evidence-based approaches to help you develop coping strategies, process emotions, and work toward your therapeutic goals.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card h-100 p-4">
-                            <h3><i class="bi bi-3-circle text-primary me-2"></i>Flexible Options</h3>
-                            <p>We offer both in-person sessions at our Dearborn office and telehealth appointments for your convenience. Whether you prefer face-to-face interaction or the flexibility of online therapy, we are here to accommodate your schedule and comfort level.</p>
-                        </div>
-                    </div>
+            <div class="grid-3">
+                <div class="panel">
+                    <h3>Initial Consultation</h3>
+                    <p>Your first session is an opportunity for you and your therapist to get to know each other. We will discuss your concerns, goals for therapy, and answer any questions you may have about the process. This helps us create a personalized treatment plan tailored to your needs.</p>
+                </div>
+                <div class="panel">
+                    <h3>Ongoing Sessions</h3>
+                    <p>Sessions typically last 50-60 minutes and are scheduled weekly or bi-weekly depending on your needs. Your therapist will work with you using evidence-based approaches to help you develop coping strategies, process emotions, and work toward your therapeutic goals.</p>
+                </div>
+                <div class="panel">
+                    <h3>Flexible Options</h3>
+                    <p>We offer both in-person sessions at our Dearborn office and telehealth appointments for your convenience. Whether you prefer face-to-face interaction or the flexibility of online therapy, we are here to accommodate your schedule and comfort level.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="insurance-info" class="faq section light-background">
-            <div class="container section-title" data-aos="fade-up">
+    <section class="section">
+        <div class="shell">
+            <div class="section__head section-title section-title--center reveal">
+                <p class="eyebrow eyebrow--center">Insurance and Payment</p>
                 <h2>Insurance and Payment</h2>
             </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
-                        <p class="text-center mb-4">We accept most major insurance plans to make mental health care accessible and affordable. Our team will work with you to verify your benefits and explain any out-of-pocket costs before your first appointment. We believe financial concerns should not prevent anyone from receiving the care they need.</p>
-                        <p class="text-center mb-4">If you have questions about insurance coverage or payment options, please contact us at <a href="tel:313-654-1915">(313) 654-1915</a> or email <a href="mailto:info@healingtherapycenter.com">info@healingtherapycenter.com</a>. Our administrative staff is available to assist you with insurance verification and answer any billing questions.</p>
-                    </div>
-                </div>
+            <div class="prose" style="margin-inline:auto;text-align:center">
+                <p>We accept most major insurance plans to make mental health care accessible and affordable. Our team will work with you to verify your benefits and explain any out-of-pocket costs before your first appointment. We believe financial concerns should not prevent anyone from receiving the care they need.</p>
+                <p>If you have questions about insurance coverage or payment options, please contact us at <a href="tel:313-654-1915">(313) 654-1915</a> or email <a href="mailto:info@healingtherapycenter.com">info@healingtherapycenter.com</a>. Our administrative staff is available to assist you with insurance verification and answer any billing questions.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-    </main>
+</main>
 
-    <?php include 'includes/footer.php'; ?>
-    <?php include 'includes/scripts.php'; ?>
-
-    <!-- Tracking script to capture referrer and UTM parameters -->
-    <script>
-    (function() {
-        // Capture landing page URL
-        document.getElementById('landing_page').value = window.location.href;
-
-        // Capture referrer
-        if (document.referrer) {
-            document.getElementById('referrer').value = document.referrer;
-        }
-
-        // Capture UTM parameters from URL
-        const urlParams = new URLSearchParams(window.location.search);
-
-        if (urlParams.has('utm_source')) {
-            document.getElementById('utm_source').value = urlParams.get('utm_source');
-        }
-
-        if (urlParams.has('utm_medium')) {
-            document.getElementById('utm_medium').value = urlParams.get('utm_medium');
-        }
-
-        if (urlParams.has('utm_campaign')) {
-            document.getElementById('utm_campaign').value = urlParams.get('utm_campaign');
-        }
-    })();
-    </script>
+<?php include __DIR__ . '/includes/footer.php'; ?>
+<script src="/assets/js/appointment.js" defer></script>
 </body>
 </html>

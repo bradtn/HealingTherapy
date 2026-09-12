@@ -1,10 +1,12 @@
 <?php
-// Page-specific variables
+// Page-specific variables — verbatim from production
 $page_title = 'Licensed Therapists in Dearborn, MI | BCBS, Aetna Accepted';
 $page_description = 'Meet our licensed therapists in Dearborn, MI. Experts in anxiety, depression, trauma, ADHD & couples therapy. BCBS, Aetna accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/therapists';
 
-// CollectionPage Schema for SEO
+require_once __DIR__ . '/includes/config.php';
+
+// CollectionPage Schema — verbatim from production
 $schema_json = json_encode([
     '@context' => 'https://schema.org',
     '@type' => 'CollectionPage',
@@ -27,192 +29,170 @@ $schema_json = json_encode([
     ]
 ], JSON_UNESCAPED_SLASHES);
 
-// Include configuration
-require_once 'includes/config.php';
+// Page-specific display data: professional titles (from the V1 team page) and
+// specialty areas (from each therapist's own bio page). Names, credentials,
+// URLs and photos come from config.php $team_members (single source of truth).
+$team_display = [
+    'nadia-habhab'   => ['title' => 'Licensed Psychologist',            'specialties' => ['Complex Trauma & Mood Disorders', 'Anxiety & Depression', 'Psychological Testing']],
+    'tiffany-murray' => ['title' => 'Licensed Clinical Social Worker',   'specialties' => ['Perinatal & Postpartum Mental Health', 'Grief & Loss', 'Trauma-Focused Therapy']],
+    'amal-ayad'      => ['title' => 'Owner',                             'specialties' => ['Life Coaching & Goal Setting', 'Confidence Building', 'Work-Life Balance']],
+    'malak-wehbe'    => ['title' => 'Therapist',                         'specialties' => ['Child & Adolescent Therapy', 'ADHD & Autism Support', 'Anxiety & Trauma']],
+    'donna-majed'    => ['title' => 'Therapist',                         'specialties' => ["Women's Mental Health", 'Anxiety & OCD', 'Postpartum & Trauma']],
+];
+$team_order = ['nadia-habhab', 'tiffany-murray', 'amal-ayad', 'malak-wehbe', 'donna-majed'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'includes/head.php'; ?>
+<?php include __DIR__ . '/includes/head.php'; ?>
 
-<body class="index-page">
-    <?php include 'includes/header.php'; ?>
+<body>
+<?php include __DIR__ . '/includes/header.php'; ?>
 
-    <main class="main">
-        <section class="topArea position-relative">
-            <div class="overlay">
+<main id="main">
+
+    <!-- ============ Full-bleed editorial hero ============ -->
+    <section class="team-hero" aria-labelledby="team-h1">
+        <div class="team-hero__bg">
+            <picture>
+                <source type="image/avif" srcset="/assets/img/team-hero-800.avif 800w, /assets/img/team-hero-1100.avif 1100w, /assets/img/team-hero-1600.avif 1600w" sizes="100vw">
+                <img src="/assets/img/team-hero-1600.webp"
+                     srcset="/assets/img/team-hero-800.webp 800w, /assets/img/team-hero-1100.webp 1100w, /assets/img/team-hero-1600.webp 1600w"
+                     sizes="100vw" width="1600" height="1067" loading="eager" fetchpriority="high"
+                     alt="A bright, calming space at Healing Therapy Center with a comfortable chair, plants, and warm natural light">
+            </picture>
+        </div>
+        <div class="shell team-hero__inner">
+            <div class="team-hero__content">
+                <p class="eyebrow">Our Team</p>
+                <h1 id="team-h1">Compassionate People.<br><span class="accent-italic">Meaningful Change.</span></h1>
+                <p class="team-hero__lead">Our licensed therapists in Dearborn bring warmth, deep expertise, and evidence-based care to every session — with over 20 combined years of experience and most major insurance plans accepted.</p>
+                <a class="btn btn--pill btn--primary" href="/appointment">
+                    Make an Appointment
+                    <svg class="ico ico--arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
+                </a>
             </div>
-            <div class="position-absolute text-center w-100">
-                <h1 class="display-3 fw-bold text-white">Meet Our Licensed Therapists in Dearborn, MI</h1>
-                <hr class="text-white w-25 m-auto my-3">
-        
-                <a href="appointment" class="btn btn-primary btn-lg">Make an Appointment</a>
-            </div>
-        
-        </section>
-        <section id="about" class="about section">
+        </div>
+    </section>
 
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Our Team<br></h2>
-                <p>At Healing Therapy Center, our team of dedicated licensed therapists in Dearborn, MI is committed to providing exceptional care and support to
-                our clients. With over 20 combined years of experience in the field, our therapists bring a wealth of knowledge and
-                expertise to every session. BCBS, Aetna, and other major insurance plans accepted to make quality mental health care accessible. We believe that the hardest step is the first one but our compassionate and skilled
-                professionals are here to guide you on your journey to health and happiness.</p>
-            </div>
-            <div class="container-fluid">
-
-                <div class="row gy-4 justify-content-center mb-5">
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-                        <a href="amal-ayad">
-                            <div class="team-member">
-                                <div class="member-img rounded-circle border border-4 border-primary" width="300" height="300">
-                                    <img loading="lazy" src="assets/img/amal.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="amal ayad">
-                                </div>
-                                <div class="member-info mt-3">
-                                    <h3 class="h5">Amal Ayad,MA</h3>
-                                    <span>Life Coach</span>
-                                    <a href="amal-ayad" class="btn btn-primary d-block w-50 m-auto mt-3">View Amal's Bio</a>
-                                </div>
-                            </div>
-                        </a>
+    <!-- ============ Values / trust strip ============ -->
+    <section class="section section--white">
+        <div class="shell">
+            <div class="team-values reveal">
+                <div class="value">
+                    <span class="value__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 8.2 7 10 4-1.8 7-5.5 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+                    <div>
+                        <h3>Evidence-Based Care</h3>
+                        <p>Proven approaches for real, lasting change.</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-                        <a href="dr-nadia-habhab">
-                            <div class="team-member">
-                                <div class="member-img rounded-circle border border-4 border-primary" width="300" height="300">
-                                    <img loading="lazy" src="assets/img/nadia.jpg" class="img-fluid rounded-circle p-3 doc-pic doc-2" alt="nadia habhab">
-                                </div>
-                                <div class="member-info mt-3">
-                                    <h3 class="h5">Nadia Habhab , Ph.D , LP</h3>
-                                    <span>Licensed Psychologist</span>
-                                    <a href="dr-nadia-habhab" class="btn btn-primary d-block w-50 m-auto mt-3">View Dr. Habhab's Bio</a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-                        <a href="dr-tiffany-murray">
-                            <div class="team-member">
-                                <div class="member-img rounded-circle border border-4 border-primary" width="300" height="300">
-                                    <img loading="lazy" src="assets/img/tiffany.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="tiffany murray">
-                                </div>
-                                <div class="member-info mt-3">
-                                    <h3 class="h5">Tiffany Murray LMSW</h3>
-                                    <span>Licensed Clinical Social Worker</span>
-                                    <a href="dr-tiffany-murray" class="btn btn-primary d-block w-50 m-auto mt-3">View Tiffany's Bio</a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-
                 </div>
-                <div class="row gy-4 justify-content-center">
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-                        <a href="malak-wehbe">
-                            <div class="team-member">
-                                <div class="member-img rounded-circle border border-4 border-primary" width="300" height="300">
-                                    <img loading="lazy" src="assets/img/malak.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="malak wehbe">
-                                </div>
-                                <div class="member-info mt-3">
-                                    <h3 class="h5">Malak Wehbe, TLLP</h3>
-                                    <span>Therapist</span>
-                                    <a href="malak-wehbe" class="btn btn-primary d-block w-50 m-auto mt-3">View Malak's Bio</a>
-                                </div>
-                            </div>
-                        </a>
+                <div class="value">
+                    <span class="value__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8.5" r="3"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9.5" r="2.4"/><path d="M15.5 19a4.8 4.8 0 0 1 5-4.5"/></svg></span>
+                    <div>
+                        <h3>A Collaborative Approach</h3>
+                        <p>We work with you, not just for you.</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-                        <a href="donna-majed">
-                            <div class="team-member">
-                                <div class="member-img rounded-circle border border-4 border-primary" width="300" height="300">
-                                    <img loading="lazy" src="assets/img/donna.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="donna majed">
-                                </div>
-                                <div class="member-info mt-3">
-                                    <h3 class="h5">Donna Majed, TLLP</h3>
-                                    <span>Therapist</span>
-                                    <a href="donna-majed" class="btn btn-primary d-block w-50 m-auto mt-3">View Donna's Bio</a>
-                                </div>
-                            </div>
-                        </a>
+                </div>
+                <div class="value">
+                    <span class="value__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg></span>
+                    <div>
+                        <h3>A More Hopeful Tomorrow</h3>
+                        <p>Compassionate support at every step.</p>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-        </section>
+    <!-- ============ Therapist directory ============ -->
+    <section class="section" id="about" aria-labelledby="team-dir">
+        <div class="shell">
+            <div class="section__head section-title section-title--center reveal">
+                <p class="eyebrow eyebrow--center">Meet Our Therapists</p>
+                <h2 id="team-dir">Experienced. Compassionate. Here for You.</h2>
+                <p>At Healing Therapy Center, our team of dedicated licensed therapists in Dearborn, MI is committed to providing exceptional care. We believe the hardest step is the first one — and our skilled, compassionate professionals are here to guide you on your journey to health and happiness.</p>
+            </div>
 
-        <section id="our-approach" class="faq section light-background">
-            <div class="container section-title" data-aos="fade-up">
+            <ul class="tgrid reveal">
+                <?php foreach ($team_order as $tid):
+                    $m = get_team_member_by_id($tid);
+                    if (!$m) continue;
+                    $d = $team_display[$tid];
+                ?>
+                <li class="tcard">
+                    <img class="tcard__photo" src="/<?php echo $m['image']; ?>" alt="<?php echo htmlspecialchars($m['alt']); ?>" width="320" height="400" loading="lazy">
+                    <div class="tcard__body">
+                        <h3 class="tcard__name"><a href="/<?php echo $m['url']; ?>"><?php echo $m['name']; ?>, <?php echo $m['credentials']; ?></a></h3>
+                        <p class="tcard__title"><?php echo htmlspecialchars($d['title']); ?></p>
+                        <ul class="tcard__specs">
+                            <?php foreach ($d['specialties'] as $spec): ?>
+                            <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><?php echo htmlspecialchars($spec); ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                        <span class="link-more tcard__link">View Bio <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></span>
+                    </div>
+                </li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ============ Therapeutic approach (SEO content preserved) ============ -->
+    <section class="section section--tint" id="our-approach">
+        <div class="shell">
+            <div class="section__head section-title reveal">
+                <p class="eyebrow">Our Approach</p>
                 <h2>Our Therapeutic Approach</h2>
             </div>
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3>Evidence-Based Treatment</h3>
-                        <p>Our therapists utilize evidence-based therapeutic approaches tailored to each client's unique needs. We draw from cognitive behavioral therapy, dialectical behavior therapy, and other proven modalities to help you achieve your mental health goals. Our team stays current with the latest research and best practices in the field.</p>
-                    </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                        <h3>Culturally Sensitive & Multicultural Therapy</h3>
-                        <p>We understand that cultural background plays an important role in mental health treatment. Our diverse team specializes in multicultural therapy, bringing cultural awareness and sensitivity to every therapeutic relationship and creating a safe, welcoming environment for clients from all backgrounds. We are committed to providing inclusive care that respects your values and experiences.</p>
-                    </div>
+            <div class="grid-2">
+                <div class="panel">
+                    <h3>Evidence-Based Treatment</h3>
+                    <p>Our therapists utilize evidence-based therapeutic approaches tailored to each client's unique needs. We draw from cognitive behavioral therapy, dialectical behavior therapy, and other proven modalities to help you achieve your mental health goals. Our team stays current with the latest research and best practices in the field.</p>
+                </div>
+                <div class="panel">
+                    <h3>Culturally Sensitive &amp; Multicultural Therapy</h3>
+                    <p>We understand that cultural background plays an important role in mental health treatment. Our diverse team specializes in multicultural therapy, bringing cultural awareness and sensitivity to every therapeutic relationship and creating a safe, welcoming environment for clients from all backgrounds. We are committed to providing inclusive care that respects your values and experiences.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="specializations" class="about section">
-            <div class="container section-title" data-aos="fade-up">
+    <!-- ============ Areas of specialization (SEO content preserved) ============ -->
+    <section class="section" id="specializations">
+        <div class="shell">
+            <div class="section__head section-title section-title--center reveal">
+                <p class="eyebrow eyebrow--center">What We Treat</p>
                 <h2>Areas of Specialization</h2>
             </div>
-            <div class="container">
-                <div class="row gy-4 justify-content-center">
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="card h-100 p-4 text-center">
-                            <i class="bi bi-heart text-primary fs-1 mb-3"></i>
-                            <h3>Anxiety & Depression</h3>
-                            <p>Effective treatment for anxiety disorders, depression, and mood-related concerns.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card h-100 p-4 text-center">
-                            <i class="bi bi-shield-check text-primary fs-1 mb-3"></i>
-                            <h3>Trauma & PTSD</h3>
-                            <p>Specialized trauma-informed care to help you heal from past experiences.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card h-100 p-4 text-center">
-                            <i class="bi bi-people text-primary fs-1 mb-3"></i>
-                            <h3>Relationships</h3>
-                            <p>Couples and family therapy to improve communication and strengthen bonds.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                        <div class="card h-100 p-4 text-center">
-                            <i class="bi bi-clipboard-check text-primary fs-1 mb-3"></i>
-                            <h3>ADHD & Testing</h3>
-                            <p>Comprehensive psychological testing and ADHD evaluations for children and adults.</p>
-                        </div>
-                    </div>
+            <div class="grid-4">
+                <div class="panel">
+                    <h3>Anxiety &amp; Depression</h3>
+                    <p>Effective treatment for anxiety disorders, depression, and mood-related concerns.</p>
+                </div>
+                <div class="panel">
+                    <h3>Trauma &amp; PTSD</h3>
+                    <p>Specialized trauma-informed care to help you heal from past experiences.</p>
+                </div>
+                <div class="panel">
+                    <h3>Relationships</h3>
+                    <p>Couples and family therapy to improve communication and strengthen bonds.</p>
+                </div>
+                <div class="panel">
+                    <h3>ADHD &amp; Testing</h3>
+                    <p>Comprehensive psychological testing and ADHD evaluations for children and adults.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="schedule-cta" class="faq section light-background">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 text-center" data-aos="fade-up" data-aos-delay="100">
-                        <h2>Ready to Get Started?</h2>
-                        <p class="mb-4">Taking the first step toward better mental health can feel overwhelming, but you do not have to do it alone. Our team is here to support you every step of the way. Contact us today to schedule your initial consultation and find the right therapist for your needs.</p>
-                        <a href="appointment" class="btn btn-primary btn-lg">Schedule an Appointment</a>
-                        <p class="mt-3">Or call us: <a href="tel:313-654-1915">(313) 654-1915</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+    <!-- ============ Final CTA ============ -->
+    <?php
+    $cta_heading = 'A Team That Cares';
+    $cta_copy = "Taking the first step toward better mental health can feel overwhelming — but you don't have to do it alone. Our team is here to help you find support and the right therapist for your needs.";
+    include __DIR__ . '/includes/cta.php';
+    ?>
 
-    <?php include 'includes/footer.php'; ?>
-    <?php include 'includes/scripts.php'; ?>
+</main>
+
+<?php include __DIR__ . '/includes/footer.php'; ?>
 </body>
 </html>

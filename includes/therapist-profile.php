@@ -26,7 +26,7 @@
  *   $tp_cta_copy     (optional) closing CTA supporting copy
  */
 if (!defined('BUSINESS_NAME')) {
-    require_once dirname(__DIR__, 2) . '/includes/config.php';
+    require_once __DIR__ . '/config.php';
 }
 
 $tp_eyebrow     = $tp_eyebrow     ?? 'Our Team';

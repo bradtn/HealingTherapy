@@ -5,7 +5,7 @@
  *   $cta_heading, $cta_copy
  */
 if (!defined('BUSINESS_NAME')) {
-    require_once dirname(__DIR__, 2) . '/includes/config.php';
+    require_once __DIR__ . '/config.php';
 }
 $cta_heading = $cta_heading ?? "We're Here for You";
 $cta_copy = $cta_copy ?? 'Your mental health matters. Reach out today to schedule an appointment or learn more about our services.';

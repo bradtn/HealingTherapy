@@ -1,198 +1,133 @@
-/**
-* Template Name: Medicio
-* Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/* Healing Therapy Center V2 — vanilla JS, no dependencies */
+(function () {
+    'use strict';
 
-(function() {
-  "use strict";
+    /* Sticky header shadow + scroll-to-top visibility */
+    var header = document.getElementById('site-header');
+    var scrollTop = document.getElementById('scroll-top');
+    var onScroll = function () {
+        var y = window.scrollY;
+        if (header) header.classList.toggle('is-scrolled', y > 8);
+        if (scrollTop) scrollTop.classList.toggle('show', y > 500);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
 
-  /**
-   * Apply .scrolled class to the body as the page is scrolled down
-   */
-  function toggleScrolled() {
-    const selectBody = document.querySelector('body');
-    const selectHeader = document.querySelector('#header');
-    if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
-    window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
-  }
-
-  document.addEventListener('scroll', toggleScrolled);
-  window.addEventListener('load', toggleScrolled);
-
-  /**
-   * Mobile nav toggle
-   */
-  const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
-
-  function mobileNavToogle() {
-    document.querySelector('body').classList.toggle('mobile-nav-active');
-    mobileNavToggleBtn.classList.toggle('bi-list');
-    mobileNavToggleBtn.classList.toggle('bi-x');
-  }
-  mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
-
-  /**
-   * Hide mobile nav on same-page/hash links
-   */
-  document.querySelectorAll('#navmenu a').forEach(navmenu => {
-    navmenu.addEventListener('click', () => {
-      if (document.querySelector('.mobile-nav-active')) {
-        mobileNavToogle();
-      }
-    });
-
-  });
-
-  /**
-   * Toggle mobile nav dropdowns
-   */
-  document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
-    navmenu.addEventListener('click', function(e) {
-      e.preventDefault();
-      this.parentNode.classList.toggle('active');
-      this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
-      e.stopImmediatePropagation();
-    });
-  });
-
-  /**
-   * Preloader
-   */
-  const preloader = document.querySelector('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove();
-    });
-  }
-
-  /**
-   * Scroll top button
-   */
-  let scrollTop = document.querySelector('.scroll-top');
-
-  function toggleScrollTop() {
     if (scrollTop) {
-      window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
+        scrollTop.addEventListener('click', function () {
+            var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+        });
     }
-  }
-  scrollTop.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
 
-  window.addEventListener('load', toggleScrollTop);
-  document.addEventListener('scroll', toggleScrollTop);
-
-  /**
-   * Animation on scroll function and init
-   */
-  function aosInit() {
-    AOS.init({
-      duration: 600,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    });
-  }
-  window.addEventListener('load', aosInit);
-
-  /**
-   * Auto generate the carousel indicators
-   */
-  document.querySelectorAll('.carousel-indicators').forEach((carouselIndicator) => {
-    carouselIndicator.closest('.carousel').querySelectorAll('.carousel-item').forEach((carouselItem, index) => {
-      if (index === 0) {
-        carouselIndicator.innerHTML += `<li data-bs-target="#${carouselIndicator.closest('.carousel').id}" data-bs-slide-to="${index}" class="active"></li>`;
-      } else {
-        carouselIndicator.innerHTML += `<li data-bs-target="#${carouselIndicator.closest('.carousel').id}" data-bs-slide-to="${index}"></li>`;
-      }
-    });
-  });
-
-  /**
-   * Initiate glightbox
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
-
-  /**
-   * Initiate Pure Counter
-   */
-  new PureCounter();
-
-  /**
-   * Init swiper sliders
-   */
-  function initSwiper() {
-    document.querySelectorAll(".init-swiper").forEach(function(swiperElement) {
-      let config = JSON.parse(
-        swiperElement.querySelector(".swiper-config").innerHTML.trim()
-      );
-
-      if (swiperElement.classList.contains("swiper-tab")) {
-        initSwiperWithCustomPagination(swiperElement, config);
-      } else {
-        new Swiper(swiperElement, config);
-      }
-    });
-  }
-
-  window.addEventListener("load", initSwiper);
-
-  /**
-   * Frequently Asked Questions Toggle
-   */
-  document.querySelectorAll('.faq-item h3, .faq-item .faq-toggle').forEach((faqItem) => {
-    faqItem.addEventListener('click', () => {
-      faqItem.parentNode.classList.toggle('faq-active');
-    });
-  });
-
-  /**
-   * Correct scrolling position upon page load for URLs containing hash links.
-   */
-  window.addEventListener('load', function(e) {
-    if (window.location.hash) {
-      if (document.querySelector(window.location.hash)) {
-        setTimeout(() => {
-          let section = document.querySelector(window.location.hash);
-          let scrollMarginTop = getComputedStyle(section).scrollMarginTop;
-          window.scrollTo({
-            top: section.offsetTop - parseInt(scrollMarginTop),
-            behavior: 'smooth'
-          });
-        }, 100);
-      }
+    /* Mobile nav (with focus management) */
+    var burger = document.getElementById('nav-burger');
+    var navPanel = document.getElementById('primary-nav');
+    if (burger && navPanel) {
+        var setOpen = function (open) {
+            document.body.classList.toggle('nav-open', open);
+            burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+            burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+            if (open) {
+                var first = navPanel.querySelector('a, button');
+                if (first) first.focus();
+            }
+        };
+        burger.addEventListener('click', function () {
+            setOpen(!document.body.classList.contains('nav-open'));
+        });
+        document.addEventListener('keydown', function (e) {
+            if (!document.body.classList.contains('nav-open')) return;
+            if (e.key === 'Escape') {
+                setOpen(false);
+                burger.focus();
+            } else if (e.key === 'Tab') {
+                // keep focus inside the open drawer (plus the close button)
+                var items = [burger].concat([].slice.call(
+                    navPanel.querySelectorAll('a[href], button:not([disabled])')));
+                var firstEl = items[0], lastEl = items[items.length - 1];
+                if (e.shiftKey && document.activeElement === firstEl) {
+                    e.preventDefault(); lastEl.focus();
+                } else if (!e.shiftKey && document.activeElement === lastEl) {
+                    e.preventDefault(); firstEl.focus();
+                }
+            }
+        });
     }
-  });
 
-  /**
-   * Navmenu Scrollspy
-   */
-  let navmenulinks = document.querySelectorAll('.navmenu a');
+    /* Dropdown toggles (click/tap + keyboard; hover handled by CSS on desktop) */
+    document.querySelectorAll('.nav__toggle').forEach(function (toggle) {
+        toggle.addEventListener('click', function () {
+            var item = toggle.closest('.nav__item--drop');
+            var open = item.classList.toggle('is-open');
+            toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+            // Close siblings
+            item.parentElement.querySelectorAll('.nav__item--drop').forEach(function (other) {
+                if (other !== item) {
+                    other.classList.remove('is-open');
+                    var t = other.querySelector('.nav__toggle');
+                    if (t) t.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+    });
+    document.addEventListener('click', function (e) {
+        if (!e.target.closest('.nav__item--drop')) {
+            document.querySelectorAll('.nav__item--drop.is-open').forEach(function (item) {
+                item.classList.remove('is-open');
+                var t = item.querySelector('.nav__toggle');
+                if (t) t.setAttribute('aria-expanded', 'false');
+            });
+        }
+    });
 
-  function navmenuScrollspy() {
-    navmenulinks.forEach(navmenulink => {
-      if (!navmenulink.hash) return;
-      let section = document.querySelector(navmenulink.hash);
-      if (!section) return;
-      let position = window.scrollY + 200;
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
-        navmenulink.classList.add('active');
-      } else {
-        navmenulink.classList.remove('active');
-      }
-    })
-  }
-  window.addEventListener('load', navmenuScrollspy);
-  document.addEventListener('scroll', navmenuScrollspy);
+    /* Close mobile nav when a link inside it is followed */
+    document.querySelectorAll('.nav a[href]').forEach(function (link) {
+        link.addEventListener('click', function () {
+            document.body.classList.remove('nav-open');
+            if (burger) burger.setAttribute('aria-expanded', 'false');
+        });
+    });
 
+    /* Sticky mobile appointment CTA: appears after the hero CTA scrolls
+       out of view, retires while the final CTA band / footer are visible */
+    var stickyCta = document.getElementById('sticky-cta');
+    var heroActions = document.querySelector('.hero__actions');
+    if (stickyCta && heroActions && 'IntersectionObserver' in window) {
+        var pastHero = false, nearEnd = false;
+        var update = function () {
+            var show = pastHero && !nearEnd && !document.body.classList.contains('nav-open');
+            stickyCta.classList.toggle('show', show);
+            document.body.classList.toggle('cta-docked', show);
+        };
+        new IntersectionObserver(function (entries) {
+            pastHero = !entries[0].isIntersecting && entries[0].boundingClientRect.top < 0;
+            update();
+        }).observe(heroActions);
+        var endMarkers = document.querySelectorAll('.cta-band, .site-footer');
+        var endVisible = new Map();
+        var endIO = new IntersectionObserver(function (entries) {
+            entries.forEach(function (en) { endVisible.set(en.target, en.isIntersecting); });
+            nearEnd = [...endVisible.values()].some(Boolean);
+            update();
+        });
+        endMarkers.forEach(function (el) { endIO.observe(el); });
+        if (burger) burger.addEventListener('click', function () { setTimeout(update, 50); });
+    }
+
+    /* Scroll reveal (respects prefers-reduced-motion via CSS) */
+    var reveals = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window && reveals.length) {
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in');
+                    io.unobserve(entry.target);
+                }
+            });
+        }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+        reveals.forEach(function (el) { io.observe(el); });
+    } else {
+        reveals.forEach(function (el) { el.classList.add('in'); });
+    }
 })();

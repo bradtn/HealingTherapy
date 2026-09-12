@@ -1,10 +1,13 @@
 <?php
-// Page-specific variables
+// Page-specific variables — verbatim from production
 $page_title = 'Amal Ayad, MA | Life Coach | Healing Therapy Center';
 $page_description = 'Amal Ayad, MA - Life Coach at Healing Therapy Center in Dearborn, MI. Specializing in life coaching, goal setting, confidence building, and personal growth.';
 $canonical_url = 'https://www.healingtherapycenter.com/amal-ayad';
+$og_image = 'https://www.healingtherapycenter.com/assets/img/amal.jpg';
 
-// Person Schema for SEO
+require_once __DIR__ . '/includes/config.php';
+
+// Person Schema — verbatim from production
 $schema_json = json_encode([
     '@context' => 'https://schema.org',
     '@type' => 'Person',
@@ -35,109 +38,81 @@ $schema_json = json_encode([
     ]
 ], JSON_UNESCAPED_SLASHES);
 
-// Include configuration
-require_once 'includes/config.php';
+// ── Therapist-profile template data ─────────────────────────────────
+$tp_name  = 'Amal Ayad';
+$tp_creds = 'MA';
+$tp_role  = 'Life Coach &amp; Therapist';
+$tp_intro = 'With over a decade of experience in the mental health field, I am dedicated to helping clients unlock their potential and achieve meaningful goals.';
+
+$tp_photo      = '/assets/img/amal.jpg';
+$tp_photo_alt  = 'Amal Ayad, MA';
+$tp_first_name = 'Amal';
+
+$tp_quick_info = [
+    ['icon' => 'licensed',   'label' => 'Certified Life Coach'],
+    ['icon' => 'experience', 'label' => '10+ Years Experience'],
+    ['icon' => 'inperson',   'label' => 'In-Person Care', 'sub' => 'Dearborn, Michigan'],
+    ['icon' => 'telehealth', 'label' => 'Telehealth',     'sub' => 'Across Michigan'],
+];
+
+$tp_sections = [
+    [
+        'title' => 'How I Can Help',
+        'html'  => <<<'HTML'
+<p>After years as a psychologist, I discovered my passion for focusing on the "here and now," empowering clients to harness their personal strengths to achieve immediate and impactful results. This realization inspired me to transition to life coaching, where I specialize in helping individuals build confidence, set goals, and take actionable steps toward the future they desire.</p>
+HTML,
+    ],
+    [
+        'title' => 'My Approach',
+        'html'  => <<<'HTML'
+<p>My approach combines structure, encouragement, and accountability. I believe in supporting clients as they move forward, offering the tools they need to overcome challenges and embrace growth. Whether you're seeking clarity, direction, or motivation, I am here to guide you on your journey to a more meaningful and fulfilling life.</p>
+HTML,
+        'cards' => [
+            ['icon' => 'compass', 'title' => 'Structure', 'text' => 'A clear, structured path toward your goals.'],
+            ['icon' => 'care',    'title' => 'Encouragement', 'text' => 'Supportive guidance as you move forward.'],
+            ['icon' => 'connect', 'title' => 'Accountability', 'text' => 'A partner to help you follow through and take action.'],
+            ['icon' => 'growth',  'title' => 'Growth', 'text' => 'The tools to overcome challenges and embrace growth.'],
+        ],
+    ],
+    [
+        'title' => 'Background &amp; Experience',
+        'html'  => <<<'HTML'
+<p>I hold a Master’s degree in Counseling Psychology from Wayne State University and have worked extensively with children, adults, and families, providing compassionate care and guidance.</p>
+HTML,
+    ],
+];
+
+$tp_specialties = [
+    'Life Coaching &amp; Goal Setting',
+    'Confidence Building',
+    'Personal Growth &amp; Development',
+    'Work-Life Balance',
+];
+
+$tp_credentials = [
+    [
+        'title' => 'Credentials &amp; Training',
+        'items' => [
+            "Master’s Degree in Counseling Psychology",
+            'Wayne State University',
+            'Certified Life Coach',
+        ],
+    ],
+];
+
+$tp_cta_copy = 'Ready to take the next step in your personal growth journey? Amal offers both in-person sessions at our Dearborn office and telehealth appointments for your convenience. Contact us today to schedule your consultation.';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'includes/head.php'; ?>
+<?php include __DIR__ . '/includes/head.php'; ?>
 
-<body class="index-page">
-    <?php include 'includes/header.php'; ?>
+<body>
+<?php include __DIR__ . '/includes/header.php'; ?>
 
-    <main class="main">
-        <section class="topArea position-relative">
-            <div class="overlay">
-            </div>
-            <div class="position-absolute text-center w-100">
-                <h1 class="display-3 fw-bold text-white">Amal Ayad, M.A - Life Coach & Therapist</h1>
-                <i class="my-3 text-white text-uppercase">Life Coach</i>
-                <hr class="text-white w-25 m-auto my-3">
+<main id="main">
+<?php include __DIR__ . '/includes/therapist-profile.php'; ?>
+</main>
 
-                <a href="appointment" class="btn btn-primary btn-lg">Make an Appointment</a>
-            </div>
-
-        </section>
-        <section id="about" class="about section">
-            <div class="container-fluid">
-
-                <div class="row gy-4 justify-content-center align-items-center">
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch justify-content-center text-center"
-                        data-aos="fade-up" data-aos-delay="100">
-                        <div class="team-member">
-                            <div class="member-img rounded-circle border border-4 border-primary" style="width: 300px; height: 300px; max-width: 100%;">
-                                <img src="assets/img/amal.jpg" class="img-fluid rounded-circle p-3 doc-pic" alt="amal ayad"
-                                    style="width: 100%; height: 100%; object-fit: cover;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-md-8" data-aos="fade-up" data-aos-delay="100">
-                        <h2>Background & Experience</h2>
-                        <p>With over a decade of experience in the mental health field, I am dedicated to helping clients unlock their potential
-                        and achieve meaningful goals. I hold a Master’s degree in Counseling Psychology from Wayne State University and have
-                        worked extensively with children, adults, and families, providing compassionate care and guidance.</p>
-                        <p>
-                            After years as a psychologist, I discovered my passion for focusing on the "here and now," empowering clients to harness
-                            their personal strengths to achieve immediate and impactful results. This realization inspired me to transition to life
-                            coaching, where I specialize in helping individuals build confidence, set goals, and take actionable steps toward the
-                            future they desire.</p>
-                        <p>
-                            My approach combines structure, encouragement, and accountability. I believe in supporting clients as they move forward,
-                            offering the tools they need to overcome challenges and embrace growth. Whether you're seeking clarity, direction, or
-                            motivation, I am here to guide you on your journey to a more meaningful and fulfilling life.</p>
-                    </div>
-                </div>
-        </section>
-
-        <section id="credentials" class="faq section light-background">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <h2 class="text-center mb-4">Credentials & Specializations</h2>
-                        <div class="row g-4">
-                            <div class="col-md-6">
-                                <div class="card h-100 p-4">
-                                    <h3><i class="bi bi-mortarboard text-primary me-2"></i>Education</h3>
-                                    <ul class="mb-0">
-                                        <li>Master's Degree in Counseling Psychology</li>
-                                        <li>Wayne State University</li>
-                                        <li>Certified Life Coach</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="card h-100 p-4">
-                                    <h3><i class="bi bi-star text-primary me-2"></i>Areas of Focus</h3>
-                                    <ul class="mb-0">
-                                        <li>Life Coaching & Goal Setting</li>
-                                        <li>Confidence Building</li>
-                                        <li>Personal Growth & Development</li>
-                                        <li>Work-Life Balance</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="schedule-cta" class="about section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2>Schedule a Session with Amal</h2>
-                        <p class="mb-4">Ready to take the next step in your personal growth journey? Amal offers both in-person sessions at our Dearborn office and telehealth appointments for your convenience. Contact us today to schedule your consultation.</p>
-                        <a href="appointment" class="btn btn-primary btn-lg">Book an Appointment</a>
-                        <p class="mt-3">Or call: <a href="tel:313-654-1915">(313) 654-1915</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <?php include 'includes/footer.php'; ?>
-    <?php include 'includes/scripts.php'; ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>
 </body>
 </html>

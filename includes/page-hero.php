@@ -10,7 +10,7 @@
  *   $hero_meta    (optional) — HTML rendered under the H1 (e.g. blog author/date row)
  */
 if (!defined('BUSINESS_NAME')) {
-    require_once dirname(__DIR__, 2) . '/includes/config.php';
+    require_once __DIR__ . '/config.php';
 }
 $hero_cta = $hero_cta ?? true;
 ?>

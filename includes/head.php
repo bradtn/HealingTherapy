@@ -1,74 +1,86 @@
 <?php
 /**
- * HTML Head Section
- * Included on all pages
+ * V2 HTML Head
+ * Same contract as /includes/head.php:
+ *   required: $page_title, $page_description, $canonical_url
+ *   optional: $og_title, $og_description, $og_image, $schema_json
  *
- * Required variables (set before including this file):
- * - $page_title: Page title
- * - $page_description: Meta description
- * - $canonical_url: Canonical URL
- *
- * Optional variables:
- * - $og_title: Open Graph title (defaults to $page_title)
- * - $og_description: Open Graph description (defaults to $page_description)
- * - $og_image: Open Graph image (defaults to site logo)
- * - $schema_json: JSON-LD structured data (optional additional schema)
+ * V2_PREVIEW (false in production) is retained so the design can still be
+ * staged noindexed in a subfolder if needed; live pages index normally and
+ * canonicalize to their production URL.
  */
 
 if (!defined('BUSINESS_NAME')) {
     require_once __DIR__ . '/config.php';
 }
 
-// Set defaults for optional variables
+if (!defined('V2_PREVIEW')) {
+    define('V2_PREVIEW', false);
+}
+define('V2_CSS_VERSION', '2.7.5');
+
 $og_title = $og_title ?? $page_title;
 $og_description = $og_description ?? $page_description;
 $og_image = $og_image ?? OG_IMAGE_DEFAULT;
 ?>
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Page Title and Description -->
     <title><?php echo htmlspecialchars($page_title); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
+<?php if (V2_PREVIEW): ?>
+    <meta name="robots" content="noindex, nofollow">
+<?php endif; ?>
 
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="9551257daa769288">
 
-    <!-- Open Graph Meta Tags -->
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="<?php echo BUSINESS_NAME; ?>">
     <meta property="og:title" content="<?php echo htmlspecialchars($og_title); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($og_description); ?>">
     <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url); ?>">
     <meta property="og:type" content="website">
     <meta property="og:image" content="<?php echo htmlspecialchars($og_image); ?>">
 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($og_title); ?>">
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($og_description); ?>">
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($og_image); ?>">
+
     <!-- Favicons -->
-    <link href="<?php echo FAVICON_PATH; ?>" rel="icon">
-    <link href="<?php echo APPLE_TOUCH_ICON_PATH; ?>" rel="apple-touch-icon">
+    <link href="/<?php echo FAVICON_PATH; ?>" rel="icon">
+    <link href="/<?php echo APPLE_TOUCH_ICON_PATH; ?>" rel="apple-touch-icon">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- V2 stylesheet (single file, no vendor frameworks).
+         Preview serves the readable source; production serves the minified build.
+         Regenerate main.min.css from main.css before promoting:
+         cleancss -O2 -o main.min.css main.css -->
+    <link href="/assets/css/<?php echo V2_PREVIEW ? 'main.css' : 'main.min.css'; ?>?v=<?php echo V2_CSS_VERSION; ?>" rel="stylesheet">
 
-    <!-- Main CSS File -->
-    <link href="assets/css/main.min.css?v=<?php echo CSS_VERSION; ?>" rel="stylesheet">
-
-    <?php if (isset($schema_json) && !empty($schema_json)): ?>
-    <!-- Page-Specific Structured Data -->
+<?php if (isset($schema_json) && !empty($schema_json)): ?>
     <script type="application/ld+json">
     <?php echo $schema_json; ?>
     </script>
-    <?php endif; ?>
+<?php endif; ?>
 
-    <!-- Canonical URL -->
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
+
+<?php if (!V2_PREVIEW): ?>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo GA_TRACKING_ID; ?>"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '<?php echo GA_TRACKING_ID; ?>');
+    </script>
+<?php endif; ?>
 </head>

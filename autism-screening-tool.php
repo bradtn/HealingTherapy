@@ -1,10 +1,12 @@
 <?php
-// Page-specific variables
+// Page-specific variables — verbatim from production
 $page_title = 'Free Autism Screening Tool | M-CHAT-R Assessment';
 $page_description = 'Free online autism screening tool (M-CHAT-R) for children 16-30 months. Quick assessment to determine if autism evaluation is needed. Call (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-screening-tool';
 
-// Service + FAQPage Schema for SEO
+require_once __DIR__ . '/includes/config.php';
+
+// Service + FAQPage Schema — verbatim from production
 $schema_json = json_encode([
     '@context' => 'https://schema.org',
     '@graph' => [
@@ -33,354 +35,265 @@ $schema_json = json_encode([
         [
             '@type' => 'FAQPage',
             'mainEntity' => [
-                [
-                    '@type' => 'Question',
-                    'name' => 'What are the early signs of autism in toddlers?',
-                    'acceptedAnswer' => [
-                        '@type' => 'Answer',
-                        'text' => 'Early signs of autism in toddlers include limited eye contact, not responding to their name by 12 months, not pointing to show interest by 14 months, lack of pretend play by 18 months, and repetitive behaviors. Our screening tool can help identify these signs.'
-                    ]
-                ],
-                [
-                    '@type' => 'Question',
-                    'name' => 'At what age should my child be screened for autism?',
-                    'acceptedAnswer' => [
-                        '@type' => 'Answer',
-                        'text' => 'The American Academy of Pediatrics recommends autism screening at 18 and 24 months. However, if you have concerns at any age, don\'t wait. Early intervention is key to better outcomes.'
-                    ]
-                ],
-                [
-                    '@type' => 'Question',
-                    'name' => 'Does insurance cover autism therapy?',
-                    'acceptedAnswer' => [
-                        '@type' => 'Answer',
-                        'text' => 'Most major insurance plans cover autism therapy services like ABA, speech, and occupational therapy. Our billing team will verify your coverage and help maximize your benefits.'
-                    ]
-                ],
-                [
-                    '@type' => 'Question',
-                    'name' => 'How many hours of ABA therapy does my child need?',
-                    'acceptedAnswer' => [
-                        '@type' => 'Answer',
-                        'text' => 'The number of ABA therapy hours varies based on individual needs, typically ranging from 10-40 hours per week. Our BCBA will assess your child and recommend an appropriate treatment plan.'
-                    ]
-                ],
-                [
-                    '@type' => 'Question',
-                    'name' => 'What\'s the difference between speech therapy and ABA for communication?',
-                    'acceptedAnswer' => [
-                        '@type' => 'Answer',
-                        'text' => 'Speech therapy focuses on language development, articulation, and communication skills. ABA addresses the behavioral aspects of communication and teaches functional communication. Many children benefit from both therapies working together.'
-                    ]
-                ]
+                ['@type' => 'Question', 'name' => 'What are the early signs of autism in toddlers?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Early signs of autism in toddlers include limited eye contact, not responding to their name by 12 months, not pointing to show interest by 14 months, lack of pretend play by 18 months, and repetitive behaviors. Our screening tool can help identify these signs.']],
+                ['@type' => 'Question', 'name' => 'At what age should my child be screened for autism?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'The American Academy of Pediatrics recommends autism screening at 18 and 24 months. However, if you have concerns at any age, don\'t wait. Early intervention is key to better outcomes.']],
+                ['@type' => 'Question', 'name' => 'Does insurance cover autism therapy?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Most major insurance plans cover autism therapy services like ABA, speech, and occupational therapy. Our billing team will verify your coverage and help maximize your benefits.']],
+                ['@type' => 'Question', 'name' => 'How many hours of ABA therapy does my child need?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'The number of ABA therapy hours varies based on individual needs, typically ranging from 10-40 hours per week. Our BCBA will assess your child and recommend an appropriate treatment plan.']],
+                ['@type' => 'Question', 'name' => 'What\'s the difference between speech therapy and ABA for communication?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Speech therapy focuses on language development, articulation, and communication skills. ABA addresses the behavioral aspects of communication and teaches functional communication. Many children benefit from both therapies working together.']]
             ]
         ]
     ]
 ], JSON_UNESCAPED_SLASHES);
-
-// Include configuration
-require_once 'includes/config.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'includes/head.php'; ?>
+<?php include __DIR__ . '/includes/head.php'; ?>
 
-<body class="index-page">
-    <?php include 'includes/header.php'; ?>
+<body>
+<?php include __DIR__ . '/includes/header.php'; ?>
 
-        <main class="main">
-        <div class="container py-5">
-            <!-- Screening Tool Section -->
-            <section id="screening" class="content-section active" aria-label="Autism Screening Tool">
-                <div class="screening-intro">
-                    <h1>Free Autism Spectrum Disorder (ASD) Screening Questionnaire</h1>
-                    <p><strong>Early detection makes a difference.</strong> This free screening questionnaire uses the M-CHAT-R (Modified Checklist for Autism in Toddlers, Revised) to help identify potential signs of autism spectrum disorder in children. The M-CHAT-R assessment is designed for children ages 16-30 months. <em>Note: This questionnaire is a screening tool only - professional evaluation is recommended for diagnosis.</em></p>
-                </div>
+<main id="main">
 
-                <div class="progress-bar">
-                    <div class="progress-fill" id="progressBar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+    <?php
+    $hero_eyebrow = 'Free Screening';
+    $hero_h1 = 'Free Autism Spectrum Disorder (ASD) Screening Questionnaire';
+    $hero_lead = "<strong>Early detection makes a difference.</strong> This free screening questionnaire uses the M-CHAT-R (Modified Checklist for Autism in Toddlers, Revised) to help identify potential signs of autism spectrum disorder in children. The M-CHAT-R assessment is designed for children ages 16-30 months. <em>Note: This questionnaire is a screening tool only — professional evaluation is recommended for diagnosis.</em>";
+    $hero_cta = false;
+    include __DIR__ . '/includes/page-hero.php';
+    ?>
 
-                <div id="questionsContainer" role="region" aria-label="Screening questions">
-                    <!-- Questions will be dynamically loaded here -->
-                </div>
-
-                <div class="results-section" id="resultsSection" role="region" aria-label="Screening results">
-                    <h3>Your Screening Results</h3>
-                    <p id="resultsText"></p>
-                    <div id="recommendationsText"></div>
-                </div>
-
-                <button class="nav-btn" id="submitBtn" style="display:none; margin-top:20px;" onclick="calculateResults()">
-                    View Results & Get Recommendations
-                </button>
-            </section>
-
-            <!-- Services Section (Location-Specific) -->
-            <section id="services" class="content-section" aria-label="Therapy Services">
-                <h2>Comprehensive ASD Therapy Services in Dearborn, MI</h2>
-                
-                <div class="service-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px;">
-                    <!-- ABA Therapy Service -->
-                    <article class="service-card" itemscope itemtype="https://schema.org/Service">
-                        <h3 itemprop="name">Applied Behavior Analysis (ABA) Therapy</h3>
-                        <p itemprop="description">Evidence-based therapy focusing on improving specific behaviors, communication, and social skills through positive reinforcement.</p>
-                        <ul style="list-style: none; padding: 0;">
-                            <li>✓ 1:1 intensive therapy</li>
-                            <li>✓ Home & center-based options</li>
-                            <li>✓ BCBA supervised</li>
-                            <li>✓ Insurance accepted</li>
-                        </ul>
-                        <a href="https://www.autismspeaks.org/applied-behavior-analysis" class="service-link" style="color: #667eea; font-weight: bold;">Learn More About ABA →</a>
-                    </article>
-
-                    <!-- Speech Therapy Service -->
-                    <article class="service-card" itemscope itemtype="https://schema.org/Service">
-                        <h3 itemprop="name">Speech & Language Therapy</h3>
-                        <p itemprop="description">Comprehensive speech therapy addressing verbal and non-verbal communication, articulation, and social communication skills.</p>
-                        <ul style="list-style: none; padding: 0;">
-                            <li>✓ AAC device training</li>
-                            <li>✓ Social communication groups</li>
-                            <li>✓ Feeding therapy</li>
-                            <li>✓ Teletherapy available</li>
-                        </ul>
-                        <a href="https://my.clevelandclinic.org/health/treatments/22366-speech-therapy" class="service-link" style="color: #667eea; font-weight: bold;">Learn More About Speech →</a>
-                    </article>
-
-                    <!-- OT Service -->
-                    <article class="service-card" itemscope itemtype="https://schema.org/Service">
-                        <h3 itemprop="name">Occupational Therapy (OT)</h3>
-                        <p itemprop="description">Helping children develop fine motor skills, sensory processing, and daily living skills for increased independence.</p>
-                        <ul style="list-style: none; padding: 0;">
-                            <li>✓ Sensory integration</li>
-                            <li>✓ Fine motor development</li>
-                            <li>✓ Self-care skills</li>
-                            <li>✓ School readiness</li>
-                        </ul>
-                        <a href="https://www.aota.org/about/what-is-ot" class="service-link" style="color: #667eea; font-weight: bold;">Learn More About OT →</a>
-                    </article>
-                </div>
-
-                <!-- Service Badges -->
-                <div style="display: flex; justify-content: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
-                    <a href="https://www.healingtherapycenter.com/#hero" style="text-decoration: none;"><span style="background: #e3f2fd; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Insurance Accepted</span></a>
-                    <a href="https://www.healingtherapycenter.com/therapists" style="text-decoration: none;"><span style="background: #e8f5e9; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Licensed Therapists</span></a>
-                    <a href="https://www.healingtherapycenter.com/autism-evaluation" style="text-decoration: none;"><span style="background: #fff3e0; padding: 10px 20px; border-radius: 20px; cursor: pointer;">Evidence-Based</span></a>
-                </div>
-            </section>
-
-            <!-- Locations Section -->
-            <section id="locations" class="content-section" aria-label="Therapy Center Locations">
-                <h2>Autism Therapy Center in Dearborn, MI</h2>
-                <p>Conveniently located to serve Dearborn and surrounding communities</p>
-                
-                <div class="locations-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px;">
-                    <!-- Main Location -->
-                    <div class="location-card" itemscope itemtype="https://schema.org/LocalBusiness">
-                        <h3 itemprop="name">Healing Therapy Center - Dearborn</h3>
-                        <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                            <span itemprop="streetAddress">3200 Greenfield Rd</span><br>
-                            <span itemprop="addressLocality">Dearborn</span>, 
-                            <span itemprop="addressRegion">MI</span> 
-                            <span itemprop="postalCode">48120</span>
-                        </address>
-                        <p><a href="tel:313-654-1915" itemprop="telephone">313-654-1915</a></p>
-                        <p>Services: ABA, Speech, OT, Social Groups</p>
+    <!-- Screening questionnaire -->
+    <section class="page" id="mchat" aria-label="Autism Screening Tool">
+        <div class="shell">
+            <div class="mchat">
+                <div class="mchat__bar">
+                    <div class="mchat__track">
+                        <div class="mchat__fill" id="mchat-progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Screening progress"></div>
                     </div>
+                    <span class="mchat__count" id="mchat-progress-label">0 of 20 answered</span>
                 </div>
 
-                <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; margin-top: 40px;">
+                <ol class="mchat__list" id="mchat-questions"></ol>
+
+                <div class="mchat__submit">
+                    <button type="button" class="btn btn--pill btn--primary" id="mchat-submit" disabled>
+                        View Results &amp; Recommendations
+                        <svg class="ico ico--arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
+                    </button>
+                </div>
+
+                <div class="mchat-result" id="mchat-result" role="region" aria-label="Screening results" hidden></div>
+
+                <div class="mchat__submit">
+                    <button type="button" class="btn btn--pill btn--ghost" id="mchat-reset" hidden>Retake the screening</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section--white" id="services" aria-label="Therapy Services">
+        <div class="shell">
+            <div class="section__head section-title reveal">
+                <p class="eyebrow">Our Services</p>
+                <h2>Comprehensive ASD Therapy Services in Dearborn, MI</h2>
+            </div>
+            <div class="grid-3">
+                <div class="panel">
+                    <h3>Applied Behavior Analysis (ABA) Therapy</h3>
+                    <p>Evidence-based therapy focusing on improving specific behaviors, communication, and social skills through positive reinforcement.</p>
+                    <ul class="check-list">
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> 1:1 intensive therapy</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Home &amp; center-based options</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> BCBA supervised</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Insurance accepted</li>
+                    </ul>
+                    <p><a href="https://www.autismspeaks.org/applied-behavior-analysis" target="_blank" rel="noopener noreferrer">Learn More About ABA →</a></p>
+                </div>
+                <div class="panel">
+                    <h3>Speech &amp; Language Therapy</h3>
+                    <p>Comprehensive speech therapy addressing verbal and non-verbal communication, articulation, and social communication skills.</p>
+                    <ul class="check-list">
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> AAC device training</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Social communication groups</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Feeding therapy</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Teletherapy available</li>
+                    </ul>
+                    <p><a href="https://my.clevelandclinic.org/health/treatments/22366-speech-therapy" target="_blank" rel="noopener noreferrer">Learn More About Speech →</a></p>
+                </div>
+                <div class="panel">
+                    <h3>Occupational Therapy (OT)</h3>
+                    <p>Helping children develop fine motor skills, sensory processing, and daily living skills for increased independence.</p>
+                    <ul class="check-list">
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Sensory integration</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Fine motor development</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Self-care skills</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> School readiness</li>
+                    </ul>
+                    <p><a href="https://www.aota.org/about/what-is-ot" target="_blank" rel="noopener noreferrer">Learn More About OT →</a></p>
+                </div>
+            </div>
+            <div class="spec__list" style="margin-top:1.5rem">
+                <li style="list-style:none"><a href="/#hero">Insurance Accepted</a></li>
+                <li style="list-style:none"><a href="/therapists">Licensed Therapists</a></li>
+                <li style="list-style:none"><a href="/autism-evaluation">Evidence-Based</a></li>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section class="section" id="locations" aria-label="Therapy Center Location">
+        <div class="shell">
+            <div class="section__head section-title reveal">
+                <p class="eyebrow">Visit Us</p>
+                <h2>Autism Therapy Center in Dearborn, MI</h2>
+                <p>Conveniently located to serve Dearborn and surrounding communities.</p>
+            </div>
+            <div class="grid-2">
+                <div class="panel">
+                    <h3>Healing Therapy Center — Dearborn</h3>
+                    <p>835 Mason St STE D160<br>Dearborn, MI 48124</p>
+                    <p><a href="tel:313-654-1915">313-654-1915</a></p>
+                    <p>Services: ABA, Speech, OT, Social Groups</p>
+                </div>
+                <div class="callout callout--soft">
                     <h3>Serving Families Throughout Southeast Michigan</h3>
                     <p>We proudly serve families in <strong>Dearborn</strong>, Detroit, Livonia, Westland, Taylor, Lincoln Park, and surrounding communities. Our therapists understand the unique needs of our local community and work with area schools, pediatricians, and support organizations.</p>
-                    
-                    <h4 style="margin-top: 20px;">Why Choose Local Therapy?</h4>
-                    <ul>
-                        <li>Familiar with local school districts and IEP processes</li>
-                        <li>Connected with community resources and support groups</li>
-                        <li>Convenient Dearborn location with easy parking</li>
-                        <li>Home-based services available in your neighborhood</li>
+                    <h3>Why Choose Local Therapy?</h3>
+                    <ul class="check-list">
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Familiar with local school districts and IEP processes</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Connected with community resources and support groups</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Convenient Dearborn location with easy parking</li>
+                        <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Home-based services available in your neighborhood</li>
                     </ul>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-            <!-- FAQ Section -->
-            <section id="faq" class="content-section" aria-label="Frequently Asked Questions">
+    <!-- FAQ -->
+    <section class="section section--white" id="faq" aria-label="Frequently Asked Questions">
+        <div class="shell">
+            <div class="section__head section-title reveal">
+                <p class="eyebrow">Questions</p>
                 <h2>Frequently Asked Questions About Autism Spectrum Disorder (ASD)</h2>
-                
-                <div class="faq-container" style="margin-top: 30px;">
-                    <details class="faq-item" style="margin-bottom: 20px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
-                        <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">What are the early signs of autism in toddlers?</summary>
-                        <p style="margin-top: 15px;">Early signs of autism in toddlers include limited eye contact, not responding to their name by 12 months, not pointing to show interest by 14 months, lack of pretend play by 18 months, and repetitive behaviors. Our screening tool can help identify these signs.</p>
-                    </details>
-
-                    <details class="faq-item" style="margin-bottom: 20px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
-                        <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">At what age should my child be screened for autism?</summary>
-                        <p style="margin-top: 15px;">The American Academy of Pediatrics recommends autism screening at 18 and 24 months. However, if you have concerns at any age, don't wait. Early intervention is key to better outcomes.</p>
-                    </details>
-
-                    <details class="faq-item" style="margin-bottom: 20px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
-                        <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">Does insurance cover autism therapy?</summary>
-                        <p style="margin-top: 15px;">Most major insurance plans cover autism therapy services like ABA, speech, and occupational therapy. Our billing team will verify your coverage and help maximize your benefits.</p>
-                    </details>
-
-                    <details class="faq-item" style="margin-bottom: 20px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
-                        <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">How many hours of ABA therapy does my child need?</summary>
-                        <p style="margin-top: 15px;">The number of ABA therapy hours varies based on individual needs, typically ranging from 10-40 hours per week. Our BCBA will assess your child and recommend an appropriate treatment plan.</p>
-                    </details>
-
-                    <details class="faq-item" style="margin-bottom: 20px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
-                        <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">What's the difference between speech therapy and ABA for communication?</summary>
-                        <p style="margin-top: 15px;">Speech therapy focuses on language development, articulation, and communication skills. ABA addresses the behavioral aspects of communication and teaches functional communication. Many children benefit from both therapies working together.</p>
-                    </details>
+            </div>
+            <div class="faq-list" style="max-width:760px">
+                <div class="faq-item">
+                    <h3>What are the early signs of autism in toddlers?</h3>
+                    <p>Early signs of autism in toddlers include limited eye contact, not responding to their name by 12 months, not pointing to show interest by 14 months, lack of pretend play by 18 months, and repetitive behaviors. Our screening tool can help identify these signs.</p>
                 </div>
-            </section>
-
-            <!-- Resources Section -->
-            <section id="resources" class="content-section" aria-label="Autism Resources">
-                <h2>Comprehensive Autism Resources & Information</h2>
-                
-                <div class="resource-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px;">
-                    <article class="resource-card">
-                        <div class="resource-icon"></div>
-                        <h3>Early Signs & Red Flags</h3>
-                        <p>Recognize autism symptoms by age: lack of eye contact, delayed speech, repetitive behaviors, sensory sensitivities.</p>
-                        <a href="https://www.healingtherapycenter.com/autism-signs" style="color: #667eea;">Read Complete Guide →</a>
-                    </article>
-
-                    <article class="resource-card">
-                        <div class="resource-icon"></div>
-                        <h3>Evidence-Based Therapies</h3>
-                        <p>Compare ABA, DIR/Floortime, TEACCH, and other proven autism interventions. Find what works for your child.</p>
-                        <a href="https://www.healingtherapycenter.com/is-autism-curable" style="color: #667eea;">Explore Therapies →</a>
-                    </article>
-
-                    <article class="resource-card">
-                        <div class="resource-icon"></div>
-                        <h3>IEP & School Support</h3>
-                        <p>Navigate special education: IEP vs 504 plans, advocacy tips, classroom accommodations, and your rights.</p>
-                        <a href="https://www.healingtherapycenter.com/#contact" style="color: #667eea;">School Resources →</a>
-                    </article>
-
-                    <article class="resource-card">
-                        <div class="resource-icon"></div>
-                        <h3>Family & Sibling Support</h3>
-                        <p>Resources for parents, siblings, and caregivers. Support groups, respite care, and family therapy options.</p>
-                        <a href="https://www.healingtherapycenter.com/parenting-child" style="color: #667eea;">Family Resources →</a>
-                    </article>
-
-                    <article class="resource-card">
-                        <div class="resource-icon"></div>
-                        <h3>Sensory Processing Help</h3>
-                        <p>Sensory diets, calming strategies, weighted blankets, noise reduction, and creating sensory-friendly spaces.</p>
-                        <a href="https://www.healingtherapycenter.com/parenting-child" style="color: #667eea;">Sensory Tools →</a>
-                    </article>
-
-                    <article class="resource-card">
-                        <div class="resource-icon"></div>
-                        <h3>Social Skills Development</h3>
-                        <p>Social stories, peer interaction strategies, friendship skills, and social groups for different ages.</p>
-                        <a href="https://www.healingtherapycenter.com/autism-signs" style="color: #667eea;">Social Resources →</a>
-                    </article>
+                <div class="faq-item">
+                    <h3>At what age should my child be screened for autism?</h3>
+                    <p>The American Academy of Pediatrics recommends autism screening at 18 and 24 months. However, if you have concerns at any age, don't wait. Early intervention is key to better outcomes.</p>
                 </div>
-            </section>
+                <div class="faq-item">
+                    <h3>Does insurance cover autism therapy?</h3>
+                    <p>Most major insurance plans cover autism therapy services like ABA, speech, and occupational therapy. Our billing team will verify your coverage and help maximize your benefits.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How many hours of ABA therapy does my child need?</h3>
+                    <p>The number of ABA therapy hours varies based on individual needs, typically ranging from 10-40 hours per week. Our BCBA will assess your child and recommend an appropriate treatment plan.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What's the difference between speech therapy and ABA for communication?</h3>
+                    <p>Speech therapy focuses on language development, articulation, and communication skills. ABA addresses the behavioral aspects of communication and teaches functional communication. Many children benefit from both therapies working together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <!-- Milestones Section -->
-            <section id="milestones" class="content-section" aria-label="Developmental Milestones">
+    <!-- Resources -->
+    <section class="section" id="resources" aria-label="Autism Resources">
+        <div class="shell">
+            <div class="section__head section-title reveal">
+                <p class="eyebrow">Resources</p>
+                <h2>Comprehensive Autism Resources &amp; Information</h2>
+            </div>
+            <div class="grid-3">
+                <div class="panel">
+                    <h3>Early Signs &amp; Red Flags</h3>
+                    <p>Recognize autism symptoms by age: lack of eye contact, delayed speech, repetitive behaviors, sensory sensitivities.</p>
+                    <p><a href="/autism-signs">Read Complete Guide →</a></p>
+                </div>
+                <div class="panel">
+                    <h3>Evidence-Based Therapies</h3>
+                    <p>Compare ABA, DIR/Floortime, TEACCH, and other proven autism interventions. Find what works for your child.</p>
+                    <p><a href="/is-autism-curable">Explore Therapies →</a></p>
+                </div>
+                <div class="panel">
+                    <h3>IEP &amp; School Support</h3>
+                    <p>Navigate special education: IEP vs 504 plans, advocacy tips, classroom accommodations, and your rights.</p>
+                    <p><a href="/#contact">School Resources →</a></p>
+                </div>
+                <div class="panel">
+                    <h3>Family &amp; Sibling Support</h3>
+                    <p>Resources for parents, siblings, and caregivers. Support groups, respite care, and family therapy options.</p>
+                    <p><a href="/parenting-child">Family Resources →</a></p>
+                </div>
+                <div class="panel">
+                    <h3>Sensory Processing Help</h3>
+                    <p>Sensory diets, calming strategies, weighted blankets, noise reduction, and creating sensory-friendly spaces.</p>
+                    <p><a href="/parenting-child">Sensory Tools →</a></p>
+                </div>
+                <div class="panel">
+                    <h3>Social Skills Development</h3>
+                    <p>Social stories, peer interaction strategies, friendship skills, and social groups for different ages.</p>
+                    <p><a href="/autism-signs">Social Resources →</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Milestones -->
+    <section class="section section--white" id="milestones" aria-label="Developmental Milestones">
+        <div class="shell">
+            <div class="section__head section-title reveal">
+                <p class="eyebrow">Track Progress</p>
                 <h2>Developmental Milestones Tracker by Age</h2>
                 <p>Track your child's progress and identify areas that may need support. <strong>Remember: Every child develops at their own pace.</strong></p>
-                
-                <div class="milestone-tracker">
-                    <div class="milestone-age-group">
-                        <h3 class="milestone-title">6-12 Months: Early Social Communication</h3>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m1">
-                            <label for="m1">Responds to name when called</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m2">
-                            <label for="m2">Makes eye contact during interactions</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m3">
-                            <label for="m3">Smiles socially at familiar people</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m4">
-                            <label for="m4">Babbles with consonant sounds (ba, da, ga)</label>
-                        </div>
-                    </div>
-
-                    <div class="milestone-age-group">
-                        <h3 class="milestone-title">12-24 Months: Communication & Play</h3>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m5">
-                            <label for="m5">Points to show interest or request</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m6">
-                            <label for="m6">Says first words (mama, dada, + others)</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m7">
-                            <label for="m7">Shows toys to share interest</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m8">
-                            <label for="m8">Follows simple one-step directions</label>
-                        </div>
-                    </div>
-
-                    <div class="milestone-age-group">
-                        <h3 class="milestone-title">2-3 Years: Language & Social Skills</h3>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m9">
-                            <label for="m9">Uses 2-4 word phrases</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m10">
-                            <label for="m10">Engages in pretend play</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m11">
-                            <label for="m11">Shows interest in other children</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m12">
-                            <label for="m12">Names familiar objects and people</label>
-                        </div>
-                    </div>
-
-                    <div class="milestone-age-group">
-                        <h3 class="milestone-title">3-4 Years: Complex Communication</h3>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m13">
-                            <label for="m13">Tells simple stories</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m14">
-                            <label for="m14">Plays cooperatively with peers</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m15">
-                            <label for="m15">Understands "mine" and "theirs"</label>
-                        </div>
-                        <div class="milestone-item">
-                            <input type="checkbox" class="milestone-checkbox" id="m16">
-                            <label for="m16">Shows a range of emotions</label>
-                        </div>
-                    </div>
+            </div>
+            <div class="milestones">
+                <div class="milestone-group">
+                    <h3>6-12 Months: Early Social Communication</h3>
+                    <label class="milestone-check"><input type="checkbox"><span>Responds to name when called</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Makes eye contact during interactions</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Smiles socially at familiar people</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Babbles with consonant sounds (ba, da, ga)</span></label>
                 </div>
-
-                <div style="background: #e3f2fd; padding: 20px; border-radius: 10px; margin-top: 30px;">
-                    <strong>Concerned about missed milestones?</strong> Our developmental specialists can provide comprehensive evaluation and early intervention services. 
-                    <a href="tel:313-654-1915" style="color: #4a90a4; font-weight: bold;">Call (313) 654-1915</a> or 
-                    <a href="https://www.healingtherapycenter.com/appointment" style="color: #4a90a4; font-weight: bold;">schedule online</a>.
+                <div class="milestone-group">
+                    <h3>12-24 Months: Communication &amp; Play</h3>
+                    <label class="milestone-check"><input type="checkbox"><span>Points to show interest or request</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Says first words (mama, dada, + others)</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Shows toys to share interest</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Follows simple one-step directions</span></label>
                 </div>
-            </section>
+                <div class="milestone-group">
+                    <h3>2-3 Years: Language &amp; Social Skills</h3>
+                    <label class="milestone-check"><input type="checkbox"><span>Uses 2-4 word phrases</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Engages in pretend play</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Shows interest in other children</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Names familiar objects and people</span></label>
+                </div>
+                <div class="milestone-group">
+                    <h3>3-4 Years: Complex Communication</h3>
+                    <label class="milestone-check"><input type="checkbox"><span>Tells simple stories</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Plays cooperatively with peers</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Understands "mine" and "theirs"</span></label>
+                    <label class="milestone-check"><input type="checkbox"><span>Shows a range of emotions</span></label>
+                </div>
+            </div>
+            <div class="callout callout--info">
+                <p><strong>Concerned about missed milestones?</strong> Our developmental specialists can provide comprehensive evaluation and early intervention services. <a href="tel:313-654-1915">Call (313) 654-1915</a> or <a href="/appointment">schedule online</a>.</p>
+            </div>
         </div>
-    </main>
+    </section>
 
-    <?php include 'includes/footer.php'; ?>
-    <?php include 'includes/scripts.php'; ?>
+    <?php include __DIR__ . '/includes/cta.php'; ?>
+
+</main>
+
+<?php include __DIR__ . '/includes/footer.php'; ?>
+<script src="/assets/js/screening.js" defer></script>
 </body>
 </html>

@@ -3,7 +3,7 @@ $page_title = 'Contact Healing Therapy Center | Dearborn, MI';
 $page_description = 'Contact Healing Therapy Center in Dearborn, MI. Call or text (313) 654-1915, email us, or send a message. In-person and telehealth therapy across Michigan.';
 $canonical_url = 'https://www.healingtherapycenter.com/contact';
 
-require_once dirname(__DIR__) . '/includes/config.php';
+require_once __DIR__ . '/includes/config.php';
 
 $schema_json = json_encode([
     '@context' => 'https://schema.org',
@@ -144,6 +144,6 @@ $schema_json = json_encode([
 </main>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
-<script src="/v2/assets/js/contact.js" defer></script>
+<script src="/assets/js/contact.js" defer></script>
 </body>
 </html>

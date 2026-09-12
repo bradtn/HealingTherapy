@@ -11,16 +11,16 @@
  *   $hero_cta     (optional) — true to show the Make an Appointment button
  */
 if (!defined('BUSINESS_NAME')) {
-    require_once dirname(__DIR__, 2) . '/includes/config.php';
+    require_once __DIR__ . '/config.php';
 }
 $hero_cta = $hero_cta ?? false;
 ?>
 <section class="img-hero" aria-labelledby="ih-title">
     <div class="img-hero__bg">
         <picture>
-            <source type="image/avif" srcset="/v2/assets/img/<?php echo $hero_img; ?>-800.avif 800w, /v2/assets/img/<?php echo $hero_img; ?>-1400.avif 1400w" sizes="100vw">
-            <img src="/v2/assets/img/<?php echo $hero_img; ?>-1400.webp"
-                 srcset="/v2/assets/img/<?php echo $hero_img; ?>-800.webp 800w, /v2/assets/img/<?php echo $hero_img; ?>-1400.webp 1400w"
+            <source type="image/avif" srcset="/assets/img/<?php echo $hero_img; ?>-800.avif 800w, /assets/img/<?php echo $hero_img; ?>-1400.avif 1400w" sizes="100vw">
+            <img src="/assets/img/<?php echo $hero_img; ?>-1400.webp"
+                 srcset="/assets/img/<?php echo $hero_img; ?>-800.webp 800w, /assets/img/<?php echo $hero_img; ?>-1400.webp 1400w"
                  sizes="100vw" loading="eager" fetchpriority="high"
                  alt="<?php echo htmlspecialchars($hero_img_alt); ?>">
         </picture>
