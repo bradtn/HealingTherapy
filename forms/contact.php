@@ -153,8 +153,11 @@ $headers = [
     'X-Priority: 3'
 ];
 
-// Descriptive subject line: who + what
+// Descriptive subject line: who + what, plus insurance when they selected one
 $emailSubject = "New message from " . $name . " — " . $subject;
+if ($insurance !== '') {
+    $emailSubject .= ' (' . $insurance . ')';
+}
 $emailSubject = substr(preg_replace('/[\r\n]/', '', $emailSubject), 0, 150);
 
 $submittedAt = date('l, F j, Y \a\t g:i A');

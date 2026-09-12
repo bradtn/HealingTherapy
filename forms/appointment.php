@@ -194,10 +194,13 @@ $headers = [
     'X-Priority: 1'  // High priority for appointments
 ];
 
-// Descriptive subject: who + preference context
+// Descriptive subject: name + the most useful details the person actually gave,
+// in priority order (insurance, therapist, date) and capped at two so it stays short.
 $subjectBits = [];
+if ($insurance !== '') $subjectBits[] = $insurance;
 if ($preferredDoctor !== '' && strtolower($preferredDoctor) !== 'no preference') $subjectBits[] = 'prefers ' . $preferredDoctor;
 if ($preferredDate !== '' && strtolower($preferredDate) !== 'not specified') $subjectBits[] = $preferredDate;
+$subjectBits = array_slice($subjectBits, 0, 2);
 $emailSubject = "New appointment request — " . $name . (count($subjectBits) ? ' (' . implode(', ', $subjectBits) . ')' : '');
 $emailSubject = substr(preg_replace('/[\r\n]/', '', $emailSubject), 0, 150);
 
