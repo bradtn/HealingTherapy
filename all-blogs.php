@@ -38,8 +38,9 @@ require_once __DIR__ . '/includes/config.php';
                 <p>Welcome to the Healing Therapy Center blog, where our team of licensed mental health professionals shares valuable insights, practical strategies, and evidence-based information to support your mental health journey. Whether you are navigating anxiety, depression, relationship challenges, or exploring resources for autism and child development, our articles provide guidance you can trust.</p>
                 <p>We believe that knowledge is an important part of healing. Our blog covers a wide range of topics including understanding mental health conditions, coping strategies for everyday challenges, parenting support, and tips for finding the right therapeutic approach for your needs. Browse our articles below and discover resources that can help you and your loved ones thrive.</p>
 
-                <h2>Articles &amp; Resources</h2>
             </article>
+
+            <h2 class="blog-grid-title">Articles &amp; Resources</h2>
 
             <ul class="post-grid" role="list">
                 <li class="post-card">
