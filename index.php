@@ -505,7 +505,7 @@ $schema_json = json_encode([
                     <p>To reach us by car, take Michigan Ave (US-12) westbound into downtown West Dearborn and turn left onto Mason St. Our center is a short distance down on Mason St, inside the Dearborn Atrium Office Center (Suite D160), with public parking available nearby.</p>
                     <p class="loc__hours">
                         <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
-                        <span style="white-space:nowrap">Monday–Friday 9:00 am – 5:00 pm</span> &nbsp;·&nbsp; <span style="white-space:nowrap">Saturday 9:00 am – 2:00 pm</span>
+                        <span class="loc__hours-text"><span class="loc__hours-range">Monday–Friday 9:00 am – 5:00 pm</span><span class="loc__hours-sep">&nbsp;·&nbsp;</span><span class="loc__hours-range">Saturday 9:00 am – 2:00 pm</span></span>
                     </p>
                     <p style="margin-top:1rem">For more information, call us at <a href="tel:313-654-1915"><strong style="white-space:nowrap">(313)&nbsp;654-1915</strong></a>.</p>
                 </div>

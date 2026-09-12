@@ -1010,6 +1010,11 @@ main, header, footer { position: relative; z-index: 1; }
     margin-top: 1.25rem;
 }
 .loc__hours .ico { color: var(--sage); }
+.loc__hours-range { white-space: nowrap; }
+@media (max-width: 480px) {
+    .loc__hours-text { display: flex; flex-direction: column; }
+    .loc__hours-sep { display: none; }
+}
 
 /* CTA band */
 .cta-band {
