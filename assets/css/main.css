@@ -78,6 +78,8 @@ h1, h2 { text-wrap: balance; }
 p { margin: 0 0 1em; }
 
 a { color: var(--slate); text-decoration-color: rgba(36, 92, 120, .35); text-underline-offset: 3px; }
+/* Keep phone numbers from breaking across lines */
+a[href^="tel:"] { white-space: nowrap; }
 a:hover { color: var(--slate-deep); }
 
 ul { margin: 0; padding: 0; }
