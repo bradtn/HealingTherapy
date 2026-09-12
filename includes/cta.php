@@ -22,7 +22,7 @@ $cta_copy = $cta_copy ?? 'Your mental health matters. Reach out today to schedul
                 <svg class="ico ico--arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
             </a>
             <a class="btn btn--pill btn--ghost-light" href="<?php echo PHONE_LINK; ?>">
-                Call <?php echo PHONE; ?>
+Call&nbsp;<span style="white-space:nowrap"><?php echo PHONE; ?></span>
             </a>
         </div>
         <p class="cta-band__meta">

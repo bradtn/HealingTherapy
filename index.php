@@ -96,7 +96,7 @@ $schema_json = json_encode([
                         </a>
                         <a class="btn btn--pill hero__call" href="tel:313-654-1915" aria-label="Call or text Healing Therapy Center at 313-654-1915">
                             <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
-                            Call or Text&nbsp;<strong>313-654-1915</strong>
+                            Call or Text&nbsp;<strong style="white-space:nowrap">313-654-1915</strong>
                         </a>
                     </div>
                 </div>
