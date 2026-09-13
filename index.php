@@ -19,6 +19,7 @@ $schema_json = json_encode([
     'name' => 'Healing Therapy Center',
     'description' => 'Mental health therapy center in Michigan offering individual therapy, couples counseling, trauma therapy, EMDR, autism and ADHD testing',
     'url' => 'https://www.healingtherapycenter.com',
+    'image' => 'https://www.healingtherapycenter.com/assets/img/hel_logo.webp',
     'telephone' => '+13136541915',
     'email' => 'info@healingtherapycenter.com',
     'address' => [
@@ -65,7 +66,12 @@ $schema_json = json_encode([
             ['@type' => 'Offer', 'itemOffered' => ['@type' => 'Service', 'name' => 'FEP Blue Mental Health Services', 'description' => 'Therapy services for federal employees with FEP Blue insurance coverage']]
         ]
     ],
-    'audience' => ['@type' => 'PeopleAudience', 'audienceType' => 'Patients seeking mental health services']
+    'audience' => ['@type' => 'PeopleAudience', 'audienceType' => 'Patients seeking mental health services'],
+    'sameAs' => [
+        'https://www.facebook.com/people/Healing-Therapy-Center/61566519586496/',
+        'https://www.instagram.com/Healingtherapycenter_/',
+        'https://www.tiktok.com/@healingtherapycenter'
+    ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 ?>
 <!DOCTYPE html>
