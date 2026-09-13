@@ -56,8 +56,13 @@ if (!defined('BUSINESS_NAME')) {
                     <li><a href="/trauma-ptsd-treatment">Trauma &amp; PTSD Treatment</a></li>
                     <li><a href="/postpartum-depression-therapy-michigan">Postpartum Depression Therapy</a></li>
                     <li><a href="/womens-mental-health-therapy-michigan">Women's Mental Health</a></li>
+                    <li><a href="/seasonal-affective-disorder-therapy-michigan">Seasonal Affective Disorder</a></li>
                     <li><a href="/executive-stress-therapy-michigan">Executive Stress Therapy</a></li>
                     <li><a href="/physician-burnout-therapy-michigan">Physician Burnout Therapy</a></li>
+                    <li><a href="/nurse-burnout-therapy-michigan">Nurse Burnout &amp; Compassion Fatigue</a></li>
+                    <li><a href="/attorney-therapy-michigan">Therapy for Attorneys</a></li>
+                    <li><a href="/entrepreneur-burnout-therapy-michigan">Therapy for Entrepreneurs</a></li>
+                    <li><a href="/first-responder-therapy-michigan">First Responder Therapy</a></li>
                     <li><a href="/premarital-counseling-michigan">Premarital Counseling</a></li>
                     <li><a href="/fep-blue-federal-employee-therapy">FEP Blue &amp; Federal Employees</a></li>
                 </ul>
@@ -70,6 +75,7 @@ if (!defined('BUSINESS_NAME')) {
                     <li><a href="/priority-health-therapy-michigan">Priority Health</a></li>
                     <li><a href="/aetna-therapy-michigan">Aetna</a></li>
                     <li><a href="/united-healthcare-therapy-michigan">United Healthcare</a></li>
+                    <li><a href="/private-pay-out-of-network-therapy">Private-Pay &amp; Out-of-Network</a></li>
                 </ul>
                 <h2 class="site-footer__h-gap">Areas We Serve</h2>
                 <ul>
@@ -80,6 +86,10 @@ if (!defined('BUSINESS_NAME')) {
                     <li><a href="/therapist-troy-mi">Troy</a></li>
                     <li><a href="/therapist-birmingham-mi">Birmingham</a></li>
                     <li><a href="/therapist-rochester-hills-mi">Rochester Hills</a></li>
+                    <li><a href="/therapist-bloomfield-hills-mi">Bloomfield Hills</a></li>
+                    <li><a href="/therapist-novi-mi">Novi</a></li>
+                    <li><a href="/therapist-northville-mi">Northville</a></li>
+                    <li><a href="/therapist-grosse-pointe-mi">Grosse Pointe</a></li>
                 </ul>
             </nav>
 
