@@ -35,6 +35,7 @@ $schema_json = json_encode([
         'latitude' => '42.3075635',
         'longitude' => '-83.2460474'
     ],
+    'hasMap' => 'https://www.google.com/maps?cid=12394221115566719392',
     'areaServed' => [
         ['@type' => 'City', 'name' => 'Dearborn'],
         ['@type' => 'City', 'name' => 'Detroit'],
@@ -68,6 +69,7 @@ $schema_json = json_encode([
     ],
     'audience' => ['@type' => 'PeopleAudience', 'audienceType' => 'Patients seeking mental health services'],
     'sameAs' => [
+        'https://www.google.com/maps?cid=12394221115566719392',
         'https://www.facebook.com/people/Healing-Therapy-Center/61566519586496/',
         'https://www.instagram.com/Healingtherapycenter_/',
         'https://www.tiktok.com/@healingtherapycenter'
