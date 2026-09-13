@@ -59,6 +59,11 @@ $schema_json = json_encode([
         ['@type' => 'OpeningHoursSpecification', 'dayOfWeek' => 'Saturday', 'opens' => '09:00', 'closes' => '14:00']
     ],
     'priceRange' => '$$',
+    'aggregateRating' => [
+        '@type' => 'AggregateRating',
+        'ratingValue' => '4.8',
+        'reviewCount' => '38'
+    ],
     'hasOfferCatalog' => [
         '@type' => 'OfferCatalog',
         'name' => 'Therapy Services',
