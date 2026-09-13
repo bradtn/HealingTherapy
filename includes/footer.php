@@ -132,4 +132,4 @@ if (!defined('BUSINESS_NAME')) {
     </a>
 </div>
 
-<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/main.js?v=<?php echo defined('V2_CSS_VERSION') ? V2_CSS_VERSION : '1'; ?>" defer></script>

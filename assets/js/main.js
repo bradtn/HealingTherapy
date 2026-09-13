@@ -92,8 +92,10 @@
     /* Sticky mobile appointment CTA: appears after the hero CTA scrolls
        out of view, retires while the final CTA band / footer are visible */
     var stickyCta = document.getElementById('sticky-cta');
-    var heroActions = document.querySelector('.hero__actions');
-    if (stickyCta && heroActions && 'IntersectionObserver' in window) {
+    /* Home uses the hero CTA buttons as the trigger; other pages fall back to
+       their page/image hero so the bar shows site-wide (mobile) once scrolled past */
+    var stickyTrigger = document.querySelector('.hero__actions') || document.querySelector('.page-hero, .img-hero');
+    if (stickyCta && stickyTrigger && 'IntersectionObserver' in window) {
         var pastHero = false, nearEnd = false;
         var update = function () {
             var show = pastHero && !nearEnd && !document.body.classList.contains('nav-open');
@@ -103,7 +105,7 @@
         new IntersectionObserver(function (entries) {
             pastHero = !entries[0].isIntersecting && entries[0].boundingClientRect.top < 0;
             update();
-        }).observe(heroActions);
+        }).observe(stickyTrigger);
         var endMarkers = document.querySelectorAll('.cta-band, .site-footer');
         var endVisible = new Map();
         var endIO = new IntersectionObserver(function (entries) {
