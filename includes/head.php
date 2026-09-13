@@ -73,6 +73,24 @@ $og_image = $og_image ?? OG_IMAGE_DEFAULT;
 
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
 
+<?php
+// BreadcrumbList schema (Home > current page), generated for non-home pages
+if (isset($canonical_url) && defined('SITE_URL') && rtrim($canonical_url, '/') !== rtrim(SITE_URL, '/')) {
+    $bc_name = isset($page_title) ? $page_title : '';
+    $bc_name = preg_split('/\s[|\x{2013}\x{2014}-]\s/u', $bc_name)[0]; // label before " | ", " – ", " — ", " - "
+    $bc_name = trim(html_entity_decode($bc_name, ENT_QUOTES, 'UTF-8'));
+    $breadcrumb_json = json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'BreadcrumbList',
+        'itemListElement' => [
+            ['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => rtrim(SITE_URL, '/') . '/'],
+            ['@type' => 'ListItem', 'position' => 2, 'name' => $bc_name, 'item' => $canonical_url],
+        ],
+    ], JSON_UNESCAPED_SLASHES);
+    echo "    <script type=\"application/ld+json\">\n    " . $breadcrumb_json . "\n    </script>\n";
+}
+?>
+
 <?php if (!V2_PREVIEW): ?>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo GA_TRACKING_ID; ?>"></script>
