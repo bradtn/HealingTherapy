@@ -249,6 +249,34 @@ $emailBody = '
 // ============================================
 $success = mail($EmailTo, $emailSubject, $emailBody, implode("\r\n", $headers));
 
+// ---------------------------------------------------------------------------
+// TEMP DIAGNOSTIC (remove once appointment delivery is confirmed).
+// Fire a plain-text CONTROL email identical in style to mailtest.php (which
+// delivers). If the control arrives but the real appointment email does not,
+// the appointment email's HTML/subject is being filtered. If NEITHER arrives,
+// the problem is not the content. Both results are also written to a log file.
+// ---------------------------------------------------------------------------
+$controlHeaders = [
+    'From: Healing Therapy Center <info@healingtherapycenter.com>',
+    'Reply-To: info@healingtherapycenter.com',
+    'X-Mailer: PHP/' . phpversion(),
+    'MIME-Version: 1.0',
+    'Content-Type: text/plain; charset=UTF-8',
+];
+$controlSubject = 'Appointment CONTROL test ' . date('H:i:s');
+$controlBody = "Plain-text control email sent from appointment.php at " . date('c') . ".\n"
+    . "If you receive THIS but not the styled appointment email, the appointment email content is being filtered.\n";
+$controlOk = mail($EmailTo, $controlSubject, $controlBody, implode("\r\n", $controlHeaders));
+
+@file_put_contents(
+    __DIR__ . '/appointment_debug.log',
+    date('c') . ' | main_mail()=' . var_export($success, true)
+        . ' | control_mail()=' . var_export($controlOk, true)
+        . ' | to=' . $EmailTo
+        . ' | subject=' . $emailSubject . "\n",
+    FILE_APPEND
+);
+
 // ============================================
 // 7. UPDATE RATE LIMIT & RESPOND
 // ============================================
