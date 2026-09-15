@@ -184,7 +184,6 @@ $insurance = substr($insurance, 0, 100);
 // ============================================
 
 $safeEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
-$telHref = 'tel:' . preg_replace('/[^0-9+]/', '', $phone);
 $headers = [
     'From: Healing Therapy Center <info@healingtherapycenter.com>',
     'Reply-To: ' . $safeEmail,
@@ -194,14 +193,9 @@ $headers = [
     'X-Priority: 3'  // Normal priority — matches contact form for consistent deliverability
 ];
 
-// Descriptive subject: name + the most useful details the person actually gave,
-// in priority order (insurance, therapist, date) and capped at two so it stays short.
-$subjectBits = [];
-if ($insurance !== '') $subjectBits[] = $insurance;
-if ($preferredDoctor !== '' && strtolower($preferredDoctor) !== 'no preference') $subjectBits[] = 'prefers ' . $preferredDoctor;
-if ($preferredDate !== '' && strtolower($preferredDate) !== 'not specified') $subjectBits[] = $preferredDate;
-$subjectBits = array_slice($subjectBits, 0, 2);
-$emailSubject = "New appointment request — " . $name . (count($subjectBits) ? ' (' . implode(', ', $subjectBits) . ')' : '');
+// Keep the subject simple to match the contact form (which delivers reliably).
+// The insurance / therapist / date details are all shown in the email body below.
+$emailSubject = "New appointment request from " . $name;
 $emailSubject = substr(preg_replace('/[\r\n]/', '', $emailSubject), 0, 150);
 
 $submittedAt = date('l, F j, Y \a\t g:i A');
@@ -216,7 +210,7 @@ $row = function ($label, $value) {
 
 $rows = $row('Name', $name);
 $rows .= $row('Email', '<a href="mailto:' . $safeEmail . '" style="color:#245C78">' . $safeEmail . '</a>');
-$rows .= $row('Phone', '<a href="' . $telHref . '" style="color:#245C78">' . $phone . '</a>');
+$rows .= $row('Phone', $phone);
 $rows .= $row('Preferred date', $preferredDate);
 $rows .= $row('Preferred therapist', $preferredDoctor);
 if ($insurance !== '') {
@@ -232,9 +226,6 @@ $emailBody = '
     <div style="background:#245C78;padding:22px 28px">
       <div style="color:#FFFFFF;font-size:19px;font-weight:bold;letter-spacing:.3px">Healing Therapy Center</div>
       <div style="color:#CFE0E8;font-size:13px;margin-top:3px">New appointment request</div>
-    </div>
-    <div style="background:#FBF4F1;border-bottom:1px solid #F0E3DD;padding:12px 28px;color:#B4634F;font-size:13px;font-weight:bold">
-      Please contact this person within 24 hours.
     </div>
     <div style="padding:26px 28px 8px">
       <table style="width:100%;border-collapse:collapse">' . $rows . '</table>
