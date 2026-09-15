@@ -191,7 +191,7 @@ $headers = [
     'X-Mailer: PHP/' . phpversion(),
     'MIME-Version: 1.0',
     'Content-Type: text/html; charset=UTF-8',
-    'X-Priority: 1'  // High priority for appointments
+    'X-Priority: 3'  // Normal priority — matches contact form for consistent deliverability
 ];
 
 // Descriptive subject: name + the most useful details the person actually gave,
