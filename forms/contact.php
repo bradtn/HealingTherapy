@@ -148,16 +148,7 @@ $referral = substr($referral, 0, 100);
 // 5. BUILD SECURE EMAIL (branded HTML)
 // ============================================
 
-// Safe headers - prevent email injection
 $safeEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
-$headers = [
-    'From: Healing Therapy Center <info@healingtherapycenter.com>',
-    'Reply-To: ' . $safeEmail,
-    'X-Mailer: PHP/' . phpversion(),
-    'MIME-Version: 1.0',
-    'Content-Type: text/html; charset=UTF-8',
-    'X-Priority: 3'
-];
 
 // Descriptive subject line: who + what, plus insurance when they selected one
 $emailSubject = "New message from " . $name . " — " . $subject;
@@ -215,9 +206,10 @@ $emailBody = '
 </div>';
 
 // ============================================
-// 6. SEND EMAIL
+// 6. SEND EMAIL (via Resend API — reliable delivery)
 // ============================================
-$success = mail($EmailTo, $emailSubject, $emailBody, implode("\r\n", $headers));
+require_once __DIR__ . '/send_mail.php';
+$success = ht_send_email($emailSubject, $emailBody, $safeEmail);
 
 // ============================================
 // 7. UPDATE RATE LIMIT & RESPOND
