@@ -5,9 +5,6 @@ forms/appointment_rate_limit.txt
 # Mail credentials — Resend API key lives only on the server, never in git
 forms/mail_config.php
 
-# Temporary diagnostic log
-forms/appointment_debug.log
-
 # OS / editor noise
 .DS_Store
 Thumbs.db
