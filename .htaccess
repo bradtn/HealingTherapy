@@ -37,6 +37,7 @@ RewriteRule ^ - [L]
 #    (which hold recent visitors' IP addresses) are all publicly downloadable.
 #    They get the site's 404 page (404.php sends the 404 status itself). The bare folder
 #    names answer 404 directly, before Apache's add-a-trailing-slash redirect can reveal them.
+RewriteRule (^|/)\.git(/|$) - [R=404,L]
 RewriteRule ^(docs|scripts|backup-html-originals|includes)$ - [R=404,L]
 RewriteRule ^(docs|scripts|backup-html-originals|includes)/ /404.php [L]
 RewriteRule ^(router\.php|\.gitignore)$ /404.php [L]
