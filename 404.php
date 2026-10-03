@@ -1,10 +1,10 @@
 <?php
 // Error page — .htaccess serves it for ErrorDocument 404/403/500 (and router.php for 404s).
-// Not indexable and no canonical. Keeps the status Apache set for the error; a direct
-// request for /404 still gets a real 404 rather than a soft-404 200.
-if (http_response_code() === 200) {
-    http_response_code(404);
-}
+// Not indexable and no canonical. Apache passes the original error status in REDIRECT_STATUS
+// under mod_php, CGI and FastCGI alike; keep it (a 403 or 500 must not turn into a 404).
+// A direct request for /404 has no error status, so it gets a real 404 rather than a soft 404.
+$ht_error_status = (int) ($_SERVER['REDIRECT_STATUS'] ?? 0);
+http_response_code($ht_error_status >= 400 ? $ht_error_status : 404);
 
 $page_title = 'Page Not Found | Healing Therapy Center';
 $page_description = 'The page you were looking for could not be found. Browse our therapy services, meet our therapists, or request an appointment.';
