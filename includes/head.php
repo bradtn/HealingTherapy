@@ -3,7 +3,9 @@
  * V2 HTML Head
  * Same contract as /includes/head.php:
  *   required: $page_title, $page_description, $canonical_url
- *   optional: $og_title, $og_description, $og_image, $schema_json
+ *             ($canonical_url = '' omits canonical, og:url and breadcrumb — error pages only)
+ *   optional: $og_title, $og_description, $og_image, $schema_json,
+ *             $meta_robots (e.g. 'noindex, follow')
  *
  * V2_PREVIEW (false in production) is retained so the design can still be
  * staged noindexed in a subfolder if needed; live pages index normally and
@@ -31,6 +33,8 @@ $og_image = $og_image ?? OG_IMAGE_DEFAULT;
     <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
 <?php if (V2_PREVIEW): ?>
     <meta name="robots" content="noindex, nofollow">
+<?php elseif (!empty($meta_robots)): ?>
+    <meta name="robots" content="<?php echo htmlspecialchars($meta_robots); ?>">
 <?php endif; ?>
 
     <!-- Google Search Console Verification -->
@@ -40,7 +44,9 @@ $og_image = $og_image ?? OG_IMAGE_DEFAULT;
     <meta property="og:site_name" content="<?php echo BUSINESS_NAME; ?>">
     <meta property="og:title" content="<?php echo htmlspecialchars($og_title); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($og_description); ?>">
+<?php if (!empty($canonical_url)): ?>
     <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url); ?>">
+<?php endif; ?>
     <meta property="og:type" content="website">
     <meta property="og:image" content="<?php echo htmlspecialchars($og_image); ?>">
 
@@ -71,11 +77,13 @@ $og_image = $og_image ?? OG_IMAGE_DEFAULT;
     </script>
 <?php endif; ?>
 
+<?php if (!empty($canonical_url)): ?>
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
+<?php endif; ?>
 
 <?php
 // BreadcrumbList schema (Home > current page), generated for non-home pages
-if (isset($canonical_url) && defined('SITE_URL') && rtrim($canonical_url, '/') !== rtrim(SITE_URL, '/')) {
+if (!empty($canonical_url) && defined('SITE_URL') && rtrim($canonical_url, '/') !== rtrim(SITE_URL, '/')) {
     $bc_name = isset($page_title) ? $page_title : '';
     $bc_name = preg_split('/\s[|\x{2013}\x{2014}-]\s/u', $bc_name)[0]; // label before " | ", " – ", " — ", " - "
     $bc_name = trim(html_entity_decode($bc_name, ENT_QUOTES, 'UTF-8'));

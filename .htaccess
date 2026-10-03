@@ -20,41 +20,72 @@ ErrorDocument 404 /404.php
 ErrorDocument 403 /404.php
 ErrorDocument 500 /404.php
 
-# 4. 301 Redirects for renamed files
-Redirect 301 /coping-with-postpartum-pepression.html /coping-with-postpartum-depression.html
-Redirect 301 /is-austim-curable.html /is-autism-curable.html
-Redirect 301 /tiffany-murray.html /dr-tiffany-murray.html
-
-# 4. Force HTTPS and normalize www/non-www
 RewriteEngine On
 
-# Force HTTPS
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Apache re-runs these rules on its own internal redirects (the ErrorDocument page and the
+# clean-URL -> .php rewrite at the bottom). Only the browser's original request may be
+# redirected; otherwise an error page gets redirected too (a 404 for /x.php became a 301 to /404).
+RewriteCond %{ENV:REDIRECT_STATUS} !^$
+RewriteRule ^ - [L]
 
-# Redirect non-www to www (canonical domain normalization)
-RewriteCond %{HTTP_HOST} ^healingtherapycenter\.com$ [NC]
-RewriteRule ^(.*)$ https://www.healingtherapycenter.com/$1 [L,R=301]
+# 4. Keep repo-only files off the public site. The whole project folder gets uploaded,
+#    so without this the docs, tooling, old HTML backups (with the old address), PHP
+#    partials, the dev router, SEO/CSV exports and the form handlers' rate-limit files
+#    (which hold recent visitors' IP addresses) are all publicly downloadable.
+RewriteRule ^(docs|scripts|backup-html-originals|includes)(/|$) - [R=404,L]
+RewriteRule ^(router\.php|\.gitignore)$ - [R=404,L]
+RewriteRule ^forms/.+\.txt$ - [R=404,L]
+RewriteRule \.(md|csv|py|sh|zip|log)$ - [R=404,L]
 
-# 4b. Remove .html extension from URLs
-# Redirect /index to root (prevent duplicate content)
-RewriteRule ^index/?$ / [L,R=301]
+# 5. Legacy and duplicate URLs -> the canonical https://www clean URL in ONE hop.
+#    These run before the protocol/host rule below so that http:// and non-www
+#    legacy URLs no longer chain through two or three redirects.
 
-# Redirect .html URLs to clean URLs (except Google verification files)
-RewriteCond %{THE_REQUEST} ^(GET|HEAD)\ /[^\ ]+\.html
+# Renamed pages (old typo URLs)
+RewriteRule ^coping-with-postpartum-pepression(\.html)?$ https://www.healingtherapycenter.com/coping-with-postpartum-depression [L,R=301]
+RewriteRule ^is-austim-curable(\.html)?$ https://www.healingtherapycenter.com/is-autism-curable [L,R=301]
+RewriteRule ^tiffany-murray(\.html)?$ https://www.healingtherapycenter.com/dr-tiffany-murray [L,R=301]
+
+# Homepage aliases (/index, /index.php, /index.html) -> /
+# THE_REQUEST (the browser's own request line) keeps this from firing on Apache's
+# internal DirectoryIndex lookup of index.php, which would loop.
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /index(\.php|\.html)?/?[?\ ]
+RewriteRule ^ https://www.healingtherapycenter.com/ [L,R=301]
+
+# .html -> clean URL (except Google verification files), e.g. /appointment.html -> /appointment
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /[^\ ?]+\.html[?\ ]
 RewriteCond %{REQUEST_URI} !^/google[a-zA-Z0-9]+\.html$ [NC]
-RewriteRule ^(.*)\.html$ /$1 [L,R=301]
+RewriteRule ^(.+)\.html$ https://www.healingtherapycenter.com/$1 [L,R=301]
 
-# Internally rewrite clean URLs to .php files first (for refactored pages), then .html files
+# .php -> clean URL for top-level pages, e.g. /appointment.php -> /appointment.
+# Only the browser's own GET/HEAD requests; the form handlers live in /forms/ and are untouched.
+RewriteCond %{THE_REQUEST} ^(GET|HEAD)\ /[^/\ ?]+\.php[?\ ]
+RewriteRule ^([^/]+)\.php$ https://www.healingtherapycenter.com/$1 [L,R=301]
+
+# Trailing slash -> no trailing slash (anything that isn't a real directory).
+# Previously /page/ looped internally (page/.php, page/.php.php, ...) and returned a 500.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ https://www.healingtherapycenter.com/$1 [L,R=301]
+
+# 6. Canonical protocol + host: http:// or the bare domain -> https://www, in one hop
+#    (previously http://healingtherapycenter.com went to https://healingtherapycenter.com
+#    first, then to www). SSL certificate validation requests are left alone.
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^healingtherapycenter\.com$ [NC]
+RewriteRule ^ https://www.healingtherapycenter.com%{REQUEST_URI} [L,R=301]
+
+# 7. Serve clean URLs from their .php file (then legacy .html). Top-level slugs only,
+#    so a stray slash or dot can never feed the rewrite back into itself.
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.+)$ $1.php [L,QSA]
+RewriteRule ^([^/.]+)$ $1.php [L,QSA]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.+)$ $1.html [L,QSA]
+RewriteRule ^([^/.]+)$ $1.html [L,QSA]
 
 # 4c. MIME type for AVIF (required: nosniff header prevents type-guessing)
 <IfModule mod_mime.c>

@@ -5,6 +5,9 @@ forms/appointment_rate_limit.txt
 # Mail credentials — Resend API key lives only on the server, never in git
 forms/mail_config.php
 
+# Search Console / crawler exports are data, not code — keep them out of this public repo
+*.zip
+
 # OS / editor noise
 .DS_Store
 Thumbs.db
