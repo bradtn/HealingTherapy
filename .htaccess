@@ -16,6 +16,9 @@
 </FilesMatch>
 
 # 3. Custom Error Pages
+# The live host overrides these (every error comes back as a bare "404 Not Found"), so
+# missing pages and blocked paths are routed to /404.php by the rewrite rules below instead.
+# Kept for other servers and for 403/500.
 ErrorDocument 404 /404.php
 ErrorDocument 403 /404.php
 ErrorDocument 500 /404.php
@@ -32,10 +35,13 @@ RewriteRule ^ - [L]
 #    so without this the docs, tooling, old HTML backups (with the old address), PHP
 #    partials, the dev router, SEO/CSV exports and the form handlers' rate-limit files
 #    (which hold recent visitors' IP addresses) are all publicly downloadable.
-RewriteRule ^(docs|scripts|backup-html-originals|includes)(/|$) - [R=404,L]
-RewriteRule ^(router\.php|\.gitignore)$ - [R=404,L]
-RewriteRule ^forms/.+\.txt$ - [R=404,L]
-RewriteRule \.(md|csv|py|sh|zip|log)$ - [R=404,L]
+#    They get the site's 404 page (404.php sends the 404 status itself). The bare folder
+#    names answer 404 directly, before Apache's add-a-trailing-slash redirect can reveal them.
+RewriteRule ^(docs|scripts|backup-html-originals|includes)$ - [R=404,L]
+RewriteRule ^(docs|scripts|backup-html-originals|includes)/ /404.php [L]
+RewriteRule ^(router\.php|\.gitignore)$ /404.php [L]
+RewriteRule ^forms/.+\.txt$ /404.php [L]
+RewriteRule \.(md|csv|py|sh|zip|log)$ /404.php [L]
 
 # 5. Legacy and duplicate URLs -> the canonical https://www clean URL in ONE hop.
 #    These run before the protocol/host rule below so that http:// and non-www
@@ -86,6 +92,13 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^([^/.]+)$ $1.html [L,QSA]
+
+# 8. Any other page that doesn't exist: the site's 404 page instead of the host's bare
+#    "404 Not Found". Missing images, scripts and other assets keep the cheap bare 404.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !\.(css|js|map|png|jpe?g|gif|webp|avif|svg|ico|woff2?|ttf|eot|pdf|txt|xml|json)$ [NC]
+RewriteRule ^ /404.php [L]
 
 # 4c. MIME type for AVIF (required: nosniff header prevents type-guessing)
 <IfModule mod_mime.c>
