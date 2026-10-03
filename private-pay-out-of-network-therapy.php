@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Private-Pay & Out-of-Network Therapy in Michigan';
-$page_description = 'Private-pay & out-of-network therapy in Michigan for complete confidentiality and freedom - no diagnosis on your insurance record. Superbill & HSA/FSA. (313) 654-1915';
+$page_description = 'Private-pay and out-of-network therapy in Michigan: nothing billed to insurance, superbills on request, HSA/FSA accepted. Dearborn office or telehealth.';
 $canonical_url = 'https://www.healingtherapycenter.com/private-pay-out-of-network-therapy';
 
 // Service + FAQPage Schema for SEO
@@ -54,7 +54,7 @@ $schema_json = json_encode([
                     'name' => 'What are out-of-network benefits and can I still get reimbursed?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
-                        'text' => 'Many PPO plans include out-of-network benefits that reimburse a portion of what you pay for therapy. We can provide a superbill - an itemized receipt - that you submit to your insurer for possible partial reimbursement. Reimbursement depends on your specific plan, so we recommend confirming your out-of-network mental-health benefits directly with your insurer.'
+                        'text' => 'Many PPO plans include out-of-network benefits that reimburse a portion of what you pay for therapy. We can provide a superbill - an itemized receipt - that you submit to your insurer for possible partial reimbursement. If you submit a superbill, your insurer receives that claim, including a diagnosis, so private-pay confidentiality applies only to sessions you do not submit. Reimbursement depends on your specific plan, so we recommend confirming your out-of-network mental-health benefits directly with your insurer.'
                     ]
                 ],
                 [
@@ -171,7 +171,7 @@ require_once __DIR__ . '/includes/config.php';
                     </div>
                     <div class="faq-item">
                         <h3>What are out-of-network benefits and can I still get reimbursed?</h3>
-                        <p>Many PPO plans include out-of-network benefits that reimburse a portion of what you pay for therapy. We can provide a superbill - an itemized receipt - that you submit to your insurer for possible partial reimbursement. Reimbursement depends on your specific plan, so we recommend confirming your out-of-network mental-health benefits directly with your insurer.</p>
+                        <p>Many PPO plans include out-of-network benefits that reimburse a portion of what you pay for therapy. We can provide a superbill - an itemized receipt - that you submit to your insurer for possible partial reimbursement. If you submit a superbill, your insurer receives that claim, including a diagnosis, so private-pay confidentiality applies only to sessions you do not submit. Reimbursement depends on your specific plan, so we recommend confirming your out-of-network mental-health benefits directly with your insurer.</p>
                     </div>
                     <div class="faq-item">
                         <h3>Can I use my HSA or FSA to pay for private-pay therapy?</h3>

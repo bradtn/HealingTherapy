@@ -218,7 +218,7 @@ $schema_json = json_encode([
                     </div>
                     <div class="panel">
                         <h3>Telehealth Available</h3>
-                        <p>Secure online sessions for Michigan residents. Equally effective, more convenient.</p>
+                        <p><a href="/telehealth-therapy">Secure online sessions</a> for Michigan residents. Equally effective, more convenient.</p>
                     </div>
                     <div class="panel">
                         <h3>Insurance Accepted</h3>

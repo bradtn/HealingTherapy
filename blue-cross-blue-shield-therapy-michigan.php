@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'BCBS Therapy Michigan | Blue Cross Mental Health';
-$page_description = 'BCBS Michigan in-network therapy in Dearborn. Individual & couples counseling, ADHD testing & trauma treatment with Blue Cross Blue Shield. (313) 654-1915.';
+$page_title = 'Blue Cross Blue Shield of Michigan Therapists | Dearborn';
+$page_description = 'Dearborn therapists in-network with Blue Cross Blue Shield of Michigan & Blue Care Network: counseling, couples therapy & ADHD testing. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/blue-cross-blue-shield-therapy-michigan';
 $current_service = 'individual';
 
@@ -91,7 +91,7 @@ $schema_json = json_encode([
     <section class="page">
         <div class="shell">
             <article class="prose">
-                <p>We accept most BCBS Michigan plans including PPO, HMO, and Blue Care Network for individual therapy, couples counseling, family therapy, ADHD testing, autism evaluations, and trauma treatment services.</p>
+                <p>We accept most BCBS Michigan plans including PPO, HMO, and Blue Care Network for individual therapy, couples counseling, family therapy, ADHD testing, autism evaluations, and trauma treatment services. Federal employees can also read about <a href="/fep-blue-federal-employee-therapy">FEP Blue therapy for federal employees</a>.</p>
 
                 <div class="callout">
                     <h3>We Accept Blue Cross Blue Shield Michigan</h3>
@@ -178,7 +178,7 @@ $schema_json = json_encode([
                     <li><strong>In-Network Provider:</strong> We're in-network with BCBS Michigan, which means lower out-of-pocket costs for you</li>
                     <li><strong>We Handle All Billing:</strong> No paperwork, no claim submissions - we bill BCBS directly</li>
                     <li><strong>Benefits Verification:</strong> We check your coverage before your first appointment so there are no surprises</li>
-                    <li><strong>Experienced Therapists:</strong> Licensed professionals (PhD, LMSW, LLMSW) who accept BCBS insurance</li>
+                    <li><strong>Experienced Therapists:</strong> Licensed professionals (PhD, LMSW) who accept BCBS insurance</li>
                     <li><strong>Convenient Location:</strong> Easy access from Dearborn, Detroit, Livonia, Ann Arbor, and Metro Detroit</li>
                     <li><strong>Telehealth Available:</strong> Online therapy throughout Michigan - covered by most BCBS plans</li>
                     <li><strong>Evening &amp; Weekend Hours:</strong> Flexible scheduling to fit your work schedule</li>

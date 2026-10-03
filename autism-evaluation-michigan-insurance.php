@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables
-$page_title = 'Autism Evaluation Michigan: Insurance Coverage Guide';
+$page_title = 'Does Insurance Cover Autism Evaluations in Michigan?';
 $page_description = 'Autism evaluation guide for Michigan families: the assessment process, what BCBS, Aetna & other insurance covers, and scheduling in Dearborn.';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-evaluation-michigan-insurance';
 
@@ -94,7 +94,7 @@ require_once __DIR__ . '/includes/config.php';
 
                 <p>If you're a parent in Michigan wondering whether your child might be on the autism spectrum, you're not alone. Many families in Dearborn, Detroit, and throughout Wayne and Oakland counties have the same questions: <em>How do I get my child evaluated? Will my insurance cover it? What should I expect?</em></p>
 
-                <p>At <a href="/">Healing Therapy Center</a>, we provide comprehensive autism evaluations for children in Metro Detroit. This guide will walk you through everything you need to know about the evaluation process and how to use your insurance benefits.</p>
+                <p>At <a href="/">Healing Therapy Center</a>, we provide <a href="/autism-evaluation">comprehensive autism evaluations</a> for children in Metro Detroit. This guide will walk you through everything you need to know about the evaluation process and how to use your insurance benefits.</p>
 
                 <h2>Signs Your Child May Need an Autism Evaluation</h2>
                 <p>Every child develops differently, but certain patterns may indicate it's time to seek a professional evaluation. Consider scheduling an assessment if your child shows:</p>
@@ -131,10 +131,10 @@ require_once __DIR__ . '/includes/config.php';
                 <h3>Insurance Plans We Accept</h3>
                 <p>Healing Therapy Center is in-network with many of Michigan's largest insurance providers:</p>
                 <ul>
-                    <li><strong>Blue Cross Blue Shield of Michigan (BCBS)</strong></li>
-                    <li><strong>Aetna</strong></li>
+                    <li><strong><a href="/blue-cross-blue-shield-therapy-michigan">Blue Cross Blue Shield of Michigan (BCBS)</a></strong></li>
+                    <li><strong><a href="/aetna-therapy-michigan">Aetna</a></strong></li>
                     <li><strong>McLaren Health Plan</strong></li>
-                    <li><strong>Priority Health</strong></li>
+                    <li><strong><a href="/priority-health-therapy-michigan">Priority Health</a></strong></li>
                     <li><strong>HAP (Health Alliance Plan)</strong></li>
                 </ul>
 

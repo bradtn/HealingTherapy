@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Free Autism Screening Tool | M-CHAT-R Assessment';
-$page_description = 'Free online autism screening tool (M-CHAT-R) for children 16-30 months. Quick assessment to determine if autism evaluation is needed. Call (313) 654-1915';
+$page_title = 'Free Toddler Autism Screening Questionnaire (M-CHAT-R)';
+$page_description = 'Free online M-CHAT-R questionnaire for toddlers 16-30 months. A screening, not a diagnosis: it helps show whether a full autism evaluation is recommended.';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-screening-tool';
 
 require_once __DIR__ . '/includes/config.php';
@@ -56,8 +56,8 @@ $schema_json = json_encode([
 
     <?php
     $hero_eyebrow = 'Free Screening';
-    $hero_h1 = 'Free Autism Spectrum Disorder (ASD) Screening Questionnaire';
-    $hero_lead = "<strong>Early detection makes a difference.</strong> This free screening questionnaire uses the M-CHAT-R (Modified Checklist for Autism in Toddlers, Revised) to help identify potential signs of autism spectrum disorder in children. The M-CHAT-R assessment is designed for children ages 16-30 months. <em>Note: This questionnaire is a screening tool only — professional evaluation is recommended for diagnosis.</em>";
+    $hero_h1 = 'Free Autism Spectrum Disorder (ASD) Screening Questionnaire for Toddlers';
+    $hero_lead = "<strong>Early detection makes a difference.</strong> This free screening questionnaire uses the M-CHAT-R (Modified Checklist for Autism in Toddlers, Revised) to help identify potential signs of autism spectrum disorder in children. The M-CHAT-R assessment is designed for children ages 16-30 months. <em>Note: This questionnaire is a screening tool only — a <a href='/autism-evaluation'>professional autism evaluation</a> is recommended for diagnosis.</em>";
     $hero_cta = false;
     include __DIR__ . '/includes/page-hero.php';
     ?>
@@ -134,9 +134,9 @@ $schema_json = json_encode([
                 </div>
             </div>
             <div class="spec__list" style="margin-top:1.5rem">
-                <li style="list-style:none"><a href="/#hero">Insurance Accepted</a></li>
+                <li style="list-style:none"><a href="/insurance">Insurance Accepted</a></li>
                 <li style="list-style:none"><a href="/therapists">Licensed Therapists</a></li>
-                <li style="list-style:none"><a href="/autism-evaluation">Evidence-Based</a></li>
+                <li style="list-style:none"><a href="/autism-evaluation">Autism Evaluations</a></li>
             </div>
         </div>
     </section>

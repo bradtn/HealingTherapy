@@ -88,6 +88,7 @@ $schema_json = json_encode([
 
                 <h3>Our Therapists</h3>
                 <p>Our team of compassionate and skilled therapists brings over 20 combined years of experience to Healing Therapy Center. We are committed to ongoing professional development and staying current with the latest research and techniques in group therapy. Our goal is to provide you with the highest quality care and support.</p>
+                <p><a href="/donna-majed">Donna Majed, TLLP</a>, offers individual and group therapy with a focus on women&rsquo;s mental health.</p>
 
                 <h3>Getting Started</h3>
                 <p>Joining a group therapy session at Healing Therapy Center is simple. Contact us to learn about our current group offerings and schedule an initial consultation. During this consultation, we will discuss your needs and goals to ensure that group therapy is the right fit for you. We offer flexible scheduling options to accommodate your busy life.</p>

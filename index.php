@@ -59,11 +59,6 @@ $schema_json = json_encode([
         ['@type' => 'OpeningHoursSpecification', 'dayOfWeek' => 'Saturday', 'opens' => '09:00', 'closes' => '14:00']
     ],
     'priceRange' => '$$',
-    'aggregateRating' => [
-        '@type' => 'AggregateRating',
-        'ratingValue' => '4.8',
-        'reviewCount' => '38'
-    ],
     'hasOfferCatalog' => [
         '@type' => 'OfferCatalog',
         'name' => 'Therapy Services',
@@ -511,7 +506,7 @@ $schema_json = json_encode([
                 </div>
                 <div class="loc__body reveal" data-delay="1">
                     <p class="eyebrow">Visit Us</p>
-                    <h2 id="loc-title">Trusted Healing Therapy Services Near Me in Dearborn, MI</h2>
+                    <h2 id="loc-title">Visit Our Therapy Office in Dearborn, MI</h2>
                     <p><a href="<?php echo GOOGLE_MAPS_URL; ?>" target="_blank" rel="noopener noreferrer">Healing Therapy Center</a> is located at 835 Mason St STE D160, <a href="https://cityofdearborn.org/" target="_blank" rel="noopener noreferrer">Dearborn, MI</a> 48124, in the Dearborn Atrium Office Center in downtown West Dearborn.</p>
                     <p>To reach our center by bus, start at <a href="https://moovitapp.com/index/en/public_transit-Michigan_Oakwood_Blvd-Detroit_MI-stop_43027411-745" target="_blank" rel="noopener noreferrer">Michigan Ave &amp; Oakwood Blvd</a> and board a westbound bus along Michigan Ave, such as SMART Bus Route 200 toward Westland Mall. Travel approximately 1 mile before getting off at Michigan Ave &amp; Mason St. From there, walk a short distance south on Mason St — the Healing Therapy Center is inside the Dearborn Atrium Office Center at 835 Mason St, Suite D160.</p>
                     <p>To reach us by car, take Michigan Ave (US-12) westbound into downtown West Dearborn and turn left onto Mason St. Our center is a short distance down on Mason St, inside the Dearborn Atrium Office Center (Suite D160), with public parking available nearby.</p>

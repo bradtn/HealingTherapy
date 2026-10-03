@@ -120,7 +120,7 @@ require_once __DIR__ . '/includes/config.php';
                     <div class="panel">
                         <h3>FEP Blue - Federal Employees</h3>
                         <p><strong>Blue Cross Blue Shield Federal Employee Program</strong></p>
-                        <p>If you work for USPS, CBP, FBI, VA, or any federal agency in Michigan, we accept your FEP Blue insurance. Many FEP Blue plans offer competitive mental health coverage.</p>
+                        <p>If you work for USPS, CBP, FBI, VA, or any federal agency in Michigan, we accept your FEP Blue insurance. Many FEP Blue plans offer competitive mental health coverage. See our <a href="/fep-blue-mental-health-benefits-guide">FEP Blue mental health benefits guide</a>.</p>
                         <p><a class="btn btn--pill btn--primary" href="/fep-blue-federal-employee-therapy">Learn More About FEP Blue Coverage →</a></p>
                     </div>
                     <div class="panel">
@@ -130,7 +130,7 @@ require_once __DIR__ . '/includes/config.php';
                     </div>
                     <div class="panel">
                         <h3>Blue Care Network of Michigan</h3>
-                        <p>BCN HMO plans are accepted. We can verify your specific mental health benefits and copay requirements before scheduling.</p>
+                        <p>BCN HMO plans are accepted (see <a href="/blue-cross-blue-shield-therapy-michigan">Blue Care Network therapy coverage</a>). We can verify your specific mental health benefits and copay requirements before scheduling.</p>
                     </div>
                     <div class="panel">
                         <h3>Priority Health</h3>
@@ -195,7 +195,7 @@ require_once __DIR__ . '/includes/config.php';
                         <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Psychiatric medication management</li>
                         <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Crisis intervention</li>
                     </ul>
-                    <p><strong>Important:</strong> Coverage details including copays, deductibles, session limits, and authorization requirements vary significantly by insurance plan. Call us to verify what your specific plan covers.</p>
+                    <p><strong>Important:</strong> Coverage details including copays, deductibles, session limits, and authorization requirements vary significantly by insurance plan. Call us to verify what your specific plan covers. Planning an autism evaluation? See our <a href="/autism-evaluation-michigan-insurance">autism evaluation insurance guide</a>.</p>
                 </div>
 
                 <h2>How to Verify Your Insurance Benefits</h2>
@@ -231,7 +231,7 @@ require_once __DIR__ . '/includes/config.php';
                     </div>
                     <div class="panel">
                         <h3>Self-Pay</h3>
-                        <p>Choose not to use insurance for privacy or preference. We offer competitive self-pay rates. Call for pricing.</p>
+                        <p>Choose not to use insurance for privacy or preference. We offer competitive self-pay rates. Call for pricing, or read about <a href="/private-pay-out-of-network-therapy">private-pay and out-of-network therapy</a>.</p>
                     </div>
                     <div class="panel">
                         <h3>Payment Plans</h3>

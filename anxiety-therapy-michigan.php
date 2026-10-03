@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Anxiety Therapy in Michigan | Telehealth & Dearborn';
-$page_description = 'Anxiety therapy in Michigan for panic attacks, GAD, social anxiety & phobias. CBT with licensed therapists in Dearborn or telehealth. (313) 654-1915';
+$page_title = 'Anxiety Therapy in Dearborn, MI | Telehealth in Michigan';
+$page_description = 'Anxiety therapy in Dearborn, MI for panic attacks, GAD, social anxiety & phobias. CBT in person or by telehealth anywhere in Michigan. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/anxiety-therapy-michigan';
 
 // Service + FAQPage Schema for SEO
@@ -91,14 +91,14 @@ require_once __DIR__ . '/includes/config.php';
 
     <?php
     $hero_eyebrow = 'Specialized Care';
-    $hero_h1 = 'Anxiety Therapy &amp; Panic Disorder Treatment in Michigan';
+    $hero_h1 = 'Anxiety &amp; Panic Disorder Treatment in Dearborn and Across Michigan';
     include __DIR__ . '/includes/page-hero.php';
     ?>
 
     <section class="page">
         <div class="shell">
             <article class="prose">
-                <p>Do you struggle with constant worry, panic attacks, or overwhelming fear that interferes with your daily life? Does anxiety prevent you from doing things you want to do - socializing, traveling, working, or even leaving your home? At Healing Therapy Center, our licensed anxiety specialists provide evidence-based anxiety therapy throughout Michigan via secure telehealth or in-person at our Dearborn office.</p>
+                <p>Do you struggle with constant worry, panic attacks, or overwhelming fear that interferes with your daily life? Does anxiety prevent you from doing things you want to do - socializing, traveling, working, or even leaving your home? At Healing Therapy Center, our licensed anxiety specialists provide evidence-based anxiety therapy throughout Michigan via secure telehealth or in-person at our Dearborn office. Clinicians whose areas of focus include anxiety are <a href="/dr-nadia-habhab">Dr. Nadia Habhab, PhD, LP</a>, <a href="/donna-majed">Donna Majed, TLLP</a> (including OCD) and, for children and teens, <a href="/malak-wehbe">Malak Wehbe, MA, TLLP</a>.</p>
 
                 <p>Anxiety disorders are the most common mental health condition in the United States, affecting over 40 million adults. The good news? Anxiety is highly treatable. With the right therapy approach, most people experience significant improvement in their anxiety symptoms and quality of life.</p>
 
@@ -177,7 +177,7 @@ require_once __DIR__ . '/includes/config.php';
                 <p>Most people attend weekly 50-minute sessions for 12-20 weeks, though this varies based on severity and individual needs. Many notice improvement within the first few sessions.</p>
 
                 <h2>Telehealth Anxiety Therapy Throughout Michigan</h2>
-                <p>All our anxiety therapy services are available via secure, HIPAA-compliant telehealth to clients anywhere in Michigan. Research shows telehealth therapy is equally effective as in-person for treating anxiety disorders. Many clients prefer the convenience and comfort of therapy from home.</p>
+                <p>All our anxiety therapy services are available via <a href="/telehealth-therapy">secure, HIPAA-compliant telehealth</a> to clients anywhere in Michigan. Research shows telehealth therapy is equally effective as in-person for treating anxiety disorders. Many clients prefer the convenience and comfort of therapy from home.</p>
 
                 <h2>Frequently Asked Questions</h2>
 
@@ -202,6 +202,12 @@ require_once __DIR__ . '/includes/config.php';
                         <h3>Does insurance cover anxiety treatment in Michigan?</h3>
                         <p>Most Michigan insurance plans cover anxiety treatment when provided by licensed therapists. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Call (313) 654-1915 to verify your coverage.</p>
                     </div>
+                </div>
+
+                <div class="callout callout--brand">
+                    <h3>If you&rsquo;re in crisis:</h3>
+                    <p><strong>988 Suicide &amp; Crisis Lifeline:</strong> Call or text <strong>988</strong></p>
+                    <p><strong>Crisis Text Line:</strong> Text HOME to <strong>741741</strong></p>
                 </div>
 
                 <div class="callout callout--brand">

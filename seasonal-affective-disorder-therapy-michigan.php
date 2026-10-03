@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Seasonal Affective Disorder Therapy in Michigan';
-$page_description = 'Seasonal affective disorder therapy in Michigan for winter depression. CBT-SAD, behavioral activation & light-therapy guidance via telehealth or Dearborn. (313) 654-1915';
+$page_description = 'Seasonal affective disorder therapy in Michigan. CBT-SAD, behavioral activation & light-therapy guidance via telehealth or in Dearborn. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/seasonal-affective-disorder-therapy-michigan';
 
 // Service + FAQPage Schema for SEO

@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Premarital Counseling Michigan | Marriage Prep Therapy';
-$page_description = 'Premarital counseling for engaged couples in Dearborn and across Michigan. Build communication and conflict skills before marriage. Insurance accepted.';
+$page_title = 'Premarital Counseling in Dearborn, MI & Online in Michigan';
+$page_description = 'Premarital counseling for engaged couples in Dearborn, MI and by telehealth across Michigan. Build communication and conflict skills before marriage.';
 $canonical_url = 'https://www.healingtherapycenter.com/premarital-counseling-michigan';
 
 require_once __DIR__ . '/includes/config.php';

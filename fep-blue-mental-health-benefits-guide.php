@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'FEP Blue Mental Health Benefits Guide | Michigan 2026';
-$page_description = 'FEP Blue mental health benefits guide for Michigan federal employees. Copays, covered therapy services & how to maximize your coverage. (313) 654-1915.';
+$page_description = 'How FEP Blue mental health benefits work for Michigan federal employees: covered services, pre-authorization, session limits and how to verify your costs.';
 $canonical_url = 'https://www.healingtherapycenter.com/fep-blue-mental-health-benefits-guide';
 
 // Schema for SEO
@@ -108,7 +108,7 @@ require_once __DIR__ . '/includes/config.php';
 
                 <p>FEP Blue provides comprehensive mental health coverage for a wide range of services. Here's what's covered:</p>
 
-                <h3>Outpatient Mental Health Services (Fully Covered)</h3>
+                <h3>Outpatient Mental Health Services</h3>
 
                 <ul>
                     <li><strong>Individual therapy:</strong> One-on-one counseling with a licensed therapist for anxiety, depression, trauma, PTSD, stress, grief, and other mental health concerns</li>
@@ -122,8 +122,8 @@ require_once __DIR__ . '/includes/config.php';
                 <h3>Psychological Testing &amp; Evaluations</h3>
 
                 <ul>
-                    <li><strong>ADHD testing:</strong> Comprehensive evaluations for attention-deficit/hyperactivity disorder in adults and children</li>
-                    <li><strong>Autism evaluations:</strong> Gold-standard autism diagnostic assessments (ADOS-2, ADI-R)</li>
+                    <li><strong><a href="/fep-blue-adhd-assessment-michigan">ADHD testing</a>:</strong> Comprehensive evaluations for attention-deficit/hyperactivity disorder in adults and children</li>
+                    <li><strong><a href="/fep-blue-autism-testing-michigan">Autism evaluations</a>:</strong> Gold-standard autism diagnostic assessments (ADOS-2, ADI-R)</li>
                     <li><strong>Neuropsychological testing:</strong> Cognitive assessments for memory, learning disabilities, and brain function</li>
                     <li><strong>Personality assessments:</strong> Psychological testing for diagnostic purposes</li>
                 </ul>
@@ -240,7 +240,7 @@ require_once __DIR__ . '/includes/config.php';
 
                 <h3>Myth #1: "My employer will find out if I go to therapy"</h3>
 
-                <p><strong>FALSE.</strong> Your therapy is completely confidential. Your federal agency will NEVER know you're in treatment. The only information your insurance company receives is basic billing codes for insurance processing—they don't get your therapy notes, diagnoses details, or session content. HIPAA privacy laws strictly protect your mental health information.</p>
+                <p><strong>FALSE.</strong> Your therapy is confidential. Your federal agency will not know you're in treatment unless you tell them or give written permission, except in the rare cases where the law requires disclosure. Your insurance company receives the billing information needed to process claims, including a diagnosis code, but not your therapy notes or session content. HIPAA privacy laws protect your mental health information.</p>
 
                 <h3>Myth #2: "I need a referral from my primary care doctor"</h3>
 
@@ -274,12 +274,14 @@ require_once __DIR__ . '/includes/config.php';
                     <li>Experience working with shift workers</li>
                 </ul>
 
+                <p>More on <a href="/shift-work-federal-employee-therapy">therapy for federal shift workers</a>.</p>
+
                 <h3>First Responders &amp; Law Enforcement (CBP, FBI)</h3>
 
                 <p>If you've experienced traumatic incidents on the job, seek therapists who specialize in:</p>
 
                 <ul>
-                    <li><strong>PTSD treatment:</strong> Evidence-based approaches like EMDR, CPT, or prolonged exposure</li>
+                    <li><strong><a href="/ptsd-therapy-federal-law-enforcement">PTSD treatment</a>:</strong> Evidence-based approaches like EMDR, CPT, or prolonged exposure</li>
                     <li><strong>First responder trauma:</strong> Understanding of law enforcement culture and critical incidents</li>
                     <li><strong>Confidentiality expertise:</strong> Therapists who understand security clearance concerns</li>
                 </ul>
@@ -398,8 +400,8 @@ require_once __DIR__ . '/includes/config.php';
 
                 <ul>
                     <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
-                    <li><strong>National Suicide Prevention Lifeline:</strong> 988</li>
-                    <li><strong>Veterans Crisis Line:</strong> 1-800-273-8255, Press 1 (for VA employees or veterans)</li>
+                    <li><strong>988 Suicide &amp; Crisis Lifeline:</strong> Call or text 988</li>
+                    <li><strong>Veterans Crisis Line:</strong> Dial 988, then Press 1 (for VA employees or veterans)</li>
                 </ul>
 
                 <h2>Take the First Step</h2>

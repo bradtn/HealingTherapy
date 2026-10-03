@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Priority Health Therapy Michigan | Coverage Accepted';
-$page_description = 'Priority Health in-network therapy in Dearborn, Michigan. Individual counseling, couples therapy & ADHD testing with HMO and PPO plans. (313) 654-1915.';
+$page_title = 'Priority Health Therapy Coverage & Therapists | Dearborn';
+$page_description = 'Does Priority Health cover therapy? Benefits vary by plan. Our Dearborn therapists are in-network and check your copay, deductible and referral needs first.';
 $canonical_url = 'https://www.healingtherapycenter.com/priority-health-therapy-michigan';
 $current_service = 'individual';
 
@@ -176,7 +176,7 @@ $schema_json = json_encode([
 
                 <ul>
                     <li><strong>In-Network Provider:</strong> Lower costs for you as a Priority Health member</li>
-                    <li><strong>Licensed Professionals:</strong> PhD psychologist and licensed therapists (LMSW, LLMSW)</li>
+                    <li><strong>Licensed Professionals:</strong> PhD psychologist and licensed therapists (LMSW)</li>
                     <li><strong>We Verify Benefits:</strong> No surprise bills - we check your coverage before you start</li>
                     <li><strong>Telehealth Available:</strong> Online therapy throughout Michigan, often covered the same as in-person</li>
                     <li><strong>Convenient Dearborn Location:</strong> Easy access from Detroit, Livonia, Ann Arbor, and surrounding areas</li>

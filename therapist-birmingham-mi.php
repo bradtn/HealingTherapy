@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Therapist Birmingham MI | Counseling & Mental Health';
-$page_description = 'Therapy and counseling for Birmingham, MI professionals. Individual, couples, and executive stress therapy. BCBS, Aetna, and Priority Health accepted.';
+$page_title = 'Birmingham, MI Therapy | Telehealth or Dearborn Office';
+$page_description = 'Telehealth therapy for Birmingham, MI residents, or in person at our Dearborn office. Individual, couples and executive stress therapy. BCBS, Aetna accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-birmingham-mi';
 
 require_once __DIR__ . '/includes/config.php';
@@ -136,11 +136,11 @@ $current_service = 'individual';
                 <p>Our team includes licensed professionals experienced in working with Birmingham's professional community:</p>
 
                 <ul>
-                    <li><strong>Dr. Nadia Habhab, PhD, LP</strong> - Licensed psychologist specializing in anxiety, depression, trauma, and executive stress</li>
-                    <li><strong>Tiffany Murray, LMSW</strong> - Licensed therapist providing individual and couples therapy for professionals</li>
-                    <li><strong>Amal Ayad, LLMSW</strong> - Limited licensed therapist specializing in life transitions and stress management</li>
-                    <li><strong>Malak Wehbe, LLMSW</strong> - Limited licensed therapist working with anxiety and depression</li>
-                    <li><strong>Donna Majed, TLLP</strong> - Limited licensed psychologist providing therapy services</li>
+                    <li><strong><a href="/dr-nadia-habhab">Dr. Nadia Habhab, PhD, LP</a></strong> - Licensed psychologist: anxiety and depression, complex trauma, psychological testing and autism evaluations</li>
+                    <li><strong><a href="/dr-tiffany-murray">Tiffany Murray, LMSW</a></strong> - Licensed master social worker: perinatal and postpartum mental health, grief and loss</li>
+                    <li><strong><a href="/malak-wehbe">Malak Wehbe, MA, TLLP</a></strong> - Licensed therapist: children, teens and families</li>
+                    <li><strong><a href="/donna-majed">Donna Majed, TLLP</a></strong> - Licensed therapist: women&rsquo;s mental health, anxiety and OCD, individual and group therapy</li>
+                    <li><strong><a href="/amal-ayad">Amal Ayad, MA</a></strong> - Certified life coach</li>
                 </ul>
 
                 <p><a href="/therapists">Learn more about our therapists →</a></p>

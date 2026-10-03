@@ -86,6 +86,13 @@ $tp_specialties = [
     'Autism Evaluations',
 ];
 
+$tp_specialty_links = [
+    'Psychological Testing'   => '/psychological-testing',
+    'Autism Evaluations'      => '/autism-evaluation',
+    'Anxiety &amp; Depression' => '/anxiety-therapy-michigan',
+    'Complex Trauma'          => '/trauma-ptsd-treatment',
+];
+
 $tp_credentials = [
     [
         'title' => 'Credentials &amp; Training',

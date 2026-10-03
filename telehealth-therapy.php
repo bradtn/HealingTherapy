@@ -112,7 +112,7 @@ $schema_json = json_encode([
                 <h2>Online Therapy Anywhere in Michigan</h2>
                 <p>Looking for online therapy in Michigan? At Healing Therapy Center, our licensed therapists provide secure telehealth counseling to clients across the entire state — so you can get quality mental health care from home, at work on a lunch break, or anywhere you have a private moment and an internet connection. Online therapy (also called virtual therapy or telehealth) removes the barriers of travel time, traffic, weather, and geography that keep so many Michiganders from getting help.</p>
 
-                <p>Whether you're in Metro Detroit, Ann Arbor, Lansing, Grand Rapids, Flint, Traverse City, the Upper Peninsula, or a rural community where in-person therapists are scarce, you can work with the same experienced, Michigan-licensed clinicians who see clients in our Dearborn office.</p>
+                <p>Whether you're in Metro Detroit, Ann Arbor, Lansing, Grand Rapids, Flint, Traverse City, the Upper Peninsula, or a rural community where in-person therapists are scarce, you can work with the same experienced, <a href="/therapists">Michigan-licensed clinicians</a> who see clients in our Dearborn office.</p>
 
                 <div class="callout callout--info">
                     <h3>Is Online Therapy as Effective as In-Person?</h3>

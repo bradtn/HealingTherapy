@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Nurse Burnout Therapy in Michigan | Compassion Fatigue';
-$page_description = 'Confidential therapy for Michigan nurses & healthcare staff facing burnout, compassion fatigue & moral injury. CBT, ACT & shift-friendly telehealth. (313) 654-1915';
+$page_description = 'Confidential therapy for Michigan nurses & healthcare staff: burnout, compassion fatigue & moral injury. CBT, ACT & shift-friendly telehealth. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/nurse-burnout-therapy-michigan';
 
 // Service + FAQPage Schema for SEO

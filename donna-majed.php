@@ -91,6 +91,11 @@ $tp_specialties = [
     'Marriage &amp; Relationship Stress',
 ];
 
+$tp_specialty_links = [
+    "Women's Mental Health"                   => '/womens-mental-health-therapy-michigan',
+    'Postpartum &amp; Perinatal Mental Health' => '/perinatal-therapy',
+];
+
 $tp_credentials = [
     [
         'title' => 'Credentials &amp; Training',

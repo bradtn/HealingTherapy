@@ -79,10 +79,7 @@ if (!defined('BUSINESS_NAME')) {
                 </ul>
                 <h2 class="site-footer__h-gap">Areas We Serve</h2>
                 <ul>
-                    <li><a href="/federal-employee-therapy-dearborn">Dearborn</a></li>
-                    <li><a href="/federal-employee-therapy-detroit">Detroit</a></li>
-                    <li><a href="/federal-employee-therapy-livonia">Livonia</a></li>
-                    <li><a href="/federal-employee-therapy-ann-arbor">Ann Arbor</a></li>
+                    <li><a href="/">Dearborn</a></li>
                     <li><a href="/therapist-troy-mi">Troy</a></li>
                     <li><a href="/therapist-birmingham-mi">Birmingham</a></li>
                     <li><a href="/therapist-rochester-hills-mi">Rochester Hills</a></li>
@@ -90,6 +87,12 @@ if (!defined('BUSINESS_NAME')) {
                     <li><a href="/therapist-novi-mi">Novi</a></li>
                     <li><a href="/therapist-northville-mi">Northville</a></li>
                     <li><a href="/therapist-grosse-pointe-mi">Grosse Pointe</a></li>
+                </ul>
+                <h2 class="site-footer__h-gap">Federal Employees</h2>
+                <ul>
+                    <li><a href="/federal-employee-therapy-detroit">Detroit</a></li>
+                    <li><a href="/federal-employee-therapy-livonia">Livonia</a></li>
+                    <li><a href="/federal-employee-therapy-ann-arbor">Ann Arbor</a></li>
                 </ul>
             </nav>
 

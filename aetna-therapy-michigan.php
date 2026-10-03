@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Aetna Therapy Michigan | Mental Health Coverage Accepted';
+$page_title = 'Aetna Therapists in Dearborn, MI | In-Person & Telehealth';
 $page_description = 'Aetna in-network therapy in Dearborn, Michigan. Counseling, couples therapy & ADHD testing with Aetna PPO, HMO & employer plans. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/aetna-therapy-michigan';
 $current_service = 'individual';
@@ -183,7 +183,7 @@ $schema_json = json_encode([
 
                 <ul>
                     <li><strong>Aetna Network Provider:</strong> We work with Aetna's behavioral health network for lower costs</li>
-                    <li><strong>Experienced Clinicians:</strong> Licensed PhD psychologist and therapists (LMSW, LLMSW, TLLP)</li>
+                    <li><strong>Experienced Clinicians:</strong> Licensed PhD psychologist and therapists (LMSW, TLLP)</li>
                     <li><strong>Benefits Verification:</strong> We check your coverage before your first visit - no surprise bills</li>
                     <li><strong>Telehealth Services:</strong> Secure video therapy throughout Michigan, often covered by Aetna</li>
                     <li><strong>Convenient Location:</strong> Dearborn office with easy access from Detroit, Livonia, Ann Arbor, Troy</li>

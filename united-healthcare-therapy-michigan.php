@@ -186,7 +186,7 @@ $schema_json = json_encode([
 
                 <ul>
                     <li><strong>UnitedBehavioral Health Network:</strong> Credentialed provider for lower out-of-pocket costs</li>
-                    <li><strong>Licensed Professionals:</strong> PhD psychologist and licensed therapists (LMSW, LLMSW, TLLP)</li>
+                    <li><strong>Licensed Professionals:</strong> PhD psychologist and licensed therapists (LMSW, TLLP)</li>
                     <li><strong>Benefits Verification:</strong> We check your UHC coverage before you start - no surprise bills</li>
                     <li><strong>Telehealth Available:</strong> Secure video therapy throughout Michigan, often covered same as in-person</li>
                     <li><strong>Convenient Dearborn Location:</strong> Easy access from Detroit, Livonia, Ann Arbor, Troy, Rochester Hills</li>

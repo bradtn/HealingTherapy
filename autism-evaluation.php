@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'Autism Evaluation in Dearborn, MI | Children';
-$page_description = 'Autism evaluation for children in Dearborn, MI. ADOS-2 assessment by expert psychologists. BCBS, Aetna accepted. Call (313) 654-1915.';
+$page_title = 'Child Autism Evaluation & Testing in Dearborn, MI';
+$page_description = 'Autism evaluations for children in Dearborn, MI using the ADOS-2 and ADI-R, with a detailed report and feedback session. BCBS, Aetna accepted. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/autism-evaluation';
 
 // Service + FAQPage Schema for SEO
@@ -108,6 +108,7 @@ require_once __DIR__ . '/includes/config.php';
                         <p>Individuals who need strict routines, become distressed by changes, or have difficulty adapting to new situations.</p>
                     </div>
                 </div>
+                <p>Not sure an evaluation is needed yet? Our free <a href="/autism-screening-tool">M-CHAT-R screening questionnaire for toddlers</a> (a screening, not a diagnosis) and our guide to the <a href="/autism-signs">early signs of autism</a> can help you decide when to reach out.</p>
                 <div class="callout callout--soft">
                     <p><strong>Our Approach:</strong> Our autism evaluation process is guided by best practices in psychological assessment. We use a combination of standardized testing, behavioral observations, and input from caregivers, teachers, and the client themselves. Our approach ensures a complete and accurate understanding of the individual's strengths and challenges. We also provide <a href="/adhd-testing-evaluation">ADHD testing</a> and <a href="/psychological-testing">comprehensive psychological testing</a>.</p>
                 </div>
@@ -168,7 +169,7 @@ require_once __DIR__ . '/includes/config.php';
                     </div>
                     <div class="faq-item">
                         <h3>Does insurance cover autism evaluations in Michigan?</h3>
-                        <p>Most Michigan insurance plans cover autism evaluations when medically necessary. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Contact us at (313) 654-1915 to verify your specific coverage.</p>
+                        <p>Most Michigan insurance plans cover autism evaluations when medically necessary. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Contact us at (313) 654-1915 to verify your specific coverage. See our <a href="/autism-evaluation-michigan-insurance">autism evaluation insurance guide</a>, or <a href="/fep-blue-autism-testing-michigan">FEP Blue autism testing</a> for federal employees.</p>
                     </div>
                     <div class="faq-item">
                         <h3>What tests are used in autism evaluation?</h3>

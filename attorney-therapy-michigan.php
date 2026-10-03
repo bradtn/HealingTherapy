@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'Therapy for Attorneys in Michigan | Stress & Burnout';
-$page_description = 'Confidential therapy for Michigan attorneys and legal professionals. Address stress, burnout, anxiety, and problem drinking. Telehealth statewide. (313) 654-1915';
+$page_description = 'Confidential therapy for Michigan attorneys & legal professionals. Address stress, burnout, anxiety, and problem drinking. Telehealth statewide. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/attorney-therapy-michigan';
 
 // Service + FAQPage Schema for SEO

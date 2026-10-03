@@ -20,7 +20,7 @@ $schema_json = json_encode([
         ],
         [
             '@type' => 'Question',
-            'name' => 'Do I need a referral from my primary care doctor to use FEP Blue for therapy?',
+            'name' => 'Do I need a referral from my primary care doctor?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
                 'text' => 'Many FEP Blue plans do not require a referral for mental health services, though requirements can vary by plan. Call us directly at (313) 654-1915 and we\'ll verify your specific plan requirements and help you schedule an appointment. We\'ll check if your plan requires any pre-authorization or referrals before your first visit.'
@@ -28,7 +28,7 @@ $schema_json = json_encode([
         ],
         [
             '@type' => 'Question',
-            'name' => 'What is my copay for therapy sessions with FEP Blue?',
+            'name' => 'What\'s my co-pay for therapy sessions?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
                 'text' => 'Your out-of-pocket costs for mental health visits depend on your specific FEP Blue plan (Standard or Basic) and may include copays, coinsurance, or deductibles. Some plans have competitive copays, while others may have different cost-sharing arrangements. Session limits, authorization requirements, and deductibles also vary by plan. Call us at (313) 654-1915 to verify your specific coverage, costs, and benefits before scheduling.'
@@ -39,20 +39,20 @@ $schema_json = json_encode([
             'name' => 'Is my therapy confidential? Will my employer find out?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'Your therapy is completely confidential and protected by HIPAA privacy laws. We do not report to your federal agency, supervisor, or anyone else about your treatment. Your employer will never know you\'re in therapy unless you choose to tell them. The only information your insurance company receives is basic billing codes - they don\'t get session notes, diagnoses details, or what you discuss in therapy.'
+                'text' => 'Your therapy is completely confidential and protected by HIPAA privacy laws. We do not report to your federal agency, supervisor, or anyone else about your treatment. Your employer will not know you\'re in therapy unless you tell them or give written permission, except in the rare cases where the law requires disclosure. Your insurance company receives the billing information needed to process claims, including a diagnosis code, but not your session notes or what you discuss in therapy.'
             ]
         ],
         [
             '@type' => 'Question',
-            'name' => 'Do you offer telehealth for federal employees with FEP Blue?',
+            'name' => 'Do you offer telehealth for federal employees?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'Yes! We offer secure, HIPAA-compliant telehealth therapy for federal employees anywhere in Michigan. Many FEP Blue plans cover telehealth similarly to in-person visits, though coverage details vary by plan. Call us to verify your telehealth benefits. Telehealth is perfect for federal employees with irregular hours, long commutes, or who prefer the convenience of online sessions.'
+                'text' => 'Yes! We offer secure, HIPAA-compliant telehealth therapy for federal employees anywhere in Michigan. This is perfect if you work irregular hours, have a long commute, work from home, or simply prefer the convenience of online sessions. Many FEP Blue plans cover telehealth similarly to in-person visits, though coverage details vary by plan. Call us to verify your telehealth benefits. Many federal employees prefer telehealth because they can attend therapy during lunch breaks or from the privacy of their home.'
             ]
         ],
         [
             '@type' => 'Question',
-            'name' => 'Can my spouse or children use FEP Blue for therapy?',
+            'name' => 'Can my spouse or children use FEP Blue for therapy too?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
                 'text' => 'Absolutely! All family members covered under your FEP Blue plan have the same mental health benefits. We provide therapy for adults, teens, and children. We also offer couples therapy and family therapy, which are both covered by FEP Blue. Many federal employee families benefit from therapy to address the unique stressors of shift work, frequent relocations, and the demands of public service careers.'
@@ -60,7 +60,7 @@ $schema_json = json_encode([
         ],
         [
             '@type' => 'Question',
-            'name' => 'How do I schedule an appointment with FEP Blue insurance?',
+            'name' => 'How do I schedule an appointment?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
                 'text' => 'Scheduling is easy! Call us at (313) 654-1915 or use our online appointment request form. We\'ll verify your FEP Blue coverage, answer any questions about your benefits, and find a convenient appointment time. We offer flexible scheduling including evenings and weekends to accommodate shift workers. Most federal employees can get an appointment within 1-2 weeks.'
@@ -131,11 +131,11 @@ require_once __DIR__ . '/includes/config.php';
                 <div class="grid-2">
                     <div class="panel">
                         <h3>Work Stress &amp; Burnout</h3>
-                        <p>High-pressure federal work environments can lead to chronic stress and burnout. We help you develop healthy coping strategies, set boundaries, and restore work-life balance. Covered by FEP Blue.</p>
+                        <p>High-pressure federal work environments can lead to <a href="/federal-employee-stress-management-therapy">chronic stress and burnout</a>. We help you develop healthy coping strategies, set boundaries, and restore work-life balance. Covered by FEP Blue.</p>
                     </div>
                     <div class="panel">
                         <h3>PTSD &amp; Trauma Treatment</h3>
-                        <p>Especially important for CBP officers, federal law enforcement, corrections staff, and first responders. Evidence-based EMDR and trauma-focused therapy to process traumatic experiences safely.</p>
+                        <p>Especially important for CBP officers, <a href="/ptsd-therapy-federal-law-enforcement">federal law enforcement</a>, corrections staff, and first responders. Evidence-based EMDR and trauma-focused therapy to process traumatic experiences safely.</p>
                     </div>
                     <div class="panel">
                         <h3>Anxiety &amp; Depression</h3>
@@ -147,7 +147,7 @@ require_once __DIR__ . '/includes/config.php';
                     </div>
                     <div class="panel">
                         <h3>ADHD &amp; Autism Evaluation</h3>
-                        <p>Comprehensive psychological testing for adults and children. FEP Blue typically covers diagnostic evaluations with low co-pays. Results can inform accommodations and treatment planning.</p>
+                        <p>Comprehensive psychological testing for adults and children, including <a href="/fep-blue-adhd-assessment-michigan">ADHD testing with FEP Blue</a> and <a href="/fep-blue-autism-testing-michigan">autism testing with FEP Blue</a>. FEP Blue typically covers diagnostic evaluations with low co-pays. Results can inform accommodations and treatment planning.</p>
                     </div>
                     <div class="panel">
                         <h3>Career Transitions &amp; Retirement</h3>
@@ -172,7 +172,7 @@ require_once __DIR__ . '/includes/config.php';
                     </div>
                     <div class="panel">
                         <h3>Convenient to Federal Facilities</h3>
-                        <p>Located in Dearborn, easily accessible from Detroit Federal Building, CBP Port of Entry, USPS facilities, and other federal offices throughout Metro Detroit.</p>
+                        <p>Located in Dearborn, easily accessible from Detroit Federal Building, CBP Port of Entry, USPS facilities, and other federal offices throughout Metro Detroit. More for federal employees in <a href="/federal-employee-therapy-dearborn">Dearborn</a>, <a href="/federal-employee-therapy-detroit">Detroit</a>, <a href="/federal-employee-therapy-livonia">Livonia</a> and <a href="/federal-employee-therapy-ann-arbor">Ann Arbor</a>.</p>
                     </div>
                     <div class="panel">
                         <h3>Complete Confidentiality</h3>
@@ -282,7 +282,7 @@ require_once __DIR__ . '/includes/config.php';
 
                 <h2>How FEP Blue Coverage Works for Therapy</h2>
 
-                <p>Understanding your mental health benefits can feel overwhelming, but we make it simple:</p>
+                <p>Understanding your mental health benefits can feel overwhelming, but we make it simple (for the details, see our <a href="/fep-blue-mental-health-benefits-guide">FEP Blue mental health benefits guide</a>):</p>
 
                 <div class="panel">
                     <h3>Step-by-Step: Using Your FEP Blue Benefits</h3>
@@ -323,7 +323,7 @@ require_once __DIR__ . '/includes/config.php';
                     </div>
                     <div class="faq-item">
                         <h3>Is my therapy confidential? Will my employer find out?</h3>
-                        <p>Your therapy is completely confidential and protected by HIPAA privacy laws. We do not report to your federal agency, supervisor, or anyone else about your treatment. Your employer will never know you're in therapy unless you choose to tell them. The only information your insurance company receives is basic billing codes - they don't get session notes, diagnoses details, or what you discuss in therapy. Your mental health care is private, and we take confidentiality very seriously.</p>
+                        <p>Your therapy is completely confidential and protected by HIPAA privacy laws. We do not report to your federal agency, supervisor, or anyone else about your treatment. Your employer will not know you're in therapy unless you tell them or give written permission, except in the rare cases where the law requires disclosure. Your insurance company receives the billing information needed to process claims, including a diagnosis code, but not your session notes or what you discuss in therapy. Your mental health care is private, and we take confidentiality very seriously.</p>
                     </div>
                     <div class="faq-item">
                         <h3>Do you offer telehealth for federal employees?</h3>

@@ -136,11 +136,11 @@ $current_service = 'individual';
                 <p>Our team includes licensed professionals with experience serving Oakland County and Rochester Hills families:</p>
 
                 <ul>
-                    <li><strong>Dr. Nadia Habhab, PhD, LP</strong> - Licensed psychologist specializing in anxiety, depression, trauma, and comprehensive psychological testing</li>
-                    <li><strong>Tiffany Murray, LMSW</strong> - Licensed therapist providing individual and couples therapy</li>
-                    <li><strong>Amal Ayad, LLMSW</strong> - Limited licensed therapist specializing in life transitions and stress management</li>
-                    <li><strong>Malak Wehbe, LLMSW</strong> - Limited licensed therapist working with anxiety, depression, and relationship issues</li>
-                    <li><strong>Donna Majed, TLLP</strong> - Limited licensed psychologist providing therapy and testing services</li>
+                    <li><strong><a href="/dr-nadia-habhab">Dr. Nadia Habhab, PhD, LP</a></strong> - Licensed psychologist: anxiety and depression, complex trauma, psychological testing and autism evaluations</li>
+                    <li><strong><a href="/dr-tiffany-murray">Tiffany Murray, LMSW</a></strong> - Licensed master social worker: perinatal and postpartum mental health, grief and loss</li>
+                    <li><strong><a href="/malak-wehbe">Malak Wehbe, MA, TLLP</a></strong> - Licensed therapist: children, teens and families</li>
+                    <li><strong><a href="/donna-majed">Donna Majed, TLLP</a></strong> - Licensed therapist: women&rsquo;s mental health, anxiety and OCD, individual and group therapy</li>
+                    <li><strong><a href="/amal-ayad">Amal Ayad, MA</a></strong> - Certified life coach</li>
                 </ul>
 
                 <p><a href="/therapists">Learn more about our therapists →</a></p>

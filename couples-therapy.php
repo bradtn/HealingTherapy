@@ -157,7 +157,7 @@ $schema_json = json_encode([
                     </div>
                     <div class="panel">
                         <h3>Parenting Disagreements</h3>
-                        <p>Disagreeing on discipline or parenting styles? We help couples align on goals and present a united front while respecting differences.</p>
+                        <p>Disagreeing on discipline or parenting styles? We help couples align on goals and present a united front while respecting differences. When the whole family needs support, <a href="/family-therapy">family therapy</a> can help.</p>
                     </div>
                     <div class="panel">
                         <h3>Life Transitions &amp; Changes</h3>
@@ -267,7 +267,7 @@ $schema_json = json_encode([
 
                 <div class="callout callout--brand">
                     <h3>Start Your Marriage Strong</h3>
-                    <p>Why wait for problems? Build a foundation before marriage:</p>
+                    <p>Why wait for problems? Build a foundation before marriage with <a href="/premarital-counseling-michigan">premarital counseling</a>:</p>
                     <ul class="check-list check-list--2col">
                         <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Discuss expectations &amp; lifestyle</li>
                         <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Learn communication skills</li>
@@ -300,7 +300,7 @@ $schema_json = json_encode([
                     </div>
                     <div class="panel">
                         <h3>In-Person &amp; Telehealth</h3>
-                        <p>Comfortable Dearborn office or secure video sessions from home.</p>
+                        <p>Comfortable Dearborn office or <a href="/telehealth-therapy">secure video sessions from home</a>.</p>
                     </div>
                     <div class="panel">
                         <h3>Insurance Accepted</h3>

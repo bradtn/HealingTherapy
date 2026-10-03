@@ -163,7 +163,7 @@ require_once __DIR__ . '/includes/config.php';
                 <div class="callout callout--soft">
                     <p><strong>Related Pages:</strong></p>
                     <ul>
-                        <li><a href="/fep-blue-federal-employee-therapy">FEP Blue Coverage Guide</a></li>
+                        <li><a href="/fep-blue-mental-health-benefits-guide">FEP Blue Coverage Guide</a></li>
                         <li><a href="/insurance">Insurance &amp; Payment Options</a></li>
                         <li><a href="/trauma-ptsd-treatment">PTSD Treatment for Law Enforcement</a></li>
                     </ul>

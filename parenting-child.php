@@ -67,7 +67,7 @@ require_once __DIR__ . '/includes/config.php';
                 <p><a href="https://www.healingtherapycenter.com/psychological-testing">Discover more about Psychological Testing services</a></p>
                 <h3>3. Strengthened Family Relationships</h3>
                 <ul>
-                    <li>Sibling relationships can be affected by the extra attention a child with ASD requires. Family therapy helps balance relationships and improve understanding.</li>
+                    <li>Sibling relationships can be affected by the extra attention a child with ASD requires. <a href="/family-therapy">Family therapy</a> helps balance relationships and improve understanding.</li>
                     <li>Couples therapy can support partners in navigating the emotional impact of parenting a child with autism, fostering teamwork and reducing conflict.</li>
                 </ul>
                 <h3>4. Guidance on Navigating Resources and Services</h3>

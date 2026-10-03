@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Malak Wehbe, MA, TLLP | Therapist | Healing Therapy Center';
+$page_title = 'Malak Wehbe, MA, TLLP | Child & Family Therapist, Dearborn';
 $page_description = 'Malak Wehbe, MA, TLLP - Therapist at Healing Therapy Center in Dearborn, MI. Specialized in child therapy, trauma, anxiety, and culturally sensitive care.';
 $canonical_url = 'https://www.healingtherapycenter.com/malak-wehbe';
 $og_image = 'https://www.healingtherapycenter.com/assets/img/malak.jpg';
@@ -82,7 +82,7 @@ HTML,
         'title' => 'Background &amp; Experience',
         'html'  => <<<'HTML'
 <p>Before becoming a therapist, I worked for three years as a case manager at ACCESS in Dearborn, supporting families with complex mental health needs. Those experiences shaped my dedication to providing culturally responsive care, particularly within the Arab American and Muslim communities.</p>
-<p>If you're looking for a child or family therapist in Dearborn, or seeking support for yourself, I'd be honored to walk alongside you on your journey toward healing.</p>
+<p>If you're looking for a child or <a href="/family-therapy">family therapist</a> in Dearborn, or seeking support for yourself, I'd be honored to walk alongside you on your journey toward healing.</p>
 HTML,
     ],
 ];
@@ -93,6 +93,10 @@ $tp_specialties = [
     'Anxiety &amp; Depression',
     'Trauma &amp; Family Conflict',
     'Culturally Responsive Care',
+];
+
+$tp_specialty_links = [
+    'Trauma &amp; Family Conflict' => '/family-therapy',
 ];
 
 $tp_credentials = [

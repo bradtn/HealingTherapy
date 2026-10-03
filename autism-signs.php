@@ -86,7 +86,7 @@ require_once __DIR__ . '/includes/config.php';
                     <li>Developmental Milestones: Evaluating language, motor, and social skills.</li>
                     <li>Parental Observations: Your insights on daily behaviors and interactions.</li>
                 </ul>
-                <p>If concerns arise, a comprehensive evaluation may be recommended.</p>
+                <p>If concerns arise, a comprehensive evaluation may be recommended. For toddlers, our free <a href="/autism-screening-tool">M-CHAT-R screening questionnaire</a> can help you decide whether to ask for one (it is a screening, not a diagnosis).</p>
 
                 <h5>Step 2: Comprehensive Diagnostic Evaluation</h5>
                 <p>A formal assessment involves:</p>
@@ -133,7 +133,7 @@ require_once __DIR__ . '/includes/config.php';
 
                 <h3>Taking the Next Step</h3>
                 <p>Choosing to pursue an autism evaluation is an important and courageous decision. It’s not about labeling your child but rather understanding their needs to provide the best support possible.</p>
-                <p>If you’re ready to begin, schedule an appointment with <a href="https://www.healingtherapycenter.com/" target="_blank" rel="noopener noreferrer">Healing Therapy Center</a> today. We offer comprehensive autism evaluations and supportive services to help your child thrive.</p>
+                <p>If you’re ready to begin, schedule an appointment with <a href="https://www.healingtherapycenter.com/" target="_blank" rel="noopener noreferrer">Healing Therapy Center</a> today. We offer <a href="/autism-evaluation">comprehensive autism evaluations</a> and supportive services to help your child thrive.</p>
 
                 <p><a href="/all-blogs">← All Articles &amp; Guides</a></p>
             </article>

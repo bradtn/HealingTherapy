@@ -79,7 +79,7 @@ $schema_json = json_encode([
                 </div>
 
                 <h2>Our Approach to Perinatal Mental Health</h2>
-                <p>We believe that effective perinatal support should be grounded in compassion, expertise, and respect for your individual journey. Our therapists are specially trained in perinatal mental health and understand the unique challenges that arise during this transformative time.</p>
+                <p>We believe that effective perinatal support should be grounded in compassion, expertise, and respect for your individual journey. Our therapists are specially trained in perinatal mental health and understand the unique challenges that arise during this transformative time. <a href="/dr-tiffany-murray">Tiffany Murray, LMSW</a>, focuses on perinatal mood and anxiety disorders and postpartum depression and anxiety; <a href="/donna-majed">Donna Majed, TLLP</a>, on women&rsquo;s mental health, including postpartum.</p>
 
                 <div class="grid-2">
                     <div class="panel">

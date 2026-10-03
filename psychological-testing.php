@@ -136,7 +136,7 @@ $schema_json = json_encode([
                 <p><a href="/autism-evaluation">Autism Evaluation →</a></p>
 
                 <h2>Psychological Testing &amp; Assessment in Dearborn, MI</h2>
-                <p>Are you seeking answers about your child's development, learning challenges, or behavioral concerns? Do you need a comprehensive autism evaluation, ADHD assessment, or learning disability testing? At Healing Therapy Center in Dearborn, Michigan, our experienced psychologists provide comprehensive psychological testing and evaluation services for children, adolescents, and adults throughout Metro Detroit.</p>
+                <p>Are you seeking answers about your child's development, learning challenges, or behavioral concerns? Do you need a comprehensive autism evaluation, ADHD assessment, or learning disability testing? At Healing Therapy Center in Dearborn, Michigan, our experienced psychologists provide comprehensive psychological testing and evaluation services for children, adolescents, and adults throughout Metro Detroit. Psychological testing and autism evaluations are among the areas of focus of <a href="/dr-nadia-habhab">Dr. Nadia Habhab, PhD, LP</a>, a licensed psychologist.</p>
 
                 <p>Psychological testing provides clarity, answers, and direction when you're struggling to understand cognitive, emotional, or behavioral challenges. Whether you need testing for school accommodations, diagnostic clarification, treatment planning, or simply to better understand yourself or your child, our thorough evaluations deliver the insights you need to move forward with confidence.</p>
 

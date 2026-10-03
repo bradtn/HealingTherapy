@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Tiffany Murray, LMSW | Therapist | Healing Therapy Center';
-$page_description = 'Tiffany Murray, LMSW - Licensed therapist at Healing Therapy Center in Dearborn, MI. Individual therapy, couples counseling, anxiety and depression treatment.';
+$page_title = 'Tiffany Murray, LMSW | Perinatal Therapist in Dearborn, MI';
+$page_description = 'Tiffany Murray, LMSW, specializes in perinatal mood and anxiety disorders, postpartum depression and anxiety, grief and loss. In Dearborn or by telehealth.';
 $canonical_url = 'https://www.healingtherapycenter.com/dr-tiffany-murray';
 $og_image = 'https://www.healingtherapycenter.com/assets/img/tiffany.jpg';
 
@@ -94,6 +94,12 @@ $tp_specialties = [
     'Grief &amp; Loss Counseling',
     'Life Transitions',
     'ADHD &amp; Neurodiversity',
+];
+
+$tp_specialty_links = [
+    'Perinatal Mood &amp; Anxiety Disorders' => '/perinatal-therapy',
+    'Postpartum Depression &amp; Anxiety'    => '/postpartum-depression-therapy-michigan',
+    'Grief &amp; Loss Counseling'            => '/grief-loss-counseling-guide',
 ];
 
 $tp_credentials = [

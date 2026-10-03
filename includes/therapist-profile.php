@@ -19,6 +19,7 @@
  *   $tp_sections     (required) ordered array of ['title'=>..,'html'=>..] prose blocks
  *                    (e.g. How I Can Help, My Approach, Background & Experience)
  *   $tp_specialties  (required) array of specialty strings → "Areas of Focus" chips
+ *   $tp_specialty_links (optional) [specialty string => URL] — links those chips to service pages
  *   $tp_credentials  (optional) array of ['title'=>..,'items'=>[strings]] aside cards
  *   $tp_first_name   (optional) used in the aside mini-CTA copy, default 'us'
  *   $tp_extra_html   (optional) full-width HTML band before the closing CTA
@@ -34,6 +35,7 @@ $tp_first_name  = $tp_first_name  ?? 'us';
 $tp_cta_heading = $tp_cta_heading ?? 'Ready to Take the Next Step?';
 $tp_credentials = $tp_credentials ?? [];
 $tp_specialties = $tp_specialties ?? [];
+$tp_specialty_links = $tp_specialty_links ?? [];
 $tp_sections    = $tp_sections    ?? [];
 
 // Inline icon paths (stroke style, 24×24) for the quick-info strip.
@@ -139,7 +141,7 @@ $tp_method_icons = [
                     <?php foreach ($tp_specialties as $spec): ?>
                     <li class="tp-focus__item">
                         <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><?php echo $tp_leaf; ?></svg>
-                        <span><?php echo $spec; ?></span>
+                        <span><?php if (!empty($tp_specialty_links[$spec])): ?><a href="<?php echo $tp_specialty_links[$spec]; ?>"><?php echo $spec; ?></a><?php else: ?><?php echo $spec; ?><?php endif; ?></span>
                     </li>
                     <?php endforeach; ?>
                 </ul>
@@ -159,7 +161,7 @@ $tp_method_icons = [
 
             <div class="tp-aside-cta">
                 <h2>Work with <?php echo $tp_first_name; ?></h2>
-                <p>In-person in Dearborn &amp; telehealth across Michigan.</p>
+                <p>In-person in Dearborn &amp; telehealth across Michigan. <a href="/insurance">Insurance &amp; payment options</a></p>
                 <a class="btn btn--pill btn--primary" href="/appointment">Make an Appointment</a>
                 <p class="tp-aside-cta__phone">Or call <a href="<?php echo PHONE_LINK; ?>"><?php echo PHONE; ?></a></p>
             </div>

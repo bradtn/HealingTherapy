@@ -282,6 +282,8 @@ require_once __DIR__ . '/includes/config.php';
                     <ul>
                         <li><a href="/fep-blue-federal-employee-therapy">FEP Blue Mental Health Services for Federal Employees</a></li>
                         <li><a href="/fep-blue-adhd-assessment-michigan">ADHD Testing with FEP Blue Insurance</a></li>
+                        <li><a href="/autism-evaluation">Autism Evaluation</a></li>
+                        <li><a href="/fep-blue-mental-health-benefits-guide">FEP Blue Mental Health Benefits Guide</a></li>
                         <li><a href="/insurance">Insurance &amp; Payment Options</a></li>
                     </ul>
                 </div>

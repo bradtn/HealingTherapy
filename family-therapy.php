@@ -271,6 +271,7 @@ $schema_json = json_encode([
 
                 <h3>Child &amp; Adolescent Expertise</h3>
                 <p>Our therapists are skilled at engaging children and teenagers in therapy, using age-appropriate techniques to ensure younger family members feel comfortable participating and being heard.</p>
+                <p><a href="/malak-wehbe">Malak Wehbe, MA, TLLP</a>, works with children and adolescents using CBT, play therapy and art-based techniques.</p>
 
                 <h3>Flexible Scheduling</h3>
                 <p>We understand that scheduling therapy for multiple family members is challenging. We offer evening and Saturday appointments to accommodate school and work schedules.</p>

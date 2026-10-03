@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
 $page_title = 'First Responder Therapy in Michigan | PTSD & Trauma';
-$page_description = 'Confidential therapy for Michigan first responders - police, firefighters, EMS & 911 dispatchers. Trauma-focused care, EMDR & shift-friendly telehealth. (313) 654-1915';
+$page_description = 'Confidential therapy for Michigan first responders: police, fire, EMS & 911 dispatch. Trauma-focused care, EMDR & shift-friendly telehealth. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/first-responder-therapy-michigan';
 
 // Service + FAQPage Schema for SEO

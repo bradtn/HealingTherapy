@@ -97,7 +97,7 @@ require_once __DIR__ . '/includes/config.php';
                 <p>If you have a loved one with autism, here are some ways to offer meaningful support:</p>
                 <ul>
                     <li><b>Educate Yourself</b> – Learn about autism and evidence-based interventions</li>
-                    <li><b>Advocate for Early Intervention</b> – Seek professional evaluations if you notice signs of autism</li>
+                    <li><b>Advocate for Early Intervention</b> – Seek <a href="/autism-evaluation">professional evaluations</a> if you notice <a href="/autism-signs">signs of autism</a></li>
                     <li><b>Encourage Strengths</b> – Recognize and nurture your child’s interests and talents</li>
                     <li><b>Provide a Supportive Environment</b> – Offer structure, routine, and clear communication.</li>
                     <li><b>Seek Professional Guidance</b> – Work with specialists like psychologists, therapists, and educators who understand autism.</li>

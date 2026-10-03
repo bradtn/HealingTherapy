@@ -118,7 +118,7 @@ require_once __DIR__ . '/includes/config.php';
                 <p>&middot; You're using alcohol or drugs to cope</p>
 
                 <h3>Take the First Step Today</h3>
-                <p>Anxiety doesn't have to control your life. Our compassionate therapists at <a href="/">Healing Therapy Center</a> specialize in anxiety treatment and are here to help you find relief. We offer both in-person sessions at our Dearborn, Michigan office and convenient <a href="/telehealth-therapy">telehealth therapy</a> throughout Michigan.</p>
+                <p>Anxiety doesn't have to control your life. Our compassionate therapists at <a href="/">Healing Therapy Center</a> offer <a href="/anxiety-therapy-michigan">anxiety therapy in Dearborn</a> and are here to help you find relief. We offer both in-person sessions at our Dearborn, Michigan office and convenient <a href="/telehealth-therapy">telehealth therapy</a> throughout Michigan.</p>
 
                 <p>We accept most major insurance plans including Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. <a href="/appointment">Schedule your appointment today</a> or call us at <a href="tel:313-654-1915">(313) 654-1915</a> to start your journey toward peace of mind.</p>
 

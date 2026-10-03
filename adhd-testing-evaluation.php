@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables
-$page_title = 'ADHD Testing & Evaluation in Michigan | Children & Adults';
-$page_description = 'ADHD testing in Michigan for children & adults. Professional evaluation & diagnosis in Dearborn plus telehealth statewide. Call (313) 654-1915.';
+$page_title = 'ADHD Testing for Children & Adults in Dearborn, MI';
+$page_description = 'ADHD testing for children (6+) and adults at our Dearborn, MI office: clinical interview, rating scales and CPT, plus a written report. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/adhd-testing-evaluation';
 
 // Service + FAQPage Schema for SEO
@@ -107,7 +107,7 @@ require_once __DIR__ . '/includes/config.php';
 
     <?php
     $hero_eyebrow = 'Specialized Care';
-    $hero_h1 = 'Professional ADHD Testing &amp; Comprehensive Evaluation Services';
+    $hero_h1 = 'Comprehensive ADHD Evaluations for Children, Teens &amp; Adults';
     include __DIR__ . '/includes/page-hero.php';
     ?>
 
@@ -163,7 +163,7 @@ require_once __DIR__ . '/includes/config.php';
                 </div>
 
                 <div class="callout callout--info">
-                    <p><strong>Did you know?</strong> Many adults seek evaluation after their child is diagnosed with ADHD and recognize similar patterns in themselves.</p>
+                    <p><strong>Did you know?</strong> Many adults seek evaluation after their child is diagnosed with ADHD and recognize similar patterns in themselves. Our guide to <a href="/adhd-guide-adults-children">ADHD signs in adults and children</a> explains what to look for.</p>
                 </div>
 
                 <h2 id="signs-testing">Signs You/Your Child May Need ADHD Testing</h2>
@@ -251,7 +251,7 @@ require_once __DIR__ . '/includes/config.php';
                     </div>
                     <div class="panel">
                         <h3>ADHD Therapy &amp; Coaching</h3>
-                        <p><strong>Therapy</strong> teaches organization skills, time management, emotional regulation, and strategies to manage ADHD symptoms.</p>
+                        <p><strong>Therapy</strong> teaches organization skills, time management, emotional regulation, and strategies to manage ADHD symptoms. <a href="/therapists">Meet our therapists</a>.</p>
                         <p><strong>ADHD coaching</strong> provides practical support for implementing systems and strategies.</p>
                     </div>
                     <div class="panel">
@@ -287,7 +287,7 @@ require_once __DIR__ . '/includes/config.php';
                     </div>
                     <div class="faq-item">
                         <h3>Does insurance cover ADHD evaluation in Michigan?</h3>
-                        <p>Most Michigan insurance plans cover ADHD testing when medically necessary. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Call (313) 654-1915 to verify coverage.</p>
+                        <p>Most Michigan insurance plans cover ADHD testing when medically necessary. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Call (313) 654-1915 to verify coverage. Federal employees can read about <a href="/fep-blue-adhd-assessment-michigan">ADHD testing with FEP Blue</a>.</p>
                     </div>
                     <div class="faq-item">
                         <h3>Can ADHD testing be done via telehealth?</h3>

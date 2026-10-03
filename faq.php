@@ -25,7 +25,7 @@ $schema_json = json_encode([
             'name' => 'How do I schedule an appointment?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'Scheduling an appointment is easy! You can contact us via phone at (313) 654-1915, email, or through our online booking system on our website. Our team will assist you in finding a convenient time for your session.'
+                'text' => 'Scheduling an appointment is easy! You can contact us via phone, email, or through our online booking system on our website. Our team will assist you in finding a convenient time for your session.'
             ]
         ],
         [
@@ -65,7 +65,7 @@ $schema_json = json_encode([
             'name' => 'What insurance do you accept?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'We accept most major insurance plans including Blue Cross Blue Shield, FEP Blue for federal employees, Aetna, Priority Health, United Healthcare, HAP, McLaren, and many others. Our administrative team can help verify your benefits and explain any out-of-pocket costs before your first appointment.'
+                'text' => 'We accept most major insurance plans including Blue Cross Blue Shield, Aetna, and many others. Our administrative team can help verify your benefits and explain any out-of-pocket costs before your first appointment. We believe financial concerns should not prevent anyone from receiving the mental health care they need.'
             ]
         ],
         [
@@ -73,7 +73,7 @@ $schema_json = json_encode([
             'name' => 'Do you accept FEP Blue insurance for federal employees?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'Yes! We accept FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance. Coverage, copays, deductibles, session limits, and authorization requirements vary by FEP Blue plan. We handle all insurance billing directly. Contact us at (313) 654-1915 to verify your specific FEP Blue benefits and schedule an appointment.'
+                'text' => 'Yes! We are proud to accept FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance. Federal employees working for USPS, CBP, FBI, VA, and all other federal agencies often have excellent mental health coverage through FEP Blue. Coverage, copays, deductibles, session limits, and authorization requirements vary by plan, so call us at (313) 654-1915 to verify your specific benefits.'
             ]
         ],
         [
@@ -155,7 +155,7 @@ $schema_json = json_encode([
                     </div>
                     <div class="faq-item">
                         <h3>Do you accept FEP Blue insurance for federal employees?</h3>
-                        <p>Yes! We are proud to accept FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance. Federal employees working for USPS, CBP, FBI, VA, and all other federal agencies often have excellent mental health coverage through FEP Blue.</p>
+                        <p>Yes! We are proud to accept FEP Blue (Blue Cross Blue Shield Federal Employee Program) insurance. Federal employees working for USPS, CBP, FBI, VA, and all other federal agencies often have excellent mental health coverage through FEP Blue. Coverage, copays, deductibles, session limits, and authorization requirements vary by plan, so call us at (313) 654-1915 to verify your specific benefits.</p>
                         <p>FEP Blue may cover:</p>
                         <ul>
                             <li>Individual therapy for anxiety, depression, stress, and PTSD</li>
@@ -165,7 +165,7 @@ $schema_json = json_encode([
                             <li>Telehealth therapy sessions (may be covered similarly to in-person)</li>
                         </ul>
                         <p><strong>Important:</strong> Coverage, copays, deductibles, session limits, and authorization requirements vary by FEP Blue plan. We handle all insurance billing directly. Whether you work at the Detroit Federal Building, CBP Port of Entry, USPS facilities, or any federal agency in Michigan, we can help verify your benefits and make therapy accessible.</p>
-                        <p><strong>Learn more:</strong> <a href="/fep-blue-federal-employee-therapy">Complete guide to FEP Blue mental health coverage for federal employees</a> or <a href="/insurance">view all accepted insurance plans</a>.</p>
+                        <p><strong>Learn more:</strong> <a href="/fep-blue-mental-health-benefits-guide">Complete guide to FEP Blue mental health coverage for federal employees</a> or <a href="/insurance">view all accepted insurance plans</a>.</p>
                         <p>Contact us at <a href="tel:313-654-1915">(313) 654-1915</a> to verify your specific FEP Blue benefits and schedule an appointment.</p>
                     </div>
                     <div class="faq-item">

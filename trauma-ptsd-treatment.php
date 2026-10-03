@@ -46,7 +46,7 @@ $schema_json = json_encode([
             'name' => 'Does insurance cover PTSD treatment in Michigan?',
             'acceptedAnswer' => [
                 '@type' => 'Answer',
-                'text' => 'Most Michigan insurance plans cover PTSD and trauma treatment. We accept Blue Cross Blue Shield, Aetna, Priority Health, McLaren, and HAP. Call (313) 654-1915 to verify coverage.'
+                'text' => 'Most Michigan insurance plans cover PTSD and trauma treatment. We accept Blue Cross Blue Shield (including FEP Blue for federal employees), Aetna, Priority Health, McLaren, and HAP. Call (313) 654-1915 to verify coverage.'
             ]
         ]
     ]

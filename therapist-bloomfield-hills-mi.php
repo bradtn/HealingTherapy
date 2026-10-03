@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Therapist Bloomfield Hills MI | Counseling & Therapy';
-$page_description = 'Discreet, licensed therapists serving Bloomfield Hills, MI with individual, couples, and family therapy plus testing. Call (313) 654-1915.';
+$page_title = 'Bloomfield Hills Therapy | Telehealth or Dearborn Office';
+$page_description = 'Discreet telehealth therapy for Bloomfield Hills residents, or in person at our Dearborn office. Individual, couples and family therapy plus testing.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-bloomfield-hills-mi';
 
 require_once __DIR__ . '/includes/config.php';
@@ -136,11 +136,11 @@ $current_service = 'individual';
                 <p>Our team includes licensed professionals experienced in serving Oakland County and Bloomfield Hills residents:</p>
 
                 <ul>
-                    <li><strong>Dr. Nadia Habhab, PhD, LP</strong> - Licensed Psychologist specializing in anxiety, depression, trauma, and psychological testing</li>
-                    <li><strong>Tiffany Murray, LMSW</strong> - Licensed Master Social Worker providing individual and couples therapy</li>
-                    <li><strong>Amal Ayad, MA</strong> - Life Coach &amp; Therapist specializing in life transitions and stress management</li>
-                    <li><strong>Malak Wehbe, TLLP</strong> - Licensed Therapist working with anxiety and depression</li>
-                    <li><strong>Donna Majed, TLLP</strong> - Licensed Therapist providing therapy and testing services</li>
+                    <li><strong><a href="/dr-nadia-habhab">Dr. Nadia Habhab, PhD, LP</a></strong> - Licensed psychologist: anxiety and depression, complex trauma, psychological testing and autism evaluations</li>
+                    <li><strong><a href="/dr-tiffany-murray">Tiffany Murray, LMSW</a></strong> - Licensed master social worker: perinatal and postpartum mental health, grief and loss</li>
+                    <li><strong><a href="/malak-wehbe">Malak Wehbe, MA, TLLP</a></strong> - Licensed therapist: children, teens and families</li>
+                    <li><strong><a href="/donna-majed">Donna Majed, TLLP</a></strong> - Licensed therapist: women&rsquo;s mental health, anxiety and OCD, individual and group therapy</li>
+                    <li><strong><a href="/amal-ayad">Amal Ayad, MA</a></strong> - Certified life coach</li>
                 </ul>
 
                 <p><a href="/therapists">Learn more about our therapists &rarr;</a></p>
