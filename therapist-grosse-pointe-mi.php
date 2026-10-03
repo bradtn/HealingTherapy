@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Therapist Grosse Pointe MI | Counseling & Therapy';
+$page_title = 'Grosse Pointe Therapist | Telehealth or Dearborn Office';
 $page_description = 'Therapy for Grosse Pointe residents: individual, couples and family therapy plus ADHD and autism testing, in person in Dearborn or by telehealth.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-grosse-pointe-mi';
 
@@ -59,7 +59,7 @@ $current_service = 'individual';
                     <p><strong>Telehealth Option:</strong> Private online therapy from your Grosse Pointe home — the same confidential care and insurance coverage as an in-person visit</p>
                     <ul>
                         <li>Evening and weekend appointments for professionals and families</li>
-                        <li>Free, low-profile parking at our Dearborn office</li>
+                        <li>Public parking near our West Dearborn office</li>
                         <li>Secure video sessions with full HIPAA privacy protections</li>
                     </ul>
                 </div>

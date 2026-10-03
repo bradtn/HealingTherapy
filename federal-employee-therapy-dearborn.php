@@ -59,8 +59,8 @@ require_once __DIR__ . '/includes/config.php';
                     <ul>
                         <li>Easy access from Michigan Ave, Ford Rd, and Telegraph Rd</li>
                         <li>Close to Dearborn Post Office and USPS facilities</li>
-                        <li>15 minutes from Detroit Federal Building</li>
-                        <li>Ample free parking</li>
+                        <li>About 20&ndash;25 minutes from the Detroit Federal Building</li>
+                        <li>Public parking nearby</li>
                         <li>Telehealth available for maximum convenience</li>
                     </ul>
                 </div>

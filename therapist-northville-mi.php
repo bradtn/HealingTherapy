@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Therapist Northville MI | Counseling & Therapy';
+$page_title = 'Northville, MI Therapist | Telehealth or Dearborn Office';
 $page_description = 'Therapy for Northville residents: individual, couples and family therapy plus ADHD and autism testing, in person in Dearborn or by telehealth.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-northville-mi';
 
@@ -50,16 +50,16 @@ $current_service = 'individual';
     <section class="page">
         <div class="shell">
             <article class="prose">
-                <p>Northville sits right on the Wayne and Oakland county line, and its historic downtown and professional households deserve care that fits busy lives. Our Dearborn practice is an easy 25 to 30 minute drive from Northville, and every service we offer in person is also available through secure HIPAA-compliant telehealth throughout Michigan. We work with commercial insurance plans including Blue Cross Blue Shield Michigan, Priority Health, Aetna, and United Healthcare.</p>
+                <p>Northville sits right on the Wayne and Oakland county line, and its historic downtown and professional households deserve care that fits busy lives. Our Dearborn practice is about a 25 to 35 minute drive from Northville, and every service we offer in person is also available through secure HIPAA-compliant telehealth throughout Michigan. We work with commercial insurance plans including Blue Cross Blue Shield Michigan, Priority Health, Aetna, and United Healthcare.</p>
 
                 <div class="callout callout--info">
                     <h3>Convenient for Northville Residents</h3>
                     <p><strong>Office Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124</p>
-                    <p><strong>From Northville:</strong> Roughly 25 to 30 minutes — take I-275 South to I-96/M-14, then follow the Southfield Freeway toward Dearborn</p>
+                    <p><strong>From Northville:</strong> Roughly 25 to 35 minutes — take I-275 South to I-96/M-14, then follow the Southfield Freeway toward Dearborn</p>
                     <p><strong>Telehealth Option:</strong> Private online therapy from your Northville home, office, or Cabbagetown-area studio — same insurance coverage as in-person visits</p>
                     <ul>
                         <li>Evening and weekend appointments for working professionals</li>
-                        <li>Free on-site parking at our Dearborn office</li>
+                        <li>Public parking near our West Dearborn office</li>
                         <li>Secure video sessions that fit around school pickups and commutes</li>
                     </ul>
                 </div>
@@ -152,7 +152,7 @@ $current_service = 'individual';
                     <li><strong>Insurance Accepted:</strong> In network with most major commercial plans for lower out-of-pocket costs</li>
                     <li><strong>Telehealth Available:</strong> Secure online therapy so there is no need to leave Northville</li>
                     <li><strong>Evening &amp; Weekend Hours:</strong> Flexible scheduling built around demanding professional and family calendars</li>
-                    <li><strong>Convenient Access:</strong> A straightforward 25 to 30 minute drive via I-275 and M-14 to our Dearborn office</li>
+                    <li><strong>Convenient Access:</strong> A 25 to 35 minute drive via I-275 and M-14 to our Dearborn office</li>
                     <li><strong>Discreet, Professional Setting:</strong> Private, HIPAA-compliant care in a comfortable, confidential environment</li>
                 </ul>
 

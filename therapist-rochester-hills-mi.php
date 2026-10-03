@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Therapist Rochester Hills MI | Mental Health Counseling';
-$page_description = 'Licensed therapists serving Rochester Hills, MI families. Individual, couples, and family therapy plus ADHD testing. Most major insurance accepted.';
+$page_title = 'Rochester Hills Therapist | Telehealth or Dearborn Office';
+$page_description = 'Telehealth therapy for Rochester Hills residents, or in person at our Dearborn office. Individual, couples and family therapy plus ADHD testing.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-rochester-hills-mi';
 
 require_once __DIR__ . '/includes/config.php';
@@ -50,16 +50,16 @@ $current_service = 'individual';
     <section class="page">
         <div class="shell">
             <article class="prose">
-                <p>Located in Dearborn (35 minutes from Rochester Hills), we serve professionals, families, and individuals throughout Metro Detroit with both in-person therapy and convenient telehealth options. We accept most major insurance plans including Blue Cross Blue Shield, Aetna, Priority Health, and United Healthcare.</p>
+                <p>Located in Dearborn (about 34 miles from Rochester Hills, typically 40&ndash;55 minutes by car), we serve professionals, families, and individuals throughout Metro Detroit with both in-person therapy and convenient telehealth options. We accept most major insurance plans including Blue Cross Blue Shield, Aetna, Priority Health, and United Healthcare.</p>
 
                 <div class="callout callout--info">
                     <h3>Convenient for Rochester Hills Residents</h3>
                     <p><strong>Office Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124</p>
-                    <p><strong>From Rochester Hills:</strong> 35 minutes via M-59 West to I-75 South</p>
+                    <p><strong>From Rochester Hills:</strong> About 34 miles, typically 40&ndash;55 minutes depending on traffic, via I-75 South, I-94 West and Michigan Avenue</p>
                     <p><strong>Telehealth Option:</strong> Online therapy from your Rochester Hills home - same insurance coverage</p>
                     <ul>
                         <li>Evening and weekend appointments available</li>
-                        <li>Free parking at our Dearborn office</li>
+                        <li>Public parking near our West Dearborn office</li>
                         <li>Secure telehealth for busy professionals and families</li>
                     </ul>
                 </div>
@@ -162,7 +162,7 @@ $current_service = 'individual';
                 <p>Busy schedule or prefer therapy from home? Many Rochester Hills residents choose telehealth:</p>
 
                 <ul>
-                    <li><strong>No Commute:</strong> Attend therapy from your Rochester Hills home - saves 70 minutes of driving roundtrip</li>
+                    <li><strong>No Commute:</strong> Attend therapy from your Rochester Hills home - saves well over an hour of round-trip driving</li>
                     <li><strong>Flexible Scheduling:</strong> Lunch break sessions, evening appointments, weekend availability</li>
                     <li><strong>Same Insurance Coverage:</strong> Most plans cover telehealth at the same copay as in-person visits</li>
                     <li><strong>Secure &amp; Private:</strong> HIPAA-compliant video platform ensures confidentiality</li>

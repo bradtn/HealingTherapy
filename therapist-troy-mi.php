@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Therapist Troy MI | Mental Health Counseling & Therapy';
-$page_description = 'Licensed therapists serving Troy, MI with individual, couples, and family therapy plus ADHD testing. BCBS, Aetna, and Priority Health accepted.';
+$page_title = 'Troy, MI Therapist | Telehealth or Dearborn Office';
+$page_description = 'Telehealth therapy for Troy, MI residents, or in person at our Dearborn office. Individual, couples and family therapy plus ADHD testing. BCBS, Aetna accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-troy-mi';
 
 require_once __DIR__ . '/includes/config.php';
@@ -50,16 +50,16 @@ $current_service = 'individual';
     <section class="page">
         <div class="shell">
             <article class="prose">
-                <p>Located in Dearborn (25 minutes from Troy), we serve professionals, families, and individuals throughout Metro Detroit with both in-person therapy and telehealth options. We accept most major insurance plans including Blue Cross Blue Shield, Aetna, Priority Health, and United Healthcare.</p>
+                <p>Located in Dearborn (about 30 miles from Troy, typically 35&ndash;50 minutes by car), we serve professionals, families, and individuals throughout Metro Detroit with both in-person therapy and telehealth options. We accept most major insurance plans including Blue Cross Blue Shield, Aetna, Priority Health, and United Healthcare.</p>
 
                 <div class="callout callout--info">
                     <h3>Convenient for Troy Residents</h3>
                     <p><strong>Office Location:</strong> 835 Mason St STE D160, Dearborn, MI 48124</p>
-                    <p><strong>From Troy:</strong> 25 minutes via I-75 South to I-94 West</p>
+                    <p><strong>From Troy:</strong> About 30 miles, typically 35&ndash;50 minutes depending on traffic, via I-75 South, I-94 West and Michigan Avenue</p>
                     <p><strong>Telehealth Option:</strong> Online therapy from your Troy home - same insurance coverage</p>
                     <ul>
                         <li>Evening and weekend appointments available</li>
-                        <li>Free parking at our Dearborn office</li>
+                        <li>Public parking near our West Dearborn office</li>
                         <li>Secure telehealth for busy professionals</li>
                     </ul>
                 </div>
@@ -152,7 +152,7 @@ $current_service = 'individual';
                     <li><strong>Insurance Accepted:</strong> In-network with most major plans - lower out-of-pocket costs</li>
                     <li><strong>Telehealth Available:</strong> Secure online therapy - no need to drive from Troy</li>
                     <li><strong>Evening &amp; Weekend Hours:</strong> Flexible scheduling for busy Troy professionals and families</li>
-                    <li><strong>Convenient Access:</strong> Easy 25-minute drive from Troy via I-75 to our Dearborn office</li>
+                    <li><strong>Convenient Access:</strong> About 30 miles from Troy via I-75 and I-94, or skip the drive with telehealth</li>
                     <li><strong>Experienced with Professionals:</strong> We understand the unique pressures facing Troy's automotive, tech, and business professionals</li>
                     <li><strong>Confidential Care:</strong> HIPAA-compliant, private therapy in a professional setting</li>
                 </ul>

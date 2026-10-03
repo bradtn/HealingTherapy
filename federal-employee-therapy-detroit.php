@@ -55,7 +55,7 @@ require_once __DIR__ . '/includes/config.php';
 
                 <div class="callout callout--info">
                     <h3>Serving Detroit Federal Employees</h3>
-                    <p><strong>In-Person:</strong> Just 15 minutes from downtown Detroit in Dearborn</p>
+                    <p><strong>In-Person:</strong> About 20&ndash;25 minutes from downtown Detroit, at our Dearborn office</p>
                     <p><strong>Telehealth:</strong> Secure online therapy from anywhere in Detroit</p>
                     <ul>
                         <li>Easy access from I-96, I-94, and Lodge Freeway</li>

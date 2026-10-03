@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Birmingham, MI Therapy | Telehealth or Dearborn Office';
+$page_title = 'Birmingham, MI Therapist | Telehealth or Dearborn Office';
 $page_description = 'Telehealth therapy for Birmingham, MI residents, or in person at our Dearborn office. Individual, couples and executive stress therapy. BCBS, Aetna accepted.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-birmingham-mi';
 

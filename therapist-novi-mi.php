@@ -1,7 +1,7 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Therapist Novi MI | Counseling & Therapy';
-$page_description = 'Licensed therapists serving Novi, MI with individual, couples, and family therapy plus testing. Telehealth statewide. Call (313) 654-1915.';
+$page_title = 'Novi, MI Therapist | Telehealth or Dearborn Office';
+$page_description = 'Telehealth therapy for Novi, MI residents, or in person at our Dearborn office. Individual, couples and family therapy plus testing. Call (313) 654-1915.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-novi-mi';
 
 require_once __DIR__ . '/includes/config.php';
@@ -59,7 +59,7 @@ $current_service = 'individual';
                     <p><strong>Telehealth Option:</strong> Online therapy from your Novi home &mdash; same insurance coverage</p>
                     <ul>
                         <li>Evening and weekend appointments for busy, growing families</li>
-                        <li>Free, easy parking at our Dearborn office</li>
+                        <li>Public parking near our West Dearborn office</li>
                         <li>Secure telehealth for commuters and dual-career households</li>
                     </ul>
                 </div>

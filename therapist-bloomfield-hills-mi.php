@@ -1,6 +1,6 @@
 <?php
 // Page-specific variables — verbatim from production
-$page_title = 'Bloomfield Hills Therapy | Telehealth or Dearborn Office';
+$page_title = 'Bloomfield Hills Therapist | Telehealth or Dearborn Office';
 $page_description = 'Discreet telehealth therapy for Bloomfield Hills residents, or in person at our Dearborn office. Individual, couples and family therapy plus testing.';
 $canonical_url = 'https://www.healingtherapycenter.com/therapist-bloomfield-hills-mi';
 
@@ -59,7 +59,7 @@ $current_service = 'individual';
                     <p><strong>Telehealth Option:</strong> Fully private online therapy from your Bloomfield Hills home or office &mdash; same insurance coverage</p>
                     <ul>
                         <li>Early morning, evening, and weekend appointments for demanding schedules</li>
-                        <li>Free, unhurried parking at our Dearborn office &mdash; no valet or downtown congestion</li>
+                        <li>Public parking near our West Dearborn office &mdash; no valet needed</li>
                         <li>Secure, confidential telehealth for high-visibility professionals</li>
                     </ul>
                 </div>

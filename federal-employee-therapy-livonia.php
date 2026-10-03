@@ -51,17 +51,17 @@ require_once __DIR__ . '/includes/config.php';
     <section class="page">
         <div class="shell">
             <article class="prose">
-                <p>Our Dearborn office is just 10-15 minutes from Livonia via I-96 or Plymouth Road, making us convenient for Livonia residents who work for USPS, VA, or commute to federal facilities in Detroit. We also offer telehealth therapy for maximum convenience.</p>
+                <p>Our Dearborn office is about 15-25 minutes from Livonia via Plymouth Road and Telegraph Road, making us convenient for Livonia residents who work for USPS, VA, or commute to federal facilities in Detroit. We also offer telehealth therapy for maximum convenience.</p>
 
                 <div class="callout callout--info">
                     <h3>Serving Livonia Federal Employees</h3>
-                    <p><strong>In-Person:</strong> 10-15 minutes from Livonia (Dearborn office)</p>
+                    <p><strong>In-Person:</strong> About 15-25 minutes from Livonia (Dearborn office)</p>
                     <p><strong>Telehealth:</strong> Secure online therapy from your Livonia home</p>
                     <ul>
                         <li>Easy access via I-96, Plymouth Rd, or Middlebelt</li>
                         <li>Evening and weekend appointments for busy schedules</li>
                         <li>We accept FEP Blue insurance</li>
-                        <li>Free parking at our office</li>
+                        <li>Public parking nearby</li>
                     </ul>
                 </div>
 
@@ -122,7 +122,7 @@ require_once __DIR__ . '/includes/config.php';
                 <h2>Why Livonia Federal Employees Choose Us</h2>
 
                 <ul>
-                    <li><strong>Convenient Location:</strong> Just 10-15 minutes from Livonia, easy access from I-96</li>
+                    <li><strong>Convenient Location:</strong> About 15-25 minutes from Livonia via Plymouth Road</li>
                     <li><strong>Telehealth Available:</strong> No need to leave your Livonia home - secure online therapy</li>
                     <li><strong>FEP Blue In-Network:</strong> We accept your federal employee insurance and handle all billing</li>
                     <li><strong>Flexible Scheduling:</strong> Evening and weekend appointments for busy federal employees</li>
