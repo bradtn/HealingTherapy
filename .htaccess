@@ -31,6 +31,12 @@ RewriteEngine On
 RewriteCond %{ENV:REDIRECT_STATUS} !^$
 RewriteRule ^ - [L]
 
+# Hidden files (except .well-known, needed for SSL validation) and editor/backup copies
+# are never public: public_html is a git working folder, so copies like ".htaccess.old"
+# made while editing in File Manager would otherwise be served as plain text.
+RewriteRule (^|/)\.(?!well-known(/|$)) /404.php [L]
+RewriteRule (\.(bak|old|orig|save|swp|tmp)|~)$ /404.php [L]
+
 # 4. Keep repo-only files off the public site. The whole project folder gets uploaded,
 #    so without this the docs, tooling, old HTML backups (with the old address), PHP
 #    partials, the dev router, SEO/CSV exports and the form handlers' rate-limit files
