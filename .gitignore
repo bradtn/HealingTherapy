@@ -12,3 +12,8 @@ forms/mail_config.php
 .DS_Store
 Thumbs.db
 *.swp
+
+# Exports live in /srv/data/HealingTherapy, never in git
+*.csv
+*.xlsx
+*.har
