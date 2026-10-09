@@ -102,6 +102,7 @@ $schema_json = json_encode([
                                     <option value="Amal Ayad">Amal Ayad</option>
                                     <option value="Malak Wehbe">Malak Wehbe</option>
                                     <option value="Donna Majed">Donna Majed</option>
+                                    <option value="Kalee LaPointe">Kalee LaPointe</option>
                                 </select>
                             </div>
                             <div class="form-field">

@@ -325,7 +325,7 @@ $schema_json = json_encode([
 
             <ul class="team-strip reveal" role="list">
                 <?php
-                $team_order = ['amal-ayad', 'tiffany-murray', 'nadia-habhab', 'malak-wehbe', 'donna-majed'];
+                $team_order = ['amal-ayad', 'tiffany-murray', 'nadia-habhab', 'malak-wehbe', 'donna-majed', 'kalee-lapointe'];
                 foreach ($team_order as $tid):
                     $m = get_team_member_by_id($tid);
                     if (!$m) continue;

@@ -141,12 +141,13 @@ if (!empty($canonical_url) && defined('SITE_URL') && rtrim($canonical_url, '/') 
                        path.includes('perinatal') || path.includes('counseling') || path.includes('treatment')) {
                 pageType = 'service';
             } else if (path.includes('amal') || path.includes('nadia') || path.includes('tiffany') ||
-                       path.includes('malak') || path.includes('donna')) {
+                       path.includes('malak') || path.includes('donna') || path.includes('kalee')) {
                 pageType = 'therapist';
                 therapistName = path.includes('amal') ? 'Amal Ayad' :
                                path.includes('nadia') ? 'Dr. Nadia Habhab' :
                                path.includes('tiffany') ? 'Tiffany Murray' :
-                               path.includes('malak') ? 'Malak Wehbe' : 'Donna Majed';
+                               path.includes('malak') ? 'Malak Wehbe' :
+                               path.includes('kalee') ? 'Kalee LaPointe' : 'Donna Majed';
             } else if (path.includes('therapists')) {
                 pageType = 'team';
             } else if (path.includes('appointment')) {

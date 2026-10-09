@@ -140,6 +140,7 @@ $current_service = 'individual';
                     <li><strong><a href="/dr-tiffany-murray">Tiffany Murray, LMSW</a></strong> - Licensed master social worker: perinatal and postpartum mental health, grief and loss</li>
                     <li><strong><a href="/malak-wehbe">Malak Wehbe, MA, TLLP</a></strong> - Licensed therapist: children, teens and families</li>
                     <li><strong><a href="/donna-majed">Donna Majed, TLLP</a></strong> - Licensed therapist: women&rsquo;s mental health, anxiety and OCD, individual and group therapy</li>
+                    <li><strong><a href="/kalee-lapointe">Kalee LaPointe, TLLP</a></strong> - Licensed therapist: individuals and couples, anxiety and depression, ADHD and autism support</li>
                     <li><strong><a href="/amal-ayad">Amal Ayad, MA</a></strong> - Certified life coach</li>
                 </ul>
 

@@ -166,6 +166,15 @@ $team_members = [
         'url' => 'donna-majed',
         'image' => 'assets/img/donna.jpg',
         'alt' => 'Donna Majed, TLLP'
+    ],
+    [
+        'id' => 'kalee-lapointe',
+        'name' => 'Kalee LaPointe',
+        'credentials' => 'TLLP',
+        'role' => 'Licensed Therapist',
+        'url' => 'kalee-lapointe',
+        'image' => 'assets/img/kalee.jpg',
+        'alt' => 'Kalee LaPointe, MA, TLLP'
     ]
 ];
 

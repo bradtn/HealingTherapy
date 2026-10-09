@@ -143,6 +143,7 @@ $allowedDoctors = [
     'Amal Ayad',
     'Malak Wehbe',
     'Donna Majed',
+    'Kalee LaPointe',
     'No Preference'
 ];
 

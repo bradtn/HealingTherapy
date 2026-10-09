@@ -38,8 +38,9 @@ $team_display = [
     'amal-ayad'      => ['title' => 'Owner',                             'specialties' => ['Life Coaching & Goal Setting', 'Confidence Building', 'Work-Life Balance']],
     'malak-wehbe'    => ['title' => 'Therapist',                         'specialties' => ['Child & Adolescent Therapy', 'ADHD & Autism Support', 'Anxiety & Trauma']],
     'donna-majed'    => ['title' => 'Therapist',                         'specialties' => ["Women's Mental Health", 'Anxiety & OCD', 'Postpartum & Trauma']],
+    'kalee-lapointe' => ['title' => 'Therapist',                         'specialties' => ['Anxiety & Depression', 'Couples & Relationships', 'ADHD & Autism Support']],
 ];
-$team_order = ['amal-ayad', 'tiffany-murray', 'nadia-habhab', 'malak-wehbe', 'donna-majed'];
+$team_order = ['amal-ayad', 'tiffany-murray', 'nadia-habhab', 'malak-wehbe', 'donna-majed', 'kalee-lapointe'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
