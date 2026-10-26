@@ -187,7 +187,8 @@ $insurance_providers = [
     'Aetna',
     'Priority Health',
     'McLaren Health Plan',
-    'HAP'
+    'HAP',
+    'United Healthcare'
 ];
 
 // Insurance acceptance text
