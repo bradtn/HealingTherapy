@@ -191,7 +191,7 @@ require_once __DIR__ . '/includes/config.php';
                 <p>Discretion matters when your reputation and your company are intertwined. Everything you share is confidential and protected under HIPAA. We do not report to investors, co-founders, your board, or your team. For founders who want maximum privacy, our <a href="/private-pay-out-of-network-therapy">private-pay option</a> keeps therapy off insurance claims entirely, so it never appears on any record tied to the business.</p>
 
                 <h2>Telehealth &amp; Flexible Scheduling</h2>
-                <p>All of our services for entrepreneurs are available via secure, HIPAA-compliant telehealth to clients anywhere in Michigan, with early-morning, evening, and select weekend appointments. Attend from your office, from home, or while traveling for work - no waiting room and no visible commute. Research shows telehealth is as effective as in-person care for anxiety, depression, and stress-related concerns.</p>
+                <p>All of our services for entrepreneurs are available via secure, HIPAA-compliant telehealth to clients anywhere in Michigan, with early-morning, evening, and select weekend appointments. Attend from your office, from home, or while traveling for work - no waiting room and no visible commute. Research shows telehealth is as effective as in-person care for anxiety, depression, and stress-related concerns. Not sure whether what you are feeling is stress or burnout? Our guide to <a href="/burnout-stress-therapy-michigan">burnout and work stress</a> explains the difference.</p>
 
                 <h2>Frequently Asked Questions</h2>
 

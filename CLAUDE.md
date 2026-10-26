@@ -12,11 +12,12 @@ in-person care in Dearborn and telehealth across Michigan. Live at https://www.h
 - Forms post to `forms/` (e.g. `forms/appointment.php`, which validates against an allow-list).
 
 ## Hosting and deploy
-- Production runs on a PHP 8.2 / Apache host.
-- **A push to GitHub does NOT go live.** Deploy by uploading the changed files into the host's
-  `public_html`, keeping folder paths, then extracting and overwriting. A zip of just the changed files
-  (`git diff --name-only <from> HEAD`) is the usual hand-off.
-- After deploying, check the new or changed URLs return 200 on the live site.
+- Production runs on a PHP 8.2 / Apache host (cPanel).
+- **A push to GitHub does NOT go live on its own.** Push to `main`, then Brad pulls it on the host in
+  cPanel > Git Version Control (deploy from the GitHub repo). Deleted files are only removed on the
+  server if that pull is a real git checkout; otherwise list them so Brad deletes them by hand.
+- After deploying, check the new or changed URLs return 200 on the live site, and that any new 301s
+  in `.htaccess` redirect.
 
 ## Local dev
 `php -S 0.0.0.0:<port> router.php` from the repo root. `router.php` emulates the clean-URL rewrites.
@@ -41,11 +42,20 @@ If PHP isn't installed, run it in a `php:8.3-cli` container with the repo mounte
 
 ### Other
 - Specialty chips on a profile can link to service pages via `$tp_specialty_links`.
-- SEO notes and audits live in `docs/`.
+- SEO notes and audits live in `docs/` (`docs/SEO-CHANGES.md` is the running change log).
+- Blog posts: one H1 (via `$hero_h1`), H2 sections and H3 sub-points (no H5 headings), a FAQ block
+  (`.faq-list`/`.faq-item`) mirrored in FAQPage JSON-LD, links to the matching service page and
+  the relevant therapist profiles, and a crisis box (`.callout--brand`) on any post that mentions
+  self-harm or suicide. Bump `dateModified`, the "Updated" date in `$hero_meta` and the sitemap
+  `lastmod` when the content changes.
+- Don't publish a guide that repeats a service page (same condition, same symptoms and treatments).
+  Put the content on the service page instead. If one slips through, 301 it to the service page in
+  `.htaccess` (section 5), delete the file, and remove it from `sitemap.xml`, `all-blogs.php` and
+  `llms.txt`. Done so far: `/anxiety-therapy-guide`, `/adhd-guide-adults-children`.
 
 ## Gotchas
-- `includes/config.php`, `includes/scripts.php` and `forms/appointment.php` use **Windows (CRLF)
-  line endings**. Preserve them when editing, or the diff shows every line as changed.
+- `includes/config.php`, `includes/scripts.php`, `forms/appointment.php`, `.htaccess` and `robots.txt`
+  use **Windows (CRLF) line endings**. Preserve them when editing, or the diff shows every line as changed.
 - This repo is **public**. Never commit exports (CSV, XLSX, PDF reports), personal data, keys or server
   details. `.gitignore` blocks `*.csv`, `*.xlsx`, `*.har`.
 - Commit messages: plain descriptions only. Never mention Claude Code or any AI tool.

@@ -100,6 +100,7 @@ $tp_specialty_links = [
     'Perinatal Mood &amp; Anxiety Disorders' => '/perinatal-therapy',
     'Postpartum Depression &amp; Anxiety'    => '/postpartum-depression-therapy-michigan',
     'Grief &amp; Loss Counseling'            => '/grief-loss-counseling-guide',
+    'ADHD &amp; Neurodiversity'              => '/adhd-testing-evaluation',
 ];
 
 $tp_credentials = [

@@ -1,26 +1,57 @@
 <?php
 // Page-specific variables
-$page_title = 'Coping With Postpartum Depression | Expert Tips';
-$page_description = 'Learn how to cope with postpartum depression. Symptoms, treatment options, and when to seek help. Expert guidance from licensed therapists.';
+$page_title = 'Coping With Postpartum Depression: 10 Tips That Help';
+$page_description = 'Baby blues or postpartum depression? Signs to watch for, 10 ways to cope, how partners can help, and when to get support. From our Dearborn, MI therapists.';
 $canonical_url = 'https://www.healingtherapycenter.com/coping-with-postpartum-depression';
 
-// Article Schema for SEO
+// Article + FAQPage Schema for SEO
 $schema_json = json_encode([
     '@context' => 'https://schema.org',
-    '@type' => 'Article',
-    'headline' => 'Coping with Postpartum Depression: Expert Tips & Strategies to Improve Mental Well-Being',
-    'description' => $page_description,
-    'url' => $canonical_url,
-    'mainEntityOfPage' => $canonical_url,
-    'image' => 'https://www.healingtherapycenter.com/assets/img/blog3.jpg',
-    'author' => [
-        '@type' => 'Organization',
-        'name' => 'Healing Therapy Center'
-    ],
-    'publisher' => [
-        '@type' => 'Organization',
-        'name' => 'Healing Therapy Center',
-        'url' => 'https://www.healingtherapycenter.com'
+    '@graph' => [
+        [
+            '@type' => 'Article',
+            'headline' => 'Coping with Postpartum Depression: 10 Tips and When to Get Help',
+            'description' => $page_description,
+            'url' => $canonical_url,
+            'mainEntityOfPage' => $canonical_url,
+            'image' => 'https://www.healingtherapycenter.com/assets/img/blog3.jpg',
+            'datePublished' => '2025-11-11',
+            'dateModified' => '2026-10-26',
+            'author' => [
+                '@type' => 'Person',
+                'name' => 'Amal Ayad'
+            ],
+            'publisher' => [
+                '@type' => 'Organization',
+                'name' => 'Healing Therapy Center',
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'How long do the baby blues last compared with postpartum depression?',
+                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'The baby blues usually begin in the first few days after birth and ease within about two weeks. If low mood, anxiety or hopelessness lasts longer than two weeks, gets worse, or makes it hard to function, it may be postpartum depression and is worth discussing with your doctor or a therapist.']
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can postpartum depression start during pregnancy or months after birth?',
+                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Yes. Depression connected to having a baby can begin during pregnancy or at any point in the first year after birth, which is why clinicians often use the term perinatal depression.']
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can partners and fathers have postpartum depression?',
+                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Yes. Partners, including fathers and adoptive parents, can also experience depression and anxiety after a baby arrives. The same signs apply, and the same kinds of support help.']
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can I do postpartum therapy by telehealth?',
+                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Yes. Healing Therapy Center offers secure telehealth sessions anywhere in Michigan, so you can meet with a therapist from home, including during nap time, as well as in person at our Dearborn office.']
+                ]
+            ]
+        ]
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
@@ -37,79 +68,115 @@ require_once __DIR__ . '/includes/config.php';
 
     <?php
     $hero_eyebrow = 'From Our Blog';
-    $hero_h1 = 'Coping with Postpartum Depression: Expert Tips &amp; Strategies to Improve Mental Well-Being';
+    $hero_h1 = 'Coping with Postpartum Depression: 10 Practical Ways to Feel More Like Yourself';
     $hero_cta = false;
-    $hero_meta = '<p class="post-meta"><span>Amal Ayad</span><span>11/11/2025</span></p>';
+    $hero_meta = '<p class="post-meta"><span>Amal Ayad</span><span>11/11/2025</span><span>Updated 10/26/2026</span></p>';
     include __DIR__ . '/includes/page-hero.php';
     ?>
 
     <section class="page">
         <div class="shell">
             <article class="prose">
-                <img src="/assets/img/blog3.jpg" alt="coping postpartum" loading="lazy">
+                <img src="/assets/img/blog3.jpg" alt="New mother resting with her baby while coping with postpartum depression" loading="lazy">
 
-                <p>Becoming a mother is one of life&rsquo;s most beautiful and transformative experiences. However, it also comes with significant challenges&mdash;sleepless nights, hormonal changes, and the overwhelming responsibility of caring for a newborn. For many new moms, these adjustments can lead to feelings of sadness, anxiety, and even despair. Our licensed therapists share expert tips for managing these challenges. If you&rsquo;re feeling this way, you&rsquo;re not alone.</p>
-                <p>Postpartum depression (PPD) affects about 1 in 7 women after childbirth, making it a common yet often misunderstood condition. While it&rsquo;s normal to experience some &ldquo;baby blues&rdquo; in the first few weeks, PPD is more intense and lasts longer. It can make motherhood feel overwhelming and affect your ability to bond with your baby, take care of yourself, and enjoy this new chapter in your life.</p>
-                <p>Let&rsquo;s talk about the difference between baby blue and postpartum Depression. The main difference between baby blues and postpartum depression (PPD) is severity, duration, and impact on daily life.</p>
-                <p class="text-primary">Baby Blues</p>
-                <ul>
-                    <li>Onset: Usually within the first few days after delivery.</li>
-                    <li>Duration: Typically lasts a few days to two weeks.</li>
-                    <li>Symptoms:</li>
-                    <ul>
-                        <li>Mood swings</li>
-                        <li>Crying spells</li>
-                        <li>Anxiety</li>
-                        <li>Irritability</li>
-                        <li>Feeling overwhelmed</li>
-                        <li>Mild sadness or emotional sensitivity</li>
-                        <li>Difficulty sleeping (despite exhaustion)</li>
-                    </ul>
-                </ul>
-                <p class="text-primary">Postpartum Depression (PPD)</p>
-                <ul>
-                    <li>Onset: Can start within the first few weeks after delivery.</li>
-                    <li>Duration: Can last weeks, months, or longer if untreated.</li>
-                    <li>Symptoms (more intense and persistent):</li>
-                    <ul>
-                        <li>Severe sadness or hopelessness</li>
-                        <li>Loss of interest in activities</li>
-                        <li>Intense irritability or anger</li>
-                        <li>Difficulty bonding with the baby</li>
-                        <li>Severe anxiety or panic attacks</li>
-                        <li>Withdrawing from family and friends</li>
-                        <li>Changes in appetite (eating too much or too little)</li>
-                        <li>Severe exhaustion but inability to sleep</li>
-                        <li>Thoughts of self-harm or harming the baby (in severe cases)</li>
-                    </ul>
-                </ul>
-                <p>The good news? Postpartum depression is treatable, and there are strategies that can help improve your mental well-being. We will explore 10 effective ways to cope with postpartum depression and start feeling like yourself again.</p>
-                <p>&nbsp;</p>
-                <h5>1. Acknowledge Your Feelings</h5>
-                <p>Many moms feel guilty for struggling after having a baby, thinking they should be filled with joy. But emotions aren&rsquo;t always that simple. It&rsquo;s okay to not feel okay. Recognizing that PPD is a medical condition&mdash;not a personal failure&mdash;can be the first step toward healing. Talk openly about your feelings with a loved one, a therapist, or a healthcare provider.</p>
-                <h5>2. Prioritize Sleep (As Much As Possible!)</h5>
-                <p>Lack of sleep can worsen postpartum depression symptoms. While getting a full night&rsquo;s rest with a newborn might seem impossible, try to rest whenever you can. Nap when the baby naps, ask your partner or a loved one for help with night feedings, and consider sleep training strategies when your baby is old enough.</p>
-                <h5>3. Nourish Your Body</h5>
-                <p>Eating well can have a big impact on your mood. Nutrient-dense foods like whole grains, lean proteins, healthy fats, and fresh fruits and vegetables can help stabilize your energy and improve mental clarity. Omega-3 fatty acids (found in salmon, chia seeds, and walnuts) have been linked to improved mood and brain function.</p>
-                <h5>4. Move Your Body</h5>
-                <p>Exercise is a powerful tool for improving mental health. It releases endorphins, reduces stress, and helps regulate sleep. Start small&mdash;go for a short walk with your baby, stretch at home, or try a gentle postpartum yoga class. Even 10-15 minutes a day can make a difference.</p>
-                <p>5. Seek Professional Help</p>
-                <p>If you&rsquo;re feeling persistently sad, anxious, or overwhelmed, don&rsquo;t hesitate to seek professional support. A therapist specializing in postpartum mental health can provide guidance and coping strategies tailored to your needs. Medication may also be an option in some cases&mdash;talk to your doctor to explore what&rsquo;s right for you.</p>
-                <h5>6. Build a Support System</h5>
-                <p>Motherhood is not meant to be done alone. Reach out to friends, family, or other moms who can offer support. Joining a postpartum support group (in person or online) can help you feel less isolated and remind you that you&rsquo;re not alone in your struggles.</p>
-                <h5>7. Give Yourself Grace</h5>
-                <p>Let go of the idea of being a &ldquo;perfect mom.&rdquo; Social media often showcases unrealistic images of motherhood, making it easy to feel like you&rsquo;re falling short. You are doing your best, and that is enough. Celebrate small victories&mdash;whether it&rsquo;s getting out of bed, taking a shower, or simply making it through the day.</p>
-                <h5>8. Make Time for Yourself</h5>
-                <p>It&rsquo;s easy to lose yourself in the demands of motherhood, but taking even a few minutes for self-care can make a difference. Read a book, listen to music, take a relaxing bath, or do something that brings you joy. Self-care isn&rsquo;t selfish&mdash;it&rsquo;s necessary.</p>
-                <h5>9. Communicate with Your Partner</h5>
-                <p>PPD can put a strain on relationships, so it&rsquo;s important to communicate openly with your partner. Let them know what you&rsquo;re feeling and how they can support you. Even small gestures, like having them take over diaper changes or giving you a moment to breathe, can be incredibly helpful.</p>
-                <p>10. Practice Mindfulness and Deep Breathing</p>
-                <p>Mindfulness techniques, such as deep breathing, meditation, or journaling, can help manage stress and negative thoughts. When you feel overwhelmed, take a few deep breaths&mdash;inhale for four counts, hold for four, and exhale for four. This simple exercise can help calm your nervous system and bring you back to the present moment.</p>
-                <p>&nbsp;</p>
-                <p>Postpartum depression is not a reflection of your ability to be a good mother&mdash;it is a medical condition that deserves attention and care. Seeking help is a sign of strength, not weakness. The early months of motherhood can be challenging, but with the right support, self-care, and strategies, you can navigate PPD and find joy in your journey.</p>
-                <p>If you or someone you know is struggling with postpartum depression, don&rsquo;t hesitate to reach out to Healing Therapy Center. Our therapists are trained in perinatal mood and anxiety disorders &mdash; learn more about our <a href="/postpartum-depression-therapy-michigan">postpartum depression therapy in Michigan</a>. We are here to support you through every stage of motherhood. If you are looking for a <a href="/">healing therapist</a> in Dearborn , Mi, Plymouth, Novi, Northville, Birmingham, Royal Oak , and the surrounding Metro Detroit area. Contact us today to schedule an appointment and take the first step toward healing.</p>
+                <p>Becoming a parent is one of life&rsquo;s biggest changes. Alongside the love, there are sleepless nights, hormonal shifts, a body that is still recovering, and the round-the-clock responsibility of caring for a newborn. For many new mothers, that adjustment brings sadness, worry or a sense of numbness they did not expect. If that is where you are right now, you are not alone, and it is not your fault.</p>
+                <p>Postpartum depression (PPD) is common: it is often estimated to affect around 1 in 7 women after childbirth. It is also treatable. This guide explains how to tell the baby blues from PPD, shares ten practical ways to cope, and covers when it is time to reach out for help.</p>
 
-                <p><a href="/all-blogs">← All Articles &amp; Guides</a></p>
+                <h2>Baby Blues or Postpartum Depression?</h2>
+                <p>The main differences between the baby blues and postpartum depression are how intense the symptoms are, how long they last, and how much they get in the way of daily life.</p>
+
+                <h3>Baby blues</h3>
+                <ul>
+                    <li><b>When it starts:</b> usually within the first few days after delivery.</li>
+                    <li><b>How long it lasts:</b> typically a few days, easing within about two weeks.</li>
+                    <li><b>What it feels like:</b> mood swings, crying spells, irritability, feeling overwhelmed, mild sadness or anxiety, and trouble sleeping even when exhausted.</li>
+                </ul>
+
+                <h3>Postpartum depression</h3>
+                <ul>
+                    <li><b>When it starts:</b> often in the first weeks after birth, but it can begin during pregnancy or at any point in the first year.</li>
+                    <li><b>How long it lasts:</b> more than two weeks, and it can continue for months without support.</li>
+                    <li><b>What it feels like:</b> persistent sadness or hopelessness, loss of interest in things you used to enjoy, intense irritability or anger, difficulty bonding with your baby, strong anxiety or panic, pulling away from family and friends, big changes in appetite, feeling worthless or guilty, and exhaustion with an inability to sleep.</li>
+                </ul>
+                <p>Some parents notice anxiety more than sadness: racing thoughts, constant worry about the baby&rsquo;s health, or unwanted frightening thoughts that are hard to switch off. Postpartum anxiety and postpartum OCD are also common and treatable. Our <a href="/postpartum-depression-therapy-michigan">postpartum depression and anxiety therapy page</a> explains these conditions in more detail.</p>
+
+                <h2>10 Ways to Cope with Postpartum Depression</h2>
+                <p>These strategies will not replace professional care when you need it, but they can make the days more manageable and support your recovery.</p>
+
+                <h3>1. Acknowledge your feelings</h3>
+                <p>Many mothers feel guilty for struggling when they &ldquo;should&rdquo; be happy. Emotions after birth are rarely that simple, and it is okay to not feel okay. Recognising PPD as a health condition, not a personal failure, is often the first step toward feeling better. Say it out loud to someone you trust: a partner, a friend, your doctor or a therapist.</p>
+
+                <h3>2. Protect your sleep where you can</h3>
+                <p>Lack of sleep can make mood symptoms worse. A full night may not be realistic with a newborn, but a single protected block of sleep can help. Rest when the baby sleeps, ask a partner or relative to take one night feed, and let other jobs wait.</p>
+
+                <h3>3. Eat regularly</h3>
+                <p>Long gaps without food can leave you shakier and more irritable. Keep simple, filling snacks within reach, drink water while you feed the baby, and accept offers of meals. Aim for regular, balanced food rather than a perfect diet.</p>
+
+                <h3>4. Move gently</h3>
+                <p>Light activity, such as a short walk with the stroller or some stretching at home, can lift mood, ease tension and help with sleep. Start small and check with your doctor about what is right for your recovery.</p>
+
+                <h3>5. Get professional support</h3>
+                <p>If you feel persistently sad, anxious or overwhelmed, talk to your OB, midwife, primary care doctor or a therapist. A therapist trained in perinatal mental health can help you understand what you are experiencing and build a plan that fits your life. Your doctor can also talk with you about whether medication might help, including options that fit with breastfeeding.</p>
+
+                <h3>6. Build a support system</h3>
+                <p>Parenting was never meant to be done alone. Let friends and family help with specific tasks such as laundry, groceries or an hour of baby-holding. Postpartum support groups, in person or online, can remind you that other parents feel this way too.</p>
+
+                <h3>7. Give yourself grace</h3>
+                <p>Let go of the idea of the &ldquo;perfect mom.&rdquo; Social media rarely shows the hard parts. You are doing your best, and that is enough. Count small wins, like a shower, a walk outside or simply getting through a tough afternoon.</p>
+
+                <h3>8. Make a little time for yourself</h3>
+                <p>Even ten minutes can help: music, a short call with a friend, sitting outside, or something that reminds you of who you are beyond being a parent. Self-care is not selfish; it is part of caring for your baby.</p>
+
+                <h3>9. Talk with your partner</h3>
+                <p>PPD can strain relationships. Tell your partner what you are feeling and what would help most, whether that is taking a night feed, handling dinner, or giving you a moment to breathe. Partners can feel helpless too, and clear requests make it easier for them to step in.</p>
+
+                <h3>10. Practise calming breathing and mindfulness</h3>
+                <p>When stress rises, slow breathing can help settle your body. Try breathing in for four counts, holding for four, and breathing out for four, a few times in a row. Journaling or a short guided meditation can also help you notice difficult thoughts without being swept away by them.</p>
+
+                <h2>How Partners and Family Can Help</h2>
+                <ul>
+                    <li><b>Listen without fixing.</b> &ldquo;That sounds really hard&rdquo; often helps more than advice.</li>
+                    <li><b>Take on practical jobs.</b> Night feeds, meals, appointments and visitors are all things you can manage for her.</li>
+                    <li><b>Watch for changes.</b> If her mood is getting worse, or she seems withdrawn or hopeless, gently encourage her to talk to her doctor or a therapist, and offer to help make the call.</li>
+                    <li><b>Look after yourself too.</b> Partners can also experience depression and anxiety after a baby arrives.</li>
+                </ul>
+
+                <div class="callout callout--brand">
+                    <h3>When to get help right away</h3>
+                    <p>If you have thoughts of harming yourself or your baby, feel unable to care for yourself or your baby, or notice confusion, seeing or hearing things others do not, or feeling out of touch with reality, get help immediately. Call <strong>911</strong> or go to the nearest emergency room.</p>
+                    <p><strong>988 Suicide &amp; Crisis Lifeline:</strong> call or text <strong>988</strong></p>
+                    <p><strong>National Maternal Mental Health Hotline:</strong> call or text <strong>1-833-852-6262</strong> (1-833-TLC-MAMA), free and available 24/7</p>
+                    <p>More options are on our <a href="/suicide-hotline">crisis resources page</a>.</p>
+                </div>
+
+                <h2>How Therapy Helps with Postpartum Depression</h2>
+                <p>Therapy gives you a space to talk honestly about how motherhood is going, without judgment. Depending on what you need, sessions may focus on practical coping skills, changing harsh or anxious thought patterns, processing a difficult birth, adjusting to your new identity, or strengthening support at home. Our approach to <a href="/perinatal-therapy">perinatal therapy</a> also covers pregnancy, pregnancy loss and the first year after birth.</p>
+                <p>At Healing Therapy Center, <a href="/dr-tiffany-murray">Tiffany Murray, LMSW</a> focuses on perinatal mood and anxiety disorders, and <a href="/donna-majed">Donna Majed, TLLP</a> also works with postpartum and perinatal mental health. You can meet in person at our Dearborn office or by secure <a href="/telehealth-therapy">telehealth anywhere in Michigan</a>, which many new parents find easier to fit around feeds and naps.</p>
+
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3>How long do the baby blues last compared with postpartum depression?</h3>
+                        <p>The baby blues usually begin in the first few days after birth and ease within about two weeks. If low mood, anxiety or hopelessness lasts longer than two weeks, gets worse, or makes it hard to function, it may be postpartum depression and is worth discussing with your doctor or a therapist.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can postpartum depression start during pregnancy or months after birth?</h3>
+                        <p>Yes. Depression connected to having a baby can begin during pregnancy or at any point in the first year after birth, which is why clinicians often use the term perinatal depression.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can partners and fathers have postpartum depression?</h3>
+                        <p>Yes. Partners, including fathers and adoptive parents, can also experience depression and anxiety after a baby arrives. The same signs apply, and the same kinds of support help.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I do postpartum therapy by telehealth?</h3>
+                        <p>Yes. We offer secure telehealth sessions anywhere in Michigan, so you can meet with a therapist from home, including during nap time, as well as in person at our Dearborn office.</p>
+                    </div>
+                </div>
+
+                <h2>You Don&rsquo;t Have to Do This Alone</h2>
+                <p>Postpartum depression says nothing about how good a mother you are. It is a common, treatable condition, and reaching out is a sign of strength. If you are ready to talk, <a href="/appointment">request an appointment</a> or call us at <a href="tel:313-654-1915">(313) 654-1915</a>. To check coverage first, see our <a href="/insurance">insurance and payment page</a>.</p>
+
+                <p><a href="/all-blogs">&larr; All Articles &amp; Guides</a></p>
             </article>
         </div>
     </section>

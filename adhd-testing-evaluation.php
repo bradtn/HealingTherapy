@@ -163,7 +163,7 @@ require_once __DIR__ . '/includes/config.php';
                 </div>
 
                 <div class="callout callout--info">
-                    <p><strong>Did you know?</strong> Many adults seek evaluation after their child is diagnosed with ADHD and recognize similar patterns in themselves. Our guide to <a href="/adhd-guide-adults-children">ADHD signs in adults and children</a> explains what to look for.</p>
+                    <p><strong>Did you know?</strong> Many adults seek evaluation after their child is diagnosed with ADHD and recognize similar patterns in themselves. The <a href="#children-vs-adults">children vs. adults</a> section below explains how the signs differ with age.</p>
                 </div>
 
                 <h2 id="signs-testing">Signs You/Your Child May Need ADHD Testing</h2>
@@ -251,7 +251,7 @@ require_once __DIR__ . '/includes/config.php';
                     </div>
                     <div class="panel">
                         <h3>ADHD Therapy &amp; Coaching</h3>
-                        <p><strong>Therapy</strong> teaches organization skills, time management, emotional regulation, and strategies to manage ADHD symptoms. <a href="/therapists">Meet our therapists</a>.</p>
+                        <p><strong>Therapy</strong> teaches organization skills, time management, emotional regulation, and strategies to manage ADHD symptoms. <a href="/malak-wehbe">Malak Wehbe</a> (children and teens), <a href="/kalee-lapointe">Kalee LaPointe</a> and <a href="/dr-tiffany-murray">Tiffany Murray</a> all support clients with ADHD. <a href="/therapists">Meet our therapists</a>.</p>
                         <p><strong>ADHD coaching</strong> provides practical support for implementing systems and strategies.</p>
                     </div>
                     <div class="panel">

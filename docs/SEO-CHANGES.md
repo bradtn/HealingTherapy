@@ -168,3 +168,23 @@ Validation: PHP 8.2 syntax check clean; all 74 pages re-checked (status, title �
   - Old-address and `/appointment.html` rows fade.
   - Server-error and duplicate counts in the Pages report fall over 2–6 weeks.
 - **Protected pages must not drop:** `/psychological-testing` (39 clicks), `/dr-nadia-habhab` (61 clicks), `/donna-majed` (20) and the homepage. If any of them falls by more than about 20% over 28 days with no position change, investigate first.
+
+## Indexing and "therapist near me" pass (2026-10-26)
+
+**Search Console (28 days):** 221 clicks, 16,962 impressions, avg position 23.2. URL Inspection: 59/75 sitemap pages indexed.
+
+| Page | Problem | Change |
+|---|---|---|
+| `/` | "therapist near me" 153 impr at pos ~2.7 but 1.3% CTR; title led with the brand | Title → "Therapists in Dearborn, MI \| Healing Therapy Center"; description names services, Saturday hours, telehealth and phone |
+| `/anxiety-therapy-guide` | Crawled, not indexed. Same types/treatments as `/anxiety-therapy-michigan` (cannibalisation) | **301 → `/anxiety-therapy-michigan`**, file deleted, out of sitemap; "What causes anxiety?" FAQ moved to the service page |
+| `/adhd-guide-adults-children` | Unknown to Google. Duplicates `/adhd-testing-evaluation` (signs, types, testing steps, treatment) | **301 → `/adhd-testing-evaluation`**, file deleted, out of sitemap; blog card and links repointed |
+| `/coping-with-postpartum-depression` | Crawled, not indexed. H5-only structure, steps 5 and 10 not headings, broken nested lists, city-list filler | Rewritten with H2/H3 structure, baby blues vs PPD, partner section, urgent-help box (911, 988, 1-833-TLC-MAMA), links to postpartum and perinatal pages, Tiffany Murray and Donna Majed, FAQ + FAQPage markup |
+| `/breaking-stigma` | Crawled, not indexed. Contained a pasted postpartum paragraph (duplicate of the PPD post), grammar errors, only linked from the blog index | Rewritten: types of stigma, myths, family conversations, confidentiality, FAQ; links to individual therapy, telehealth, therapists, first-responder/physician pages |
+| `/teen-mental-health-guide` | Crawled, not indexed; mentions self-harm with no crisis info; only linked from the blog index | H2/H3 structure, crisis box, links to depression/anxiety/ADHD pages, Malak Wehbe and Dr. Habhab, FAQ; linked from family therapy and Malak's profile |
+| `/how-to-find-the-right-therapist` | Unknown to Google; description promised red flags and insurance tips the page didn't have; H5 headings | Rewritten around the "therapist near me" intent: goals, Michigan license types, location/format, insurance, questions to ask, fit and red flags, FAQ |
+| `/is-autism-curable` | Unknown to Google; H5 headings; self-links opened in new tabs | H2/H3 headings, relative links, links to autism evaluation and signs |
+| Discovered/unknown pages | Weak internal linking | Footer now links ADHD Testing, Autism Evaluation, Burnout & Work Stress and the federal Dearborn page. Contextual links added from service pages, FAQ, therapists page and profile chips (`$tp_specialty_links`) to the burnout, ADHD, teen, autism-insurance, stigma and find-a-therapist pages; Kalee LaPointe named on anxiety and couples pages |
+| `llms.txt` | Malak and Amal credentials didn't match `config.php` | Fixed; added Key Pages and Guides URL lists |
+| `sitemap.xml` | Kalee launch pages still dated 10-03 | 10-09 for those; 10-26 for every page whose content changed in this pass |
+
+**Not changed, needs the owner:** adult autism testing ("adult autism testing near me", pos 53.9). `/autism-evaluation` is written for children while `/psychological-testing` says evaluations cover adults. Confirm adult autism evaluations are offered before writing adult content.

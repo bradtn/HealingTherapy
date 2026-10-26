@@ -158,7 +158,7 @@ require_once __DIR__ . '/includes/config.php';
                 </div>
 
                 <h2>After the Evaluation</h2>
-                <p>Receiving an autism diagnosis opens doors to understanding and support. Our detailed evaluation report can be used to access school accommodations through an IEP or 504 plan, qualify for therapy services such as ABA, speech therapy, or occupational therapy, and connect with community resources and support groups. We work with families to ensure you leave our office with a clear understanding of the diagnosis and practical next steps for moving forward.</p>
+                <p>Receiving an autism diagnosis opens doors to understanding and support. Our detailed evaluation report can be used to access school accommodations through an IEP or 504 plan, qualify for therapy services such as ABA, speech therapy, or occupational therapy, and connect with community resources and support groups. We work with families to ensure you leave our office with a clear understanding of the diagnosis and practical next steps for moving forward. Many families also ask whether autism can be cured; Dr. Nadia Habhab answers that in <a href="/is-autism-curable">Is Autism Curable?</a>, and our article on <a href="/parenting-child">therapy for parents of children with autism</a> covers support for the whole family.</p>
 
                 <h2>Frequently Asked Questions</h2>
 

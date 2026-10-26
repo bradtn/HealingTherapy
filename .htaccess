@@ -59,6 +59,10 @@ RewriteRule ^coping-with-postpartum-pepression(\.html)?$ https://www.healingther
 RewriteRule ^is-austim-curable(\.html)?$ https://www.healingtherapycenter.com/is-autism-curable [L,R=301]
 RewriteRule ^tiffany-murray(\.html)?$ https://www.healingtherapycenter.com/dr-tiffany-murray [L,R=301]
 
+# Guides merged into the matching service page (2026-10): near-duplicates that competed with it
+RewriteRule ^anxiety-therapy-guide(\.php|\.html)?$ https://www.healingtherapycenter.com/anxiety-therapy-michigan [L,R=301]
+RewriteRule ^adhd-guide-adults-children(\.php|\.html)?$ https://www.healingtherapycenter.com/adhd-testing-evaluation [L,R=301]
+
 # Homepage aliases (/index, /index.php, /index.html) -> /
 # THE_REQUEST (the browser's own request line) keeps this from firing on Apache's
 # internal DirectoryIndex lookup of index.php, which would loop.

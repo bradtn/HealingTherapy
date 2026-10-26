@@ -54,9 +54,12 @@ if (!defined('BUSINESS_NAME')) {
                     <li><a href="/anxiety-therapy-michigan">Anxiety Therapy</a></li>
                     <li><a href="/depression-counseling-michigan">Depression Counseling</a></li>
                     <li><a href="/trauma-ptsd-treatment">Trauma &amp; PTSD Treatment</a></li>
+                    <li><a href="/adhd-testing-evaluation">ADHD Testing</a></li>
+                    <li><a href="/autism-evaluation">Autism Evaluation</a></li>
                     <li><a href="/postpartum-depression-therapy-michigan">Postpartum Depression Therapy</a></li>
                     <li><a href="/womens-mental-health-therapy-michigan">Women's Mental Health</a></li>
                     <li><a href="/seasonal-affective-disorder-therapy-michigan">Seasonal Affective Disorder</a></li>
+                    <li><a href="/burnout-stress-therapy-michigan">Burnout &amp; Work Stress</a></li>
                     <li><a href="/executive-stress-therapy-michigan">Executive Stress Therapy</a></li>
                     <li><a href="/physician-burnout-therapy-michigan">Physician Burnout Therapy</a></li>
                     <li><a href="/nurse-burnout-therapy-michigan">Nurse Burnout &amp; Compassion Fatigue</a></li>
@@ -90,6 +93,7 @@ if (!defined('BUSINESS_NAME')) {
                 </ul>
                 <h2 class="site-footer__h-gap">Federal Employees</h2>
                 <ul>
+                    <li><a href="/federal-employee-therapy-dearborn">Dearborn</a></li>
                     <li><a href="/federal-employee-therapy-detroit">Detroit</a></li>
                     <li><a href="/federal-employee-therapy-livonia">Livonia</a></li>
                     <li><a href="/federal-employee-therapy-ann-arbor">Ann Arbor</a></li>

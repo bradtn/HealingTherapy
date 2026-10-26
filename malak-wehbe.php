@@ -96,6 +96,9 @@ $tp_specialties = [
 ];
 
 $tp_specialty_links = [
+    'Child &amp; Adolescent Therapy' => '/teen-mental-health-guide',
+    'ADHD &amp; Autism Support'      => '/adhd-testing-evaluation',
+    'Anxiety &amp; Depression'       => '/anxiety-therapy-michigan',
     'Trauma &amp; Family Conflict' => '/family-therapy',
 ];
 

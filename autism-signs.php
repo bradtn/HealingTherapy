@@ -133,7 +133,7 @@ require_once __DIR__ . '/includes/config.php';
 
                 <h3>Taking the Next Step</h3>
                 <p>Choosing to pursue an autism evaluation is an important and courageous decision. It’s not about labeling your child but rather understanding their needs to provide the best support possible.</p>
-                <p>If you’re ready to begin, schedule an appointment with <a href="https://www.healingtherapycenter.com/" target="_blank" rel="noopener noreferrer">Healing Therapy Center</a> today. We offer <a href="/autism-evaluation">comprehensive autism evaluations</a> and supportive services to help your child thrive.</p>
+                <p>If you’re ready to begin, schedule an appointment with <a href="https://www.healingtherapycenter.com/" target="_blank" rel="noopener noreferrer">Healing Therapy Center</a> today. We offer <a href="/autism-evaluation">comprehensive autism evaluations</a> and supportive services to help your child thrive. For what a diagnosis means over the long term, read <a href="/is-autism-curable">Is Autism Curable?</a> and our article on <a href="/parenting-child">therapy for parents of children with autism</a>.</p>
 
                 <p><a href="/all-blogs">← All Articles &amp; Guides</a></p>
             </article>

@@ -210,7 +210,7 @@ $schema_json = json_encode([
                         <li>Unusual play patterns or lack of pretend play</li>
                         <li>Limited eye contact or difficulty reading social cues</li>
                     </ul>
-                    <p>An autism diagnosis opens access to early intervention services, school support (IEPs), therapy services (ABA, speech, occupational therapy), and community resources. <strong><a href="/autism-evaluation">Learn more about our autism evaluation process →</a></strong></p>
+                    <p>An autism diagnosis opens access to early intervention services, school support (IEPs), therapy services (ABA, speech, occupational therapy), and community resources. <strong><a href="/autism-evaluation">Learn more about our autism evaluation process →</a></strong> Wondering about cost? See our guide to <a href="/autism-evaluation-michigan-insurance">insurance coverage for autism evaluations in Michigan</a>.</p>
                 </div>
 
                 <div class="panel">

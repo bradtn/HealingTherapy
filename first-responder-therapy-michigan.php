@@ -171,7 +171,7 @@ require_once __DIR__ . '/includes/config.php';
                 </div>
 
                 <h2>Breaking the Stigma Around Seeking Help</h2>
-                <p>In first responder culture, admitting you're struggling can feel riskier than the job itself. Many officers, firefighters, and medics worry that reaching out means they're weak, unfit for duty, or that word will get back to the department. It won't. Your care is confidential and separate from your employer. Getting support is a sign of professionalism and self-preservation - it keeps you sharp on the job and present at home.</p>
+                <p>In first responder culture, admitting you're struggling can feel riskier than the job itself. Many officers, firefighters, and medics worry that reaching out means they're weak, unfit for duty, or that word will get back to the department. It won't. Your care is confidential and separate from your employer. Getting support is a sign of professionalism and self-preservation - it keeps you sharp on the job and present at home. Our article on <a href="/breaking-stigma">breaking the stigma around seeking mental health treatment</a> covers common myths about therapy and how to talk to family about it.</p>
 
                 <h2>Protecting Your Family and Relationships</h2>
                 <p>The job doesn't stay at the station. Hypervigilance, emotional numbing, and a short fuse follow you through the front door and land on your spouse and kids. Many first responders come to therapy because a partner said "you're not the same person anymore." We help you carry the weight of the work without letting it cost you the relationships you're protecting it all for.</p>

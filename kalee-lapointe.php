@@ -95,6 +95,7 @@ $tp_specialties = [
 $tp_specialty_links = [
     'Anxiety &amp; Depression'          => '/anxiety-therapy-michigan',
     'Marriage &amp; Relationship Stress' => '/couples-therapy',
+    'ADHD &amp; Autism Support'          => '/adhd-testing-evaluation',
 ];
 
 $tp_credentials = [

@@ -194,7 +194,7 @@ $schema_json = json_encode([
                         <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Making important decisions</li>
                         <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg> Breaking destructive patterns</li>
                     </ul>
-                    <p><strong>You don't need a crisis or diagnosis.</strong> Many seek therapy for growth and support during challenging times.</p>
+                    <p><strong>You don't need a crisis or diagnosis.</strong> Many seek therapy for growth and support during challenging times. If worry about what others think is holding you back, read <a href="/breaking-stigma">breaking the stigma around seeking treatment</a>; for tips on choosing a clinician, see <a href="/how-to-find-the-right-therapist">how to find the right therapist</a>.</p>
                 </div>
 
                 <h2>Why Choose Healing Therapy Center?</h2>

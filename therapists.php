@@ -110,7 +110,7 @@ $team_order = ['amal-ayad', 'tiffany-murray', 'nadia-habhab', 'malak-wehbe', 'do
             <div class="section__head section-title section-title--center reveal">
                 <p class="eyebrow eyebrow--center">Meet Our Therapists</p>
                 <h2 id="team-dir">Experienced. Compassionate. Here for You.</h2>
-                <p>At Healing Therapy Center, our team of dedicated licensed therapists in Dearborn, MI is committed to providing exceptional care. We believe the hardest step is the first one — and our skilled, compassionate professionals are here to guide you on your journey to health and happiness.</p>
+                <p>At Healing Therapy Center, our team of dedicated licensed therapists in Dearborn, MI is committed to providing exceptional care. We believe the hardest step is the first one — and our skilled, compassionate professionals are here to guide you on your journey to health and happiness. Not sure who to choose? Read our guide on <a href="/how-to-find-the-right-therapist">how to find the right therapist</a>, or call us with any questions.</p>
             </div>
 
             <ul class="tgrid reveal">

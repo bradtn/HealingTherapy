@@ -1,13 +1,13 @@
 <?php
 /**
  * V2 Homepage — redesign of /index.php
- * SEO contract preserved: same title, description, canonical, and
- * MedicalBusiness JSON-LD as production. Every internal link from the
+ * Title and description tuned 2026-10 for "therapist near me" searches
+ * (keyword first, Dearborn-specific). Canonical and MedicalBusiness JSON-LD unchanged. Every internal link from the
  * production homepage is retained.
  */
 
-$page_title = 'Healing Therapy Center | Therapists in Dearborn, MI';
-$page_description = 'Therapy in Dearborn, MI and online across Michigan. Individual, couples & trauma therapy, EMDR, autism & ADHD testing. BCBS, Aetna accepted. (313) 654-1915';
+$page_title = 'Therapists in Dearborn, MI | Healing Therapy Center';
+$page_description = 'Licensed therapists in Dearborn, MI for anxiety, depression, trauma & couples, plus autism & ADHD testing. In person, Saturdays or telehealth. (313) 654-1915';
 $canonical_url = 'https://www.healingtherapycenter.com/';
 
 require_once __DIR__ . '/includes/config.php';

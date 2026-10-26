@@ -183,7 +183,7 @@ $schema_json = json_encode([
                 </div>
 
                 <h2>Still Have Questions?</h2>
-                <p>If you did not find the answer you were looking for, our team is here to help. Do not hesitate to reach out with any questions about our services, scheduling, or what to expect from therapy. We understand that taking the first step can feel overwhelming, and we are committed to making the process as comfortable as possible.</p>
+                <p>If you did not find the answer you were looking for, our team is here to help. Do not hesitate to reach out with any questions about our services, scheduling, or what to expect from therapy. We understand that taking the first step can feel overwhelming, and we are committed to making the process as comfortable as possible. If you are still deciding who to see, our guide on <a href="/how-to-find-the-right-therapist">how to find the right therapist</a> covers what to look for, and you can <a href="/therapists">meet our therapists</a>.</p>
                 <p>
                     <a class="btn btn--pill btn--primary" href="/appointment">Schedule a Consultation</a>
                     <a class="btn btn--pill btn--ghost" href="tel:313-654-1915">Call&nbsp;<span style="white-space:nowrap">(313)&nbsp;654-1915</span></a>

@@ -146,18 +146,18 @@ require_once __DIR__ . '/includes/config.php';
                     <img src="/assets/img/blog-9.jpg" width="416" height="260" loading="lazy" alt="ADHD guide">
                     <div class="post-card__body">
                         <p class="post-card__meta"><span>Healing Therapy Center</span><span>06/17/2026</span></p>
-                        <h3><a href="/adhd-guide-adults-children">ADHD in Adults &amp; Children: Complete Guide</a></h3>
-                        <p>Comprehensive guide to ADHD symptoms, testing, and treatment for adults and children in Michigan..</p>
-                        <span class="link-more">Read ADHD Guide <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></span>
+                        <h3><a href="/adhd-testing-evaluation">ADHD in Adults &amp; Children: Signs and Testing</a></h3>
+                        <p>How ADHD shows up in children and adults, what a full evaluation involves, and what happens after a diagnosis.</p>
+                        <span class="link-more">Read About ADHD Testing <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></span>
                     </div>
                 </li>
                 <li class="post-card">
                     <img src="/assets/img/blog2.jpg" width="416" height="260" loading="lazy" alt="anxiety guide">
                     <div class="post-card__body">
                         <p class="post-card__meta"><span>Healing Therapy Center</span><span>06/17/2026</span></p>
-                        <h3><a href="/anxiety-therapy-guide">Understanding Anxiety: Complete Treatment Guide</a></h3>
-                        <p>Learn about anxiety signs, types, and effective treatment options in Dearborn and throughout Michigan..</p>
-                        <span class="link-more">Read Anxiety Guide <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></span>
+                        <h3><a href="/anxiety-therapy-michigan">Anxiety &amp; Panic: Signs, Types and Treatment</a></h3>
+                        <p>Anxiety signs, the main types of anxiety disorders, and how therapy helps, in Dearborn and by telehealth across Michigan.</p>
+                        <span class="link-more">Read About Anxiety Therapy <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></span>
                     </div>
                 </li>
                 <li class="post-card">

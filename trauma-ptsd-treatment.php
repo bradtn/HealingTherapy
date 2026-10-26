@@ -175,6 +175,7 @@ require_once __DIR__ . '/includes/config.php';
 
                 <h2>Telehealth Trauma Therapy Throughout Michigan</h2>
                 <p>We provide trauma therapy via secure telehealth to clients throughout Michigan. Research shows telehealth EMDR and trauma therapy are effective. Many trauma survivors prefer therapy from the safety and privacy of home.</p>
+                <p>Clinicians at Healing Therapy Center whose focus includes trauma are <a href="/dr-nadia-habhab">Dr. Nadia Habhab, PhD, LP</a> (complex trauma), <a href="/donna-majed">Donna Majed, TLLP</a> (trauma and domestic violence recovery) and <a href="/malak-wehbe">Malak Wehbe, MA, TLLP</a> (trauma and family conflict in children and families).</p>
 
                 <h2>Frequently Asked Questions</h2>
 

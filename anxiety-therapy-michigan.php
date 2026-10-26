@@ -43,6 +43,14 @@ $schema_json = json_encode([
                 ],
                 [
                     '@type' => 'Question',
+                    'name' => 'What causes anxiety?',
+                    'acceptedAnswer' => [
+                        '@type' => 'Answer',
+                        'text' => 'Anxiety usually comes from a mix of factors rather than one cause: family history, temperament, ongoing stress, difficult or traumatic experiences, big life changes, and sometimes physical health issues or substances such as caffeine. Because some medical conditions can cause anxiety-like symptoms, it is a good idea to mention new or severe symptoms to your doctor as well.'
+                    ]
+                ],
+                [
+                    '@type' => 'Question',
                     'name' => 'Do I need medication or can therapy alone help?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
@@ -98,7 +106,7 @@ require_once __DIR__ . '/includes/config.php';
     <section class="page">
         <div class="shell">
             <article class="prose">
-                <p>Do you struggle with constant worry, panic attacks, or overwhelming fear that interferes with your daily life? Does anxiety prevent you from doing things you want to do - socializing, traveling, working, or even leaving your home? At Healing Therapy Center, our licensed anxiety specialists provide evidence-based anxiety therapy throughout Michigan via secure telehealth or in-person at our Dearborn office. Clinicians whose areas of focus include anxiety are <a href="/dr-nadia-habhab">Dr. Nadia Habhab, PhD, LP</a>, <a href="/donna-majed">Donna Majed, TLLP</a> (including OCD) and, for children and teens, <a href="/malak-wehbe">Malak Wehbe, MA, TLLP</a>.</p>
+                <p>Do you struggle with constant worry, panic attacks, or overwhelming fear that interferes with your daily life? Does anxiety prevent you from doing things you want to do - socializing, traveling, working, or even leaving your home? At Healing Therapy Center, our licensed anxiety specialists provide evidence-based anxiety therapy throughout Michigan via secure telehealth or in-person at our Dearborn office. Clinicians whose areas of focus include anxiety are <a href="/dr-nadia-habhab">Dr. Nadia Habhab, PhD, LP</a>, <a href="/donna-majed">Donna Majed, TLLP</a> (including OCD), <a href="/kalee-lapointe">Kalee LaPointe, MA, TLLP</a> and, for children and teens, <a href="/malak-wehbe">Malak Wehbe, MA, TLLP</a>.</p>
 
                 <p>Anxiety disorders are the most common mental health condition in the United States, affecting over 40 million adults. The good news? Anxiety is highly treatable. With the right therapy approach, most people experience significant improvement in their anxiety symptoms and quality of life.</p>
 
@@ -185,6 +193,10 @@ require_once __DIR__ . '/includes/config.php';
                     <div class="faq-item">
                         <h3>Can anxiety be cured or just managed?</h3>
                         <p>While you may always have some tendency toward anxiety, therapy teaches you skills to manage it effectively so it no longer controls your life. Many people achieve full remission of anxiety disorders with proper treatment.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What causes anxiety?</h3>
+                        <p>Anxiety usually comes from a mix of factors rather than one cause: family history, temperament, ongoing stress, difficult or traumatic experiences, big life changes, and sometimes physical health issues or substances such as caffeine. Because some medical conditions can cause anxiety-like symptoms, it is a good idea to mention new or severe symptoms to your doctor as well.</p>
                     </div>
                     <div class="faq-item">
                         <h3>Do I need medication or can therapy alone help?</h3>

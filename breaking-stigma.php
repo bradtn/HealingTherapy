@@ -1,26 +1,57 @@
 <?php
 // Page-specific variables
-$page_title = 'Breaking Mental Health Stigma | Healing Therapy Blog';
-$page_description = 'Breaking down mental health stigma. Learn why seeking therapy is a sign of strength, not weakness. Tips for talking about mental health openly.';
+$page_title = 'Mental Health Stigma: Why Seeking Therapy Takes Strength';
+$page_description = 'Why stigma stops people seeking therapy, the myths behind it, how to talk to family about it, and what therapy is really like. From our Dearborn, MI therapists.';
 $canonical_url = 'https://www.healingtherapycenter.com/breaking-stigma';
 
-// Article Schema for SEO
+// Article + FAQPage Schema for SEO
 $schema_json = json_encode([
     '@context' => 'https://schema.org',
-    '@type' => 'Article',
-    'headline' => 'Breaking the Stigma Around Seeking Mental Health Treatment',
-    'description' => $page_description,
-    'url' => $canonical_url,
-    'mainEntityOfPage' => $canonical_url,
-    'image' => 'https://www.healingtherapycenter.com/assets/img/blog-4.jpg',
-    'author' => [
-        '@type' => 'Organization',
-        'name' => 'Healing Therapy Center'
-    ],
-    'publisher' => [
-        '@type' => 'Organization',
-        'name' => 'Healing Therapy Center',
-        'url' => 'https://www.healingtherapycenter.com'
+    '@graph' => [
+        [
+            '@type' => 'Article',
+            'headline' => 'Breaking the Stigma Around Seeking Mental Health Treatment',
+            'description' => $page_description,
+            'url' => $canonical_url,
+            'mainEntityOfPage' => $canonical_url,
+            'image' => 'https://www.healingtherapycenter.com/assets/img/blog-4.jpg',
+            'datePublished' => '2025-11-18',
+            'dateModified' => '2026-10-26',
+            'author' => [
+                '@type' => 'Person',
+                'name' => 'Amal Ayad'
+            ],
+            'publisher' => [
+                '@type' => 'Organization',
+                'name' => 'Healing Therapy Center',
+                'url' => 'https://www.healingtherapycenter.com'
+            ]
+        ],
+        [
+            '@type' => 'FAQPage',
+            'mainEntity' => [
+                [
+                    '@type' => 'Question',
+                    'name' => 'Is what I say in therapy confidential?',
+                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Yes. Therapists are required by law and professional ethics to keep what you share private. There are a few limited exceptions, such as when someone is at serious risk of harm or a child or vulnerable adult is being abused, and your therapist will explain them at your first session.']
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Do I need a mental health diagnosis to see a therapist?',
+                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'No. People come to therapy for stress, relationships, life changes and personal growth as well as for conditions like anxiety or depression. If you use insurance, your plan will usually need a diagnosis code to pay for sessions; paying privately is an alternative.']
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'What happens at a first therapy session?',
+                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'The first session is mostly a conversation. Your therapist will ask what brings you in, a little about your background and what you hope will change, explain how they work, and answer your questions. You decide how much to share.']
+                ],
+                [
+                    '@type' => 'Question',
+                    'name' => 'Can I start therapy online if I am not ready to come in person?',
+                    'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Yes. Healing Therapy Center offers secure telehealth sessions anywhere in Michigan, which many people find a more private and comfortable way to begin.']
+                ]
+            ]
+        ]
     ]
 ], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
@@ -39,49 +70,103 @@ require_once __DIR__ . '/includes/config.php';
     $hero_eyebrow = 'From Our Blog';
     $hero_h1 = 'Breaking the Stigma Around Seeking Mental Health Treatment';
     $hero_cta = false;
-    $hero_meta = '<p class="post-meta"><span>Amal Ayad</span><span>11/18/2025</span></p>';
+    $hero_meta = '<p class="post-meta"><span>Amal Ayad</span><span>11/18/2025</span><span>Updated 10/26/2026</span></p>';
     include __DIR__ . '/includes/page-hero.php';
     ?>
 
     <section class="page">
         <div class="shell">
             <article class="prose">
-                <img src="/assets/img/blog-4.jpg" alt="breaking stigma" loading="lazy">
+                <img src="/assets/img/blog-4.jpg" alt="Two people talking openly about mental health" loading="lazy">
 
-                <p>In order to be able to break stigma around mental health treatment it is important to understand what stigma is and how it effects why people are hesitant to seek treatment. There are over 59.2 million adults in the United States received mental health treatment, including therapy, counseling, or medication but Despite growing awareness of mental health, there remains a persistent stigma around seeking therapy.</p>
-                <p>Postpartum depression (PPD) affects about 1 in 7 women after childbirth, making it a common yet often misunderstood condition. While it&rsquo;s normal to experience some &ldquo;baby blues&rdquo; in the first few weeks, PPD is more intense and lasts longer. It can make motherhood feel overwhelming and affect your ability to bond with your baby, take care of yourself, and enjoy this new chapter in your life.</p>
-                <p>What does Stigma really mean? Stigma is when someone views you in a negative way because you have a distinguishing characteristic or personal trait that's thought to be, or actually is, a disadvantage. Stigma can lead to discrimination. Discrimination may be obvious and direct, such as someone making a negative remark about your mental illness or your treatment. Or it may be unintentional or subtle, such as someone avoiding you because the person assumes you could be unstable, violent or dangerous due to your mental illness.</p>
-                <p>Many people hesitate to reach out for professional help. But why is that? Is it due to fear of judgment, societal pressures, or misconceptions about what therapy entails. The belief that therapy is only for those in crisis or that seeking help is a sign of weakness prevents many individuals from getting the support they need. Therapy is not just for individuals experiencing severe mental health conditions. It is a valuable tool for anyone looking to improve their emotional well-being, navigate life transitions, or gain better self-awareness. Just as we visit doctors for physical health check-ups, therapy provides essential care for our mental and emotional well-being. Whether you are dealing with anxiety, stress, relationship challenges, or personal growth, therapy offers a space to explore and develop healthy coping strategies.</p>
+                <p>Tens of millions of adults in the United States get help for their mental health every year, through therapy, counselling or medication. Even so, many people still wait months or years before reaching out, and stigma is one of the biggest reasons. Worry about what others will think, or about what it says about us, keeps a lot of people from support that could help.</p>
+                <p>This article looks at what stigma is, the common myths about therapy, practical ways to move past them, and what to expect if you decide to take the first step.</p>
 
-                <h3>What are the Common Misconceptions About Therapy?</h3>
-                <h4>1. "Therapy is only for people with serious mental health issues."</h4>
-                <p>Many assume that therapy is only for individuals with severe mental illnesses or that once you start therapy you will be in therapy ongoing. In reality, therapy benefits people from all walks of life, including those seeking self-improvement, better stress management, and healthier relationships. So this misconception is very far from the truth.</p>
-                <h4>2. "Going to therapy means I am weak or incapable."</h4>
-                <p>I must be weak or incapable if I speak to a therapist. This doesn’t mean that you are weak actually seeking therapy is a sign of strength, not weakness. It takes courage to acknowledge challenges and take proactive steps to improve mental health.</p>
-                <h4>3. "Therapists just listen and don't provide real help."</h4>
-                <p>Well Therapist call up your estranged brother and try to fix the problem ? No because licensed therapists are trained professionals who use evidence-based approaches to help clients gain insight, develop coping skills, and make meaningful life changes. Some evidence-based techniques that therapist use include :</p>
+                <h2>What Is Mental Health Stigma?</h2>
+                <p>Stigma is when someone is seen in a negative way because of a characteristic that others view as a weakness or a flaw. With mental health, it shows up in a few forms:</p>
                 <ul>
-                    <li><b>Cognitive Behavioral Therapy (CBT)-</b> is a type of psychotherapy that helps you to change negative or unhealthy ways of thinking, feeling and behaving and used uses practical self-help strategies. These are designed to immediately improve your quality of life.</li>
-                    <li><b>Dialectical Behavior Therapy (DBT)-</b> is a structured program with a strong educational component designed to provide skills for managing intense emotions and negotiating social relationships.</li>
-                    <li><b>Acceptance and Commitment Therapy (ACT) -</b> focuses on helping individuals accept their thoughts and feelings, rather than trying to control them, and then commit to taking actions aligned with their personal values to live a meaningful life, thereby increasing their psychological flexibility.</li>
-                    <li><b>Exposure Therapy-</b> is a type of psychotherapy treatment that involves gradually exposing people to their fears in a safe environment. The goal is to help people learn to confront their fears instead of avoiding them.</li>
-                    <li><b>Interpersonal Psychotherapy (IPT)-</b> a short-term, evidence-based psychotherapy that focuses on improving interpersonal relationships to alleviate mental health symptoms.</li>
-                    <li><b>Motivational Interviewing (MI)-</b> is a client-centered, evidence based counseling approach that aims to enhance and individual’s motivation to change unwanted behaviors that contribute to unhealthy choices.</li>
+                    <li><b>Public stigma:</b> negative attitudes in the wider community, such as jokes, labels, or assuming someone who struggles must be &ldquo;unstable.&rdquo;</li>
+                    <li><b>Self-stigma:</b> when we absorb those attitudes and turn them on ourselves: &ldquo;I should be able to handle this,&rdquo; or &ldquo;needing help means I have failed.&rdquo;</li>
+                    <li><b>Quiet discrimination:</b> being treated differently, left out, or passed over once someone knows you are struggling.</li>
                 </ul>
-                <h4>4. "Talking about my problems won't change anything."</h4>
-                <p>This is a common misconception about therapy. While talking alone may not solve everything, therapy provides structured guidance to help individuals develop new perspectives, strategies, and solutions for their challenges. It is a start and like anything in life, you have to start somewhere.</p>
-                <h3>Best Ways To Overcome the Stigma</h3>
-                <h4>1. Educate Yourself and Others</h4>
-                <p>Knowledge is power. Spend time learning about mental health and therapy. It can play a huge part is the dismantling of myths and normalize seeking professional help. Being open and sharing knowledge with friends and family can also encourage open conversations and help you to learn new things about Therapy.</p>
-                <h4>2. Speak Openly About Mental Health</h4>
-                <p>It is important to accept and share people’s experiences with therapy. It reduces stigma and helps to create open conversations to challenge stereotypes and misconceptions about mental health. It helps reduce shame and encourages others to seek help. Celebrities, athletes, and professionals who have spoken about their mental health journeys have played a significant role in reducing stigma.</p>
-                <h4>3. Reframe Therapy as Self-Care</h4>
-                <p>Our mind is a very popular tool. When you reframe therapy as self-care it will be looked at as an investment in overall well-being. Just as people prioritize physical fitness, maintaining mental health should be equally important.</p>
-                <h4>4. Seek Supportive Communities</h4>
-                <p>Engaging with supportive groups, both online and in person, can help individuals feel less alone in their struggles and more empowered to seek therapy.</p>
-                <p>Seeking <a href="/">healing therapy services</a> is a proactive step toward better mental health and personal growth. At Healing Therapy Center, we are committed to providing a safe, non-judgmental space for individuals to explore their emotions and improve their well-being. If you’re considering therapy, for managing mental health conditions like depression and anxiety, coping with stress, improving relationships, navigating life transitions, healing from past trauma, developing better coping skills, and working towards personal growth and self-exploration. Know that you’re not alone—help is available, and taking the first step can be life-changing.</p>
+                <p>Stigma can also be shaped by family expectations, culture, faith community or profession. In some families, personal struggles are kept private. In some jobs, such as healthcare, law or first response, people fear that asking for help will be seen as weakness. These concerns are real, and a good therapist will take them seriously.</p>
 
-                <p><a href="/all-blogs">← All Articles &amp; Guides</a></p>
+                <h2>Common Misconceptions About Therapy</h2>
+
+                <h3>&ldquo;Therapy is only for people with serious mental health problems.&rdquo;</h3>
+                <p>Therapy helps people from all walks of life: those managing anxiety or depression, and also those dealing with stress, relationship strain, grief, a big life change, or simply wanting to understand themselves better. Starting therapy also does not mean you will be in it forever; many people come for a set number of sessions focused on a specific goal.</p>
+
+                <h3>&ldquo;Going to therapy means I am weak.&rdquo;</h3>
+                <p>It takes courage to admit something is hard and to do something about it. We would not call someone weak for seeing a doctor about a physical injury, and caring for your mental health is no different.</p>
+
+                <h3>&ldquo;Therapists just listen. They don&rsquo;t really help.&rdquo;</h3>
+                <p>Listening is part of it, but licensed therapists are trained to use structured, evidence-based approaches that help people build insight and skills. Some of the methods therapists use include:</p>
+                <ul>
+                    <li><b>Cognitive Behavioral Therapy (CBT):</b> helps you notice and change unhelpful patterns of thinking and behaviour, using practical strategies you can use between sessions.</li>
+                    <li><b>Dialectical Behavior Therapy (DBT):</b> a skills-based approach for managing intense emotions and handling relationships.</li>
+                    <li><b>Acceptance and Commitment Therapy (ACT):</b> helps you make room for difficult thoughts and feelings rather than fighting them, and take steps toward what matters to you.</li>
+                    <li><b>Exposure therapy:</b> gradually and safely facing feared situations so that avoidance loses its hold.</li>
+                    <li><b>Interpersonal Psychotherapy (IPT):</b> a time-limited approach that focuses on relationships and how they affect mood.</li>
+                    <li><b>Motivational Interviewing (MI):</b> a collaborative way of strengthening your own motivation to make changes you care about.</li>
+                </ul>
+
+                <h3>&ldquo;Talking about my problems won&rsquo;t change anything.&rdquo;</h3>
+                <p>Talking on its own may not fix everything, but therapy is more than venting. It gives structure, new perspectives and concrete strategies, and it gives you someone outside your situation who is focused entirely on helping you move forward.</p>
+
+                <h2>How to Move Past the Stigma</h2>
+
+                <h3>Learn the facts</h3>
+                <p>Mental health conditions are common and treatable. Learning how therapy actually works, and sharing what you learn, helps break down myths for you and the people around you.</p>
+
+                <h3>Talk about it, at your own pace</h3>
+                <p>Every honest conversation about mental health makes the next one easier, for you and for others. You do not have to tell everyone. Starting with one trusted person is enough.</p>
+
+                <h3>Reframe therapy as self-care</h3>
+                <p>Think of therapy as an investment in your wellbeing, the same way you might invest in your physical health with exercise or regular check-ups.</p>
+
+                <h3>Start in a way that feels comfortable</h3>
+                <p>If walking into an office feels like too big a step, <a href="/telehealth-therapy">telehealth therapy</a> lets you start from home. You can also call and ask questions before you book anything. Our guide on <a href="/how-to-find-the-right-therapist">how to find the right therapist</a> covers what to ask.</p>
+
+                <h3>Find supportive people</h3>
+                <p>Support groups, trusted friends, a faith leader or your family doctor can all help you feel less alone and more confident about reaching out.</p>
+
+                <h2>Talking to Family About Therapy</h2>
+                <p>If you are worried about how your family will react, it can help to:</p>
+                <ul>
+                    <li>Explain what you hope to get out of it, for example sleeping better, worrying less, or getting along better at home.</li>
+                    <li>Describe therapy as learning skills, not as a label.</li>
+                    <li>Remember that you decide what to share, and that sessions are confidential.</li>
+                    <li>Look for a therapist who understands your background. Several of <a href="/therapists">our therapists</a> focus on culturally responsive care, including <a href="/dr-nadia-habhab">Dr. Nadia Habhab</a> and <a href="/malak-wehbe">Malak Wehbe</a>. Dr. Habhab also writes about <a href="/person-first-approach">treating the person, not the diagnosis</a>.</li>
+                </ul>
+                <p>If your family is open to it, <a href="/family-therapy">family therapy</a> can be a way to work through these conversations together.</p>
+
+                <h2>What Therapy at Healing Therapy Center Looks Like</h2>
+                <p>Our licensed therapists offer a private, non-judgmental space to work on what matters to you, whether that is anxiety, depression, stress, relationships, life transitions or past trauma. Most people start with <a href="/individual-therapy">individual therapy</a>; we also offer couples, family and group sessions. You can meet with us in person at our Dearborn office or online anywhere in Michigan. Professionals worried about stigma at work may find our pages on <a href="/first-responder-therapy-michigan">therapy for first responders</a> and <a href="/physician-burnout-therapy-michigan">physician burnout</a> helpful.</p>
+
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3>Is what I say in therapy confidential?</h3>
+                        <p>Yes. Therapists are required by law and professional ethics to keep what you share private. There are a few limited exceptions, such as when someone is at serious risk of harm or a child or vulnerable adult is being abused, and your therapist will explain them at your first session.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do I need a mental health diagnosis to see a therapist?</h3>
+                        <p>No. People come to therapy for stress, relationships, life changes and personal growth as well as for conditions like anxiety or depression. If you use insurance, your plan will usually need a diagnosis code to pay for sessions; <a href="/private-pay-out-of-network-therapy">paying privately</a> is an alternative.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What happens at a first therapy session?</h3>
+                        <p>The first session is mostly a conversation. Your therapist will ask what brings you in, a little about your background and what you hope will change, explain how they work, and answer your questions. You decide how much to share.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I start therapy online if I am not ready to come in person?</h3>
+                        <p>Yes. We offer secure telehealth sessions anywhere in Michigan, which many people find a more private and comfortable way to begin.</p>
+                    </div>
+                </div>
+
+                <h2>Taking the First Step</h2>
+                <p>Reaching out is a strong, practical step toward feeling better. If you are ready, <a href="/appointment">request an appointment</a> or call us at <a href="tel:313-654-1915">(313) 654-1915</a> with any questions. If you are in crisis right now, call or text <strong>988</strong> or see our <a href="/suicide-hotline">crisis resources</a>.</p>
+
+                <p><a href="/all-blogs">&larr; All Articles &amp; Guides</a></p>
             </article>
         </div>
     </section>
