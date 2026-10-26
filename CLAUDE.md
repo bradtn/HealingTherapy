@@ -53,6 +53,11 @@ If PHP isn't installed, run it in a `php:8.3-cli` container with the repo mounte
   `.htaccess` (section 5), delete the file, and remove it from `sitemap.xml`, `all-blogs.php` and
   `llms.txt`. Done so far: `/anxiety-therapy-guide`, `/adhd-guide-adults-children`.
 
+## Client preferences
+- Listed office hours (Mon-Fri 9-5, Sat 9-2) are front-desk hours only. Individual therapists also see
+  clients outside them (evenings, weekends, telehealth), so pages promising after-hours or weekend
+  appointments are accurate. Don't "correct" them to match the office hours.
+
 ## Gotchas
 - `includes/config.php`, `includes/scripts.php`, `forms/appointment.php`, `.htaccess` and `robots.txt`
   use **Windows (CRLF) line endings**. Preserve them when editing, or the diff shows every line as changed.
