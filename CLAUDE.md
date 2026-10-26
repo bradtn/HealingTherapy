@@ -13,7 +13,7 @@ in-person care in Dearborn and telehealth across Michigan. Live at https://www.h
 
 ## Hosting and deploy
 - Production runs on a PHP 8.2 / Apache host (cPanel).
-- **A push to GitHub does NOT go live on its own.** Push to `main`, then Brad pulls it on the host in
+- **A push to GitHub does NOT go live on its own.** Push to `master` (the default branch; there is no `main`), then Brad pulls it on the host in
   cPanel > Git Version Control (deploy from the GitHub repo). Deleted files are only removed on the
   server if that pull is a real git checkout; otherwise list them so Brad deletes them by hand.
 - After deploying, check the new or changed URLs return 200 on the live site, and that any new 301s
