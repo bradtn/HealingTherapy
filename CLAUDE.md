@@ -57,6 +57,9 @@ If PHP isn't installed, run it in a `php:8.3-cli` container with the repo mounte
 - Listed office hours (Mon-Fri 9-5, Sat 9-2) are front-desk hours only. Individual therapists also see
   clients outside them (evenings, weekends, telehealth), so pages promising after-hours or weekend
   appointments are accurate. Don't "correct" them to match the office hours.
+- They don't really do adult autism evaluations. Adult autism mentions stay on purpose as a lead
+  source (those people often become therapy clients). Don't add or remove adult autism content, and
+  don't write pages promising adult evaluations.
 
 ## Gotchas
 - `includes/config.php`, `includes/scripts.php`, `forms/appointment.php`, `.htaccess` and `robots.txt`
