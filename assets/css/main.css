@@ -1576,6 +1576,7 @@ main, header, footer { position: relative; z-index: 1; }
 .side-nav ul a .ico { width: .85rem; height: .85rem; opacity: 0; transform: translateX(-3px); transition: all .2s var(--ease); }
 .side-nav ul a:hover .ico, .side-nav ul a.is-active .ico { opacity: 1; transform: none; }
 .side-nav ul a.is-active { color: var(--slate); }
+.side-nav__sub { margin-top: 1.25rem; }
 .side-nav__cta { margin-top: 1rem; }
 .side-nav__cta .btn { width: 100%; font-size: .88rem; min-height: 46px; }
 

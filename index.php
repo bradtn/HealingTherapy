@@ -44,7 +44,6 @@ $schema_json = json_encode([
         ['@type' => 'City', 'name' => 'Livonia'],
         ['@type' => 'State', 'name' => 'Michigan']
     ],
-    'medicalSpecialty' => 'Psychiatry',
     'knowsAbout' => ['Mental Health', 'Psychology', 'Psychotherapy', 'EMDR', 'Autism Evaluation', 'ADHD Testing'],
     'availableService' => [
         ['@type' => 'MedicalTherapy', 'name' => 'Individual Therapy', 'description' => 'Individual counseling for anxiety, depression, trauma, and PTSD'],

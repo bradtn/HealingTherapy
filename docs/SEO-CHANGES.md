@@ -188,3 +188,10 @@ Validation: PHP 8.2 syntax check clean; all 74 pages re-checked (status, title �
 | `sitemap.xml` | Kalee launch pages still dated 10-03 | 10-09 for those; 10-26 for every page whose content changed in this pass |
 
 **Not changed, needs the owner:** adult autism testing ("adult autism testing near me", pos 53.9). `/autism-evaluation` is written for children while `/psychological-testing` says evaluations cover adults. Confirm adult autism evaluations are offered before writing adult content.
+
+## 2026-10-28 follow-up (Search Console 2026-09-28 → 10-25: 227 clicks +16%, 17.6k impressions +31%)
+
+- 10 of the first 40 sitemap pages were not indexed. Service-page sidebars (`includes/sidebar-services.php`) now carry a "Helpful Guides" list per service, so every guide gets a link from a service page.
+- Images: 12 `.webp` files were really JPEGs (up to 7900px wide, 420–770 KB). Re-encoded as real WebP at max 1600px (logo 419 KB → 11 KB). `blog-5.jpg` and `blog-7.jpg` resized to 1200px (788 KB → 94 KB).
+- Removed `medicalSpecialty: Psychiatry` from the homepage MedicalBusiness schema (the practice is psychologists and therapists, not psychiatry).
+- Homepage title and description left as set on 2026-10-26; the "therapist near me" CTR data predates that change.
